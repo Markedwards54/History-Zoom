@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center; /* Center all text by default */
+}
+
+.calendar-controls {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Center controls horizontally */
+  gap: 10px; /* Add some space between controls */
+}
+
+.calendar-controls button, 
+.calendar-controls select, 
+.calendar-controls input {
+  margin-right: 10px;
+}
+
+#calendar {
+  width: 100px; /* Set the width to 100% to occupy the full width of the parent container */
+  max-width: none; /* Remove the maximum width restriction */
+  margin: 0; /* Remove auto centering */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  justify-content: start; /* Align the calendar to the start (left) */
+}
+
+.month {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.month-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.weekday-row, .days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0;
+}
+
+.weekday {
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #eee;
+  height: 20px;
+  background-color: blue;
+  color: azure;
+}
+
+.numeric-day {
+  position: relative; /* Allow absolute positioning of child elements */
+  text-align: left;
+  border: 1px solid #eee;
+  padding: 2px;
+  width: 75px;
+  height: 100px;
+}
+
+
+.OneDayEvent {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* or 'cover', depending on your requirement */
+  overflow: visible; /* Ensure that overflow is visible */
+}
+
+
+@media screen and (max-width: 900px) {
+  #calendar {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #calendar {
+    width: 100%;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed position to cover the entire screen */
+  z-index: 1000; /* Sit on top */
+  width: 80%; /* Default width */
+  max-width: 700px;
+  height: 80%; /* Default height */
+  max-height: 90%;
+  border: 1px solid #888;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  resize: both; /* Allow resizing */
+  overflow: hidden; /* Hide scroll bars */
+  min-width: 300px; /* Minimum width */
+  min-height: 200px; /* Minimum height */
+}
+
+/* Modal Content (iframe) */
+.modal-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Draggable handle */
+.draggable {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: white;
+  text-align: center;
+  width: calc(100% - 50px); /* Adjust width to make space for close button */
+}
+
+
+.event-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.event-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-block {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-top: 4px;
+  font-size: 1em;
+  color: black;
+  background-color: transparent;
+  overflow: hidden;
+  position: absolute; /* Ensure correct positioning */
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.multi-day-text-block-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.multi-day-text-block {
+  white-space: nowrap;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
+  transform-origin: top left;
+}
+
+
+
+
+
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+  .multi-day-text-block {
+    font-size: 0.8em; /* Adjust font size for smaller screens */
+    max-height: 80px; /* Reduce max height on smaller screens */
+  }
+}
+
+
+
+
+
+/* Add these styles to your existing CSS */
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 40px); /* Adjust for space occupied by navigation buttons */
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.nav-buttons button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196F3;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-buttons button:hover {
+  background-color: #0b7dda;
+}

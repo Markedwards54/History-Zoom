@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yearly Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calendar-controls">
+    <button class="nav-button" onclick="goBack()">Back</button>
+    <button class="nav-button" onclick="goForward()">Forward</button>
+    <div class="search-controls">
+      <input type="text" id="search-year" placeholder="Enter year">
+      <label>
+        <input type="checkbox" id="is-bce"> BCE
+      </label>
+      <button class="search-button" onclick="searchYear()">Search</button>
+    </div>
+    <div class="year-select-controls">
+      <select id="year-select" onchange="setYear(this.value)">
+      </select>
+    </div>
+  </div>
+  <h1 class="calendar-header">2024</h1>
+  <div id="calendar"></div>
+  <script src="script.js"></script>
+  <div id="wikiModal" class="modal">
+    <span class="close">&times;</span>
+    <iframe class="modal-content" id="wikiIframe" frameborder="0"></iframe>
+  </div>  
+  <!-- Modals container to hold all modals -->
+  <div id="modalsContainer"></div>
+
+</body>
+</html>
