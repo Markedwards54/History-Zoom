@@ -16,15 +16,24 @@ body {
   margin-right: 10px;
 }
 
+#calendarContainer {
+  position: relative;
+  top: 20px; /* Adjust this value to move the calendar down or up */
+  left: 20px; /* Adjust this value to move the calendar left or right */
+  transform-origin: top left; /* Ensures that scaling originates from the top left */
+}
+
 #calendar {
   width: 100px; /* Set the width to 100% to occupy the full width of the parent container */
-  max-width: none; /* Remove the maximum width restriction */
+  max-width: 100%; /* Remove the maximum width restriction */
   margin: 0; /* Remove auto centering */
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
   gap: 10px;
   justify-content: start; /* Align the calendar to the start (left) */
+  position: relative;
 }
 
 .month {
@@ -168,7 +177,7 @@ body {
 }
 
 .multi-day-text-block-container {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;

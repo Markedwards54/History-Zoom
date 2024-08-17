@@ -22,14 +22,25 @@
       </select>
     </div>
   </div>
+  
   <h1 class="calendar-header">2024</h1>
-  <div id="calendar"></div>
+
+  <!-- Ensure this div exists for the calendar content -->
+  <div id="calendarContainer">
+    <div id="calendar"></div>
+  </div>
+
+  <!-- Load Papa Parse for CSV parsing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+  <!-- Script to handle calendar functionality and CSV loading -->
   <script src="script.js"></script>
+
+  <!-- Modal and modals container -->
   <div id="wikiModal" class="modal">
     <span class="close">&times;</span>
     <iframe class="modal-content" id="wikiIframe" frameborder="0"></iframe>
   </div>  
-  <!-- Modals container to hold all modals -->
   <div id="modalsContainer"></div>
 
 </body>
