@@ -55,16 +55,42 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 7,31,1917,11,10,1917,https://en.wikipedia.org/wiki/Battle_of_Passchendaele,BATTLE OF PASSCHENDAELE,2.3em,Arial,TRUE,white,black,30,0,10,0,36%,2%,1,0.7,0,"3,8,14,19",20
 10,24,1917,11,19,1917,https://en.wikipedia.org/wiki/Battle_of_Caporetto,BATTLE OF CAPORETTO,2.3em,Arial,TRUE,black,GREEN,30,0,10,0,38%,12%,1,0.7,30,5,20
 9,10,1917,9,13,1917,https://en.wikipedia.org/wiki/Kornilov_affair,KORNILOV AFFAIR,2.1em,Arial,TRUE,black,red,30,0,10,0,40%,2%,1,0.8,30,1,21
-2,3,1917,2,9,1917,https://en.wikipedia.org/wiki/Spanish_flu,SPANISH FLU,2.3em,Arial,TRUE,BLACK,VIOLET,30,0,10,0,40%,2%,1,0.8,0,1,21
+2,3,1918,2,9,1918,https://en.wikipedia.org/wiki/Spanish_flu,SPANISH FLU BEGINS,2.3em,Arial,TRUE,BLACK,VIOLET,30,0,10,0,40%,15%,1,0.8,0,1,21
+3,21,1918,7,18,1918,https://en.wikipedia.org/wiki/German_spring_offensive,SPRING OFFENSIVE,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.8,0,"2,5,10,15,21",21
+8,8,1918,11,11,1918,https://en.wikipedia.org/wiki/Hundred_Days_Offensive,100 DAYS OFFENSIVE,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,38%,15%,1,0.7,-5,"2,5,12",20
+9,12,1918,9,15,1918,https://en.wikipedia.org/wiki/Battle_of_Saint-Mihiel,SAINT-MIHEIL,2EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,5%,1,0.7,10,1,21
+9,26,1918,9,28,1918,https://en.wikipedia.org/wiki/Meuse%E2%80%93Argonne_offensive,M-A STARTS,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,5%,1,0.7,10,1,21
+10,2,1918,10,7,1918,https://en.wikipedia.org/wiki/Lost_Battalion_(World_War_I),LOST BATTALION,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,1%,1,0.7,10,1,21
+10,20,1918,10,25,1918,https://en.wikipedia.org/wiki/Arab_Revolt,ARAB REVOLT ENDS,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,8%,1,0.8,25,1,22
+10,24,1918,11,4,1918,https://en.wikipedia.org/wiki/Battle_of_Vittorio_Veneto,BATTLE OF VITTORIO VENETO,1.65EM,Arial,TRUE,black,GREEN,30,0,10,0,40%,2%,1,0.8,10,2,21
+,,,,,,,,,,,,,,,,,,,,,,,
+4,4,1920,4,10,1920,https://en.wikipedia.org/wiki/Spanish_flu,SPANISH FLU ENDS,2.3em,Arial,TRUE,BLACK,VIOLET,30,0,10,0,40%,20%,1,0.8,0,1,21
 ,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,
+9,1,1939,10,6,1939,https://en.wikipedia.org/wiki/Invasion_of_Poland,GERMANY INVADES W POLAND,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,-5,3,21
+9,17,1939,10,6,1939,https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland,USSR INVADES E POLAND,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,8%,1,0.8,25,1,20
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+11,30,1939,3,13,1940,https://en.wikipedia.org/wiki/Winter_War,THE WINTER WAR,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,25%,1,0.8,1,"3,8,13,18",20
 ,,,,,,,,,,,,,,,,,,,,,,,
 9,30,1941,1,7,1942,https://en.wikipedia.org/wiki/Battle_of_Moscow,BATTLE OF MOSCOW,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,20%,1,0.8,25,"3,8,15",20
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
 8,23,1942,2,2,1943,https://en.wikipedia.org/wiki/Battle_of_Stalingrad,BATTLE OF STALINGRAD,2.2EM,Arial,TRUE,black,RED,30,0,10,0,45%,13%,1,0.72,15,"1,4,9,14,19,25",20
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
 7,9,1943,8,17,1943,https://en.wikipedia.org/wiki/Allied_invasion_of_Sicily,OPERATION HUSKY,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,45%,25%,1,0.8,25,"2,6",8
 7,5,1943,8,23,1943,https://en.wikipedia.org/wiki/Battle_of_Kursk,BATTLE OF KURSK,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,25%,1,0.7,0,"2,7",9
 2,13,1945,2,15,1945,https://en.wikipedia.org/wiki/Bombing_of_Dresden,DRESDEN,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,12%,1,1,0,1,20
-11,30,1939,3,13,1940,https://en.wikipedia.org/wiki/Winter_War,THE WINTER WAR,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,25%,1,0.8,1,"3,8,13,18",20
+,,,,,,,,,,,,,,,,,,,,,,,
 3,9,1945,3,10,1945,https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945),TOKYO,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,10%,1,1,0,1,21
 2,4,1945,2,11,1945,https://en.wikipedia.org/wiki/Yalta_Conference,YALTA,4em,Arial,TRUE,black,gold,30,0,10,0,30%,33%,1,1,0,1,20
 7,17,1945,8,2,1945,https://en.wikipedia.org/wiki/Potsdam_Conference,POTSDAM,4em,Arial,TRUE,black,gold,30,0,10,0,30%,25%,1,1,0,2,20
