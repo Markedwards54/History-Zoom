@@ -1,5 +1,5 @@
 const calendar = document.getElementById('calendar');
-let currentYear = 1945
+let currentYear = 1918;
 ;
 
 const months = [
@@ -333,26 +333,6 @@ function createBlockElement(block, startCell, weekEndDate, weekIndex, calendar) 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Helper function to get the day index for a given date
 function getDayIndex(year, month, day) {
     const startDate = new Date(year, month - 1, 1);
@@ -477,36 +457,13 @@ function openModal(wikiUrl) {
     closeBtn.classList.add('close');
     closeBtn.innerHTML = '&times;';
 
-    const iframeContainer = document.createElement('div');
-    iframeContainer.classList.add('iframe-container');
-
     const iframe = document.createElement('iframe');
     iframe.classList.add('modal-content');
     iframe.src = wikiUrl;
-    iframe.frameBorder = 0;
-    iframe.style.width = '100%';
-    iframe.style.height = 'calc(100% - 40px)'; // Adjust height for buttons
-
-    // Create navigation buttons
-    const navContainer = document.createElement('div');
-    navContainer.classList.add('nav-buttons');
-    
-    const backBtn = document.createElement('button');
-    backBtn.textContent = 'Back';
-    backBtn.addEventListener('click', () => iframe.contentWindow.history.back());
-    navContainer.appendChild(backBtn);
-    
-    const forwardBtn = document.createElement('button');
-    forwardBtn.textContent = 'Forward';
-    forwardBtn.addEventListener('click', () => iframe.contentWindow.history.forward());
-    navContainer.appendChild(forwardBtn);
-
-    iframeContainer.appendChild(navContainer);
-    iframeContainer.appendChild(iframe);
 
     modal.appendChild(draggable);
     modal.appendChild(closeBtn);
-    modal.appendChild(iframeContainer);
+    modal.appendChild(iframe);
     modalsContainer.appendChild(modal);
 
     // Close modal on click of close button
@@ -526,6 +483,8 @@ function openModal(wikiUrl) {
         }
     }
 }
+
+
 
 // Function to make modals draggable
 function makeDraggable(modal) {
@@ -594,3 +553,5 @@ window.addEventListener('resize', function() {
     clearTimeout(window.refreshTimeout); // Clear any previous timeouts
     window.refreshTimeout = setTimeout(refreshCalendar, 500); // Add a delay to prevent excessive refreshes
 });
+
+

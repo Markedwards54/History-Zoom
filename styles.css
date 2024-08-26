@@ -112,8 +112,10 @@ body {
 /* Modal Content (iframe) */
 .modal-content {
   width: 100%;
-  height: 100%;
+  height: 100%; /* Occupy full height of modal */
+  border: none; /* No borders on the iframe */
 }
+
 
 /* The Close Button */
 .close {
@@ -239,4 +241,9 @@ body {
 
 .nav-buttons button:hover {
   background-color: #0b7dda;
+}
+
+body *:not(input) {
+  user-select: none; /* Prevent text selection */
+  caret-color: transparent; /* Hide the blinking text cursor */
 }
