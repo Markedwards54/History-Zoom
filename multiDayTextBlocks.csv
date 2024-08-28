@@ -66,35 +66,70 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 ,,,,,,,,,,,,,,,,,,,,,,,
 4,4,1920,4,10,1920,https://en.wikipedia.org/wiki/Spanish_flu,SPANISH FLU ENDS,2.3em,Arial,TRUE,BLACK,VIOLET,30,0,10,0,40%,20%,1,0.8,0,1,21
 ,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
+4,7,1939,4,12,1939,https://en.wikipedia.org/wiki/Italian_invasion_of_Albania,ITALY INVADES ALBANIA,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,5%,1,0.7,30,2,20
 9,1,1939,10,6,1939,https://en.wikipedia.org/wiki/Invasion_of_Poland,GERMANY INVADES W POLAND,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,-5,3,21
 9,17,1939,10,6,1939,https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland,USSR INVADES E POLAND,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,8%,1,0.8,25,1,20
 ,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,
-11,30,1939,3,13,1940,https://en.wikipedia.org/wiki/Winter_War,THE WINTER WAR,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,25%,1,0.8,1,"3,8,13,18",20
-,,,,,,,,,,,,,,,,,,,,,,,
-9,30,1941,1,7,1942,https://en.wikipedia.org/wiki/Battle_of_Moscow,BATTLE OF MOSCOW,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,20%,1,0.8,25,"3,8,15",20
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-8,23,1942,2,2,1943,https://en.wikipedia.org/wiki/Battle_of_Stalingrad,BATTLE OF STALINGRAD,2.2EM,Arial,TRUE,black,RED,30,0,10,0,45%,13%,1,0.72,15,"1,4,9,14,19,25",20
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
+11,30,1939,3,13,1940,https://en.wikipedia.org/wiki/Winter_War,THE WINTER WAR,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,25%,1,0.8,1,"3,8,13,18",20
+4,10,1940,4,13,1940,https://en.wikipedia.org/wiki/German_occupation_of_Norway,NORWAY STARTS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.8,10,1,21
+5,10,1940,6,25,1940,https://en.wikipedia.org/wiki/Battle_of_France,BATTLE OF FRANCE,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,18%,1,0.8,20,"2,7",21
+6,5,1940,6,8,1940,https://en.wikipedia.org/wiki/German_occupation_of_Norway,NORWAY FALLS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,7%,1,0.8,0,1,21
+5,26,1940,6,4,1940,https://en.wikipedia.org/wiki/Dunkirk_evacuation,DUNKIRK,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,20%,1,0.8,0,"1,3",21
+7,10,1940,10,31,1940,https://en.wikipedia.org/wiki/Battle_of_Britain,BATTLE OF BRITAIN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,17%,1,0.8,20,"2,7,11,16,",21
+10,28,1940,11,13,1940,https://en.wikipedia.org/wiki/Battle_of_Pindus,BATTLE OF PINDUS,2em,Arial,TRUE,BLACK,LIGHTSKYBLUE,30,0,10,0,40%,3%,1,0.8,20,"1,4",21
+12,9,1940,2,9,1941,https://en.wikipedia.org/wiki/Operation_Compass,OPERATION COMPASS,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,17%,1,0.8,20,"2,5",21
+2,2,1941,2,8,1941,https://en.wikipedia.org/wiki/Operation_Sonnenblume,SUNFLOWER BEGINS,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,17%,1,0.7,-5,1,21
+4,6,1941,4,18,1941,https://en.wikipedia.org/wiki/Invasion_of_Yugoslavia,GERMANY TAKES YUGOSLAVIA,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,-5,1,23
+4,6,1941,6,1,1941,https://en.wikipedia.org/wiki/German_invasion_of_Greece,GERMANY TAKES GREECE,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,8%,1,0.7,-5,"3,7",22
+5,18,1941,5,24,1941,https://en.wikipedia.org/wiki/Operation_Sonnenblume,SUNFLOWER ENDS,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.7,20,1,23
+5,20,1941,6,1,1941,https://en.wikipedia.org/wiki/Battle_of_Crete,BATTLE OF CRETE,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.7,30,2,21
+6,22,1941,6,29,1941,https://en.wikipedia.org/wiki/Defense_of_Brest_Fortress,BATTLE OF BREST,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.7,20,1,21
+7,7,1941,9,26,1941,https://en.wikipedia.org/wiki/Battle_of_Kiev_(1941),BATTLE OF KIEV,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.7,20,"1,6,11",21
+8,25,1941,8,31,1941,https://en.wikipedia.org/wiki/Anglo-Soviet_invasion_of_Iran,ANGLO SOVIET IRAN INVASION,1.9em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,2%,1,0.7,0,1,21
+9,8,1941,9,13,1941,https://en.wikipedia.org/wiki/Siege_of_Leningrad,LENINGRAD SIEGE BEGINS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,1%,1,0.7,0,1,21
+9,30,1941,1,7,1942,https://en.wikipedia.org/wiki/Battle_of_Moscow,BATTLE OF MOSCOW,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,15%,1,0.8,25,"3,8,15",20
+9,15,1941,9,20,1941,https://en.wikipedia.org/wiki/Copenhagen_(play),COPENHAGEN,2.3em,Arial,TRUE,black,GREEN,38,0,10,0,45%,20%,1,0.8,-10,1,21
+11,18,1941,12,30,1941,https://en.wikipedia.org/wiki/Operation_Crusader,OPERATION CRUSADER,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,17%,1,0.7,-10,"2,7",21
+4,9,1942,4,17,1942,https://en.wikipedia.org/wiki/Bataan_Death_March,BATAAN DEATH MARCH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,1,2,20
+5,4,1942,5,8,1942,https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea,CORAL SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,1,0.8,1,1,20
+5,12,1942,5,28,1942,https://en.wikipedia.org/wiki/Second_Battle_of_Kharkov,2ND BATTLE OF KHARKOV,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,10%,1,0.7,20,2,21
+5,26,1942,6,21,1942,https://en.wikipedia.org/wiki/Battle_of_Gazala,GAZALA,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,35%,1,0.7,0,"1,5",22
+6,4,1942,6,7,1942,https://en.wikipedia.org/wiki/Battle_of_Midway,MIDWAY,3.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,30%,8%,1,0.9,1,1,22
+8,23,1942,2,2,1943,https://en.wikipedia.org/wiki/Battle_of_Stalingrad,BATTLE OF STALINGRAD,2.2EM,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.72,13,"1,4,9,14,19,25",20
+8,7,1942,2,9,1943,https://en.wikipedia.org/wiki/Guadalcanal_campaign,GUADALCANAL,1.7EM,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,30%,1,0.6,-10,"2,7,12,17,22,28",20
+10,23,1942,11,7,1942,https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein,2ND EL ALAMEIN,1.7EM,Arial,TRUE,BLACK,LINEN,30,0,10,0,45%,30%,1,0.6,50,"2,3",20
+11,8,1942,11,16,1942,https://en.wikipedia.org/wiki/Operation_Torch,OPERATION TORCH,1.7EM,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,45%,25%,1,0.6,50,1,20
 7,9,1943,8,17,1943,https://en.wikipedia.org/wiki/Allied_invasion_of_Sicily,OPERATION HUSKY,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,45%,25%,1,0.8,25,"2,6",8
 7,5,1943,8,23,1943,https://en.wikipedia.org/wiki/Battle_of_Kursk,BATTLE OF KURSK,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,25%,1,0.7,0,"2,7",9
+2,19,1943,2,24,1943,https://en.wikipedia.org/wiki/Battle_of_Kasserine_Pass,KASSERINE,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,17%,1,0.7,20,2,21
+3,23,1943,4,3,1943,https://en.wikipedia.org/wiki/Battle_of_El_Guettar,EL GUETTAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,1,0.8,1,1,20
+4,22,1943,5,6,1943,https://en.wikipedia.org/wiki/Operations_Vulcan_and_Strike,VULCAN,2.3em,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,40%,35%,1,0.8,1,2,20
+5,6,1943,5,12,1943,https://en.wikipedia.org/wiki/Operations_Vulcan_and_Strike,STRIKE,2.3em,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,40%,30%,1,0.8,1,2,20
+9,3,1943,9,17,1943,https://en.wikipedia.org/wiki/Allied_invasion_of_Italy,INVASION OF MAINLAND ITALY,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,40%,2%,1,0.8,25,2,8
+10,3,1943,10,9,1943,https://en.wikipedia.org/wiki/Winter_Line,GUSTAV LINE ESTABLISHED,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,40%,7%,1,0.8,25,1,8
+11,16,1943,11,22,1943,https://en.wikipedia.org/wiki/Cairo_Conference,CAIRO,4em,Arial,TRUE,black,gold,30,0,10,0,30%,25%,1,1,0,1,20
+11,28,1943,12,1,1943,https://en.wikipedia.org/wiki/Tehran_Conference,TEHRAN,3.5em,Arial,TRUE,black,gold,30,0,10,0,30%,2%,1,1,0,1,20
+,,,,,,,,,,,,,,,,,,,,,,,
+1,23,1944,1,27,1944,https://en.wikipedia.org/wiki/Siege_of_Leningrad,LENINGRAD ENDS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,1,0.7,0,1,21
+,,,,,,,,,,,,,,,,,,,,,,,
+6,6,1944,8,30,1944,https://en.wikipedia.org/wiki/Operation_Overlord,OVERLORD,1.7EM,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,45%,35%,1,0.65,-10,"2,7,13",20
+6,22,1944,8,19,1944,https://en.wikipedia.org/wiki/Operation_Bagration,BAGRATION,1.7EM,Arial,TRUE,black,RED,30,0,10,0,40%,35%,1,0.65,20,"2,5,11",20
+7,1,1944,7,22,1944,https://en.wikipedia.org/wiki/Bretton_Woods_Conference,BRETTON WOODS,1.7EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,45%,28%,1,0.65,50,3,20
+8,15,1944,9,14,1944,https://en.wikipedia.org/wiki/Operation_Dragoon,DRAGOON,1.7EM,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,45%,35%,1,0.65,50,"2,5",21
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+9,12,1944,10,21,1944,https://en.wikipedia.org/wiki/Battle_of_Aachen,BATTLE OF THE AACHEN,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.7,35,"2,5",20
+9,17,1944,9,25,1944,https://en.wikipedia.org/wiki/Operation_Market_Garden,MARKET GARDEN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,20%,1,0.8,-10,"1,3",21
+10,23,1944,10,26,1944,https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf,LEYTE GULF,2.3em,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,40%,15%,1,0.8,1,1,20
+,,,,,,,,,,,,,,,,,,,,,,,
 2,13,1945,2,15,1945,https://en.wikipedia.org/wiki/Bombing_of_Dresden,DRESDEN,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,12%,1,1,0,1,20
 ,,,,,,,,,,,,,,,,,,,,,,,
 3,9,1945,3,10,1945,https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945),TOKYO,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,10%,1,1,0,1,21
 2,4,1945,2,11,1945,https://en.wikipedia.org/wiki/Yalta_Conference,YALTA,4em,Arial,TRUE,black,gold,30,0,10,0,30%,33%,1,1,0,1,20
 7,17,1945,8,2,1945,https://en.wikipedia.org/wiki/Potsdam_Conference,POTSDAM,4em,Arial,TRUE,black,gold,30,0,10,0,30%,25%,1,1,0,2,20
-12,16,1944,1,28,1945,https://en.wikipedia.org/wiki/Battle_of_the_Bulge,BATTLE OF THE BULGE,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,15%,1,0.8,1,"3,5",20
+12,16,1944,1,28,1945,https://en.wikipedia.org/wiki/Battle_of_the_Bulge,BATTLE OF THE BULGE,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,1,0.8,1,"3,5",20
 4,16,1945,5,2,1945,https://en.wikipedia.org/wiki/Battle_of_Berlin,BATTLE OF BERLIN,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,20%,1,0.8,25,2,9
 2,19,1945,3,26,1945,https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima,IWO JIMA,3em,Arial,TRUE,black,lightblue,30,0,10,0,30%,30%,1,0.8,0,"2,5",20
 4,1,1945,6,25,1945,https://en.wikipedia.org/wiki/Battle_of_Okinawa,OKINAWA,3em,Arial,TRUE,black,lightblue,30,0,10,0,30%,30%,1,0.8,0,"1,8,13",8
