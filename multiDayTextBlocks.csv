@@ -250,5 +250,5 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 1,23,2005,2,8,2005,https://en.wikipedia.org/wiki/Second_Intifada,SECOND INTIFADA ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,1,20
 8,19,1991,8,22,1991,https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt,COUP ATTEMPT,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,5%,1,0.8,0,1,9
 8,21,1992,8,31,1992,https://en.wikipedia.org/wiki/Ruby_Ridge_standoff,RUBY RIDGE,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,1,0.8,0,2,9
-4,1,1993,4,11,1993,https://en.wikipedia.org/wiki/Waco_siege,,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,1,0.8,0,2,9
+2,28,1993,4,19,1993,https://en.wikipedia.org/wiki/Waco_siege,WACO SIEGE,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,1,0.8,0,2,9
 10,3,1993,10,4,1993,https://en.wikipedia.org/wiki/Battle_of_Mogadishu_(1993),MOGADISHU,1.5em,Arial,TRUE,red,black,30,0,10,0,40%,5%,1,0.8,1,1,20
