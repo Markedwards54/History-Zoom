@@ -64,6 +64,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 9,7,1914,9,24,1914,https://en.wikipedia.org/wiki/Battle_of_the_Drina,BATTLE OF THE DRINA,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,8%,1,0.7,0,2,20
 9,5,1914,9,14,1914,https://en.wikipedia.org/wiki/First_Battle_of_the_Marne,BATTLE OF THE MARNE,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,8%,1,0.7,35,2,20
 9,17,1914,10,8,1914,https://en.wikipedia.org/wiki/Battle_of_the_Frontiers,RACE TO THE SEA,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,18%,1,0.7,35,2,20
+10,16,1914,10,31,1914,https://en.wikipedia.org/wiki/Battle_of_the_Yser,BATTLE OF YSER,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,22%,1,0.7,35,2,20
 11,22,1914,12,15,1914,https://en.wikipedia.org/wiki/Battle_of_Kolubara,BATTLE OF THE KOLUBARA,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,38%,5%,1,0.7,0,"1,4",20
 2,19,1915,2,27,1915,https://en.wikipedia.org/wiki/Gallipoli_campaign,GALLIPOLI BEGINS,2.3em,Arial,TRUE,BLACK,cornsilk,30,0,10,0,38%,20%,1,0.7,0,2,20
 5,24,1915,5,29,1915,https://en.wikipedia.org/wiki/White_War,WHITE WAR BEGINS,2.3em,Arial,TRUE,BLACK,GREEN,30,0,10,0,38%,12%,1,0.7,0,1,20
@@ -71,8 +72,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 1,1,1916,1,9,1916,https://en.wikipedia.org/wiki/Gallipoli_campaign,GALLIPOLI ENDS,2.3em,Arial,TRUE,BLACK,cornsilk,30,0,10,0,38%,33%,1,0.7,25,2,20
 5,15,1916,6,10,1916,https://en.wikipedia.org/wiki/Battle_of_Asiago,BATTLE OF ASIAGO,2.4em,Arial,TRUE,black,GREEN,30,0,10,0,40%,15%,1,0.8,25,"2,5",20
 6,11,1916,6,17,1916,https://en.wikipedia.org/wiki/Arab_Revolt,ARAB REVOLT BEGINS,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,15%,1,0.8,25,1,20
-2,21,1916,12,18,1916,https://en.wikipedia.org/wiki/Battle_of_the_Somme,BATTLE OF VERDUN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,35%,15%,1,0.7,-12,"1,4,9,15,20,25,32,36,41,47,51",20
-7,1,1916,11,18,1916,https://en.wikipedia.org/wiki/Battle_of_Verdun,BATTLE OF THE SOMME,2.4em,Arial,TRUE,black,grey,30,0,10,0,40%,15%,1,0.8,30,"2,9,13,18,24",20
+2,21,1916,12,18,1916,https://en.wikipedia.org/wiki/Battle_of_Verdun,BATTLE OF VERDUN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,35%,15%,1,0.7,-12,"1,4,9,15,20,25,32,36,41,47,51",20
+7,1,1916,11,18,1916,https://en.wikipedia.org/wiki/Battle_of_the_Somme,BATTLE OF THE SOMME,2.4em,Arial,TRUE,black,grey,30,0,10,0,40%,15%,1,0.8,30,"2,9,13,18,24",20
 2,9,1917,3,20,1917,https://en.wikipedia.org/wiki/Operation_Alberich,OPERATION ALBERICH,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,18%,1,0.7,0,2,20
 3,8,1917,3,16,1917,https://en.wikipedia.org/wiki/February_Revolution,FEBRUARY REVOLUTION,2.3em,Arial,TRUE,black,red,30,0,10,0,40%,3%,1,0.8,30,2,21
 4,2,1917,4,7,1917,https://en.wikipedia.org/wiki/Bloody_April,BLOODY APRIL STARTS,2.1EM,Arial,TRUE,white,black,30,0,10,0,38%,18%,1,0.7,0,1,20
@@ -100,13 +101,15 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,12,1920,8,25,1920,https://en.wikipedia.org/wiki/Battle_of_Warsaw_(1920),BATTLE OF WARSAW,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,1,0.8,25,2,19
 9,15,1920,9,25,1920,https://en.wikipedia.org/wiki/Battle_of_the_Niemen_River,BATTLE OF NIEMAN,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,1,0.8,25,2,19
 4,4,1920,4,10,1920,https://en.wikipedia.org/wiki/Spanish_flu,SPANISH FLU ENDS,2.3em,Arial,TRUE,BLACK,VIOLET,30,0,10,0,40%,20%,1,0.8,0,1,21
-3,1,1921,3,18,1921,https://en.wikipedia.org/wiki/Kronstadt_rebellion,KORNILOV AFFAIR,2.1em,Arial,TRUE,black,red,30,0,10,0,40%,20%,1,0.8,0,2,21
+3,1,1921,3,18,1921,https://en.wikipedia.org/wiki/Kronstadt_rebellion,KRONSTADT REBELLION,2.1em,Arial,TRUE,black,red,30,0,10,0,40%,20%,1,0.8,0,2,21
 8,25,1921,9,2,1921,https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain,BLAIR MOUNTAIN,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,0%,1,0.7,10,2,21
 11,8,1923,11,9,1923,https://en.wikipedia.org/wiki/Beer_Hall_Putsch,PUTSCH,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,5%,1,0.8,25,1,19
 2,26,1924,4,1,1924,https://en.wikipedia.org/wiki/Beer_Hall_Putsch#Trial_and_prison,HITLER ON TRIAL,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.8,25,4,19
 8,1,1927,8,6,1927,https://en.wikipedia.org/wiki/Chinese_Civil_War,CHINESE CIVIL WAR STARTS,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,2%,1,0.7,0,1,20
 8,12,1927,8,15,1927,https://en.wikipedia.org/wiki/Shanghai_massacre,SHANGHAI,1.8em,Arial,TRUE,GOLD,RED,30,0,10,0,45%,0%,1,0.7,0,1,20
 9,18,1931,2,27,1932,https://en.wikipedia.org/wiki/Japanese_invasion_of_Manchuria,JAPAN INVADES MANCHURIA,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,15%,1,0.7,0,"2,5,10,15,19,25",20
+11,2,1932,11,5,1932,https://en.wikipedia.org/wiki/Emu_War,EMU WAR STARTS,1.8em,Arial,TRUE,WHITE,BROWN,30,0,10,0,45%,12%,1,0.7,0,1,20
+12,4,1932,12,10,1932,https://en.wikipedia.org/wiki/Emu_War,EMU WAR ENDS,1.8em,Arial,TRUE,WHITE,BROWN,30,0,10,0,45%,30%,1,0.7,0,1,20
 1,23,1933,1,23,1933,https://en.wikipedia.org/wiki/Twentieth_Amendment_to_the_United_States_Constitution,20,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 12,5,1933,12,5,1933,https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution,21,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 3,5,1933,3,11,1933,https://www.federalreservehistory.org/essays/bank-holiday-of-1933,BANK HOLIDAY,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,28%,1,0.7,-5,1,21
@@ -145,7 +148,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 5,4,1942,5,8,1942,https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea,CORAL SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,1,0.8,1,1,20
 5,12,1942,5,28,1942,https://en.wikipedia.org/wiki/Second_Battle_of_Kharkov,2ND BATTLE OF KHARKOV,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,10%,1,0.7,20,2,21
 5,26,1942,6,21,1942,https://en.wikipedia.org/wiki/Battle_of_Gazala,GAZALA,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,35%,1,0.7,0,"1,5",22
-6,4,1942,6,7,1942,https://en.wikipedia.org/wiki/Battle_of_Midway,MIDWAY,3.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,30%,8%,1,0.9,1,1,22
+6,4,1942,6,7,1942,https://en.wikipedia.org/wiki/Battle_of_Midway,MIDWAY,3.3em,Arial,TRUE,white,DARKBLUE,30,0,10,0,30%,8%,1,0.9,1,1,22
+7,1,1942,7,27,1942,https://en.wikipedia.org/wiki/First_Battle_of_El_Alamein,1ST EL ALAMEIN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,25%,1,0.7,0,2,22
 8,23,1942,2,2,1943,https://en.wikipedia.org/wiki/Battle_of_Stalingrad,BATTLE OF STALINGRAD,2.2EM,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.72,13,"1,4,9,14,19,25",20
 8,7,1942,2,9,1943,https://en.wikipedia.org/wiki/Guadalcanal_campaign,GUADALCANAL,1.7EM,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,30%,1,0.6,-10,"2,7,12,17,22,27",20
 10,23,1942,11,7,1942,https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein,2ND EL ALAMEIN,1.7EM,Arial,TRUE,BLACK,LINEN,30,0,10,0,45%,30%,1,0.6,50,"2,3",20
