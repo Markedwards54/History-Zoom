@@ -1,5 +1,5 @@
 const calendar = document.getElementById('calendar');
-let currentYear = 1939;
+let currentYear = 1975;
 ;
 
 const months = [
@@ -417,7 +417,7 @@ setYear(currentYear);
 
 // Add years to the dropdown list
 const yearSelect = document.getElementById('year-select');
-for (let year = 2024; year >= -2000; year--) {
+for (let year = 2025; year >= -2000; year--) {
     const option = document.createElement('option');
     if (year < 0) {
         option.textContent = Math.abs(year) + " B.C.E";
