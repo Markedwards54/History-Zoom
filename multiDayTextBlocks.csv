@@ -324,7 +324,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 11,13,1963,11,18,1963,https://en.wikipedia.org/wiki/November_1963_Iraqi_coup_d%27%C3%A9tat,NOVEMBER IRAQ COUP,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,1%,1,0.7,20,1,21
 1,23,1964,1,23,1964,https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution,24,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 3,7,1965,3,25,1965,https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches,SELMA TO MONTGOMERY MARCHES,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,1%,1,0.7,20,2,21
-4,24,1965,9,3,1965,https://en.wikipedia.org/wiki/Dominican_Civil_War,DOMINICAN CIVIL WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,1,0.8,0,"4,10,15,20",20
+4,24,1965,5,8,1965,https://en.wikipedia.org/wiki/Dominican_Civil_War,DOMINICAN CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,1%,1,0.8,0,4,20
+8,22,1965,9,3,1965,https://en.wikipedia.org/wiki/Dominican_Civil_War,DOMINICAN CIVIL WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,3%,1,0.8,0,1,20
 11,14,1965,11,18,1965,https://en.wikipedia.org/wiki/Battle_of_Ia_Drang,LA DRANG VALLEY,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,1,20
 1,1,1967,1,7,1967,https://en.wikipedia.org/wiki/Operation_CHAOS,OPERATION CHAOS STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,1,20
 2,10,1967,2,10,1967,https://en.wikipedia.org/wiki/Twenty-fifth_Amendment_to_the_United_States_Constitution,25,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
@@ -343,6 +344,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 7,1,1971,7,1,1971,https://en.wikipedia.org/wiki/Twenty-sixth_Amendment_to_the_United_States_Constitution,26,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 2,21,1972,2,28,1972,https://en.wikipedia.org/wiki/1972_visit_by_Richard_Nixon_to_China,NIXON GOES TO CHINA,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,8%,1,0.8,0,1,9
 10,6,1973,10,25,1973,https://en.wikipedia.org/wiki/Yom_Kippur_War,YOM KIPPUR WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,0,2,20
+10,21,1973,10,27,1973,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,1,0.8,20,1,20
+3,10,1974,3,16,1974,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO LIFTED,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,1,0.8,20,1,20
 12,13,1974,12,21,1974,https://en.wikipedia.org/wiki/1975_spring_offensive,VIET SPRING OFFENSIVE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.8,0,2,9
 4,13,1975,4,26,1975,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,1,0.8,30,2,20
 10,7,1990,10,13,1990,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,25,1,25
@@ -535,3 +538,10 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,25,1975,7,12,1975,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY BEGINS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,15%,1,0.8,0,4,20
 11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
 11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO ENDS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
+11,7,1920,11,17,1920,https://en.wikipedia.org/wiki/Siege_of_Perekop_(1920),SIEGE OF PEREKOP,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,1,20
+6,28,1969,7,3,1969,https://en.wikipedia.org/wiki/Stonewall_riots,STONEWALL,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,2%,1,0.8,0,3,20
+8,15,1969,8,16,1969,https://en.wikipedia.org/wiki/Woodstock,WOOD,2em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.7,20,1,21
+8,17,1969,8,18,1969,https://en.wikipedia.org/wiki/Woodstock,STOCK,2em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.7,20,1,21
+11,3,1967,11,23,1967,https://en.wikipedia.org/wiki/Battle_of_Dak_To,DAK TO - HILL 875,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,0,2,20
+1,8,1967,1,26,1967,https://en.wikipedia.org/wiki/Operation_Cedar_Falls,OPERATION CEDAR FALLS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,1,20
+8,11,1965,8,16,1965,https://en.wikipedia.org/wiki/Watts_riots,WATTS RIOTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,7%,1,0.8,0,1,20
