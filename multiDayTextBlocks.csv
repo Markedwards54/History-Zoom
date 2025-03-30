@@ -188,6 +188,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,25,1921,9,2,1921,https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain,BLAIR MOUNTAIN,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,0%,1,0.7,10,2,21
 11,8,1923,11,9,1923,https://en.wikipedia.org/wiki/Beer_Hall_Putsch,PUTSCH,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,5%,1,0.8,25,1,19
 2,26,1924,4,1,1924,https://en.wikipedia.org/wiki/Beer_Hall_Putsch#Trial_and_prison,HITLER ON TRIAL,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.8,25,4,19
+5,12,1926,5,14,1926,https://en.wikipedia.org/wiki/May_Coup_(Poland),MAY COUP,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,10%,1,0.8,25,1,19
 8,1,1927,8,6,1927,https://en.wikipedia.org/wiki/Chinese_Civil_War,CHINESE CIVIL WAR STARTS,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,2%,1,0.7,0,1,20
 8,12,1927,8,15,1927,https://en.wikipedia.org/wiki/Shanghai_massacre,SHANGHAI,1.8em,Arial,TRUE,GOLD,RED,30,0,10,0,45%,0%,1,0.7,0,1,20
 9,18,1931,2,27,1932,https://en.wikipedia.org/wiki/Japanese_invasion_of_Manchuria,JAPAN INVADES MANCHURIA,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,15%,1,0.7,0,"2,5,10,15,19,25",20
@@ -241,7 +242,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 4,9,1942,4,17,1942,https://en.wikipedia.org/wiki/Bataan_Death_March,BATAAN DEATH MARCH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,1,2,20
 5,4,1942,5,8,1942,https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea,CORAL SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,1,0.8,1,1,20
 5,12,1942,5,28,1942,https://en.wikipedia.org/wiki/Second_Battle_of_Kharkov,2ND BATTLE OF KHARKOV,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,10%,1,0.7,20,2,21
-5,26,1942,6,21,1942,https://en.wikipedia.org/wiki/Battle_of_Gazala,GAZALA,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,35%,1,0.7,0,"1,5",22
+5,26,1942,6,21,1942,https://en.wikipedia.org/wiki/Battle_of_Gazala,GAZALA,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,40%,1,0.7,0,4,22
 6,4,1942,6,7,1942,https://en.wikipedia.org/wiki/Battle_of_Midway,MIDWAY,3.3em,Arial,TRUE,white,DARKBLUE,30,0,10,0,30%,8%,1,0.9,1,1,22
 7,1,1942,7,27,1942,https://en.wikipedia.org/wiki/First_Battle_of_El_Alamein,1ST EL ALAMEIN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,25%,1,0.7,0,2,22
 8,23,1942,2,2,1943,https://en.wikipedia.org/wiki/Battle_of_Stalingrad,BATTLE OF STALINGRAD,2.2EM,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.72,13,"1,4,9,14,19,25",20
@@ -343,9 +344,9 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,21,1972,2,28,1972,https://en.wikipedia.org/wiki/1972_visit_by_Richard_Nixon_to_China,NIXON GOES TO CHINA,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,8%,1,0.8,0,1,9
 10,6,1973,10,25,1973,https://en.wikipedia.org/wiki/Yom_Kippur_War,YOM KIPPUR WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,0,2,20
 12,13,1974,12,21,1974,https://en.wikipedia.org/wiki/1975_spring_offensive,VIET SPRING OFFENSIVE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.8,0,2,9
-4,13,1975,4,19,1975,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,1,0.8,25,1,20
+4,13,1975,4,26,1975,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,1,0.8,30,2,20
 10,7,1990,10,13,1990,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,25,1,25
-4,20,1975,4,30,1975,https://en.wikipedia.org/wiki/Fall_of_Saigon,FALL OF SAIGON,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,21%,1,0.8,0,1,9
+4,20,1975,4,30,1975,https://en.wikipedia.org/wiki/Fall_of_Saigon,FALL OF SAIGON,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,21%,1,0.8,-10,1,9
 11,11,1975,11,29,1975,https://en.wikipedia.org/wiki/Angolan_Civil_War,ANGOLAN CIVIL WAR BEGINS,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,3%,1,0.8,1,3,20
 11,4,1979,11,10,1979,https://en.wikipedia.org/wiki/Iran_hostage_crisis,IRAN HOSTAGE CRISIS BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,1%,1,0.8,0,1,20
 1,11,1981,1,20,1981,https://en.wikipedia.org/wiki/Iran_hostage_crisis,IRAN HOSTAGES RELEASED,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,1,20
@@ -524,4 +525,13 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,28,2000,6,28,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 5,16,2000,5,16,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"50,6.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 3,21,2000,3,21,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-,,,,,,,,,,,,,,,,,,,,,,,
+8,7,1998,8,20,1998,https://en.wikipedia.org/wiki/Operation_Infinite_Reach,OPERATION INFINITE REACH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,2,20
+7,7,1996,7,12,1996,"https://en.wikipedia.org/wiki/XI_International_AIDS_Conference,_1996",XI AIDS CONFERENCE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,8%,1,0.8,0,1,20
+6,1,1984,6,10,1984,https://en.wikipedia.org/wiki/Operation_Blue_Star,OPERATION BLUE STAR,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,12%,1,0.8,0,2,20
+11,1,1984,11,3,1984,https://en.wikipedia.org/wiki/1984_anti-Sikh_riots,ANTI-SIKH RIOTS,1.75em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,2%,1,0.8,0,1,20
+11,20,1979,12,4,1979,https://en.wikipedia.org/wiki/Grand_Mosque_seizure,GRAND MOSQUE SEIZURE,1.75em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,10%,1,0.8,0,2,20
+11,1,1978,11,11,1978,"https://en.wikipedia.org/wiki/1979_oil_crisis#:~:text=In%20November%201978%2C%20a%20strike,Foreign%20workers%20left%20the%20country.",OIL STRIKES BEGIN,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
+3,13,1977,3,21,1977,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY ENDS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,17%,1,0.8,0,1,20
+6,25,1975,7,12,1975,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY BEGINS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,15%,1,0.8,0,4,20
+11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
+11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO ENDS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
