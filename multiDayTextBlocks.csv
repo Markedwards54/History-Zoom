@@ -16,24 +16,23 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 1,1,1346,1,8,1346,https://en.wikipedia.org/wiki/Black_Death,BLACK DEATH BEGINS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,8%,1,0.8,0,2,20
 1,1,1353,1,6,1353,https://en.wikipedia.org/wiki/Black_Death,BLACK DEATH ENDS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,8%,1,0.8,0,1,20
 4,6,1453,5,29,1453,https://en.wikipedia.org/wiki/Fall_of_Constantinople,FALL OF CONSTANTINOPLE,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,5%,1,0.8,0,"2,6",20
-5,26,1521,8,13,1521,https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan,FALL OF TENOCHITITLAN,2.3em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,12%,1,0.8,0,"4,9,15",20
 9,20,1519,9,27,1519,https://en.wikipedia.org/wiki/Magellan_expedition,MAGELLAN EXPEDITION STARTS,2.1em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,2%,1,0.8,0,2,20
+5,26,1521,8,13,1521,https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan,FALL OF TENOCHITITLAN,2.3em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,12%,1,0.8,0,"4,9,15",20
 9,1,1522,9,6,1522,https://en.wikipedia.org/wiki/Magellan_expedition,MAGELLAN EXPEDITION ENDS,1.3em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,2%,1,0.8,0,2,20
 10,1,1582,10,9,1582,https://en.wikipedia.org/wiki/Gregorian_calendar,GREGORIAN CALENDAR,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,13%,1,0.8,0,2,20
 5,27,1586,5,29,1586,https://en.wikipedia.org/wiki/Raid_on_St._Augustine,DRAKE RAIDS ST. AUGUSTINE,1.0em,Arial,TRUE,RED,GOLD,30,0,10,0,50%,2%,1,0.8,0,1,20
 5,1,1609,5,9,1609,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#First_Anglo%E2%80%93Powhatan_War,FIRST ANGLO-POWHATAN WARS BEGIN,1.8em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,0%,1,0.8,0,2,20
 4,6,1614,4,16,1614,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#First_Anglo%E2%80%93Powhatan_War,FIRST ANGLO-POWHATAN WARS END,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,1%,1,0.8,0,1,20
 5,23,1618,5,31,1618,https://en.wikipedia.org/wiki/Thirty_Years%27_War,THIRTY YEARS' WAR BEGINS,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,1,0.8,0,2,20
-7,25,1648,11,1,1648,https://en.wikipedia.org/wiki/Battle_of_Prague_(1648),BATTLE OF PRAGUE,2.3em,Arial,TRUE,GOLD,BLUE,30,0,10,0,40%,12%,1,0.8,20,"2, 5,10,15",20
-10,18,1648,10,24,1648,https://en.wikipedia.org/wiki/Thirty_Years%27_War,THIRTY YEARS' WAR ENDS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,13%,1,0.8,0,1,20
-7,1,1636,7,12,1636,https://en.wikipedia.org/wiki/Pequot_War,PEQUOT WAR BEGINS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,20%,1,0.8,0,2,20
-9,19,1638,9,30,1638,https://en.wikipedia.org/wiki/Pequot_War,PEQUOT WAR ENDS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,20%,1,0.8,0,1,20
 3,22,1622,3,31,1622,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Second_Anglo-Powhatan_War,SECOND ANGLO-POWHATAN WAR BEGINS,1.2em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,0%,1,0.8,0,2,20
 9,19,1632,9,30,1632,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Second_Anglo-Powhatan_War,SECOND ANGLO-POWHATAN WAR ENDS,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,3%,1,0.8,0,1,20
+7,1,1636,7,12,1636,https://en.wikipedia.org/wiki/Pequot_War,PEQUOT WAR BEGINS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,20%,1,0.8,0,2,20
+9,19,1638,9,30,1638,https://en.wikipedia.org/wiki/Pequot_War,PEQUOT WAR ENDS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,20%,1,0.8,0,1,20
+8,1,1641,8,10,1641,https://en.wikipedia.org/wiki/English_Civil_War,ENGLISH CIVIL WAR STARTS,2.4em,Arial,TRUE,RED,TAN,30,0,10,0,40%,2%,1,0.8,0,2,20
 4,18,1644,4,30,1644,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Third_Anglo-Powhatan_War,THIRD ANGLO-POWHATAN WAR BEGINS,1.8em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,0%,1,0.8,0,2,20
 10,21,1646,10,31,1646,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Third_Anglo-Powhatan_War,THIRD ANGLO-POWHATAN WAR ENDS,1.8em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,3%,1,0.8,0,1,20
-3,12,1921,3,30,1921,https://en.wikipedia.org/wiki/Cairo_Conference_(1921),CAIRO CONFERENCE,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,17%,1,0.8,25,3,19
-8,1,1641,8,10,1641,https://en.wikipedia.org/wiki/English_Civil_War,ENGLISH CIVIL WAR STARTS,2.4em,Arial,TRUE,RED,TAN,30,0,10,0,40%,2%,1,0.8,0,2,20
+7,25,1648,11,1,1648,https://en.wikipedia.org/wiki/Battle_of_Prague_(1648),BATTLE OF PRAGUE,2.3em,Arial,TRUE,GOLD,BLUE,30,0,10,0,40%,12%,1,0.8,20,"2, 5,10,15",20
+10,18,1648,10,24,1648,https://en.wikipedia.org/wiki/Thirty_Years%27_War,THIRTY YEARS' WAR ENDS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,13%,1,0.8,0,1,20
 9,1,1651,9,9,1651,https://en.wikipedia.org/wiki/English_Civil_War,ENGLISH CIVIL WAR ENDS,2.4em,Arial,TRUE,RED,TAN,30,0,10,0,40%,7%,1,0.8,0,2,20
 6,20,1675,6,29,1675,https://en.wikipedia.org/wiki/King_Philip%27s_War,METACOM'S WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,1,2,20
 1,1,1676,1,11,1676,https://en.wikipedia.org/wiki/Bacon's_Rebellion,BACON'S REBELLION STARTS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,1%,1,0.8,0,2,20
@@ -59,10 +58,10 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 7,2,1777,7,6,1777,https://en.wikipedia.org/wiki/Siege_of_Fort_Ticonderoga_(1777),FT. TICHONDEROGA,2.0EM,Arial,TRUE,WHITE,RED,30,0,10,0,40%,1%,1,0.8,0,1,20
 8,2,1777,8,22,1777,https://en.wikipedia.org/wiki/Siege_of_Fort_Stanwix,SIEGE OF FORT STANWIX,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,13%,1,0.8,0,2,20
 12,19,1777,6,19,1778,https://en.wikipedia.org/wiki/Valley_Forge,VALLEY FORGE,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,27%,1,0.8,0,"2,4,9,13,18,23,29",20
-9,28,1781,10,19,1781,https://en.wikipedia.org/wiki/Siege_of_Yorktown,SIEGE OF YORKTOWN,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,17%,1,0.8,0,4,20
-3,29,1780,5,12,1780,https://en.wikipedia.org/wiki/Siege_of_Charleston,SIEGE OF CHARLESTON,2.0EM,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.8,0,3,20
-1,1,1781,1,19,1781,https://en.wikipedia.org/wiki/Raid_on_Richmond,RAID ON RICHMOND,2.4em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.8,0,2,20
 6,18,1779,10,3,1779,https://en.wikipedia.org/wiki/Sullivan_Expedition,SULLIVAN EXPEDITION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,17%,1,0.8,0,"2,5,10,15",20
+3,29,1780,5,12,1780,https://en.wikipedia.org/wiki/Siege_of_Charleston,SIEGE OF CHARLESTON,2.0EM,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.8,0,3,20
+9,28,1781,10,19,1781,https://en.wikipedia.org/wiki/Siege_of_Yorktown,SIEGE OF YORKTOWN,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,17%,1,0.8,0,4,20
+1,1,1781,1,19,1781,https://en.wikipedia.org/wiki/Raid_on_Richmond,RAID ON RICHMOND,2.4em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.8,0,2,20
 2,7,1785,2,7,1785,https://en.wikipedia.org/wiki/Eleventh_Amendment_to_the_United_States_Constitution,11,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 8,29,1786,2,14,1787,https://en.wikipedia.org/wiki/Shays%27s_Rebellion,SHAY'S REBELLION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,22%,1,0.8,0,"3,8,13,18,23,28",20
 5,17,1787,9,17,1787,https://en.wikipedia.org/wiki/Constitutional_Convention_(United_States),CONSTITUTIONAL CONVENTION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,3%,1,0.8,0,"2,5,11,15,20",20
@@ -73,10 +72,10 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 1,8,1811,1,10,1811,https://en.wikipedia.org/wiki/1811_German_Coast_uprising,GERMAN COAST,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,5%,1,0.8,0,1,20
 3,20,1815,7,8,1815,https://en.wikipedia.org/wiki/Hundred_Days,HUNDRED DAYS,3.0EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,14%,1,0.8,0,"1,4,10,16,20",80
 2,23,1836,3,6,1836,https://en.wikipedia.org/wiki/Battle_of_the_Alamo,BATTLE OF THE ALAMO,2.1em,Arial,TRUE,black,lightblue,30,0,10,0,40%,2%,1,0.8,0,"1,3",20
-6,25,1857,4,12,1858,https://en.wikipedia.org/wiki/Utah_War,UTAH WAR,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,40%,30%,1,0.8,0,"4,9,15,20,25,30,35,41,46,50",20
-10,16,1859,10,18,1859,https://en.wikipedia.org/wiki/John_Brown%27s_raid_on_Harpers_Ferry,HARPERS FERRY,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,0%,1,0.8,0,1,20
 10,16,1853,10,22,1853,https://en.wikipedia.org/wiki/Crimean_War,CRIMEAN WAR BEGINS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,45%,25%,1,0.8,0,1,20
 3,23,1856,3,30,1856,https://en.wikipedia.org/wiki/Crimean_War,CRIMEAN WAR ENDS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,45%,25%,1,0.8,0,1,20
+6,25,1857,4,12,1858,https://en.wikipedia.org/wiki/Utah_War,UTAH WAR,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,40%,30%,1,0.8,0,"4,9,15,20,25,30,35,41,46,50",20
+10,16,1859,10,18,1859,https://en.wikipedia.org/wiki/John_Brown%27s_raid_on_Harpers_Ferry,HARPERS FERRY,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,0%,1,0.8,0,1,20
 11,8,1861,11,16,1861,https://en.wikipedia.org/wiki/Trent_Affair,TRENT AFFAIR,2.4em,Arial,TRUE,BLUE,RED,30,0,10,0,40%,25%,1,0.8,0,2,20
 4,12,1861,4,13,1861,https://en.wikipedia.org/wiki/Battle_of_Fort_Sumter,FT. SUMTER,1.5em,Arial,TRUE,black,LightGray,30,0,10,0,40%,8%,1,0.8,30,1,20
 4,12,1861,4,13,1861,https://en.wikipedia.org/wiki/American_Civil_War,START,2.4em,Arial,TRUE,white,black,30,0,10,0,40%,12%,1,0.7,-12,1,20
@@ -89,6 +88,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,28,1862,8,30,1862,https://en.wikipedia.org/wiki/Second_Battle_of_Bull_Run,BULL RUN 2,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,5%,1,0.8,5,1,21
 8,14,1862,10,10,1862,https://en.wikipedia.org/wiki/Confederate_Heartland_Offensive,HEARTLAND,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,30%,1,0.8,-10,"2,6,11",20
 12,11,1862,12,15,1862,https://en.wikipedia.org/wiki/Battle_of_Fredericksburg,FREDERICKSBURG,1.6EM,Arial,TRUE,black,LightGray,30,0,10,0,40%,0%,1,0.8,0,1,20
+10,10,1862,10,12,1862,https://en.wikipedia.org/wiki/Raid_on_Chambersburg,CHAMBERSBURG,1.1EM,Arial,TRUE,black,LightGray,30,0,10,0,50%,0%,1,0.8,20,1,20
 4,30,1863,5,6,1863,https://en.wikipedia.org/wiki/Battle_of_Chancellorsville,CHANCELLORSVILLE,1.6EM,Arial,TRUE,black,LightGray,30,0,10,0,40%,10%,1,0.8,0,3,20
 5,18,1863,7,4,1863,https://en.wikipedia.org/wiki/Siege_of_Vicksburg,VICKSBURG SIEGE,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,20%,1,0.8,0,"2,5",20
 7,1,1863,7,3,1863,https://en.wikipedia.org/wiki/Battle_of_Gettysburg,GETTYSBURG,2.1em,Arial,TRUE,white,darkblue,30,0,10,0,40%,2%,1,0.8,25,1,20
@@ -105,7 +105,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,9,1864,6,18,1864,https://en.wikipedia.org/wiki/Siege_of_Petersburg,PETERSBURG STARTS,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,18%,1,0.8,-10,2,20
 6,17,1864,6,18,1864,https://en.wikipedia.org/wiki/Battle_of_Lynchburg,LYNCHBURG,1.5EM,Arial,TRUE,black,LightGray,35,0,10,0,52%,3%,1,0.8,30,1,20
 7,11,1864,7,12,1864,https://en.wikipedia.org/wiki/Battle_of_Fort_Stevens,FT. STEVENS,1.5EM,Arial,TRUE,black,lightblue,30,0,10,0,40%,3%,1,0.8,0,1,20
-11,15,1864,12,21,1864,https://en.wikipedia.org/wiki/Sherman%27s_March_to_the_Sea,MARCH TO THE SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,15%,1,0.8,0,"2,5",20
+11,15,1864,12,21,1864,https://en.wikipedia.org/wiki/Sherman%27s_March_to_the_Sea,MARCH TO THE SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,15%,1,0.8,-10,"2,5",20
+9,18,1864,12,27,1864,https://en.wikipedia.org/wiki/Franklin%E2%80%93Nashville_campaign,FRANKLIN-NASHVILLE,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,1,0.8,30,"1,4,11,15",2
 12,18,1865,12,18,1865,https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution,13,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 1,1,1865,1,7,1865,https://en.wikipedia.org/wiki/Carolinas_campaign,CAROLINAS CAMPAIGN STARTS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,1%,1,0.8,0,1,20
 3,19,1865,3,25,1865,https://en.wikipedia.org/wiki/Siege_of_Petersburg,PETERSBURG ENDS,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,18%,1,0.8,0,1,20
@@ -121,7 +122,6 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,1,1904,8,6,1904,https://en.wikipedia.org/wiki/Siege_of_Port_Arthur,SIEGE OF PORT ARTHUR BEGINS,1.8EM,Arial,TRUE,BLUE,RED,30,0,10,0,43%,1%,1,0.8,0,1,20
 1,1,1905,1,2,1905,https://en.wikipedia.org/wiki/Siege_of_Port_Arthur,ARTHUR ENDS,1.35EM,Arial,TRUE,BLUE,RED,30,0,10,0,43%,1%,1,0.8,0,1,20
 1,22,1905,1,28,1905,https://en.wikipedia.org/wiki/Russian_Revolution_of_1905,1905 REVOLUTION STARTS,2.3em,Arial,TRUE,BLUE,RED,30,0,10,0,43%,15%,1,0.8,0,1,20
-,,,,,,,,,,,,,,,,,,,,,,,
 6,11,1905,6,16,1905,https://en.wikipedia.org/wiki/Russian_Revolution_of_1905,1905 REVOLUTION ENDS,2.3em,Arial,TRUE,BLUE,RED,30,0,10,0,43%,5%,1,0.8,0,1,20
 6,27,1905,7,7,1905,https://en.wikipedia.org/wiki/Russian_battleship_Potemkin#Mutiny,POTEMKIN MUTINY,2.0em,Arial,TRUE,BLUE,RED,30,0,10,0,43%,5%,1,0.8,0,1,20
 7,3,1908,7,24,1908,https://en.wikipedia.org/wiki/Young_Turk_Revolution,YOUNG TURK REVOLUTION,2.3em,Arial,TRUE,BLACK,GOLD,30,0,10,0,40%,7%,1,0.8,0,2,20
@@ -150,11 +150,11 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 11,25,1915,1,18,1916,https://en.wikipedia.org/wiki/Great_Retreat_(Serbia),GREAT RETREAT,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,38%,25%,1,0.7,0,"4,9",20
 1,1,1916,1,9,1916,https://en.wikipedia.org/wiki/Gallipoli_campaign,GALLIPOLI ENDS,2.3em,Arial,TRUE,BLACK,cornsilk,30,0,10,0,38%,33%,1,0.7,25,2,20
 3,14,1916,3,18,1916,https://en.wikipedia.org/wiki/Pancho_Villa_Expedition,PANCHO VILLA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,1,0.8,1,1,21
-2,4,1917,2,7,1917,https://en.wikipedia.org/wiki/Pancho_Villa_Expedition,PANCHO VILLA ENDS,1.9em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,1%,1,0.8,1,1,21
 5,15,1916,6,10,1916,https://en.wikipedia.org/wiki/Battle_of_Asiago,BATTLE OF ASIAGO,2.4em,Arial,TRUE,black,GREEN,30,0,10,0,40%,15%,1,0.8,25,"2,5",20
 6,11,1916,6,17,1916,https://en.wikipedia.org/wiki/Arab_Revolt,ARAB REVOLT BEGINS,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,15%,1,0.8,25,1,20
 2,21,1916,12,18,1916,https://en.wikipedia.org/wiki/Battle_of_Verdun,BATTLE OF VERDUN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,35%,15%,1,0.7,-12,"1,4,9,15,20,25,32,36,41,47,51",20
 7,1,1916,11,18,1916,https://en.wikipedia.org/wiki/Battle_of_the_Somme,BATTLE OF THE SOMME,2.4em,Arial,TRUE,black,grey,30,0,10,0,40%,15%,1,0.8,30,"2,9,13,18,24",20
+4,24,1916,4,29,1916,https://en.wikipedia.org/wiki/Easter_Rising,EASTER RISING,2.3em,Arial,TRUE,orange,green,30,0,10,0,40%,20%,1,0.8,25,1,20
 2,9,1917,3,20,1917,https://en.wikipedia.org/wiki/Operation_Alberich,OPERATION ALBERICH,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,18%,1,0.7,0,2,20
 3,8,1917,3,16,1917,https://en.wikipedia.org/wiki/February_Revolution,FEBRUARY REVOLUTION,2.3em,Arial,TRUE,black,red,30,0,10,0,40%,3%,1,0.8,30,2,21
 4,2,1917,4,7,1917,https://en.wikipedia.org/wiki/Bloody_April,BLOODY APRIL STARTS,2.1EM,Arial,TRUE,white,black,30,0,10,0,38%,18%,1,0.7,-9,1,20
@@ -184,13 +184,20 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,12,1920,8,25,1920,https://en.wikipedia.org/wiki/Battle_of_Warsaw_(1920),BATTLE OF WARSAW,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,1,0.8,25,2,19
 9,15,1920,9,25,1920,https://en.wikipedia.org/wiki/Battle_of_the_Niemen_River,BATTLE OF NIEMAN,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,1,0.8,25,2,19
 4,4,1920,4,10,1920,https://en.wikipedia.org/wiki/Spanish_flu,SPANISH FLU ENDS,2.3em,Arial,TRUE,BLACK,VIOLET,30,0,10,0,40%,20%,1,0.8,0,1,21
+11,7,1920,11,17,1920,https://en.wikipedia.org/wiki/Siege_of_Perekop_(1920),SIEGE OF PEREKOP,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,1,20
+3,12,1921,3,30,1921,https://en.wikipedia.org/wiki/Cairo_Conference_(1921),CAIRO CONFERENCE,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,17%,1,0.8,25,3,19
 3,1,1921,3,18,1921,https://en.wikipedia.org/wiki/Kronstadt_rebellion,KRONSTADT REBELLION,2.1em,Arial,TRUE,black,red,30,0,10,0,40%,20%,1,0.8,0,2,21
-8,25,1921,9,2,1921,https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain,BLAIR MOUNTAIN,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,0%,1,0.7,10,2,21
+8,25,1921,8,27,1921,https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain,BLAIR,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,20%,1,0.7,10,1,21
+8,28,1921,9,2,1921,https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain,MOUNTAIN,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,30%,1,0.7,10,1,21
+6,28,1922,7,8,1922,https://en.wikipedia.org/wiki/Irish_Civil_War,IRISH CIVIL WAR BEGINS,2.3em,Arial,TRUE,orange,green,30,0,10,0,40%,10%,1,0.8,1,3,20
 11,8,1923,11,9,1923,https://en.wikipedia.org/wiki/Beer_Hall_Putsch,PUTSCH,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,5%,1,0.8,25,1,19
+5,13,1923,5,24,1923,https://en.wikipedia.org/wiki/Irish_Civil_War,"IRISH CIVIL WAR ""ENDS""",2.3em,Arial,TRUE,orange,green,30,0,10,0,40%,10%,1,0.8,1,1,20
 2,26,1924,4,1,1924,https://en.wikipedia.org/wiki/Beer_Hall_Putsch#Trial_and_prison,HITLER ON TRIAL,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.8,25,4,19
 5,12,1926,5,14,1926,https://en.wikipedia.org/wiki/May_Coup_(Poland),MAY COUP,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,10%,1,0.8,25,1,19
 8,1,1927,8,6,1927,https://en.wikipedia.org/wiki/Chinese_Civil_War,CHINESE CIVIL WAR STARTS,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,2%,1,0.7,0,1,20
 8,12,1927,8,15,1927,https://en.wikipedia.org/wiki/Shanghai_massacre,SHANGHAI,1.8em,Arial,TRUE,GOLD,RED,30,0,10,0,45%,0%,1,0.7,0,1,20
+3,12,1930,3,31,1930,https://en.wikipedia.org/wiki/Salt_March,SALT MARCH,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,30%,1,0.8,0,2,20
+4,1,1930,4,6,1930,https://en.wikipedia.org/wiki/Salt_March,SALT MARCH,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,20%,1,0.8,0,1,20
 9,18,1931,2,27,1932,https://en.wikipedia.org/wiki/Japanese_invasion_of_Manchuria,JAPAN INVADES MANCHURIA,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,15%,1,0.7,0,"2,5,10,15,19,25",20
 11,2,1932,11,5,1932,https://en.wikipedia.org/wiki/Emu_War,EMU WAR STARTS,1.8em,Arial,TRUE,WHITE,BROWN,30,0,10,0,45%,12%,1,0.7,0,1,20
 12,4,1932,12,10,1932,https://en.wikipedia.org/wiki/Emu_War,EMU WAR ENDS,1.8em,Arial,TRUE,WHITE,BROWN,30,0,10,0,45%,30%,1,0.7,0,1,20
@@ -203,16 +210,18 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 10,1,1935,10,5,1935,https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War,ITALO-ETHIOPIAN WAR STARTS,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,5%,1,0.7,30,1,20
 10,13,1935,10,19,1935,https://en.wikipedia.org/wiki/Long_March,LONG MARCH ENDS,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,17%,1,0.7,0,1,20
 4,19,1936,4,25,1936,https://en.wikipedia.org/wiki/1936%E2%80%931939_Arab_revolt_in_Palestine,ARAB REVOLT IN PALESTINE BEGINS,1.9em,Arial,TRUE,black,TAN,30,0,10,0,40%,1%,1,0.8,25,1,22
-8,13,1939,8,26,1939,https://en.wikipedia.org/wiki/1936%E2%80%931939_Arab_revolt_in_Palestine,ARAB REVOLT IN PALESTINE ENDS,2.0em,Arial,TRUE,black,TAN,30,0,10,0,40%,1%,1,0.8,25,1,22
 8,1,1936,8,16,1936,https://en.wikipedia.org/wiki/1936_Summer_Olympics,BERLIN OLYMPICS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,22%,1,0.8,25,2,19
 7,17,1936,7,25,1936,https://en.wikipedia.org/wiki/Spanish_Civil_War,SPANISH CIVIL WAR BEGINS,2.3em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,5%,1,0.8,25,2,19
-7,6,1938,7,15,1938,https://en.wikipedia.org/wiki/%C3%89vian_Conference,EVIAN CONFERENCE,2.3em,Arial,TRUE,BLACK,gold,30,0,10,0,40%,12%,1,0.8,0,2,20
-2,9,1938,5,21,1938,https://en.wikipedia.org/wiki/Battle_of_Xuzhou,BATTLE OF XUZHOU,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.7,0,"2,8,11,16",20
-6,5,1938,6,11,1938,https://en.wikipedia.org/wiki/1938_Yellow_River_flood,YELLOW RIVER FLOOD,2.3em,Arial,TRUE,red,gold,30,0,10,0,40%,17%,1,0.8,0,1,20
-3,26,1939,4,1,1939,https://en.wikipedia.org/wiki/Spanish_Civil_War,SPANISH CIVIL WAR ENDS,2.3em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,2%,1,0.8,25,1,19
+8,19,1936,8,29,1936,https://en.wikipedia.org/wiki/Great_Purge,STALIN'S PURGE BEGINS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,10%,1,0.8,1,2,20
 2,14,1937,2,19,1937,https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War,ITALO-ETHIOPIAN WAR ENDS,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,15%,1,0.7,30,1,20
 7,7,1937,8,8,1937,https://en.wikipedia.org/wiki/Battle_of_Beiping%E2%80%93Tianjin,BATTLE OF BEIPING-TIANJIN,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,15%,1,0.7,0,"2,5,10,15,19,25",20
 8,13,1937,11,26,1937,https://en.wikipedia.org/wiki/Battle_of_Shanghai,BATTLE OF SHANGHAI,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,20%,1,0.7,0,"2,6,11,17",20
+7,6,1938,7,15,1938,https://en.wikipedia.org/wiki/%C3%89vian_Conference,EVIAN CONFERENCE,2.3em,Arial,TRUE,BLACK,gold,30,0,10,0,40%,12%,1,0.8,0,2,20
+2,9,1938,5,21,1938,https://en.wikipedia.org/wiki/Battle_of_Xuzhou,BATTLE OF XUZHOU,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.7,0,"2,8,11,16",20
+6,5,1938,6,11,1938,https://en.wikipedia.org/wiki/1938_Yellow_River_flood,YELLOW RIVER FLOOD,2.3em,Arial,TRUE,red,gold,30,0,10,0,40%,17%,1,0.8,0,1,20
+11,13,1938,11,17,1938,https://en.wikipedia.org/wiki/Great_Purge,STALIN'S PURGE ENDS,2.2em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,1%,1,0.8,1,1,20
+8,13,1939,8,26,1939,https://en.wikipedia.org/wiki/1936%E2%80%931939_Arab_revolt_in_Palestine,ARAB REVOLT IN PALESTINE ENDS,2.0em,Arial,TRUE,black,TAN,30,0,10,0,40%,1%,1,0.8,25,1,22
+3,26,1939,4,1,1939,https://en.wikipedia.org/wiki/Spanish_Civil_War,SPANISH CIVIL WAR ENDS,2.3em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,2%,1,0.8,25,1,19
 4,7,1939,4,12,1939,https://en.wikipedia.org/wiki/Italian_invasion_of_Albania,ITALY INVADES ALBANIA,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,5%,1,0.7,30,2,20
 9,1,1939,10,6,1939,https://en.wikipedia.org/wiki/Invasion_of_Poland,GERMANY INVADES W POLAND,1.7EM,Arial,TRUE,WHITE,BLACK,30,0,10,0,44%,12%,1,0.65,-10,"2,6",20
 9,7,1939,10,16,1939,https://en.wikipedia.org/wiki/Saar_Offensive,SAAR OFFENSIVE,1.7EM,Arial,TRUE,WHITE,PURPLE,30,0,10,0,45%,30%,1,0.65,20,"2,5",20
@@ -236,19 +245,19 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,25,1941,8,31,1941,https://en.wikipedia.org/wiki/Anglo-Soviet_invasion_of_Iran,ANGLO SOVIET IRAN INVASION,1.9em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,2%,1,0.7,0,1,21
 8,9,1941,8,14,1941,https://en.wikipedia.org/wiki/Atlantic_Charter,ATLANTIC CONFERENCE,1.7EM,Arial,TRUE,black,gold,30,0,10,0,45%,10%,1,0.7,-10,2,20
 9,8,1941,9,13,1941,https://en.wikipedia.org/wiki/Siege_of_Leningrad,LENINGRAD SIEGE BEGINS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,1%,1,0.7,0,1,21
-9,30,1941,1,7,1942,https://en.wikipedia.org/wiki/Battle_of_Moscow,BATTLE OF MOSCOW,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,15%,1,0.8,25,"3,8,15",20
 9,15,1941,9,20,1941,https://en.wikipedia.org/wiki/Copenhagen_(play),COPENHAGEN,2.3em,Arial,TRUE,black,GREEN,38,0,10,0,45%,20%,1,0.8,-10,1,21
 11,18,1941,12,30,1941,https://en.wikipedia.org/wiki/Operation_Crusader,OPERATION CRUSADER,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,17%,1,0.7,-10,"2,7",21
+9,30,1941,1,7,1942,https://en.wikipedia.org/wiki/Battle_of_Moscow,BATTLE OF MOSCOW,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,15%,1,0.8,25,"3,8,15",20
 4,9,1942,4,17,1942,https://en.wikipedia.org/wiki/Bataan_Death_March,BATAAN DEATH MARCH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,1,2,20
 5,4,1942,5,8,1942,https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea,CORAL SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,1,0.8,1,1,20
 5,12,1942,5,28,1942,https://en.wikipedia.org/wiki/Second_Battle_of_Kharkov,2ND BATTLE OF KHARKOV,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,10%,1,0.7,20,2,21
 5,26,1942,6,21,1942,https://en.wikipedia.org/wiki/Battle_of_Gazala,GAZALA,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,40%,1,0.7,0,4,22
 6,4,1942,6,7,1942,https://en.wikipedia.org/wiki/Battle_of_Midway,MIDWAY,3.3em,Arial,TRUE,white,DARKBLUE,30,0,10,0,30%,8%,1,0.9,1,1,22
 7,1,1942,7,27,1942,https://en.wikipedia.org/wiki/First_Battle_of_El_Alamein,1ST EL ALAMEIN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,25%,1,0.7,0,2,22
-8,23,1942,2,2,1943,https://en.wikipedia.org/wiki/Battle_of_Stalingrad,BATTLE OF STALINGRAD,2.2EM,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.72,13,"1,4,9,14,19,25",20
-8,7,1942,2,9,1943,https://en.wikipedia.org/wiki/Guadalcanal_campaign,GUADALCANAL,1.7EM,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,30%,1,0.6,-10,"2,7,12,17,22,27",20
 10,23,1942,11,7,1942,https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein,2ND EL ALAMEIN,1.7EM,Arial,TRUE,BLACK,LINEN,30,0,10,0,45%,30%,1,0.6,50,"2,3",20
 11,8,1942,11,16,1942,https://en.wikipedia.org/wiki/Operation_Torch,OPERATION TORCH,1.7EM,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,45%,25%,1,0.6,50,1,20
+8,23,1942,2,2,1943,https://en.wikipedia.org/wiki/Battle_of_Stalingrad,BATTLE OF STALINGRAD,2.2EM,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.72,13,"1,4,9,14,19,25",20
+8,7,1942,2,9,1943,https://en.wikipedia.org/wiki/Guadalcanal_campaign,GUADALCANAL,1.7EM,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,30%,1,0.6,-10,"2,7,12,17,22,27",20
 7,9,1943,8,17,1943,https://en.wikipedia.org/wiki/Allied_invasion_of_Sicily,OPERATION HUSKY,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,45%,25%,1,0.8,25,"2,6",8
 7,5,1943,8,23,1943,https://en.wikipedia.org/wiki/Battle_of_Kursk,BATTLE OF KURSK,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,25%,1,0.7,0,"2,7",9
 1,14,1943,1,24,1943,https://en.wikipedia.org/wiki/Casablanca_Conference,CASABLANCA CONFERENCE,1.7EM,Arial,TRUE,black,gold,30,0,10,0,45%,15%,1,0.6,50,2,20
@@ -282,6 +291,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 9,2,1945,9,2,1945,https://en.wikipedia.org/wiki/Victory_over_Japan_Day,VJ,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,0%,1,1,0,1,80
 11,20,1945,12,8,1945,https://en.wikipedia.org/wiki/Nuremberg_trials,NUREMBERG TRIALS BEGIN,2em,Arial,TRUE,black,grey,30,0,10,0,40%,10%,1,0.8,25,4,8
 9,22,1946,10,1,1946,https://en.wikipedia.org/wiki/Nuremberg_trials,NUREMBERG TRIALS END,2em,Arial,TRUE,black,grey,30,0,10,0,40%,10%,1,0.8,25,1,8
+12,19,1946,12,28,1946,https://en.wikipedia.org/wiki/First_Indochina_War,FIRST INDOCHINA WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,20,2,2
 2,21,1948,2,25,1948,https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d'%C3%A9tat,CZECH COUP,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,1,0.8,0,2,9
 5,14,1948,5,22,1948,https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War,ARAB-ISRAEL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,25,2,20
 6,24,1948,7,10,1948,https://en.wikipedia.org/wiki/Berlin_Blockade,BERLIN AIRLIFT STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,1,0.8,25,4,20
@@ -293,6 +303,9 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 11,25,1950,11,30,1950,https://en.wikipedia.org/wiki/Battle_of_the_Ch%27ongch%27on_River,CH'ONGCH'ON RIVER,1.7EM,Arial,TRUE,gold,red,30,0,10,0,45%,25%,1,0.8,40,2,8
 12,2,1950,12,24,1950,https://en.wikipedia.org/wiki/UN_Forces_retreat_from_North_Korea,UN RETREAT FROM NK,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,45%,15%,1,0.8,30,"2,6",8
 11,27,1950,12,13,1950,https://en.wikipedia.org/wiki/Battle_of_Chosin_Reservoir,CHOSIN,2.3em,Arial,TRUE,gold,RED,30,0,10,0,40%,35%,1,0.8,-5,"1,3",9
+10,25,1950,10,29,1950,https://en.wikipedia.org/wiki/Battle_of_Onjong,ONJONG,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,25%,1,0.8,20,1,300
+8,4,1950,9,18,1950,https://en.wikipedia.org/wiki/Battle_of_the_Pusan_Perimeter,PUSAN PERIMETER,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,20,"2,7",2
+7,26,1950,7,29,1950,https://en.wikipedia.org/wiki/No_Gun_Ri_massacre,NO GUN RI,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,20%,1,0.8,0,1,2
 12,31,1950,1,7,1951,https://en.wikipedia.org/wiki/Third_Battle_of_Seoul,NEW YEAR OFFENSIVE,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,5%,1,0.8,0,2,9
 2,27,1951,2,27,1951,https://en.wikipedia.org/wiki/Twenty-second_Amendment_to_the_United_States_Constitution,22,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 3,7,1951,3,23,1951,https://en.wikipedia.org/wiki/Operation_Ripper,OPERATION RIPPER,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,18%,1,0.8,25,2,20
@@ -311,35 +324,50 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,28,1956,6,30,1956,https://en.wikipedia.org/wiki/1956_Pozna%C5%84_protests,POZNAN,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,1,0.8,25,"1,3,9,14",19
 10,23,1956,11,11,1956,https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956,HUNGARIAN REVOLUTION,1.9em,Arial,TRUE,black,RED,30,0,10,0,40%,2%,1,0.8,0,1,9
 10,30,1956,11,7,1956,https://en.wikipedia.org/wiki/Suez_Crisis,SUEZ CRISIS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,25,2,20
+2,1,1958,2,9,1958,https://en.wikipedia.org/wiki/Great_Leap_Forward,GREAT LEAP FORWARD BEGINS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,2%,1,0.8,0,2,9
 12,28,1958,1,1,1959,https://en.wikipedia.org/wiki/Battle_of_Santa_Clara,SANTA CLARA,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,1,0.8,0,1,9
+3,10,1959,3,23,1959,https://en.wikipedia.org/wiki/1959_Tibetan_uprising,TIBETAN UPRISING,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,20%,1,0.8,1,2,20
 7,5,1960,7,9,1960,https://en.wikipedia.org/wiki/Congo_Crisis,CONGO CRISIS BEGINS,2.1em,Arial,TRUE,red,black,30,0,10,0,40%,3%,1,0.8,1,1,20
-11,21,1965,11,25,1965,https://en.wikipedia.org/wiki/Congo_Crisis,CONGO CRISIS ENDS,1.4em,Arial,TRUE,red,black,30,0,10,0,45%,2%,1,0.8,1,1,20
 5,4,1961,5,13,1961,https://en.wikipedia.org/wiki/Freedom_Riders,FREEDOM RIDERS START,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,2,21
 12,3,1961,12,10,1961,https://en.wikipedia.org/wiki/Freedom_Riders,FREEDOM RIDERS END,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.7,20,1,21
 3,29,1961,3,29,1961,https://en.wikipedia.org/wiki/Twenty-third_Amendment_to_the_United_States_Constitution,23,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 4,17,1961,4,20,1961,https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion,BAY OF PIGS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.8,0,1,9
+6,4,1961,6,10,1961,https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961,BERLIN CRISIS BEGINS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,1,0.8,0,1,9
+11,5,1961,11,9,1961,https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961,BERLIN CRISIS ENDS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,4%,1,0.8,0,1,9
 10,16,1962,10,29,1962,https://en.wikipedia.org/wiki/Cuban_Missile_Crisis,CUBAN MISSLE CRISIS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.8,0,2,9
+1,11,1962,2,7,1962,https://en.wikipedia.org/wiki/Seven_Thousand_Cadres_Conference,SEVEN THOUSAND CADRES,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,5%,1,0.8,0,2,9
+10,1,1962,10,13,1962,https://en.wikipedia.org/wiki/Second_Vatican_Council,VATICAN II BEGINS,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,20%,1,0.8,1,2,20
 2,8,1963,2,10,1963,https://en.wikipedia.org/wiki/Ramadan_Revolution,RAMADAN,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,20,1,21
 11,1,1963,11,2,1963,https://en.wikipedia.org/wiki/1963_South_Vietnamese_coup_d%27%C3%A9tat,VIET COUP,1.8em,Arial,TRUE,black,RED,30,0,10,0,40%,2%,1,0.8,0,1,9
 11,13,1963,11,18,1963,https://en.wikipedia.org/wiki/November_1963_Iraqi_coup_d%27%C3%A9tat,NOVEMBER IRAQ COUP,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,1%,1,0.7,20,1,21
 1,23,1964,1,23,1964,https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution,24,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
+1,13,1964,1,16,1964,https://en.wikipedia.org/wiki/1964_Arab_League_summit_(Cairo),ARAB SUMMIT,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,10%,1,0.8,1,1,20
+11,21,1965,11,25,1965,https://en.wikipedia.org/wiki/Congo_Crisis,CONGO CRISIS ENDS,1.4em,Arial,TRUE,red,black,30,0,10,0,45%,2%,1,0.8,1,1,20
 3,7,1965,3,25,1965,https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches,SELMA TO MONTGOMERY MARCHES,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,1%,1,0.7,20,2,21
 4,24,1965,5,8,1965,https://en.wikipedia.org/wiki/Dominican_Civil_War,DOMINICAN CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,1%,1,0.8,0,4,20
 8,22,1965,9,3,1965,https://en.wikipedia.org/wiki/Dominican_Civil_War,DOMINICAN CIVIL WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,3%,1,0.8,0,1,20
 3,3,1965,3,6,1965,https://en.wikipedia.org/wiki/Dominican_Civil_War,ROLLING THUNDER,2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,3%,1,0.8,0,1,20
 11,14,1965,11,18,1965,https://en.wikipedia.org/wiki/Battle_of_Ia_Drang,LA DRANG VALLEY,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,1,20
+8,11,1965,8,16,1965,https://en.wikipedia.org/wiki/Watts_riots,WATTS RIOTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,7%,1,0.8,0,1,20
+6,9,1965,6,13,1965,https://en.wikipedia.org/wiki/Battle_of_%C4%90%E1%BB%93ng_Xo%C3%A0i,DONG XOAI,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,21%,1,0.8,0,1,9
+12,5,1965,12,8,1965,https://en.wikipedia.org/wiki/Second_Vatican_Council,VATICAN II ENDS,2em,Arial,TRUE,red,black,30,0,10,0,40%,10%,1,0.8,1,1,20
 1,1,1967,1,7,1967,https://en.wikipedia.org/wiki/Operation_CHAOS,OPERATION CHAOS STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,1,20
 2,10,1967,2,10,1967,https://en.wikipedia.org/wiki/Twenty-fifth_Amendment_to_the_United_States_Constitution,25,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 6,5,1967,6,10,1967,https://en.wikipedia.org/wiki/Six-Day_War,SIX DAY WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,25%,1,0.8,0,1,20
+11,3,1967,11,23,1967,https://en.wikipedia.org/wiki/Battle_of_Dak_To,DAK TO - HILL 875,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,0,2,20
+1,8,1967,1,26,1967,https://en.wikipedia.org/wiki/Operation_Cedar_Falls,OPERATION CEDAR FALLS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,1,20
 1,30,1968,2,10,1968,https://en.wikipedia.org/wiki/Tet_Offensive,TET OFFENSIVE BEGINS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.8,0,3,9
 8,20,1968,8,21,1968,https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia,DANUBE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,2%,1,0.8,0,1,9
 9,15,1968,9,23,1968,https://en.wikipedia.org/wiki/Tet_Offensive,TET OFFENSIVE ENDS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.8,0,1,9
 9,24,1968,9,28,1968,https://en.wikipedia.org/wiki/Chicago_Seven,CHICAGO 7 TRIAL STARTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,1%,1,0.7,20,1,21
-2,9,1969,2,18,1969,https://en.wikipedia.org/wiki/Chicago_Seven,CHICAGO 7 TRIAL VERDICT,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,1,21
-10,8,1969,10,11,1969,https://en.wikipedia.org/wiki/Days_of_Rage,DAYS OF RAGE,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,1,21
 4,4,1968,4,11,1968,https://en.wikipedia.org/wiki/King_assassination_riots,KING ASSASSINATION RIOTS,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,20,2,21
 8,23,1968,8,29,1968,https://en.wikipedia.org/wiki/1968_Democratic_National_Convention_protests,DNC PROTESTS,1.8em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,2,21
+2,9,1969,2,18,1969,https://en.wikipedia.org/wiki/Chicago_Seven,CHICAGO 7 TRIAL VERDICT,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,1,21
+10,8,1969,10,11,1969,https://en.wikipedia.org/wiki/Days_of_Rage,DAYS OF RAGE,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,1,21
 3,18,1969,3,29,1969,https://en.wikipedia.org/wiki/Operation_Menu,OPERATION MENU STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,8%,1,0.8,0,2,20
+6,28,1969,7,3,1969,https://en.wikipedia.org/wiki/Stonewall_riots,STONEWALL,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,2%,1,0.8,0,3,20
+8,15,1969,8,16,1969,https://en.wikipedia.org/wiki/Woodstock,WOOD,2em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.7,20,1,21
+8,17,1969,8,18,1969,https://en.wikipedia.org/wiki/Woodstock,STOCK,2em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.7,20,1,21
 4,11,1970,4,17,1970,https://en.wikipedia.org/wiki/Apollo_13,APOLLO 13,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,28%,1,0.8,0,2,20
 5,17,1970,5,26,1970,https://en.wikipedia.org/wiki/Operation_Menu,OPERATION MENU ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,8%,1,0.8,0,1,20
 7,1,1971,7,1,1971,https://en.wikipedia.org/wiki/Twenty-sixth_Amendment_to_the_United_States_Constitution,26,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
@@ -349,168 +377,60 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 3,10,1974,3,16,1974,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO LIFTED,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,1,0.8,20,1,20
 12,13,1974,12,21,1974,https://en.wikipedia.org/wiki/1975_spring_offensive,VIET SPRING OFFENSIVE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,1,0.8,0,2,9
 4,13,1975,4,26,1975,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,1,0.8,30,2,20
-10,7,1990,10,13,1990,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,25,1,25
 4,20,1975,4,30,1975,https://en.wikipedia.org/wiki/Fall_of_Saigon,FALL OF SAIGON,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,21%,1,0.8,-10,1,9
 11,11,1975,11,29,1975,https://en.wikipedia.org/wiki/Angolan_Civil_War,ANGOLAN CIVIL WAR BEGINS,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,3%,1,0.8,1,3,20
+6,25,1975,7,12,1975,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY BEGINS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,15%,1,0.8,0,4,20
+9,15,1976,9,18,1976,https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations,HSCA BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,16%,1,0.7,20,1,21
+3,13,1977,3,21,1977,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY ENDS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,17%,1,0.8,0,1,20
+11,1,1978,11,11,1978,"https://en.wikipedia.org/wiki/1979_oil_crisis#:~:text=In%20November%201978%2C%20a%20strike,Foreign%20workers%20left%20the%20country.",OIL STRIKES BEGIN,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
+11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
+11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO ENDS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
 11,4,1979,11,10,1979,https://en.wikipedia.org/wiki/Iran_hostage_crisis,IRAN HOSTAGE CRISIS BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,1%,1,0.8,0,1,20
+12,24,1979,12,31,1979,https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War,SOVIET AFGHAN WAR STARTS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,1%,1,0.8,1,1,20
+11,20,1979,12,4,1979,https://en.wikipedia.org/wiki/Grand_Mosque_seizure,GRAND MOSQUE SEIZURE,1.75em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,10%,1,0.8,0,2,20
+1,1,1979,1,3,1979,https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations,HSCA ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,12%,1,0.7,20,1,21
+9,22,1980,9,30,1980,https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War,IRAN IRAQ WAR STARTS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,12%,1,0.8,1,1,20
 1,11,1981,1,20,1981,https://en.wikipedia.org/wiki/Iran_hostage_crisis,IRAN HOSTAGES RELEASED,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,1,20
 2,2,1982,2,28,1982,https://en.wikipedia.org/wiki/1982_Hama_massacre,HAMA MASSACRE,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,25%,1,0.8,1,2,20
-12,24,1979,12,31,1979,https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War,SOVIET AFGHAN WAR STARTS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,1%,1,0.8,1,1,20
-2,5,1989,2,15,1989,https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War,SOVIET AFGHAN WAR ENDS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,12%,1,0.8,1,1,20
-9,22,1980,9,30,1980,https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War,IRAN IRAQ WAR STARTS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,12%,1,0.8,1,1,20
 9,16,1982,9,18,1982,https://en.wikipedia.org/wiki/Sabra_and_Shatila_massacre,SABRA AND SHATILLA,1.3em,Arial,TRUE,red,black,30,0,10,0,50%,3%,1,0.8,1,1,20
-10,25,1983,11,2,1983,https://en.wikipedia.org/wiki/United_States_invasion_of_Grenada,GRENADA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,23%,1,0.8,0,1,20
-8,14,1988,8,20,1988,https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War,IRAN IRAQ WAR ENDS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,18%,1,0.8,1,1,20
-5,3,1987,5,9,1987,https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair,IRAN CONTRA TRIAL STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,1,20
 6,6,1982,6,19,1982,https://en.wikipedia.org/wiki/1982_Lebanon_War,LEBANON WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,1,0.8,0,2,20
+10,25,1983,11,2,1983,https://en.wikipedia.org/wiki/United_States_invasion_of_Grenada,GRENADA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,23%,1,0.8,0,1,20
+6,1,1984,6,10,1984,https://en.wikipedia.org/wiki/Operation_Blue_Star,OPERATION BLUE STAR,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,12%,1,0.8,0,2,20
+11,1,1984,11,3,1984,https://en.wikipedia.org/wiki/1984_anti-Sikh_riots,ANTI-SIKH RIOTS,1.75em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,2%,1,0.8,0,1,20
 5,19,1985,6,5,1985,https://en.wikipedia.org/wiki/1982_Lebanon_War,LEBANON WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,1,0.8,0,1,20
 2,22,1986,2,25,1986,https://en.wikipedia.org/wiki/People_Power_Revolution,EDSA,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,28%,1,0.8,1,2,20
+5,3,1987,5,9,1987,https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair,IRAN CONTRA TRIAL STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,1,20
 12,9,1987,12,19,1987,https://en.wikipedia.org/wiki/First_Intifada,FIRST INTIFADA BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,1,0.8,0,2,20
+8,14,1988,8,20,1988,https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War,IRAN IRAQ WAR ENDS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,18%,1,0.8,1,1,20
+2,5,1989,2,15,1989,https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War,SOVIET AFGHAN WAR ENDS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,12%,1,0.8,1,1,20
 11,17,1989,11,28,1989,https://en.wikipedia.org/wiki/Velvet_Revolution,VELVET REVOLUTION,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,20%,1,0.8,1,2,20
 12,16,1989,12,25,1989,https://en.wikipedia.org/wiki/Romanian_revolution,ROMANIAN REVOLUTION,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,20%,1,0.8,1,2,20
+10,7,1990,10,13,1990,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,25,1,25
 8,2,1990,2,28,1991,https://en.wikipedia.org/wiki/Gulf_War,GULF WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,33%,1,0.8,0,"2,7,14,18,23,28,33",20
 2,25,1991,2,27,1991,https://en.wikipedia.org/wiki/Highway_of_Death,HIGHWAY OF DEATH,1.5em,Arial,TRUE,red,black,30,0,10,0,40%,1%,1,0.8,1,1,20
+8,19,1991,8,22,1991,https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt,COUP ATTEMPT,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,5%,1,0.8,0,1,9
 5,7,1992,5,7,1992,https://en.wikipedia.org/wiki/Twenty-seventh_Amendment_to_the_United_States_Constitution,27,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 4,29,1992,5,3,1992,https://en.wikipedia.org/wiki/1992_Los_Angeles_riots,LA RIOTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,6%,1,0.7,20,"1,2",21
-9,5,1993,9,13,1993,https://en.wikipedia.org/wiki/First_Intifada,FIRST INTIFADA ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,1,0.8,0,1,20
-7,11,1995,7,31,1995,https://en.wikipedia.org/wiki/Srebrenica_massacre,SREBRENICA,2.3em,Arial,TRUE,black,LightGray,30,0,10,0,40%,28%,1,0.8,0,2,20
-9,28,2000,10,7,2000,https://en.wikipedia.org/wiki/Second_Intifada,SECOND INTIFADA BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,2,20
-7,11,2000,7,25,2000,https://en.wikipedia.org/wiki/2000_Camp_David_Summit,CAMP DAVID,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,32%,1,0.8,0,2,20
-11,26,2000,11,30,2000,https://en.wikipedia.org/wiki/Cassette_Scandal,KUCHMAGATE,2.3em,Arial,TRUE,GOLD,BLUE,30,0,10,0,40%,17%,1,0.8,0,1,20
-9,17,2011,11,15,2011,https://en.wikipedia.org/wiki/Occupy_Wall_Street,OCCUPY WALL STREET,2.3em,Arial,TRUE,white,black,30,0,10,0,37%,11%,1,0.7,20,"3,5",21
-6,13,2014,6,21,2014,https://en.wikipedia.org/wiki/War_against_the_Islamic_State#International_coalitions_against_ISIL,WAR ON ISIS BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,17%,1,0.8,0,2,20
-1,23,2005,2,8,2005,https://en.wikipedia.org/wiki/Second_Intifada,SECOND INTIFADA ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,1,20
-8,19,1991,8,22,1991,https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt,COUP ATTEMPT,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,5%,1,0.8,0,1,9
 8,21,1992,8,31,1992,https://en.wikipedia.org/wiki/Ruby_Ridge_standoff,RUBY RIDGE,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,1,0.8,0,2,9
+9,5,1993,9,13,1993,https://en.wikipedia.org/wiki/First_Intifada,FIRST INTIFADA ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,1,0.8,0,1,20
 2,28,1993,4,3,1993,https://en.wikipedia.org/wiki/Waco_siege,WACO SIEGE,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,1,0.8,0,3,9
 4,4,1993,4,10,1993,https://en.wikipedia.org/wiki/Waco_siege,WACO SIEGE,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,1,0.8,0,2,9
 10,3,1993,10,4,1993,https://en.wikipedia.org/wiki/Battle_of_Mogadishu_(1993),MOGADISHU,1.5em,Arial,TRUE,red,black,30,0,10,0,40%,5%,1,0.8,1,1,20
-10,7,2001,10,13,2001,https://en.wikipedia.org/wiki/United_States_invasion_of_Afghanistan,US INVADES AFGHANISTAN,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,1,20
-6,8,2020,7,1,2020,https://en.wikipedia.org/wiki/Capitol_Hill_Occupied_Protest,CHAZ,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,40%,1,0.7,20,2,21
-8,13,2021,8,30,2021,https://en.wikipedia.org/wiki/2021_Kabul_airlift,EVACUATION FROM AFGHANISTAN,2.0em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,1,0.8,0,2,20
-2,27,2014,3,16,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,3,20
-3,17,2014,3,23,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,8,20
-3,24,2014,3,27,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,8,20
-8,1,2008,8,16,2008,https://en.wikipedia.org/wiki/Russo-Georgian_War,GEORGIA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,35%,1,0.8,0,2,20
-12,27,2017,12,31,2017,https://en.wikipedia.org/wiki/2018%E2%80%932024_Arab_protests,2ND ARAB SPRING,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,7%,1,0.7,20,1,21
-5,2,2023,5,6,2023,https://en.wikipedia.org/wiki/2023_Writers_Guild_of_America_strike,WRITERS STRIKE STARTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,20,1,21
-11,5,2023,11,9,2023,https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike,SAG STRIKE ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,17%,1,0.7,20,1,21
-7,14,2023,7,19,2023,https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike,SAG STRIKE STARTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,20,2,21
-9,24,2023,9,27,2023,https://en.wikipedia.org/wiki/2023_Writers_Guild_of_America_strike,WRITERS STRIKE ENDS,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,1%,1,0.7,20,1,21
-1,7,2025,1,18,2025,https://en.wikipedia.org/wiki/2025_California_wildfires,CALIFORNIA WILDFIRES BEGIN,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,0%,1,0.8,0,2,9
-3,20,2003,3,29,2003,https://en.wikipedia.org/wiki/Iraq_War,IRAQ WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,0,2,20
-3,15,2006,3,25,2006,https://en.wikipedia.org/wiki/Battle_of_Ramadi_(2006),BATTLE OF RAMADI BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,17%,1,0.7,20,2,21
-11,5,2006,11,15,2006,https://en.wikipedia.org/wiki/Battle_of_Ramadi_(2006),BATTLE OF RAMADI ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,17%,1,0.7,20,1,21
-8,23,2005,8,31,2005,https://en.wikipedia.org/wiki/Hurricane_Katrina,HURRICANE KATRINA,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,1%,1,0.7,20,1,21
+7,11,1995,7,31,1995,https://en.wikipedia.org/wiki/Srebrenica_massacre,SREBRENICA,2.3em,Arial,TRUE,black,LightGray,30,0,10,0,40%,28%,1,0.8,0,2,20
+7,7,1996,7,12,1996,"https://en.wikipedia.org/wiki/XI_International_AIDS_Conference,_1996",XI AIDS CONFERENCE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,8%,1,0.8,0,1,20
+8,7,1998,8,20,1998,https://en.wikipedia.org/wiki/Operation_Infinite_Reach,OPERATION INFINITE REACH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,2,20
 11,30,1999,12,2,1999,https://en.wikipedia.org/wiki/1999_Seattle_WTO_protests,WTO,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,27%,1,0.7,20,2,21
-1,29,2025,1,29,2025,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,4.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,18,2024,12,18,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-11,7,2024,11,7,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,18,2024,9,18,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,5.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-7,31,2024,7,31,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,12,2024,6,12,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,1,2024,5,1,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,20,2024,3,20,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,31,2024,1,31,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,13,2023,12,13,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-11,1,2023,11,1,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,20,2023,9,20,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-7,26,2023,7,26,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,14,2023,6,14,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,3,2023,5,3,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,22,2023,3,22,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-2,1,2023,2,1,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,14,2022,12,14,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"50,4.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-11,2,2022,11,2,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"75,4.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,21,2022,9,21,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"75,3.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-7,27,2022,7,27,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"75,2.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,15,2022,6,15,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"75,1.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,4,2022,5,4,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"50,1.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,16,2022,3,16,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,0.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-11,5,2020,11,5,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,16,2020,9,16,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,27,2020,8,27,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-7,29,2020,7,29,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,10,2020,6,10,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-4,29,2020,4,29,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,31,2020,3,31,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,23,2020,3,23,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,19,2020,3,19,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,15,2020,3,15,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-250,0.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,3,2020,3,3,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.75%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-10,30,2019,10,30,2019,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.75%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,18,2019,9,18,2019,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.75%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-7,31,2019,7,31,2019,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,2.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,19,2018,12,19,2018,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,26,2018,9,26,2018,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,13,2018,6,13,2018,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,21,2018,3,21,2018,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,13,2017,12,13,2017,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,14,2017,6,14,2017,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,15,2017,3,15,2017,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,14,2016,12,14,2016,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,16,2015,12,16,2015,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,22,2011,6,22,2011,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,0.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,16,2008,12,16,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-75,0.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-10,29,2008,10,29,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,1.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-10,8,2008,10,8,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,1.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,16,2008,9,16,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,5,2008,8,5,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-4,30,2008,4,30,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,2.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,18,2008,3,18,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-75,2.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,16,2008,3,16,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,3.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,30,2008,1,30,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,3.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,22,2008,1,22,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-75,4.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,11,2007,12,11,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-10,31,2007,10,31,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,5.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,18,2007,9,18,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,5.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,17,2007,8,17,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,5.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,7,2007,8,7,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,28,2007,6,28,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,9,2007,5,9,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,21,2007,3,21,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,31,2007,1,31,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,12,2006,12,12,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-10,25,2006,10,25,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,20,2006,9,20,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,8,2006,8,8,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,29,2006,6,29,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,6.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,10,2006,5,10,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,6.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,28,2006,3,28,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,31,2006,1,31,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,13,2005,12,13,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-11,1,2005,11,1,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,20,2005,9,20,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,9,2005,8,9,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,30,2005,6,30,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,3,2005,5,3,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,22,2005,3,22,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-2,2,2005,2,2,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,14,2004,12,14,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-11,10,2004,11,10,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,21,2004,9,21,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,10,2004,8,10,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,30,2004,6,30,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,4,2004,5,4,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,16,2004,3,16,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,28,2004,1,28,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,9,2003,12,9,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-10,28,2003,10,28,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,16,2003,9,16,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,12,2003,8,12,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,25,2003,6,25,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,2.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,6,2003,5,6,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,18,2003,3,18,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,29,2003,1,29,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,9,2003,1,9,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"150,2.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,10,2002,12,10,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.75%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-11,6,2002,11,6,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,0.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-9,24,2002,9,24,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,13,2002,8,13,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,26,2002,6,26,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,7,2002,5,7,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,19,2002,3,19,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-1,30,2002,1,30,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,28,2000,10,7,2000,https://en.wikipedia.org/wiki/Second_Intifada,SECOND INTIFADA BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,2,20
+7,11,2000,7,25,2000,https://en.wikipedia.org/wiki/2000_Camp_David_Summit,CAMP DAVID,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,32%,1,0.8,0,2,20
+11,26,2000,11,30,2000,https://en.wikipedia.org/wiki/Cassette_Scandal,KUCHMAGATE,2.3em,Arial,TRUE,GOLD,BLUE,30,0,10,0,40%,17%,1,0.8,0,1,20
+12,19,2000,12,19,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+11,15,2000,11,15,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,3,2000,10,3,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,22,2000,8,22,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,28,2000,6,28,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,16,2000,5,16,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"50,6.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,21,2000,3,21,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,7,2001,10,13,2001,https://en.wikipedia.org/wiki/United_States_invasion_of_Afghanistan,US INVADES AFGHANISTAN,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,1,20
 12,11,2001,12,11,2001,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,1.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 11,6,2001,11,6,2001,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,1.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 10,2,2001,10,2,2001,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,2.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
@@ -522,48 +442,141 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 3,20,2001,3,20,2001,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,4.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 1,31,2001,1,31,2001,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-75,5.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 1,3,2001,1,3,2001,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,5.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-12,19,2000,12,19,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-11,15,2000,11,15,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-10,3,2000,10,3,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,22,2000,8,22,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-6,28,2000,6,28,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-5,16,2000,5,16,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"50,6.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-3,21,2000,3,21,2000,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
-8,7,1998,8,20,1998,https://en.wikipedia.org/wiki/Operation_Infinite_Reach,OPERATION INFINITE REACH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,2,20
-7,7,1996,7,12,1996,"https://en.wikipedia.org/wiki/XI_International_AIDS_Conference,_1996",XI AIDS CONFERENCE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,8%,1,0.8,0,1,20
-6,1,1984,6,10,1984,https://en.wikipedia.org/wiki/Operation_Blue_Star,OPERATION BLUE STAR,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,12%,1,0.8,0,2,20
-11,1,1984,11,3,1984,https://en.wikipedia.org/wiki/1984_anti-Sikh_riots,ANTI-SIKH RIOTS,1.75em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,2%,1,0.8,0,1,20
-11,20,1979,12,4,1979,https://en.wikipedia.org/wiki/Grand_Mosque_seizure,GRAND MOSQUE SEIZURE,1.75em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,10%,1,0.8,0,2,20
-11,1,1978,11,11,1978,"https://en.wikipedia.org/wiki/1979_oil_crisis#:~:text=In%20November%201978%2C%20a%20strike,Foreign%20workers%20left%20the%20country.",OIL STRIKES BEGIN,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
-3,13,1977,3,21,1977,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY ENDS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,17%,1,0.8,0,1,20
-6,25,1975,7,12,1975,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY BEGINS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,15%,1,0.8,0,4,20
-11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
-11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO ENDS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,2,20
-11,7,1920,11,17,1920,https://en.wikipedia.org/wiki/Siege_of_Perekop_(1920),SIEGE OF PEREKOP,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,1,0.8,0,1,20
-6,28,1969,7,3,1969,https://en.wikipedia.org/wiki/Stonewall_riots,STONEWALL,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,2%,1,0.8,0,3,20
-8,15,1969,8,16,1969,https://en.wikipedia.org/wiki/Woodstock,WOOD,2em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.7,20,1,21
-8,17,1969,8,18,1969,https://en.wikipedia.org/wiki/Woodstock,STOCK,2em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.7,20,1,21
-11,3,1967,11,23,1967,https://en.wikipedia.org/wiki/Battle_of_Dak_To,DAK TO - HILL 875,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,0,2,20
-1,8,1967,1,26,1967,https://en.wikipedia.org/wiki/Operation_Cedar_Falls,OPERATION CEDAR FALLS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,0,1,20
-8,11,1965,8,16,1965,https://en.wikipedia.org/wiki/Watts_riots,WATTS RIOTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,7%,1,0.8,0,1,20
-6,9,1965,6,13,1965,https://en.wikipedia.org/wiki/Battle_of_%C4%90%E1%BB%93ng_Xo%C3%A0i,DONG XOAI,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,21%,1,0.8,0,1,9
-1,13,1964,1,16,1964,https://en.wikipedia.org/wiki/1964_Arab_League_summit_(Cairo),ARAB SUMMIT,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,10%,1,0.8,1,1,20
-1,11,1962,2,7,1962,https://en.wikipedia.org/wiki/Seven_Thousand_Cadres_Conference,SEVEN THOUSAND CADRES,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,5%,1,0.8,0,2,9
-10,1,1962,10,13,1962,https://en.wikipedia.org/wiki/Second_Vatican_Council,VATICAN II BEGINS,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,20%,1,0.8,1,2,20
-12,5,1965,12,8,1965,https://en.wikipedia.org/wiki/Second_Vatican_Council,VATICAN II ENDS,2em,Arial,TRUE,red,black,30,0,10,0,40%,10%,1,0.8,1,1,20
-6,4,1961,6,10,1961,https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961,BERLIN CRISIS BEGINS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,1,0.8,0,1,9
-11,5,1961,11,9,1961,https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961,BERLIN CRISIS ENDS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,4%,1,0.8,0,1,9
-3,10,1959,3,23,1959,https://en.wikipedia.org/wiki/1959_Tibetan_uprising,TIBETAN UPRISING,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,20%,1,0.8,1,2,20
-2,1,1958,2,9,1958,https://en.wikipedia.org/wiki/Great_Leap_Forward,GREAT LEAP FORWARD BEGINS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,2%,1,0.8,0,2,9
+12,10,2002,12,10,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.75%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+11,6,2002,11,6,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,0.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,24,2002,9,24,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,13,2002,8,13,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,26,2002,6,26,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,7,2002,5,7,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,19,2002,3,19,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,30,2002,1,30,2002,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,1.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,20,2003,3,29,2003,https://en.wikipedia.org/wiki/Iraq_War,IRAQ WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,0,2,20
+12,9,2003,12,9,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,28,2003,10,28,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,16,2003,9,16,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,12,2003,8,12,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,25,2003,6,25,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,2.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,6,2003,5,6,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,18,2003,3,18,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,29,2003,1,29,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,9,2003,1,9,2003,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"150,2.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+12,14,2004,12,14,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+11,10,2004,11,10,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,21,2004,9,21,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,10,2004,8,10,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,30,2004,6,30,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,4,2004,5,4,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,16,2004,3,16,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,28,2004,1,28,2004,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.00%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,23,2005,2,8,2005,https://en.wikipedia.org/wiki/Second_Intifada,SECOND INTIFADA ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,1,20
+8,23,2005,8,31,2005,https://en.wikipedia.org/wiki/Hurricane_Katrina,HURRICANE KATRINA,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,1%,1,0.7,20,1,21
+12,13,2005,12,13,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+11,1,2005,11,1,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,20,2005,9,20,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,9,2005,8,9,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,30,2005,6,30,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,3,2005,5,3,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,22,2005,3,22,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+2,2,2005,2,2,2005,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,15,2006,3,25,2006,https://en.wikipedia.org/wiki/Battle_of_Ramadi_(2006),BATTLE OF RAMADI BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,17%,1,0.7,20,2,21
+11,5,2006,11,15,2006,https://en.wikipedia.org/wiki/Battle_of_Ramadi_(2006),BATTLE OF RAMADI ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,17%,1,0.7,20,1,21
+12,12,2006,12,12,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,25,2006,10,25,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,20,2006,9,20,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,8,2006,8,8,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,29,2006,6,29,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,6.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,10,2006,5,10,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,6.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,28,2006,3,28,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,31,2006,1,31,2006,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+12,11,2007,12,11,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,31,2007,10,31,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,5.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,18,2007,9,18,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,5.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,17,2007,8,17,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,5.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,7,2007,8,7,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,28,2007,6,28,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,9,2007,5,9,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,21,2007,3,21,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,31,2007,1,31,2007,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,6.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,1,2008,8,16,2008,https://en.wikipedia.org/wiki/Russo-Georgian_War,GEORGIA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,35%,1,0.8,0,2,20
+12,16,2008,12,16,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-75,0.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,29,2008,10,29,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,1.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,8,2008,10,8,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,1.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,16,2008,9,16,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,5,2008,8,5,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+4,30,2008,4,30,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,2.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,18,2008,3,18,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-75,2.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,16,2008,3,16,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,3.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,30,2008,1,30,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,3.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,22,2008,1,22,2008,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-75,4.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,17,2011,11,15,2011,https://en.wikipedia.org/wiki/Occupy_Wall_Street,OCCUPY WALL STREET,2.3em,Arial,TRUE,white,black,30,0,10,0,37%,11%,1,0.7,20,"3,5",21
+6,22,2011,6,22,2011,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,0.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,13,2014,6,21,2014,https://en.wikipedia.org/wiki/War_against_the_Islamic_State#International_coalitions_against_ISIL,WAR ON ISIS BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,17%,1,0.8,0,2,20
+2,27,2014,3,16,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,3,20
+3,17,2014,3,23,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,8,20
+3,24,2014,3,27,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,8,20
+12,16,2015,12,16,2015,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+12,14,2016,12,14,2016,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+12,27,2017,12,31,2017,https://en.wikipedia.org/wiki/2018%E2%80%932024_Arab_protests,2ND ARAB SPRING,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,7%,1,0.7,20,1,21
+12,13,2017,12,13,2017,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,14,2017,6,14,2017,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,15,2017,3,15,2017,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+12,19,2018,12,19,2018,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,3.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,26,2018,9,26,2018,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,13,2018,6,13,2018,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,21,2018,3,21,2018,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,2.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,30,2019,10,30,2019,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.75%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,18,2019,9,18,2019,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.75%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+7,31,2019,7,31,2019,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,2.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,8,2020,7,1,2020,https://en.wikipedia.org/wiki/Capitol_Hill_Occupied_Protest,CHAZ,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,40%,1,0.7,20,2,21
+11,5,2020,11,5,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,16,2020,9,16,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,27,2020,8,27,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+7,29,2020,7,29,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,10,2020,6,10,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+4,29,2020,4,29,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,31,2020,3,31,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,23,2020,3,23,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,19,2020,3,19,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,0.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,15,2020,3,15,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-250,0.25%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,3,2020,3,3,2020,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,2.75%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+8,13,2021,8,30,2021,https://en.wikipedia.org/wiki/2021_Kabul_airlift,EVACUATION FROM AFGHANISTAN,2.0em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,1,0.8,0,2,20
+12,14,2022,12,14,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"50,4.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+11,2,2022,11,2,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"75,4.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,21,2022,9,21,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"75,3.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+7,27,2022,7,27,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"75,2.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,15,2022,6,15,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"75,1.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,4,2022,5,4,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"50,1.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,16,2022,3,16,2022,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,0.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,2,2023,5,6,2023,https://en.wikipedia.org/wiki/2023_Writers_Guild_of_America_strike,WRITERS STRIKE STARTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,20,1,21
+11,5,2023,11,9,2023,https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike,SAG STRIKE ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,17%,1,0.7,20,1,21
+7,14,2023,7,19,2023,https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike,SAG STRIKE STARTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,20,2,21
+9,24,2023,9,27,2023,https://en.wikipedia.org/wiki/2023_Writers_Guild_of_America_strike,WRITERS STRIKE ENDS,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,1%,1,0.7,20,1,21
+12,13,2023,12,13,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+11,1,2023,11,1,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,20,2023,9,20,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+7,26,2023,7,26,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.50%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,14,2023,6,14,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.25%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,3,2023,5,3,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,22,2023,3,22,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,5.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+2,1,2023,2,1,2023,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,4.75%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 6,23,2023,6,24,2023,https://en.wikipedia.org/wiki/Wagner_Group_rebellion,WAGNER,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,0%,1,0.8,0,1,9
-10,25,1950,10,29,1950,https://en.wikipedia.org/wiki/Battle_of_Onjong,ONJONG,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,25%,1,0.8,20,1,300
-8,4,1950,9,18,1950,https://en.wikipedia.org/wiki/Battle_of_the_Pusan_Perimeter,PUSAN PERIMETER,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.8,20,"2,7",2
-7,26,1950,7,29,1950,https://en.wikipedia.org/wiki/No_Gun_Ri_massacre,NO GUN RI,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,20%,1,0.8,0,1,2
-12,19,1946,12,28,1946,https://en.wikipedia.org/wiki/First_Indochina_War,FIRST INDOCHINA WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,20,2,2
-8,19,1936,8,29,1936,https://en.wikipedia.org/wiki/Great_Purge,STALIN'S PURGE BEGINS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,10%,1,0.8,1,2,20
-11,13,1938,11,17,1938,https://en.wikipedia.org/wiki/Great_Purge,STALIN'S PURGE ENDS,2.2em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,1%,1,0.8,1,1,20
-9,15,1976,9,18,1976,https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations,HSCA BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,16%,1,0.7,20,1,21
-1,1,1979,1,3,1979,https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations,HSCA ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,12%,1,0.7,20,1,21
-3,12,1930,3,31,1930,https://en.wikipedia.org/wiki/Salt_March,SALT MARCH,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,30%,1,0.8,0,2,20
-4,1,1930,4,6,1930,https://en.wikipedia.org/wiki/Salt_March,SALT MARCH,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,20%,1,0.8,0,1,20
-10,10,1862,10,12,1862,https://en.wikipedia.org/wiki/Raid_on_Chambersburg,CHAMBERSBURG,1.1EM,Arial,TRUE,black,LightGray,30,0,10,0,50%,0%,1,0.8,20,1,20
+12,18,2024,12,18,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+11,7,2024,11,7,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+9,18,2024,9,18,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,5.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+7,31,2024,7,31,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+6,12,2024,6,12,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,1,2024,5,1,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+3,20,2024,3,20,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,31,2024,1,31,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+1,7,2025,1,18,2025,https://en.wikipedia.org/wiki/2025_California_wildfires,CALIFORNIA WILDFIRES BEGIN,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,0%,1,0.8,0,2,9
+1,29,2025,1,29,2025,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,4.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,18,1927,10,22,1927,https://en.wikipedia.org/wiki/1927%E2%80%931928_Colorado_Coal_Strike,COLORADO COAL STRIKE,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,20,1,21
+5,11,1911,5,19,1911,https://en.wikipedia.org/wiki/Battle_of_Cuautla,BATTLE OF CUAUTLA,2.3em,Arial,TRUE,RED,GREEN,30,0,10,0,40%,10%,1,0.8,1,"2,4,9,14",20
+11,8,1908,11,15,1908,https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State,"CONGO ATROCITIES ""END""",2.3em,Arial,TRUE,YELLOW,DARKBLUE,30,0,10,0,40%,10%,1,0.8,1,1,20
+2,26,1885,3,14,1885,https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State,"CONGO ATROCITIES ""BEGIN""",2.3em,Arial,TRUE,YELLOW,DARKBLUE,30,0,10,0,40%,5%,1,0.8,1,3,20
+5,10,1857,5,16,1857,https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857,SEPOY REBELLION BEGINS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,5%,1,0.8,0,1,20
+10,24,1858,11,1,1858,https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857,SEPOY REBELLION ENDS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,8%,1,0.8,0,1,20
+12,9,1902,12,20,1902,https://en.wikipedia.org/wiki/Venezuelan_crisis_of_1902%E2%80%931903,VENEZUELAN BLOCKADE,2.3em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,8%,1,0.8,0,2,20
+2,8,1903,2,19,1903,https://en.wikipedia.org/wiki/Venezuelan_crisis_of_1902%E2%80%931903,VENEZUELAN BLOCKADE,2.3em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,8%,1,0.8,0,1,20
+4,26,1881,4,28,1881,https://en.wikipedia.org/wiki/Kiev_pogrom_(1881),KIEV POGROM,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,4%,1,0.7,20,1,21
+8,29,1897,8,31,1897,https://en.wikipedia.org/wiki/First_Zionist_Congress,FIRST ZION,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,12%,1,0.7,20,1,21
