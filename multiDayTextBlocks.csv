@@ -293,7 +293,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 9,22,1946,10,1,1946,https://en.wikipedia.org/wiki/Nuremberg_trials,NUREMBERG TRIALS END,2em,Arial,TRUE,black,grey,30,0,10,0,40%,10%,1,0.8,25,1,8
 12,19,1946,12,28,1946,https://en.wikipedia.org/wiki/First_Indochina_War,FIRST INDOCHINA WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,20,2,2
 2,21,1948,2,25,1948,https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d'%C3%A9tat,CZECH COUP,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,1,0.8,0,2,9
-5,14,1948,5,22,1948,https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War,ARAB-ISRAEL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,25,2,20
+5,14,1948,5,22,1948,https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War,ARAB-ISRAEL WAR BEGINS,1.8em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,30%,1,0.8,25,2,20
 6,24,1948,7,10,1948,https://en.wikipedia.org/wiki/Berlin_Blockade,BERLIN AIRLIFT STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,1,0.8,25,4,20
 5,1,1949,5,12,1949,https://en.wikipedia.org/wiki/Berlin_Blockade,BERLIN AIRLIFT ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,1,0.8,25,1,20
 3,6,1949,3,10,1949,https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War,ARAB-ISRAEL WAR ENDS,2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,0%,1,0.8,25,1,20
@@ -580,3 +580,12 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,8,1903,2,19,1903,https://en.wikipedia.org/wiki/Venezuelan_crisis_of_1902%E2%80%931903,VENEZUELAN BLOCKADE,2.3em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,8%,1,0.8,0,1,20
 4,26,1881,4,28,1881,https://en.wikipedia.org/wiki/Kiev_pogrom_(1881),KIEV POGROM,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,4%,1,0.7,20,1,21
 8,29,1897,8,31,1897,https://en.wikipedia.org/wiki/First_Zionist_Congress,FIRST ZION,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,12%,1,0.7,20,1,21
+8,6,1566,9,8,1566,https://en.wikipedia.org/wiki/Siege_of_Szigetv%C3%A1r,SIEGE OF SZIGETVAR,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,18%,1,0.8,0,2,20
+5,12,1902,5,31,1902,https://en.wikipedia.org/wiki/Anthracite_coal_strike_of_1902,ANTHRACITE COAL STRIKE BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,3%,1,0.7,20,3,21
+10,12,1902,10,23,1902,https://en.wikipedia.org/wiki/Anthracite_coal_strike_of_1902,ANTHRACITE COAL STRIKE ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,6%,1,0.7,20,1,21
+5,1,1921,5,7,1921,https://en.wikipedia.org/wiki/Jaffa_riots,JAFFA RIOTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,28%,1,0.7,20,1,21
+8,23,1929,8,29,1929,https://en.wikipedia.org/wiki/1929_Palestine_riots,PALESTINE RIOTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,2,21
+11,30,1947,12,6,1947,https://en.wikipedia.org/wiki/1947%E2%80%931948_civil_war_in_Mandatory_Palestine,CIVIL WAR IN PALESTINE BEGINS,1.8em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,1,0.8,0,2,20
+5,9,1948,5,13,1948,https://en.wikipedia.org/wiki/1947%E2%80%931948_civil_war_in_Mandatory_Palestine,CIVIL WAR IN PALESTINE ENDS,1.6em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,2%,1,0.8,0,1,20
+4,21,1948,4,22,1948,https://en.wikipedia.org/wiki/Battle_of_Haifa_(1948),HAIFA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,1,0.8,0,1,20
+4,25,1948,4,31,1948,https://en.wikipedia.org/wiki/Operation_Hametz,OPERATION HAMETZ,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,1,0.8,0,1,20
