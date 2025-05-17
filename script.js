@@ -1,5 +1,5 @@
 const calendar = document.getElementById('calendar');
-let currentYear = 1945;
+let currentYear = 800;
 ;
 
 const months = [
@@ -108,7 +108,7 @@ function createMonthGrid(year) {
 
         const header = document.createElement('div');
         header.classList.add('month-header');
-        header.textContent = `${months[month]} ${year < 0 ? Math.abs(year) + ' B.C.E' : year}`;
+        header.textContent = `${months[month]} ${year < 0 ? Math.abs(year) + ' BC' : year}`;
         monthDiv.appendChild(header);
 
         const weekdayRow = document.createElement('div');
@@ -369,7 +369,7 @@ function getCellByDate(date) {
 // Set up the calendar for the initial year
 function setYear(year) {
     currentYear = year;
-    document.querySelector('.calendar-header').textContent = year < 0 ? Math.abs(year) + ' B.C.E' : year;
+    document.querySelector('.calendar-header').textContent = year < 0 ? Math.abs(year) + ' BC' : year;
     createMonthGrid(year);
     document.getElementById('year-select').value = year;
 }
@@ -420,7 +420,7 @@ const yearSelect = document.getElementById('year-select');
 for (let year = 2025; year >= -2000; year--) {
     const option = document.createElement('option');
     if (year < 0) {
-        option.textContent = Math.abs(year) + " B.C.E";
+        option.textContent = Math.abs(year) + " BC";
     } else {
         option.textContent = year;
     }
