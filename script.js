@@ -1,5 +1,5 @@
 const calendar = document.getElementById('calendar');
-let currentYear = 800;
+let currentYear = 2025;
 ;
 
 const months = [
