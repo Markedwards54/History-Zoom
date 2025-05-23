@@ -628,3 +628,5 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 5,11,1189,5,20,1189,https://en.wikipedia.org/wiki/Third_Crusade,THIRD CRUSADE BEGINS,2.1em,Arial,TRUE,WHITE,BROWN,30,0,10,0,40%,8%,1,0.7,20,2,21
 8,23,1192,9,2,1192,https://en.wikipedia.org/wiki/Third_Crusade,THIRD CRUSADE ENDS,2.1em,Arial,TRUE,WHITE,BROWN,30,0,10,0,40%,15%,1,0.7,20,1,21
 3,20,2025,3,20,2025,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,4.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+7,26,1830,7,29,1830,https://en.wikipedia.org/wiki/July_Revolution,JULY REVOLUTION,2.1em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,2%,1,0.8,0,1,20
+3,4,1956,3,10,1956,https://en.wikipedia.org/wiki/1956_Georgian_demonstrations,GEORGIAN DEMONSTRATIONS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,3%,1,0.8,0,1,9
