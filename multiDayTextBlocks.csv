@@ -87,11 +87,13 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 4,5,1862,5,4,1862,https://en.wikipedia.org/wiki/Siege_of_Yorktown_(1862),SIEGE OF YORKTOWN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,14%,1,0.8,0,3,20
 4,25,1862,5,1,1862,https://en.wikipedia.org/wiki/Capture_of_New_Orleans,NO CAPTURED,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,5%,1,0.8,25,2,21
 6,25,1862,7,1,1862,https://en.wikipedia.org/wiki/Seven_Days_Battles,SEVEN DAYS,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,14%,1,0.8,0,1,20
-8,18,1862,9,26,1862,https://en.wikipedia.org/wiki/Dakota_War_of_1862,DAKOTA WAR,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,30%,1,0.8,33,"1,5",20
+8,18,1862,9,26,1862,https://en.wikipedia.org/wiki/Dakota_War_of_1862,DAKOTA WAR,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,20%,1,0.8,33,"1,5",20
 8,28,1862,8,30,1862,https://en.wikipedia.org/wiki/Second_Battle_of_Bull_Run,BULL RUN 2,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,5%,1,0.8,5,1,21
-8,14,1862,10,10,1862,https://en.wikipedia.org/wiki/Confederate_Heartland_Offensive,HEARTLAND,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,30%,1,0.8,-10,"2,6,11",20
+8,14,1862,10,10,1862,https://en.wikipedia.org/wiki/Confederate_Heartland_Offensive,HEARTLAND,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,20%,1,0.8,-10,"2,6,11",20
 12,11,1862,12,15,1862,https://en.wikipedia.org/wiki/Battle_of_Fredericksburg,FREDERICKSBURG,1.6EM,Arial,TRUE,black,LightGray,30,0,10,0,40%,0%,1,0.8,0,1,20
 10,10,1862,10,12,1862,https://en.wikipedia.org/wiki/Raid_on_Chambersburg,CHAMBERSBURG,1.1EM,Arial,TRUE,black,LightGray,30,0,10,0,50%,0%,1,0.8,20,1,20
+9,12,1862,9,13,1862,https://en.wikipedia.org/wiki/Battle_of_Harpers_Ferry,HARPERS,2.1em,Arial,TRUE,black,LightGray,30,0,10,0,40%,0%,1,0.8,20,1,20
+9,14,1862,9,15,1862,https://en.wikipedia.org/wiki/Battle_of_Harpers_Ferry,FERRY,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,5%,1,0.8,20,1,20
 4,30,1863,5,6,1863,https://en.wikipedia.org/wiki/Battle_of_Chancellorsville,CHANCELLORSVILLE,1.6EM,Arial,TRUE,black,LightGray,30,0,10,0,40%,10%,1,0.8,0,3,20
 5,18,1863,7,4,1863,https://en.wikipedia.org/wiki/Siege_of_Vicksburg,VICKSBURG SIEGE,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,20%,1,0.8,0,"2,5",20
 7,1,1863,7,3,1863,https://en.wikipedia.org/wiki/Battle_of_Gettysburg,GETTYSBURG,2.1em,Arial,TRUE,white,darkblue,30,0,10,0,40%,2%,1,0.8,25,1,20
@@ -630,3 +632,24 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 3,20,2025,3,20,2025,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,4.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 7,26,1830,7,29,1830,https://en.wikipedia.org/wiki/July_Revolution,JULY REVOLUTION,2.1em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,2%,1,0.8,0,1,20
 3,4,1956,3,10,1956,https://en.wikipedia.org/wiki/1956_Georgian_demonstrations,GEORGIAN DEMONSTRATIONS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,3%,1,0.8,0,1,9
+7,14,1969,7,18,1969,https://en.wikipedia.org/wiki/Football_War,FOOTBALL WAR,2.2em,Arial,TRUE,white,BLUE,30,0,10,0,40%,15%,1,0.8,0,1,9
+3,13,1954,5,7,1954,https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu,DIEN BIEN PHU,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,25%,1,0.8,20,"2,6",9
+9,8,9,9,11,9,https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest,TEUTOBURG FOREST,1.85em,Arial,TRUE,black,RED,30,0,10,0,40%,0%,1,0.8,20,1,9
+11,30,2001,12,17,2001,https://en.wikipedia.org/wiki/Battle_of_Tora_Bora,TORA BORA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,30%,1,0.8,0,3,20
+8,15,636,8,20,636,https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk,YARMUK,2.3em,Arial,TRUE,GREEN,black,30,0,10,0,40%,30%,1,0.8,0,1,20
+4,24,1915,4,30,1915,https://en.wikipedia.org/wiki/Armenian_genocide,ARMENIAN GENOCIDE BEGINS,1.6em,Arial,TRUE,black,YELLOW,30,0,10,0,40%,19%,1,0.8,20,2,20
+1,21,1917,1,27,1917,https://en.wikipedia.org/wiki/Armenian_genocide,"ARMENIAN GENOCIDE ""ENDS""",2.3em,Arial,TRUE,black,YELLOW,30,0,10,0,40%,1%,1,0.8,20,1,20
+2,8,1942,2,15,1942,https://en.wikipedia.org/wiki/Fall_of_Singapore,FALL OF SINGAPORE,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.8,0,1,20
+10,12,1428,10,18,1428,https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans,SIEGE OF ORLEANS BEGINS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,5%,1,0.8,20,1,20
+5,3,1429,5,8,1429,https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans,SIEGE OF ORLEANS ENDS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,1%,1,0.8,20,1,20
+9,4,1346,9,10,1346,https://en.wikipedia.org/wiki/Siege_of_Calais_(1346%E2%80%931347),SIEGE OF CALAIS BEGINS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,8%,1,0.8,20,1,20
+7,23,1347,8,3,1347,https://en.wikipedia.org/wiki/Siege_of_Calais_(1346%E2%80%931347),SIEGE OF CALAIS ENDS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,10%,1,0.8,20,1,20
+7,14,1683,9,11,1683,https://en.wikipedia.org/wiki/Battle_of_Vienna,SIEGE OF VIENNA,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,22%,1,0.8,25,"2,5,10",19
+10,17,1854,10,21,1854,https://en.wikipedia.org/wiki/Siege_of_Sevastopol_(1854%E2%80%931855),SIEGE OF SEVASTOPOL BEGINS,1.6em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,0%,1,0.8,0,1,19
+9,2,1855,9,11,1855,https://en.wikipedia.org/wiki/Siege_of_Sevastopol_(1854%E2%80%931855),SIEGE OF SEVASTOPOL ENDS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,2%,1,0.8,0,1,19
+6,28,1942,7,24,1942,https://en.wikipedia.org/wiki/Battle_of_Voronezh_(1942),VORONEZH,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,32%,1,0.8,25,3,19
+9,10,1627,9,18,1627,https://en.wikipedia.org/wiki/Siege_of_La_Rochelle,SIEGE OF LA ROCHELLE BEGINS,2.2em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,0%,1,0.8,25,2,19
+10,22,1628,10,28,1628,https://en.wikipedia.org/wiki/Siege_of_La_Rochelle,SIEGE OF LA ROCHELLE ENDS,2.2em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,5%,1,0.8,25,1,19
+5,25,1941,5,27,1941,https://en.wikipedia.org/wiki/Last_battle_of_Bismarck,BISMARCK,2.2em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,8%,1,0.7,-5,1,22
+4,6,1832,4,14,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR BEGINS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,2,9
+8,19,1832,8,27,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR ENDS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,1,9
