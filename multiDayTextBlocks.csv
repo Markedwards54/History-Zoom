@@ -26,6 +26,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 4,6,1614,4,16,1614,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#First_Anglo%E2%80%93Powhatan_War,FIRST ANGLO-POWHATAN WARS END,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,1%,1,0.8,0,1,20
 5,23,1618,5,31,1618,https://en.wikipedia.org/wiki/Thirty_Years%27_War,THIRTY YEARS' WAR BEGINS,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,1,0.8,0,2,20
 3,22,1622,3,31,1622,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Second_Anglo-Powhatan_War,SECOND ANGLO-POWHATAN WAR BEGINS,1.2em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,0%,1,0.8,0,2,20
+5,20,1631,5,24,1631,https://en.wikipedia.org/wiki/Sack_of_Magdeburg,MAGDEBURG,2.4em,Arial,TRUE,BLACK,YELLOW,30,0,10,0,40%,15%,1,0.8,0,1,20
 9,19,1632,9,30,1632,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Second_Anglo-Powhatan_War,SECOND ANGLO-POWHATAN WAR ENDS,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,3%,1,0.8,0,1,20
 7,1,1636,7,12,1636,https://en.wikipedia.org/wiki/Pequot_War,PEQUOT WAR BEGINS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,20%,1,0.8,0,2,20
 9,19,1638,9,30,1638,https://en.wikipedia.org/wiki/Pequot_War,PEQUOT WAR ENDS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,20%,1,0.8,0,1,20
@@ -68,9 +69,17 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 5,17,1787,9,17,1787,https://en.wikipedia.org/wiki/Constitutional_Convention_(United_States),CONSTITUTIONAL CONVENTION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,3%,1,0.8,0,"2,5,11,15,20",20
 10,21,1790,10,28,1790,https://www.britannica.com/question/Who-did-the-Haitian-Revolution-involve,OGE REBELLION,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,14%,1,0.7,0,2,80
 8,22,1791,8,27,1791,https://en.wikipedia.org/wiki/Haitian_Revolution,HAITIAN REVOLUTION BEGINS,1.6EM,Arial,TRUE,white,PURPLE,30,0,0,0,50%,3%,1,0.7,0,1,80
+4,20,1796,4,22,1796,https://en.wikipedia.org/wiki/Battle_of_Mondov%C3%AC,MONDAVI,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,13%,1,0.7,0,1,80
+4,20,1792,4,28,1792,https://en.wikipedia.org/wiki/War_of_the_First_Coalition,FIRST COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,1,0.7,0,2,80
+9,2,1792,9,6,1792,https://en.wikipedia.org/wiki/September_Massacres,SEP MASSACRES,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,1,0.7,0,1,80
+12,3,1792,1,15,1793,https://en.wikipedia.org/wiki/Trial_of_Louis_XVI,TRIAL OF LOUIS XVI,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,17%,1,0.7,0,"2,6",80
+8,29,1793,12,19,1793,https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793),SIEGE OF TOULON,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,20%,1,0.7,0,"3,8,13,18",80
+8,1,1793,8,10,1793,https://en.wikipedia.org/wiki/War_in_the_Vend%C3%A9e#Genocide_controversy,VENDEE GENOCIDE,2.3EM,Arial,TRUE,white,BLACK,30,0,0,0,45%,20%,1,0.7,0,2,80
+10,8,1797,10,17,1797,https://en.wikipedia.org/wiki/War_of_the_First_Coalition,FIRST COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,13%,1,0.7,0,1,80
 2,1,1804,4,22,1804,https://en.wikipedia.org/wiki/1804_Haitian_massacre,HAITIAN MASSACRE,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,18%,1,0.7,0,"2,7,12",80
 6,15,1804,6,15,1804,https://en.wikipedia.org/wiki/Twelfth_Amendment_to_the_United_States_Constitution,12,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 1,8,1811,1,10,1811,https://en.wikipedia.org/wiki/1811_German_Coast_uprising,GERMAN COAST,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,5%,1,0.8,0,1,20
+9,12,1814,9,15,1814,https://en.wikipedia.org/wiki/Battle_of_Baltimore,BALTIMORE,1.7EM,Arial,TRUE,white,BLUE,30,0,0,0,50%,0%,1,0.7,0,1,80
 3,20,1815,7,8,1815,https://en.wikipedia.org/wiki/Hundred_Days,HUNDRED DAYS,3.0EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,14%,1,0.8,0,"1,4,10,16,20",80
 2,23,1836,3,6,1836,https://en.wikipedia.org/wiki/Battle_of_the_Alamo,BATTLE OF THE ALAMO,2.1em,Arial,TRUE,black,lightblue,30,0,10,0,40%,2%,1,0.8,0,"1,3",20
 10,16,1853,10,22,1853,https://en.wikipedia.org/wiki/Crimean_War,CRIMEAN WAR BEGINS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,45%,25%,1,0.8,0,1,20
@@ -630,6 +639,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 5,11,1189,5,20,1189,https://en.wikipedia.org/wiki/Third_Crusade,THIRD CRUSADE BEGINS,2.1em,Arial,TRUE,WHITE,BROWN,30,0,10,0,40%,8%,1,0.7,20,2,21
 8,23,1192,9,2,1192,https://en.wikipedia.org/wiki/Third_Crusade,THIRD CRUSADE ENDS,2.1em,Arial,TRUE,WHITE,BROWN,30,0,10,0,40%,15%,1,0.7,20,1,21
 3,20,2025,3,20,2025,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,4.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+5,7,2025,5,7,2025,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,4.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,6,1979,10,6,1979,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"100,12.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,20%,1,0.45,-29,1,3000
 7,26,1830,7,29,1830,https://en.wikipedia.org/wiki/July_Revolution,JULY REVOLUTION,2.1em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,2%,1,0.8,0,1,20
 3,4,1956,3,10,1956,https://en.wikipedia.org/wiki/1956_Georgian_demonstrations,GEORGIAN DEMONSTRATIONS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,3%,1,0.8,0,1,9
 7,14,1969,7,18,1969,https://en.wikipedia.org/wiki/Football_War,FOOTBALL WAR,2.2em,Arial,TRUE,white,BLUE,30,0,10,0,40%,15%,1,0.8,0,1,9
@@ -653,3 +664,4 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 5,25,1941,5,27,1941,https://en.wikipedia.org/wiki/Last_battle_of_Bismarck,BISMARCK,2.2em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,8%,1,0.7,-5,1,22
 4,6,1832,4,14,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR BEGINS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,2,9
 8,19,1832,8,27,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR ENDS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,1,9
+8,30,1363,10,4,1363,https://en.wikipedia.org/wiki/Battle_of_Lake_Poyang,LAKE POYANG,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,22%,1,0.8,0,3,9
