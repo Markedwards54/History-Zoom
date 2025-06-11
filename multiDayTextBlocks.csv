@@ -314,8 +314,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,4,1945,2,11,1945,https://en.wikipedia.org/wiki/Yalta_Conference,YALTA,4em,Arial,TRUE,black,gold,30,0,10,0,30%,33%,1,1,0,1,20
 7,17,1945,8,2,1945,https://en.wikipedia.org/wiki/Potsdam_Conference,POTSDAM,4em,Arial,TRUE,black,gold,30,0,10,0,30%,25%,1,1,0,2,20
 4,16,1945,5,2,1945,https://en.wikipedia.org/wiki/Battle_of_Berlin,BATTLE OF BERLIN,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,20%,1,0.8,25,2,9
-2,19,1945,3,26,1945,https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima,IWO JIMA,3em,Arial,TRUE,black,lightblue,30,0,10,0,30%,30%,1,0.8,0,"2,5",20
-4,1,1945,6,25,1945,https://en.wikipedia.org/wiki/Battle_of_Okinawa,OKINAWA,3em,Arial,TRUE,black,lightblue,30,0,10,0,30%,30%,1,0.8,0,"1,8,13",8
+2,19,1945,3,26,1945,https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima,IWO JIMA,3em,Arial,TRUE,black,lightblue,30,0,10,0,30%,30%,1,0.8,0,"2,4",20
+4,1,1945,6,25,1945,https://en.wikipedia.org/wiki/Battle_of_Okinawa,OKINAWA,3em,Arial,TRUE,black,lightblue,30,0,10,0,30%,30%,1,0.8,0,"1,8,12",8
 6,26,1945,7,2,1945,https://www.roberthjackson.org/nuremberg-event/the-london-conference-june-26-august-2-1945/,LONDON CONFERENCE,2em,Arial,TRUE,black,grey,30,0,10,0,40%,5%,1,0.8,25,1,8
 5,8,1945,5,8,1945,https://en.wikipedia.org/wiki/Victory_in_Europe_Day,VE,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,0%,1,1,0,1,80
 9,2,1945,9,2,1945,https://en.wikipedia.org/wiki/Victory_over_Japan_Day,VJ,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,0%,1,1,0,1,80
@@ -665,3 +665,20 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 4,6,1832,4,14,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR BEGINS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,2,9
 8,19,1832,8,27,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR ENDS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,0,1,9
 8,30,1363,10,4,1363,https://en.wikipedia.org/wiki/Battle_of_Lake_Poyang,LAKE POYANG,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,22%,1,0.8,0,3,9
+3,9,1697,3,16,1697,https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great,GRAND EMBASSY OF PETER THE GREAT BEGINS,1.47em,Arial,TRUE,BLACK,RED,30,0,10,0,50%,0%,1,0.8,0,2,9
+8,17,1698,8,25,1698,https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great,GRAND EMBASSY OF PETER THE GREAT ENDS,1.5em,Arial,TRUE,BLACK,RED,30,0,10,0,50%,2%,1,0.8,0,1,9
+6,6,2025,6,14,2025,https://en.wikipedia.org/wiki/June_2025_Los_Angeles_protests,LA PROTESTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,32%,1,0.8,25,2,19
+4,18,1955,4,24,1955,https://en.wikipedia.org/wiki/Bandung_Conference,BANDUNG,2.3em,Arial,TRUE,white,red,30,0,10,0,40%,32%,1,0.8,25,1,19
+10,20,1097,10,30,1097,https://en.wikipedia.org/wiki/Siege_of_Antioch,SIEGE OF ANTIOCH BEGINS,2.3em,Arial,TRUE,white,RED,30,0,10,0,40%,5%,1,0.8,0,2,9
+6,19,1098,6,28,1098,https://en.wikipedia.org/wiki/Siege_of_Antioch,SIEGE OF ANTIOCH ENDS,2.3em,Arial,TRUE,white,RED,30,0,10,0,40%,9%,1,0.8,0,1,9
+4,1,1096,10,31,1096,https://en.wikipedia.org/wiki/People%27s_Crusade,PEOPLE'S CRUSADE,2.3em,Arial,TRUE,white,RED,30,0,10,0,40%,17%,1,0.8,0,"2,7,13,18,23,29,34",9
+11,17,1095,11,27,1095,https://en.wikipedia.org/wiki/Council_of_Clermont,COUNCIL OF CLERMONT,2.3em,Arial,TRUE,white,RED,30,0,10,0,40%,11%,1,0.8,0,1,9
+1,14,1077,1,25,1077,https://en.wikipedia.org/wiki/Road_to_Canossa,ROAD TO CANOSSA,2.3em,Arial,TRUE,YELLOW,BLACK,30,0,10,0,40%,15%,1,0.8,0,1,9
+9,15,1959,9,27,1959,https://en.wikipedia.org/wiki/State_visit_by_Nikita_Khrushchev_to_the_United_States,KHRUSHCHEV VISITS USA,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,10%,1,0.8,0,2,9
+3,24,2002,4,4,2002,https://en.wikipedia.org/wiki/Angolan_Civil_War,ANGOLAN CIVIL WAR ENDS,2.3em,Arial,TRUE,RED,BLACK,30,0,10,0,40%,7%,1,0.8,0,1,9
+11,3,1966,11,12,1966,https://en.wikipedia.org/wiki/%C3%91ancahuaz%C3%BA_Guerrilla,NANCAHUAZU GUERRILLA BEGINS,2.0em,Arial,TRUE,LIGHTBLUE,BLACK,30,0,10,0,40%,2%,1,0.8,0,2,9
+9,24,1967,10,9,1967,https://en.wikipedia.org/wiki/%C3%91ancahuaz%C3%BA_Guerrilla,NANCAHUAZU GUERRILLA ENDS,2.0em,Arial,TRUE,LIGHTBLUE,BLACK,30,0,10,0,40%,4%,1,0.8,0,1,9
+4,27,1978,4,28,1978,https://en.wikipedia.org/wiki/Saur_Revolution,SAUR,2.3em,Arial,TRUE,RED,BLACK,30,0,10,0,40%,15%,1,0.8,0,1,9
+7,3,1979,7,7,1979,https://en.wikipedia.org/wiki/Operation_Cyclone,OPERATION CYCLONE BEGINS,1.65em,Arial,TRUE,LIGHTBLUE,BLACK,30,0,10,0,40%,0%,1,0.8,0,1,9
+3,26,1971,4,10,1971,https://en.wikipedia.org/wiki/Bangladesh_Liberation_War,BANGLADESH WAR/GENOCIDE BEGINS,1.8em,Arial,TRUE,RED,DARKGREEN,30,0,10,0,40%,1%,1,0.8,0,4,9
+12,5,1971,12,16,1971,https://en.wikipedia.org/wiki/Bangladesh_Liberation_War,BANGLADESH WAR/GENOCIDE ENDS,1.8em,Arial,TRUE,RED,DARKGREEN,30,0,10,0,40%,3%,1,0.8,0,1,9
