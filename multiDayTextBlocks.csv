@@ -201,7 +201,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,14,1862,10,10,1862,https://en.wikipedia.org/wiki/Confederate_Heartland_Offensive,HEARTLAND,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,20%,1,0.8,-10,"2,6,11",20
 12,11,1862,12,15,1862,https://en.wikipedia.org/wiki/Battle_of_Fredericksburg,FREDERICKSBURG,1.6EM,Arial,TRUE,black,LightGray,30,0,10,0,40%,0%,1,0.8,0,1,20
 10,10,1862,10,12,1862,https://en.wikipedia.org/wiki/Raid_on_Chambersburg,CHAMBERSBURG,1.1EM,Arial,TRUE,black,LightGray,30,0,10,0,50%,0%,1,0.8,20,1,20
-9,12,1862,9,13,1862,https://en.wikipedia.org/wiki/Battle_of_Harpers_Ferry,HARPERS,2.1em,Arial,TRUE,black,LightGray,30,0,10,0,40%,0%,1,0.8,20,1,20
+9,12,1862,9,13,1862,https://en.wikipedia.org/wiki/Battle_of_Harpers_Ferry,HARPERS,2.1em,Arial,TRUE,black,LightGray,30,0,10,0,40%,0%,1,0.8,20,1,201
 9,14,1862,9,15,1862,https://en.wikipedia.org/wiki/Battle_of_Harpers_Ferry,FERRY,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,5%,1,0.8,20,1,20
 4,30,1863,5,6,1863,https://en.wikipedia.org/wiki/Battle_of_Chancellorsville,CHANCELLORSVILLE,1.6EM,Arial,TRUE,black,LightGray,30,0,10,0,40%,10%,1,0.8,0,3,20
 5,18,1863,7,4,1863,https://en.wikipedia.org/wiki/Siege_of_Vicksburg,VICKSBURG SIEGE,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,20%,1,0.8,0,"2,5",20
@@ -288,7 +288,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 3,14,1916,3,18,1916,https://en.wikipedia.org/wiki/Pancho_Villa_Expedition,PANCHO VILLA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,1,0.8,1,1,21
 5,15,1916,6,10,1916,https://en.wikipedia.org/wiki/Battle_of_Asiago,BATTLE OF ASIAGO,2.4em,Arial,TRUE,black,GREEN,30,0,10,0,40%,15%,1,0.8,25,"2,5",20
 6,11,1916,6,17,1916,https://en.wikipedia.org/wiki/Arab_Revolt,ARAB REVOLT BEGINS,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,15%,1,0.8,25,1,20
-2,21,1916,12,18,1916,https://en.wikipedia.org/wiki/Battle_of_Verdun,BATTLE OF VERDUN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,35%,15%,1,0.7,-12,"1,4,9,15,20,25,32,36,41,47,51",20
+2,21,1916,12,18,1916,https://en.wikipedia.org/wiki/Battle_of_Verdun,BATTLE OF VERDUN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,35%,15%,1,0.7,-12,"1,6,9,15,20,25,32,36,41,47,51",20
 7,1,1916,11,18,1916,https://en.wikipedia.org/wiki/Battle_of_the_Somme,BATTLE OF THE SOMME,2.4em,Arial,TRUE,black,grey,30,0,10,0,40%,15%,1,0.8,30,"2,9,13,18,24",20
 4,24,1916,4,29,1916,https://en.wikipedia.org/wiki/Easter_Rising,EASTER RISING,2.3em,Arial,TRUE,orange,green,30,0,10,0,40%,20%,1,0.8,25,1,20
 2,9,1917,3,20,1917,https://en.wikipedia.org/wiki/Operation_Alberich,OPERATION ALBERICH,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,18%,1,0.7,0,2,20
