@@ -798,3 +798,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,6,2025,6,21,2025,https://en.wikipedia.org/wiki/June_2025_Los_Angeles_protests,LA PROTESTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,32%,1,0.8,25,3,19
 8,25,1830,7,21,1831,https://en.wikipedia.org/wiki/Belgian_Revolution,BELGIAN REVOLUTION,2.3em,Arial,TRUE,YELLOW,BLACK,30,0,10,0,40%,13%,1,0.8,25,"4,9,15,20,24,30,35,40,45,50,55",8
 10,29,1831,10,31,1831,https://en.wikipedia.org/wiki/1831_Bristol_riots,BRISTOL,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,4%,1,0.8,25,2,8
+6,10,2007,6,15,2007,https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007),BATTLE OF GAZA,2.3em,Arial,TRUE,WHITE ,GREEN,30,0,10,0,40%,25%,1,0.8,15,1,20
+12,27,2008,1,18,2009,https://en.wikipedia.org/wiki/Gaza_War_(2008%E2%80%932009),GAZA WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,30%,1,0.8,15,"2,4",20
+11,14,2012,11,21,2012,https://en.wikipedia.org/wiki/2012_Gaza_War,2012 GAZA WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,15,1,20
+5,6,2021,5,21,2021,https://en.wikipedia.org/wiki/2021_Israel%E2%80%93Palestine_crisis,2021 ISRAEL-PALESTINE CRISIS,2.1em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,4%,1,0.8,15,2,20
