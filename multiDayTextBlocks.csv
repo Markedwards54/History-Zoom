@@ -803,3 +803,5 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 11,14,2012,11,21,2012,https://en.wikipedia.org/wiki/2012_Gaza_War,2012 GAZA WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,15,1,20
 5,6,2021,5,21,2021,https://en.wikipedia.org/wiki/2021_Israel%E2%80%93Palestine_crisis,2021 ISRAEL-PALESTINE CRISIS,2.1em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,4%,1,0.8,15,2,20
 6,13,1863,6,15,1863,https://en.wikipedia.org/wiki/Second_Battle_of_Winchester,WINCHESTER 2,1.25em,Arial,TRUE,BLACK,LIGHTGREY,30,0,10,0,50%,4%,1,0.8,15,2,20
+6,14,1877,6,23,1877,https://en.wikipedia.org/wiki/Nez_Perce_War,NEZ PERCE WAR BEGINS,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,10%,1,0.8,15,2,20
+10,1,1877,10,5,1877,https://en.wikipedia.org/wiki/Nez_Perce_War,NEZ PERCE WAR ENDS,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,1%,1,0.8,15,1,20
