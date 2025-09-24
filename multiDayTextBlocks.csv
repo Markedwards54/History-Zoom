@@ -812,3 +812,5 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,11,1865,2,22,1865,https://en.wikipedia.org/wiki/Battle_of_Wilmington,WILMINGTON,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,23%,1,0.8,25,"2,8,13,18",19
 12,25,1864,12,27,1864,https://en.wikipedia.org/wiki/First_Battle_of_Fort_Fisher,WILMINGTON,2.2em,Arial,TRUE,WHITE,GREY,30,0,10,0,40%,3%,1,0.8,0,1,5000
 6,13,1954,6,19,1954,https://en.wikipedia.org/wiki/Operation_Wetback,OPERATION WETBACK,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,10%,1,0.8,10,1,5000
+11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,PALACE OF,1.7em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,2%,1,0.8,-8,1,5000
+11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,JUSTICE,2em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,7%,1,0.8,30,1,5000
