@@ -296,7 +296,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,29,1913,8,10,1913,https://en.wikipedia.org/wiki/Second_Balkan_War,SECOND BALKAN WAR,2.3em,Arial,TRUE,black,pink,30,0,10,0,40%,12%,1,0.8,0,"3,8",20
 2,9,1913,2,19,1913,https://en.wikipedia.org/wiki/Ten_Tragic_Days,TEN TRAGIC DAYS,2.3em,Arial,TRUE,RED,GREEN,30,0,10,0,40%,18%,1,0.75,0,1,20
 7,23,1914,7,25,1914,https://simple.wikipedia.org/wiki/July_Ultimatum,ULTIMATUM,2.3em,Arial,TRUE,black,red,30,0,10,0,40%,6%,1,0.8,0,1,20
-7,28,1914,7,31,1914,https://en.wikipedia.org/wiki/July_Crisis#Austria-Hungary_declares_war_on_Serbia_(28_July),WWI STARTS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.8,0,1,20
+7,28,1914,7,31,1914,https://en.wikipedia.org/wiki/July_Crisis#Austria-Hungary_declares_war_on_Serbia_(28_July),WWI STARTS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,0%,1,0.8,0,1,20
 8,7,1914,9,6,1914,https://en.wikipedia.org/wiki/Battle_of_the_Frontiers,BATTLE OF THE FRONTEIRS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,5%,1,0.8,15,3,20
 8,23,1914,8,30,1914,https://en.wikipedia.org/wiki/Battle_of_Tannenberg,BATTLE OF TANNENBERG,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,8%,1,0.8,0,1,20
 9,7,1914,9,24,1914,https://en.wikipedia.org/wiki/Battle_of_the_Drina,BATTLE OF THE DRINA,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,8%,1,0.7,0,2,20
@@ -815,3 +815,4 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,13,1954,6,19,1954,https://en.wikipedia.org/wiki/Operation_Wetback,OPERATION WETBACK,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,10%,1,0.8,10,1,5000
 11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,PALACE OF,1.7em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,2%,1,0.8,-8,1,5000
 11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,JUSTICE,2em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,7%,1,0.8,30,1,5000
+8,6,1838,11,1,1838,https://en.wikipedia.org/wiki/1838_Mormon_War,1838 MORMON WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,19%,1,0.8,25,"2,6,12",19
