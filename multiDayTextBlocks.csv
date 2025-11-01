@@ -816,3 +816,5 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,PALACE OF,1.7em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,2%,1,0.8,-8,1,5000
 11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,JUSTICE,2em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,7%,1,0.8,30,1,5000
 8,6,1838,11,1,1838,https://en.wikipedia.org/wiki/1838_Mormon_War,1838 MORMON WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,19%,1,0.8,25,"2,6,12",19
+3,1,1792,4,30,1792,https://en.wikipedia.org/wiki/Panic_of_1792,PANIC OF 1782,2.3em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,25%,1,0.8,10,"2,7",19
+2,1,1534,6,24,1535,https://en.wikipedia.org/wiki/M%C3%BCnster_rebellion,MUNSTER REBELLION,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,1,0.8,10,"2,7,12,17,22,27,32,37,43,48,53,59,64,69,75,80,85",19

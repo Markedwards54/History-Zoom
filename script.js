@@ -1,5 +1,5 @@
 const calendar = document.getElementById('calendar');
-let currentYear = 2025
+let currentYear = 2025  
 ;
 ;
 
@@ -8,6 +8,44 @@ const months = [
   "May", "June", "July", "August", 
   "September", "October", "November", "December"
 ];
+
+// NBER recessions (start and end dates)
+const recessions = [
+    { start: new Date(1785, 0, 1), end: new Date(1788, 11, 31) },
+    { start: new Date(1789, 1, 1), end: new Date(1793, 12, 31) },
+    { start: new Date(1796, 0, 1), end: new Date(1797, 12, 31) },
+    { start: new Date(1802, 2, 25), end: new Date(1804, 11, 31) },
+    { start: new Date(1807, 11, 23), end: new Date(1810, 4, 14) },
+    { start: new Date(1815, 2, 23), end: new Date(1821, 4, 14) },
+    { start: new Date(1837, 0, 1), end: new Date(1837, 11, 31) },
+    { start: new Date(1857, 8, 1), end: new Date(1861, 3, 31) },
+    { start: new Date(1873, 9, 1), end: new Date(1879, 2, 31) },
+    { start: new Date(1882, 2, 1), end: new Date(1885, 4, 31) },
+    { start: new Date(1893, 3, 1), end: new Date(1893, 10, 30) },
+    { start: new Date(1907, 9, 1), end: new Date(1907, 10, 15) },
+    { start: new Date(1920, 0, 1), end: new Date(1921, 6, 31) },
+    { start: new Date(1929, 7, 1), end: new Date(1933, 2, 31) },   // Great Depression
+    { start: new Date(1937, 4, 1), end: new Date(1938, 5, 30) },
+    { start: new Date(1945, 1, 1), end: new Date(1945, 9, 31) },
+    { start: new Date(1948, 10, 1), end: new Date(1949, 9, 31) },
+    { start: new Date(1953, 6, 1), end: new Date(1954, 4, 31) },
+    { start: new Date(1957, 7, 1), end: new Date(1958, 3, 30) },
+    { start: new Date(1960, 3, 1), end: new Date(1961, 1, 28) },
+    { start: new Date(1969, 11, 1), end: new Date(1970, 10, 30) },
+    { start: new Date(1973, 10, 1), end: new Date(1975, 2, 31) },
+    { start: new Date(1980, 0, 1), end: new Date(1980, 6, 31) },
+    { start: new Date(1981, 6, 1), end: new Date(1982, 10, 30) },
+    { start: new Date(1990, 6, 1), end: new Date(1991, 2, 31) },
+    { start: new Date(2001, 2, 1), end: new Date(2001, 10, 30) },
+    { start: new Date(2007, 11, 1), end: new Date(2009, 5, 30) },
+    { start: new Date(2020, 1, 1), end: new Date(2020, 3, 30) }
+];
+
+
+function isRecession(date) {
+    return recessions.some(r => date >= r.start && date <= r.end);
+}
+
 
 const dayLabels = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
@@ -143,7 +181,12 @@ function createMonthGrid(year) {
     dayCell.dataset.year = year;
     dayCell.dataset.month = month + 1;  // month is 0-based, so add 1
     dayCell.dataset.day = day;
-
+        const cellDate = new Date(year, month, day);
+              if (isRecession(cellDate)) {
+            dayCell.style.backgroundColor = 'lightgrey';
+            } else {
+            dayCell.style.backgroundColor = 'white';
+            }
             // Add events dynamically
             events.forEach((event, index) => {
                 if (event.year == year && event.month == month + 1 && event.day == day) {
