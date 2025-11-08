@@ -794,6 +794,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,23,2023,6,24,2023,https://en.wikipedia.org/wiki/Wagner_Group_rebellion,WAGNER,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,0%,1,0.8,0,1,9
 12,18,2024,12,18,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.50%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 11,7,2024,11,7,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.75%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
+10,29,2025,10,29,2025,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-25,4.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 9,18,2024,9,18,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"-50,5.00%",1EM,Arial,TRUE,GREEN,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 7,31,2024,7,31,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 6,12,2024,6,12,2024,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"0,5.50%",1EM,Arial,TRUE,BLACK,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
@@ -818,3 +819,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,6,1838,11,1,1838,https://en.wikipedia.org/wiki/1838_Mormon_War,1838 MORMON WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,19%,1,0.8,25,"2,6,12",19
 3,1,1792,4,30,1792,https://en.wikipedia.org/wiki/Panic_of_1792,PANIC OF 1782,2.3em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,25%,1,0.8,10,"2,7",19
 2,1,1534,6,24,1535,https://en.wikipedia.org/wiki/M%C3%BCnster_rebellion,MUNSTER REBELLION,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,1,0.8,10,"2,7,12,17,22,27,32,37,43,48,53,59,64,69,75,80,85",19
+4,13,70,9,8,70,https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE),SIEGE OF JERUSALEM,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.8,10,"2,5,11,16,21",19
+9,1,132,9,30,132,https://en.wikipedia.org/wiki/Bar_Kokhba_revolt,BAR KOKHBA BEGINS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.8,10,2,19
+7,1,136,7,31,136,https://en.wikipedia.org/wiki/Bar_Kokhba_revolt,BAR KOKHBA BEGINS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,1,0.8,10,2,19
+12,23,1934,12,29,1934,https://en.wikipedia.org/wiki/Trial_of_Neumann_and_Sass,NEUMANN AND SASS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,1,0.8,10,1,19
+,,,,,,,,,,,,,,,,,,,,,,,
