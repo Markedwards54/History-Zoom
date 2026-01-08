@@ -831,4 +831,5 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 11,14,1995,11,19,1995,https://en.wikipedia.org/wiki/1995%E2%80%931996_United_States_federal_government_shutdowns,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,27%,1,0.8,0,1,19
 12,16,1995,12,31,1995,https://en.wikipedia.org/wiki/1995%E2%80%931996_United_States_federal_government_shutdowns,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,31%,1,0.8,0,2,19
 1,1,1996,1,6,1996,https://en.wikipedia.org/wiki/1995%E2%80%931996_United_States_federal_government_shutdowns,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,35%,1,0.8,0,1,19
-,,,,,,,,,,,,,,,,,,,,,,,
+8,17,1942,8,18,1942,https://en.wikipedia.org/wiki/Raid_on_Makin_Island,MAKIN,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,15%,1,0.8,0,1,3001
+10,20,1962,11,21,1962,https://en.wikipedia.org/wiki/Sino-Indian_War,SINO INDIAN WAR,2.3em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,22%,1,0.8,25,5,1
