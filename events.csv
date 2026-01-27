@@ -2053,7 +2053,7 @@ month,day,year,wikiUrl,imageUrl,croptop,cropright,cropbottom,cropleft,positionto
 1,3,1990,https://en.wikipedia.org/wiki/Manuel_Noriega,https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Manuel_Noriega_mug_shot.jpg/220px-Manuel_Noriega_mug_shot.jpg,5,0,19,0,0%,0%,1.1,200
 7,26,1990,https://en.wikipedia.org/wiki/Americans_with_Disabilities_Act_of_1990,https://upsideinnovations.com/wp-content/uploads/2019/12/ADACompliantLogo.jpeg,5,0,19,0,-10%,0%,1.1,200
 12,2,1990,https://en.wikipedia.org/wiki/1990_German_federal_election,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/1990_German_federal_election_-_Results_by_constituency.svg/400px-1990_German_federal_election_-_Results_by_constituency.svg.png,12,40,35,0,15%,25%,1.8,200
-3,9,1990,https://en.wikipedia.org/wiki/Exchange-traded_fund,https://b2broker.com/app/uploads/2023/06/Cover-1.png,22,20,30,20,-15%,0%,1.8,200
+3,9,1990,https://en.wikipedia.org/wiki/Exchange-traded_fund,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi5-j5GQx7hXnAgS3TxXm4s5QPuaVHpFZArA&s,22,20,30,20,0%,0%,1.8,200
 11,25,1990,https://en.wikipedia.org/wiki/1990_Polish_presidential_election,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/1990_Polish_presidential_election_by_Voivodeship_r2.svg/450px-1990_Polish_presidential_election_by_Voivodeship_r2.svg.png,0,0,0,0,-10%,1%,1.1,200
 11,28,1990,https://en.wikipedia.org/wiki/John_Major,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/John_Major_1993_%283%29.jpg/330px-John_Major_1993_%283%29.jpg,5,0,19,0,0%,0%,1.1,200
 8,2,1990,https://en.wikipedia.org/wiki/Iraqi_invasion_of_Kuwait,https://cdn.britannica.com/42/62442-050-C0C5EC45/Kuwait.jpg,22,20,30,20,0%,0%,1.8,200
@@ -2540,7 +2540,7 @@ month,day,year,wikiUrl,imageUrl,croptop,cropright,cropbottom,cropleft,positionto
 12,4,2024,https://en.wikipedia.org/wiki/Killing_of_Brian_Thompson,https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Brian_Thompson.webp/225px-Brian_Thompson.webp.png,5,0,22,0,0%,0%,1.2,200
 12,8,2024,"https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime#:~:text=On%208%20December%202024%2C%20the,the%20Syrian%20revolution%20in%202011.",https://upload.wikimedia.org/wikipedia/commons/c/cd/Syrians_celebrate_the_fall_of_Assad_at_the_Umayyad_mosque%2C_14_December_2024.jpg,0,23,0,23,-8%,0%,2,22
 12,9,2024,https://en.wikipedia.org/wiki/Killing_of_Brian_Thompson#Arrest_and_charges,https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Photo_of_Luigi_Mangione.png/250px-Photo_of_Luigi_Mangione.png,8,0,22,0,0%,0%,1.2,200
-11,15,2024,https://en.wikipedia.org/wiki/Foreign_policy_of_the_second_Donald_Trump_administration#Mar-a-Lago_Accord,https://media4.manhattan-institute.org/wp-content/uploads/stephen-miran-headshot-2.jpg,22,20,30,20,0%,0%,1.8,200
+11,16,2024,https://en.wikipedia.org/wiki/Foreign_policy_of_the_second_Donald_Trump_administration#Mar-a-Lago_Accord,https://media4.manhattan-institute.org/wp-content/uploads/stephen-miran-headshot-2.jpg,22,20,30,20,0%,0%,1.8,200
 2,22,2024,https://en.wikipedia.org/wiki/Murder_of_Laken_Riley,https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Laken_Riley_American_Murder_Victim.jpg/260px-Laken_Riley_American_Murder_Victim.jpg,22,20,30,20,0%,0%,1.8,200
 6,28,2024,https://www.oyez.org/cases/2023/22-451,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSEvstxDU_zMd7BMhhfHUBkH4lVlfDKgRWZQ&s,5,0,19,0,0%,0%,1.15,200
 7,1,2024,https://www.oyez.org/cases/2023/22-1008,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIvLQKZECAuhbYQQKlZN3F76A_Wlw2kP7JJg&s,22,13,50,19,-10%,-5%,1.55,200
@@ -2645,3 +2645,4 @@ month,day,year,wikiUrl,imageUrl,croptop,cropright,cropbottom,cropleft,positionto
 3,1,2023,https://en.wikipedia.org/wiki/Guo_Wengui,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Guo_Wen-gui_in_April_2017.jpg/250px-Guo_Wen-gui_in_April_2017.jpg,22,20,30,20,0%,0%,1.8,200
 1,1,2020,https://en.wikipedia.org/wiki/Huanan_Seafood_Wholesale_Market,https://static-cdn.toi-media.com/www/uploads/2020/04/AP_20021348956758.jpg,22,20,30,20,0%,0%,1.8,200
 3,18,2016,https://en.wikipedia.org/wiki/Bollea_v._Gawker,https://media.assettype.com/tnm%2Fimport%2Fsites%2Fdefault%2Ffiles%2Fgawker-compressed.jpg?w=480&auto=format%2Ccompress&fit=max,0,0,0,0,-10%,0%,1.5,200
+11,15,2024,https://en.wikipedia.org/wiki/Jake_Paul_vs._Mike_Tyson,https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Jake_Paul_vs._Mike_Tyson_fight_poster.jpg/282px-Jake_Paul_vs._Mike_Tyson_fight_poster.jpg,5,0,20,0,0%,0%,1.1,200

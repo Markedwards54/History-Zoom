@@ -437,7 +437,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 5,25,1941,5,27,1941,https://en.wikipedia.org/wiki/Last_battle_of_Bismarck,BISMARCK,2.2em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,8%,1,0.7,-5,1,22
 9,30,1941,1,7,1942,https://en.wikipedia.org/wiki/Battle_of_Moscow,BATTLE OF MOSCOW,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,15%,1,0.8,25,"3,8,15",20
 4,9,1942,4,17,1942,https://en.wikipedia.org/wiki/Bataan_Death_March,BATAAN DEATH MARCH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,1,2,20
-5,4,1942,5,8,1942,https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea,CORAL SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,1,0.8,1,1,20
+5,4,1942,5,8,1942,https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea,CORAL SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,1,0.8,-10,1,20
+5,5,1942,5,6,1942,https://en.wikipedia.org/wiki/Battle_of_Corregidor,CORREGIDOR,1.4EM,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,0%,1,0.7,35,1,20
 5,12,1942,5,28,1942,https://en.wikipedia.org/wiki/Second_Battle_of_Kharkov,2ND BATTLE OF KHARKOV,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,10%,1,0.7,20,2,21
 5,26,1942,6,21,1942,https://en.wikipedia.org/wiki/Battle_of_Gazala,GAZALA,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,40%,1,0.7,0,4,22
 6,4,1942,6,7,1942,https://en.wikipedia.org/wiki/Battle_of_Midway,MIDWAY,3.3em,Arial,TRUE,white,DARKBLUE,30,0,10,0,30%,8%,1,0.9,1,1,22
