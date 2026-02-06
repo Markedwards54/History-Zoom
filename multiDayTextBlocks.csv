@@ -329,8 +329,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 3,14,1916,3,18,1916,https://en.wikipedia.org/wiki/Pancho_Villa_Expedition,PANCHO VILLA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,1,0.8,1,1,21
 5,15,1916,6,10,1916,https://en.wikipedia.org/wiki/Battle_of_Asiago,BATTLE OF ASIAGO,2.4em,Arial,TRUE,black,GREEN,30,0,10,0,40%,15%,1,0.8,25,"2,5",20
 6,11,1916,6,17,1916,https://en.wikipedia.org/wiki/Arab_Revolt,ARAB REVOLT BEGINS,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,15%,1,0.8,25,1,20
-2,21,1916,12,18,1916,https://en.wikipedia.org/wiki/Battle_of_Verdun,BATTLE OF VERDUN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,35%,15%,1,0.7,-12,"1,6,9,15,20,25,32,36,41,47,51",20
-7,1,1916,11,18,1916,https://en.wikipedia.org/wiki/Battle_of_the_Somme,BATTLE OF THE SOMME,2.4em,Arial,TRUE,black,grey,30,0,10,0,40%,15%,1,0.8,30,"2,9,13,18,24",20
+2,21,1916,12,18,1916,https://en.wikipedia.org/wiki/Battle_of_Verdun,BATTLE OF VERDUN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,35%,15%,1,0.7,-12,"1,6,9,15,20,25,32,38,41,47,51",20
+7,1,1916,11,18,1916,https://en.wikipedia.org/wiki/Battle_of_the_Somme,BATTLE OF THE SOMME,2.4em,Arial,TRUE,black,grey,30,0,10,0,40%,15%,1,0.8,30,"2,9,15,18,24",20
 4,24,1916,4,29,1916,https://en.wikipedia.org/wiki/Easter_Rising,EASTER RISING,2.3em,Arial,TRUE,orange,green,30,0,10,0,40%,20%,1,0.8,25,1,20
 2,9,1917,3,20,1917,https://en.wikipedia.org/wiki/Operation_Alberich,OPERATION ALBERICH,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,18%,1,0.7,0,2,20
 3,8,1917,3,16,1917,https://en.wikipedia.org/wiki/February_Revolution,FEBRUARY REVOLUTION,2.3em,Arial,TRUE,black,red,30,0,10,0,40%,3%,1,0.8,30,2,21
@@ -766,7 +766,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,27,2014,3,16,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,3,20
 3,17,2014,3,23,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,8,20
 3,24,2014,3,27,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,1,0.8,0,8,20
-7,8,2014,8,26,2014,https://en.wikipedia.org/wiki/2014_Gaza_War,2014 GAZA WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,25%,1,0.8,0,"2,6",20
+7,8,2014,8,26,2014,https://en.wikipedia.org/wiki/2014_Gaza_War,2014 GAZA WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,25%,1,0.8,0,"2,7",20
 12,16,2015,12,16,2015,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.00%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 12,14,2016,12,14,2016,https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions#,"25,1.25%",1EM,Arial,TRUE,RED,white,30,2,0,21,65%,30%,1,0.45,-29,1,3000
 4,1,2016,4,2,2016,https://en.wikipedia.org/wiki/2016_Nagorno-Karabakh_conflict,APRIL,2.3em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,15%,1,0.8,0,1,9
@@ -847,3 +847,6 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 1,25,2009,1,30,2009,https://en.wikipedia.org/wiki/War_in_Somalia_(2006%E2%80%932009),ETHIOPIA LEAVES SOMALIA,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,15%,1,0.7,30,1,20
 2,1,2009,2,7,2009,https://en.wikipedia.org/wiki/Somali_Civil_War_(2009%E2%80%93present),SOMALIAN CIVIL WAR BEGINS,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,25%,1,0.7,30,1,20
 7,7,1937,7,9,1937,https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident,MARCO POLO,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,2%,1,0.8,0,1,100
+7,26,2009,7,29,2009,https://en.wikipedia.org/wiki/2009_Boko_Haram_uprising,BOKO HARAM,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,15%,1,0.8,0,1,100
+10,7,1952,10,18,1952,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION STARTS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,1,0.8,0,2,100
+10,14,1956,10,21,1956,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,9%,1,0.8,0,1,100
