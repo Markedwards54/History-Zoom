@@ -850,3 +850,18 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 7,26,2009,7,29,2009,https://en.wikipedia.org/wiki/2009_Boko_Haram_uprising,BOKO HARAM,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,15%,1,0.8,0,1,100
 10,7,1952,10,18,1952,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION STARTS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,1,0.8,0,2,100
 10,14,1956,10,21,1956,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,9%,1,0.8,0,1,100
+5,8,1992,5,9,1992,https://en.wikipedia.org/wiki/Battle_of_Shusha_(1992),SHUSHA,2.1em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,9%,1,0.8,0,1,100
+9,27,2020,11,10,2020,https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War,2ND NAGARNO-KARABAKH WAR,2.1em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,2%,1,0.8,0,3,19
+10,16,2016,10,22,2016,https://en.wikipedia.org/wiki/Battle_of_Mosul_(2016%E2%80%932017),BATTLE OF MOSUL BEGINS,2.1em,Arial,TRUE,GREEN,BLACK,30,0,10,0,40%,10%,1,0.8,0,1,19
+7,9,2017,7,20,2017,https://en.wikipedia.org/wiki/Battle_of_Mosul_(2016%E2%80%932017),BATTLE OF MOSUL ENDS,2.1em,Arial,TRUE,GREEN,BLACK,30,0,10,0,40%,14%,1,0.8,0,1,19
+10,9,2016,10,15,2016,https://en.wikipedia.org/wiki/Rohingya_genocide,ROHINGYA GENOCIDE BEGINS,2.1em,Arial,TRUE,BLACK,LIGHTGREEN,30,0,10,0,40%,7%,1,0.8,0,1,19
+6,4,2014,6,10,2014,https://en.wikipedia.org/wiki/Fall_of_Mosul,FALL OF MOSUL,2.1em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,7%,1,0.8,0,1,19
+5,12,1968,6,24,1968,https://en.wikipedia.org/wiki/Poor_People%27s_Campaign,POOR PEOPLE'S CAMPAIGN,2.1em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,10%,1,0.8,0,"1,6",19
+6,17,656,6,28,656,https://en.wikipedia.org/wiki/First_Fitna,FIRST FITNA BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,1,0.8,0,2,100
+1,1,661,1,28,661,https://en.wikipedia.org/wiki/First_Fitna,FIRST FITNA ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,1,0.8,0,2,100
+10,10,680,10,16,680,https://en.wikipedia.org/wiki/Second_Fitna,SECOND FITNA BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,1,0.8,0,1,100
+3,1,692,11,30,692,https://en.wikipedia.org/wiki/Siege_of_Mecca_(692),MECCA CAPTURED SECOND FITNA ENDS,1.7em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,1%,1,0.8,0,"2,7,12,17,22,28,33,38,44",100
+1,1,711,3,31,711,https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Iberian_Peninsula,UMAYYAD INVADES IBERIA,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,10%,1,0.8,0,"2,7,12",100
+6,9,747,6,21,747,https://en.wikipedia.org/wiki/Abbasid_revolution,ABBASID REVOLUTION BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,1,0.8,0,"2,7,12",100
+1,1,750,1,25,750,https://en.wikipedia.org/wiki/Abbasid_revolution,ABBASID REVOLUTION ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,1,0.8,0,2,100
+1,30,1258,2,10,1258,https://en.wikipedia.org/wiki/Siege_of_Baghdad,SIEGE OF BAGHDAD,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,1,0.8,0,3,100
