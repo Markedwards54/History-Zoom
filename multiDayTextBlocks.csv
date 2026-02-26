@@ -868,3 +868,6 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 9,17,2009,10,10,2009,https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission,FCIC BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,35%,1,0.7,20,5,21
 1,1,2011,1,31,2011,https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission,FCIC ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,35%,1,0.7,20,2,21
 8,16,1992,8,29,1992,https://en.wikipedia.org/wiki/Hurricane_Andrew,HURRICANE ANDREW,1.8em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,25%,1,0.7,45,2,21
+4,20,1876,5,26,1876,https://en.wikipedia.org/wiki/April_Uprising_of_1876,BULGARIAN HORRORS,2.3em,Arial,TRUE,black,pink,30,0,10,0,40%,13%,1,0.8,0,"2,5",20
+1,12,1964,1,31,1964,https://en.wikipedia.org/wiki/Massacre_of_Arabs_during_the_Zanzibar_Revolution,ZANZIBAR MASSACRE,2.3em,Arial,TRUE,BLACK,GREEN,30,0,10,0,40%,13%,1,0.8,-10,3,5
+5,1,1851,10,15,1851,https://en.wikipedia.org/wiki/Great_Exhibition,CRYSTAL PALACE EXHIBITION,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,1%,1,0.8,25,"2,7,12,17,23,28",19
