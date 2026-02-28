@@ -479,7 +479,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 9,12,1944,10,21,1944,https://en.wikipedia.org/wiki/Battle_of_Aachen,BATTLE OF AACHEN,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,1,0.7,35,"2,5",20
 9,17,1944,9,25,1944,https://en.wikipedia.org/wiki/Operation_Market_Garden,MARKET GARDEN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,20%,1,0.8,-10,"1,3",21
 10,23,1944,10,26,1944,https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf,LEYTE GULF,2.3em,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,40%,15%,1,0.8,1,1,20
-12,16,1944,1,28,1945,https://en.wikipedia.org/wiki/Battle_of_the_Bulge,BATTLE OF THE BULGE,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,1,0.8,1,"3,5",20
+12,16,1944,1,28,1945,https://en.wikipedia.org/wiki/Battle_of_the_Bulge,BATTLE OF THE BULGE,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,1,0.8,-10,"3,5",20
 2,13,1945,2,15,1945,https://en.wikipedia.org/wiki/Bombing_of_Dresden,DRESDEN,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,12%,1,1,0,1,20
 3,9,1945,3,10,1945,https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945),TOKYO,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,10%,1,1,0,1,21
 2,4,1945,2,11,1945,https://en.wikipedia.org/wiki/Yalta_Conference,YALTA,4em,Arial,TRUE,black,gold,30,0,10,0,30%,33%,1,1,0,1,20
@@ -871,3 +871,13 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 4,20,1876,5,26,1876,https://en.wikipedia.org/wiki/April_Uprising_of_1876,BULGARIAN HORRORS,2.3em,Arial,TRUE,black,pink,30,0,10,0,40%,13%,1,0.8,0,"2,5",20
 1,12,1964,1,31,1964,https://en.wikipedia.org/wiki/Massacre_of_Arabs_during_the_Zanzibar_Revolution,ZANZIBAR MASSACRE,2.3em,Arial,TRUE,BLACK,GREEN,30,0,10,0,40%,13%,1,0.8,-10,3,5
 5,1,1851,10,15,1851,https://en.wikipedia.org/wiki/Great_Exhibition,CRYSTAL PALACE EXHIBITION,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,1%,1,0.8,25,"2,7,12,17,23,28",19
+1,8,1933,1,12,1933,https://en.wikipedia.org/wiki/Anarchist_insurrection_of_January_1933,SPANISH ANARCHY REVOLT,1.8em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,1%,1,0.8,25,1,19
+12,8,1933,12,15,1933,https://en.wikipedia.org/wiki/Anarchist_insurrection_of_December_1933,SPANISH ANARCHY REVOLT,2.1em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,3%,1,0.8,25,2,19
+1,18,1932,1,27,1932,https://en.wikipedia.org/wiki/Alt_Llobregat_insurrection,ALT LLOBREGAT,2.1em,Arial,TRUE,RED,YELLOW,30,0,10,0,47%,3%,1,0.8,25,2,19
+4,12,1934,6,3,1934,https://en.wikipedia.org/wiki/Auto-Lite_strike_(1934),THE BATTLE OF TOLEDO,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,10%,1,0.7,20,"2,6",21
+4,26,1935,8,15,1935,https://en.wikipedia.org/wiki/1935_Pacific_Northwest_lumber_strike,PNW LUMBER STRIKE,2.1em,Arial,TRUE,white,black,30,0,10,0,40%,18%,1,0.7,20,"5,9,15,20",21
+1,15,1935,1,17,1935,https://en.wikipedia.org/wiki/Zunyi_Conference,ZUNYI,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,30%,1,0.7,20,1,21
+12,12,1936,12,26,1936,https://en.wikipedia.org/wiki/Xi%27an_Incident,XI'AN INCIDENT,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,30%,1,0.7,20,2,21
+12,30,1936,2,11,1937,https://en.wikipedia.org/wiki/Flint_sit-down_strike,FLINT SIT-DOWN STRIKE,2.1em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,2,21
+4,19,1944,4,29,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO BEGINS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.8,0,2,20
+12,24,1944,12,31,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO ENDS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.8,30,1,20
