@@ -1,4 +1,7 @@
 startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,fontFamily,bold,color,backgroundColor,croptop,cropright,cropbottom,cropleft,positiontop,positionleft,scale,height,verticalOffset,textWeek,zIndexOverride
+5,1,-1270,5,30,-1270,https://en.wikipedia.org/wiki/Battle_of_Kadesh,BATTLE OF KADESH,2.2em,Arial,TRUE,BLACK,GOLD,30,0,10,0,40%,17%,1,0.8,0,2,20
+1,1,-587,12,31,-587,https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(587_BC),SIEGE OF JERUSALEM,2.2em,Arial,TRUE,BLACK,GOLD,30,0,10,0,40%,17%,1,0.8,0,"2,8,13,18,23,29,34,39,44,49,55,60",20
+1,1,-539,12,31,-539,https://en.wikipedia.org/wiki/Fall_of_Babylon,FALL OF BABYLON,2.2em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,19%,1,0.8,0,"2,7,12,18,23,28,34,39,44,49,54,59",20
 1,1,-492,1,11,-492,https://en.wikipedia.org/wiki/First_Persian_invasion_of_Greece,FIRST PERSIAN INVASION OF GREECE BEGINS,1.5em,Arial,TRUE,BLACK,GOLD,30,0,10,0,45%,2%,1,0.8,0,2,20
 9,1,-490,9,11,-490,https://en.wikipedia.org/wiki/First_Persian_invasion_of_Greece,FIRST PERSIAN INVASION OF GREECE ENDS,1.3em,Arial,TRUE,BLACK,GOLD,30,0,10,0,45%,3%,1,0.8,0,2,20
 1,1,-480,1,10,-480,https://en.wikipedia.org/wiki/Second_Persian_invasion_of_Greece,SECOND PERSIAN INVASION OF GREECE BEGINS,1.4em,Arial,TRUE,BLACK,GOLD,30,0,10,0,45%,3%,1,0.8,0,2,20
@@ -250,7 +253,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 12,25,1864,12,27,1864,https://en.wikipedia.org/wiki/First_Battle_of_Fort_Fisher,WILMINGTON,2.2em,Arial,TRUE,WHITE,GREY,30,0,10,0,40%,3%,1,0.8,0,1,5000
 12,18,1865,12,18,1865,https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution,13,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 1,1,1865,1,7,1865,https://en.wikipedia.org/wiki/Carolinas_campaign,CAROLINAS CAMPAIGN STARTS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,1%,1,0.8,0,1,20
-3,19,1865,3,25,1865,https://en.wikipedia.org/wiki/Siege_of_Petersburg,PETERSBURG ENDS,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,18%,1,0.8,0,1,20
+3,19,1865,3,25,1865,https://en.wikipedia.org/wiki/Siege_of_Petersburg,PETERSBURG ENDS,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,18%,1,0.8,30,1,20
 4,23,1865,4,26,1865,https://en.wikipedia.org/wiki/Carolinas_campaign,CAROLINA ENDS,1.8em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,1%,1,0.8,0,1,20
 2,11,1865,2,22,1865,https://en.wikipedia.org/wiki/Battle_of_Wilmington,WILMINGTON,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,23%,1,0.8,25,"2,8,13,18",19
 8,27,1866,9,15,1866,https://en.wikipedia.org/wiki/Swing_Around_the_Circle,SWING AROUND THE CIRCLE,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,3%,1,0.75,0,3,20
@@ -353,7 +356,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 10,24,1918,11,4,1918,https://en.wikipedia.org/wiki/Battle_of_Vittorio_Veneto,BATTLE OF VITTORIO VENETO,1.65EM,Arial,TRUE,black,GREEN,30,0,10,0,40%,2%,1,0.8,10,2,21
 1,16,1919,1,16,1919,https://en.wikipedia.org/wiki/Eighteenth_Amendment_to_the_United_States_Constitution,18,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 1,5,1919,1,12,1919,https://en.wikipedia.org/wiki/Spartacist_uprising,SPARTACIST UPRISING,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.8,0,1,21
-5,4,1919,5,10,1919,https://en.wikipedia.org/wiki/Syrian_National_Congress,SYRIAN NATIONAL CONGRESS,2.3em,Arial,TRUE,black,TAN,30,0,10,0,40%,1%,1,0.8,25,1,22
+5,11,1919,5,17,1919,https://en.wikipedia.org/wiki/Syrian_National_Congress,SYRIAN NATIONAL CONGRESS,2.3em,Arial,TRUE,black,TAN,30,0,10,0,40%,1%,1,0.8,25,1,22
 1,1,1920,1,10,1920,https://en.wikipedia.org/wiki/Palmer_Raids,PALMER RAIDS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,27%,1,0.8,1,2,20
 3,8,1920,3,13,1920,https://en.wikipedia.org/wiki/Franco-Syrian_War,FRANCO-SYRIAN WAR BEGINS,1.9EM,Arial,TRUE,black,TAN,30,0,10,0,40%,3%,1,0.8,0,1,20
 7,18,1920,7,25,1920,https://en.wikipedia.org/wiki/Franco-Syrian_War,FRANCO-SYRIAN WAR ENDS,1.9EM,Arial,TRUE,black,TAN,30,0,10,0,40%,12%,1,0.8,0,1,20
@@ -374,7 +377,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,26,1924,4,1,1924,https://en.wikipedia.org/wiki/Beer_Hall_Putsch#Trial_and_prison,HITLER ON TRIAL,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.8,25,4,19
 5,12,1926,5,14,1926,https://en.wikipedia.org/wiki/May_Coup_(Poland),MAY COUP,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,10%,1,0.8,25,1,19
 8,1,1927,8,6,1927,https://en.wikipedia.org/wiki/Chinese_Civil_War,CHINESE CIVIL WAR STARTS,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,2%,1,0.7,0,1,20
-8,12,1927,8,15,1927,https://en.wikipedia.org/wiki/Shanghai_massacre,SHANGHAI,1.8em,Arial,TRUE,GOLD,RED,30,0,10,0,45%,0%,1,0.7,0,1,20
+4,12,1927,4,15,1927,https://en.wikipedia.org/wiki/Shanghai_massacre,SHANGHAI,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,25%,1,0.7,0,1,20
 10,18,1927,10,22,1927,https://en.wikipedia.org/wiki/1927%E2%80%931928_Colorado_Coal_Strike,COLORADO COAL STRIKE,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,1,0.7,20,1,21
 8,23,1929,8,29,1929,https://en.wikipedia.org/wiki/1929_Palestine_riots,PALESTINE RIOTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,2,21
 3,12,1930,3,31,1930,https://en.wikipedia.org/wiki/Salt_March,SALT MARCH,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,30%,1,0.8,0,2,20
@@ -881,3 +884,4 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 12,30,1936,2,11,1937,https://en.wikipedia.org/wiki/Flint_sit-down_strike,FLINT SIT-DOWN STRIKE,2.1em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,2,21
 4,19,1944,4,29,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO BEGINS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.8,0,2,20
 12,24,1944,12,31,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO ENDS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.8,30,1,20
+3,19,1865,3,21,1865,https://en.wikipedia.org/wiki/Battle_of_Bentonville,BENTONVILLE,2.1em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,1%,1,0.8,-10,1,20
