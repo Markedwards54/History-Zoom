@@ -885,3 +885,4 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 4,19,1944,4,29,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO BEGINS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.8,0,2,20
 12,24,1944,12,31,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO ENDS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.8,30,1,20
 3,19,1865,3,21,1865,https://en.wikipedia.org/wiki/Battle_of_Bentonville,BENTONVILLE,2.1em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,1%,1,0.8,-10,1,20
+10,25,1949,10,27,1949,https://en.wikipedia.org/wiki/Battle_of_Guningtou,GUGINGTOU,2.3em,Arial,TRUE,RED,BLUE,30,0,10,0,40%,3%,1,0.8,0,1,20
