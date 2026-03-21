@@ -262,7 +262,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,3,1870,2,3,1870,https://en.wikipedia.org/wiki/Fifteenth_Amendment_to_the_United_States_Constitution,15,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,1,1,0,1,80
 3,18,1871,5,28,1871,https://en.wikipedia.org/wiki/Paris_Commune,PARIS COMMUNE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,20%,1,0.8,1,"2,5,11",20
 10,17,1871,4,30,1872,https://en.wikipedia.org/wiki/South_Carolina_Ku_Klux_Klan_trials_of_1871%E2%80%931872,KLAN WAR AND TRIALS,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,13%,1,0.8,0,"5,10,15,20,25,31",9
-9,2,1872,9,7,1872,https://en.wikipedia.org/wiki/Hague_Congress_(1872),HAGUE CONGRESS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,1,0.7,20,1,21
+9,2,1872,9,7,1872,https://en.wikipedia.org/wiki/Hague_Congress_(1872),HAGUE CONGRESS,1.9em,Arial,TRUE,white,RED,30,0,10,0,40%,15%,1,0.7,20,1,21
 9,14,1872,9,16,1872,https://en.wikipedia.org/wiki/St._Imier_Congress,ST IMIER,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,5%,1,0.7,20,2,21
 9,14,1874,9,17,1874,https://en.wikipedia.org/wiki/Battle_of_Liberty_Place,LIBERTY PLACE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,5%,1,0.75,0,1,20
 12,7,1874,1,5,1875,https://en.wikipedia.org/wiki/Vicksburg_massacre,VICKSBURG MASSACRE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,12%,1,0.75,0,2,20
@@ -436,7 +436,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,10,1941,8,12,1941,https://en.wikipedia.org/wiki/Atlantic_Charter,CONFERENCE,1.7EM,Arial,TRUE,black,gold,30,0,10,0,45%,10%,1,0.7,28,1,22
 9,8,1941,9,13,1941,https://en.wikipedia.org/wiki/Siege_of_Leningrad,LENINGRAD SIEGE BEGINS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,1%,1,0.7,0,1,21
 9,15,1941,9,20,1941,https://en.wikipedia.org/wiki/Copenhagen_(play),COPENHAGEN,2.3em,Arial,TRUE,black,GREEN,38,0,10,0,45%,20%,1,0.8,-10,1,21
-11,18,1941,12,30,1941,https://en.wikipedia.org/wiki/Operation_Crusader,OPERATION CRUSADER,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,17%,1,0.7,-10,"2,7",21
+11,16,1941,12,30,1941,https://en.wikipedia.org/wiki/Operation_Crusader,OPERATION CRUSADER,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,14%,1,0.7,-10,"1,7",21
 5,25,1941,5,27,1941,https://en.wikipedia.org/wiki/Last_battle_of_Bismarck,BISMARCK,2.2em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,8%,1,0.7,-5,1,22
 9,30,1941,1,7,1942,https://en.wikipedia.org/wiki/Battle_of_Moscow,BATTLE OF MOSCOW,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,15%,1,0.8,25,"3,8,15",20
 4,9,1942,4,17,1942,https://en.wikipedia.org/wiki/Bataan_Death_March,BATAAN DEATH MARCH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,1,0.8,1,2,20
