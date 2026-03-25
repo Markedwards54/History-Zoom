@@ -625,7 +625,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 9,22,1980,9,30,1980,https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War,IRAN IRAQ WAR STARTS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,12%,1,0.8,1,1,20
 1,11,1981,1,20,1981,https://en.wikipedia.org/wiki/Iran_hostage_crisis,IRAN HOSTAGES RELEASED,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,1,20
 2,2,1982,2,28,1982,https://en.wikipedia.org/wiki/1982_Hama_massacre,HAMA MASSACRE,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,25%,1,0.8,1,2,20
-9,16,1982,9,18,1982,https://en.wikipedia.org/wiki/Sabra_and_Shatila_massacre,SABRA AND SHATILLA,1.3em,Arial,TRUE,red,black,30,0,10,0,50%,3%,1,0.8,1,1,20
+9,16,1982,9,18,1982,https://en.wikipedia.org/wiki/Sabra_and_Shatila_massacre,SABRA AND SHATILA,1.3em,Arial,TRUE,red,black,30,0,10,0,50%,5%,1,0.8,1,1,20
 6,6,1982,6,19,1982,https://en.wikipedia.org/wiki/1982_Lebanon_War,LEBANON WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,1,0.8,0,2,20
 4,2,1982,6,14,1982,https://en.wikipedia.org/wiki/Falklands_War,FALKLANDS WAR,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,22%,1,0.75,35,"2,7",19
 10,25,1983,11,2,1983,https://en.wikipedia.org/wiki/United_States_invasion_of_Grenada,GRENADA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,23%,1,0.8,0,1,20
@@ -637,7 +637,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,JUSTICE,2em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,7%,1,0.8,30,1,5000
 2,22,1986,2,25,1986,https://en.wikipedia.org/wiki/People_Power_Revolution,EDSA,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,28%,1,0.8,1,2,20
 5,3,1987,5,9,1987,https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair,IRAN CONTRA TRIAL STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,1,0.8,0,1,20
-12,9,1987,12,19,1987,https://en.wikipedia.org/wiki/First_Intifada,FIRST INTIFADA BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,1,0.8,0,2,20
+12,9,1987,12,26,1987,https://en.wikipedia.org/wiki/First_Intifada,FIRST INTIFADA BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,1,0.8,0,3,20
 8,14,1988,8,20,1988,https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War,IRAN IRAQ WAR ENDS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,18%,1,0.8,1,1,20
 2,20,1988,2,27,1988,https://en.wikipedia.org/wiki/First_Nagorno-Karabakh_War,FIRST NAGARNO-KARABAKH WAR BEGINS,1.6em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,3%,1,0.8,0,2,9
 2,5,1989,2,15,1989,https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War,SOVIET AFGHAN WAR ENDS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,12%,1,0.8,1,1,20
@@ -886,3 +886,9 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 12,24,1944,12,31,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO ENDS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,1,0.8,30,1,20
 3,19,1865,3,21,1865,https://en.wikipedia.org/wiki/Battle_of_Bentonville,BENTONVILLE,2.1em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,1%,1,0.8,-10,1,20
 10,25,1949,10,27,1949,https://en.wikipedia.org/wiki/Battle_of_Guningtou,GUGINGTOU,2.3em,Arial,TRUE,RED,BLUE,30,0,10,0,40%,3%,1,0.8,0,1,20
+4,11,1960,4,26,1960,https://en.wikipedia.org/wiki/April_Revolution,APRIL REVOLUTION,2.3em,Arial,TRUE,RED,WHITE,30,0,10,0,40%,20%,1,0.8,0,2,20
+10,1,1972,10,7,1972,https://en.wikipedia.org/wiki/October_Restoration,YUSHIN,2.3em,Arial,TRUE,RED,WHITE,30,0,10,0,40%,40%,1,0.8,0,1,20
+10,16,1979,10,20,1979,https://en.wikipedia.org/wiki/Busan%E2%80%93Masan_Uprising,BUSAN-MASAN,2EM,Arial,TRUE,RED,WHITE,30,0,10,0,40%,40%,1,0.8,0,1,20
+6,10,1987,6,29,1987,https://en.wikipedia.org/wiki/June_Democratic_Struggle,JUNE DEMOCRATIC STRUGGLE,2.2em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,2%,1,0.8,0,2,20
+4,3,1963,5,10,1963,https://en.wikipedia.org/wiki/Birmingham_campaign,BIRMINGHAM CAMPAIGN,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.7,20,"4,7",21
+12,20,1989,1,31,1990,https://en.wikipedia.org/wiki/United_States_invasion_of_Panama,US - PANAMA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,30%,1,0.8,20,"2,4",17
