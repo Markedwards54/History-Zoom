@@ -892,3 +892,4 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,10,1987,6,29,1987,https://en.wikipedia.org/wiki/June_Democratic_Struggle,JUNE DEMOCRATIC STRUGGLE,2.2em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,2%,1,0.8,0,2,20
 4,3,1963,5,10,1963,https://en.wikipedia.org/wiki/Birmingham_campaign,BIRMINGHAM CAMPAIGN,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,20%,1,0.7,20,"4,7",21
 12,20,1989,1,31,1990,https://en.wikipedia.org/wiki/United_States_invasion_of_Panama,US - PANAMA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,30%,1,0.8,20,"2,4",17
+8,31,1888,11,9,1888,https://en.wikipedia.org/wiki/Jack_the_Ripper,JACK THE RIPPER MURDERS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,5%,1,0.8,20,"3,9",17
