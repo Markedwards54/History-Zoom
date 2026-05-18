@@ -14,6 +14,12 @@ const API_BASE = IS_LOCAL
   : window.location.origin;
 const CSV_WRITE_URL = API_BASE + '/csv_write.php';
 
+// Show download button only on Render (not needed on localhost)
+if (!IS_LOCAL) {
+  const dl = document.getElementById('download-link');
+  if (dl) dl.style.display = 'inline-block';
+}
+
 // On Render, CSVs are served from persistent disk via csv_serve.php
 // On localhost, fetch directly from project folder
 function csvUrl(filename) {
