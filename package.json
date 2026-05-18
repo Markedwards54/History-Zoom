@@ -1,0 +1,10 @@
+{
+  "name": "history-zoom",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT router.php"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

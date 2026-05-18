@@ -1,12 +1,8 @@
 services:
   - type: web
     name: history-zoom
-    runtime: php
-    buildCommand: echo "ready"
-    startCommand: php -S 0.0.0.0:$PORT router.php
-    envVars:
-      - key: PORT
-        value: 10000
+    runtime: docker
+    dockerfilePath: ./Dockerfile
     disk:
       name: csvdata
       mountPath: /var/data
