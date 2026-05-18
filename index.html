@@ -3,45 +3,252 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yearly Calendar</title>
+  <title>History Zoom</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="calendar-controls">
-    <button class="nav-button" onclick="goBack()">Back</button>
-    <button class="nav-button" onclick="goForward()">Forward</button>
-    <div class="search-controls">
-      <input type="text" id="search-year" placeholder="Enter year">
-      <label>
-        <input type="checkbox" id="is-bce"> BCE
-      </label>
-      <button class="search-button" onclick="searchYear()">Search</button>
+
+  <!-- ── TOP CONTROLS ── -->
+  <div id="controls">
+    <div id="left-controls">
+      <button class="nav-btn" onclick="goBack()" title="Previous year (← key)">◀</button>
+      <button class="nav-btn" onclick="goForward()" title="Next year (→ key)">▶</button>
+      <div id="search-wrap">
+        <input type="text" id="search-year" placeholder="Year…">
+        <label><input type="checkbox" id="is-bce"> BCE</label>
+        <button class="nav-btn" onclick="searchYear()">Go</button>
+      </div>
     </div>
-    <div class="year-select-controls">
-      <select id="year-select" onchange="setYear(this.value)">
-      </select>
+
+    <h1 id="year-display">2026</h1>
+
+    <div id="right-controls">
+      <button id="edit-btn" onclick="toggleEdit()">✏ Edit Mode</button>
+      <button id="undo-edit-btn" onclick="undoLastAction()" style="display:none" disabled title="Undo last change">↩ Undo</button>
+      <button id="cancel-edit-btn" onclick="cancelEditMode()" style="display:none">✕ Cancel</button>
     </div>
   </div>
-  
-  <h1 class="calendar-header">2024</h1>
 
-  <!-- Ensure this div exists for the calendar content -->
+  <!-- ── CALENDAR ── -->
   <div id="calendarContainer">
     <div id="calendar"></div>
   </div>
 
-  <!-- Load Papa Parse for CSV parsing -->
+  <!-- ── CONTEXT MENU ── -->
+  <div id="ctx-menu">
+    <div class="ctx-item" id="ctx-add-ev"   onclick="ctxEvent()" style="display:none">📷 Add Event / Image</div>
+    <div class="ctx-item" id="ctx-add-blk"  onclick="ctxBlock()" style="display:none">📏 Add Text Block</div>
+    <div class="ctx-item" id="ctx-add-fomc" onclick="ctxAddFOMC()" style="display:none">📈 Add Rate Decision</div>
+    <div class="ctx-item" id="ctx-toggle-tw" onclick="ctxToggleTextWeek()" style="display:none">📝 Place text label here</div>
+    <div class="ctx-item ctx-delete" id="ctx-delete-ev"  onclick="ctxDeleteEvent()" style="display:none">🗑 Delete This Image</div>
+    <div class="ctx-item ctx-delete" id="ctx-delete-blk" onclick="ctxDeleteBlock()" style="display:none">🗑 Delete This Block</div>
+  </div>
+
+  <!-- ── MODALS ── -->
+  <div id="modals"></div>
+  <div id="drag-badge"></div>
+
+  <!-- ── EVENT EDITOR PANEL ── -->
+  <div id="event-panel" class="ed-panel">
+    <div class="ed-hdr" id="ep-hdr">
+      <span id="ep-title">ADD EVENT</span>
+      <button onclick="closeEP()">✕</button>
+    </div>
+    <div class="ed-body">
+      <div class="ed-lbl">Date</div>
+      <div class="ed-3">
+        <div class="ed-field"><label>Month</label><input type="number" id="ep-sm" min="1" max="12" oninput="epCSV()"></div>
+        <div class="ed-field"><label>Day</label><input type="number" id="ep-sd" min="1" max="31" oninput="epCSV()"></div>
+        <div class="ed-field"><label>Year</label><input type="number" id="ep-sy" oninput="epCSV()"></div>
+      </div>
+      <!-- Hidden end date fields — kept for CSV compatibility -->
+      <input type="hidden" id="ep-em"><input type="hidden" id="ep-ed"><input type="hidden" id="ep-ey">
+      <div class="ed-lbl">Links</div>
+      <div class="ed-field"><label>Wikipedia URL</label><input type="text" id="ep-wiki" placeholder="https://en.wikipedia.org/wiki/…" oninput="epCSV()"></div>
+      <div class="ed-field"><label>Image URL</label><input type="text" id="ep-img" placeholder="https://…" oninput="epImgChange()"></div>
+      <button onclick="epSaveLinks()" style="width:100%;padding:6px;background:#d4af37;color:#000;border:none;border-radius:4px;font-weight:bold;font-size:11px;cursor:pointer;margin-bottom:2px">💾 Update Links</button>
+      <img id="ep-preview" alt="preview">
+      <div class="hint-box">Images are <strong>not confined to the cell</strong>. Use crop &amp; position to fit multiple images per square.</div>
+      <div class="ed-lbl">Split Presets</div>
+      <div class="ed-presets">
+        <button onclick="epPreset('full')">Full</button>
+        <button onclick="epPreset('top')">Top ½</button>
+        <button onclick="epPreset('bot')">Bot ½</button>
+        <button onclick="epPreset('left')">Left ½</button>
+        <button onclick="epPreset('right')">Right ½</button>
+        <button onclick="epPreset('tl')">↖¼</button>
+        <button onclick="epPreset('tr')">↗¼</button>
+        <button onclick="epPreset('bl')">↙¼</button>
+        <button onclick="epPreset('br')">↘¼</button>
+      </div>
+      <div class="ed-lbl">Crop — % from each edge</div>
+      <div class="ed-srow"><label>Top <span id="v-ct">0</span>%</label><input type="range" id="ep-ct" min="0" max="90" value="0" oninput="sv('ep-ct','v-ct');epLive();epCSV()"></div>
+      <div class="ed-srow"><label>Bottom <span id="v-cb">0</span>%</label><input type="range" id="ep-cb" min="0" max="90" value="0" oninput="sv('ep-cb','v-cb');epLive();epCSV()"></div>
+      <div class="ed-srow"><label>Left <span id="v-cl">0</span>%</label><input type="range" id="ep-cl" min="0" max="90" value="0" oninput="sv('ep-cl','v-cl');epLive();epCSV()"></div>
+      <div class="ed-srow"><label>Right <span id="v-cr">0</span>%</label><input type="range" id="ep-cr" min="0" max="90" value="0" oninput="sv('ep-cr','v-cr');epLive();epCSV()"></div>
+      <div class="ed-lbl">Position &amp; Scale</div>
+      <div class="ed-srow"><label>Top offset <span id="v-pt">0</span>%</label><input type="range" id="ep-pt" min="-200" max="200" value="0" oninput="sv('ep-pt','v-pt');epLive();epCSV()"></div>
+      <div class="ed-srow"><label>Left offset <span id="v-pl">0</span>%</label><input type="range" id="ep-pl" min="-200" max="200" value="0" oninput="sv('ep-pl','v-pl');epLive();epCSV()"></div>
+      <div class="ed-srow"><label>Scale <span id="v-sc">1.00</span>×</label><input type="range" id="ep-sc" min="10" max="500" value="100" oninput="document.getElementById('v-sc').textContent=(this.value/100).toFixed(2);epLive();epCSV()"></div>
+      <div class="ed-srow"><label>Z-Index <span id="v-z">200</span></label><input type="range" id="ep-z" min="1" max="5000" value="200" oninput="sv('ep-z','v-z');epLive();epCSV()"></div>
+      <div class="ed-lbl">Format Tools</div>
+      <div class="ed-2btn">
+        <button class="btn-blue" id="btn-pastefmt" onclick="pasteFmt()" disabled>Paste Format</button>
+        <button class="btn-red" id="btn-cancel" onclick="cancelChanges()">✕ Cancel</button>
+      </div>
+      <div class="ed-2btn">
+        <button class="btn-blue" onclick="saveFmt()">+ Save Format</button>
+        <button class="btn-red" onclick="deleteFmt()">✕ Delete</button>
+      </div>
+      <div class="ed-field">
+        <label>Load Saved Format</label>
+        <select class="ed-select" id="fmt-select" onchange="loadFmt()"><option value="">— Saved Formats —</option></select>
+      </div>
+      <button class="btn-gold" id="ep-add-btn" onclick="epAdd()" style="margin-top:4px">+ Add to Calendar</button>
+      <button class="btn-gold" id="ep-update-btn" onclick="epUpdateDate()" style="display:none;margin-top:4px">📅 Update Date</button>
+      <div class="ed-feedback" id="ep-fb"></div>
+      <div class="ed-csv" id="ep-csv" style="display:none">—</div>
+    </div>
+  </div>
+
+  <!-- ── BLOCK EDITOR PANEL ── -->
+  <div id="block-panel" class="ed-panel">
+    <div class="ed-hdr" id="bp-hdr">
+      <span id="bp-title">ADD TEXT BLOCK</span>
+      <button onclick="closeBP()">✕</button>
+    </div>
+    <div class="ed-body">
+      <div class="ed-lbl">Date Range</div>
+      <div class="ed-3">
+        <div class="ed-field"><label>Start Mo</label><input type="number" id="bp-sm" min="1" max="12" oninput="bpCSV()"></div>
+        <div class="ed-field"><label>Start Day</label><input type="number" id="bp-sd" min="1" max="31" oninput="bpCSV()"></div>
+        <div class="ed-field"><label>Start Yr</label><input type="number" id="bp-sy" oninput="bpCSV()"></div>
+      </div>
+      <div class="ed-3">
+        <div class="ed-field"><label>End Mo</label><input type="number" id="bp-em" min="1" max="12" oninput="bpCSV()"></div>
+        <div class="ed-field"><label>End Day</label><input type="number" id="bp-ed" min="1" max="31" oninput="bpCSV()"></div>
+        <div class="ed-field"><label>End Yr</label><input type="number" id="bp-ey" oninput="bpCSV()"></div>
+      </div>
+      <div class="ed-lbl">Links &amp; Text</div>
+      <div class="ed-field"><label>Wikipedia URL</label><input type="text" id="bp-wiki" placeholder="https://en.wikipedia.org/wiki/…" oninput="bpCSV()"></div>
+      <div class="ed-field"><label>Display Text</label>
+        <div style="display:flex;gap:5px;align-items:center">
+          <input type="text" id="bp-text" placeholder="BATTLE OF HASTINGS" style="flex:1" oninput="bpCSV()">
+          <button class="btn-gold" onclick="bpApplyText()" style="padding:4px 10px;font-size:10px;width:auto;white-space:nowrap">Update ✓</button>
+        </div>
+      </div>
+      <div class="ed-lbl">Color Presets</div>
+      <div class="ed-presets">
+        <button onclick="bpPreset('gold')">Gold</button>
+        <button onclick="bpPreset('war')">War</button>
+        <button onclick="bpPreset('empire')">Empire</button>
+        <button onclick="bpPreset('peace')">Peace</button>
+        <button onclick="bpPreset('dark')">Dark</button>
+      </div>
+      <div class="ed-lbl">Fed Rate Presets</div>
+      <div class="ed-presets">
+        <button onclick="bpPreset('hike')" style="color:#b30000;border-color:#b30000;background:#fff0f0">▲ Hike</button>
+        <button onclick="bpPreset('hold')" style="color:#1a1a2e;border-color:#888;background:#f5f5f0">■ Hold</button>
+        <button onclick="bpPreset('cut')"  style="color:#006400;border-color:#006400;background:#f0fff0">▼ Cut</button>
+      </div>
+      <div class="ed-2btn" style="margin-top:4px">
+        <button class="btn-blue" onclick="bpSavePreset()">+ Save Preset</button>
+        <button class="btn-blue" onclick="bpRenamePreset()">✎ Rename</button>
+      </div>
+      <div class="ed-field">
+        <label>Load Saved Preset</label>
+        <select class="ed-select" id="bp-preset-select" onchange="bpLoadPreset()"><option value="">— Saved Presets —</option></select>
+      </div>
+      <button class="btn-red" onclick="bpDeletePreset()" style="font-size:10px;padding:4px 8px;margin-top:2px;width:100%">✕ Delete Selected Preset</button>
+      <div class="ed-2">
+        <div class="ed-field"><label>Text Color</label><input type="text" id="bp-color" value="BLACK" oninput="bpLive()"></div>
+        <div class="ed-field"><label>Background</label><input type="text" id="bp-bg" value="GOLD" oninput="bpLive()"></div>
+      </div>
+      <div class="ed-srow">
+        <label>Font Size <span id="v-bfs">2.2</span>em</label>
+        <input type="range" id="bp-fs" min="0.5" max="8" step="0.1" value="2.2" oninput="document.getElementById('v-bfs').textContent=parseFloat(this.value).toFixed(1);bpLive()">
+      </div>
+      <div class="ed-field" style="flex-direction:row;align-items:center;gap:5px;margin-top:2px">
+        <input type="checkbox" id="bp-bold" checked onchange="bpLive()">
+        <label for="bp-bold" style="color:#d4af37;font-size:9px;letter-spacing:.06em;text-transform:uppercase">Bold</label>
+      </div>
+      <div class="ed-lbl">Position, Size &amp; Layout</div>
+      <div class="ed-srow"><label>Block Top <span id="v-bpt">40</span>%</label><input type="range" id="bp-pt" min="0" max="100" value="40" oninput="sv('bp-pt','v-bpt');bpLive()"></div>
+      <div class="ed-lbl">Text Position</div>
+      <div class="ed-field" style="flex-direction:row;align-items:center;gap:8px;margin-bottom:4px">
+        <input type="checkbox" id="bp-move-all" style="width:15px;height:15px;cursor:pointer">
+        <label for="bp-move-all" style="color:#d4af37;font-size:10px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer">Move ALL segments together</label>
+      </div>
+      <div class="ed-srow"><label>Text Left <span id="v-bpl">17</span>%</label><input type="range" id="bp-pl" min="-20" max="100" value="17" oninput="sv('bp-pl','v-bpl');bpLive()"></div>
+      <div class="ed-srow"><label>Text Top (within block) <span id="v-bpti">20</span>%</label><input type="range" id="bp-pti" min="0" max="100" value="20" oninput="sv('bp-pti','v-bpti');bpLive()"></div>
+      <div class="ed-srow"><label>Vert Offset <span id="v-bvo">0</span>px</label><input type="range" id="bp-vo" min="-150" max="150" value="0" oninput="sv('bp-vo','v-bvo');bpLive()"></div>
+      <div class="ed-srow"><label>Height <span id="v-bh">0.80</span></label><input type="range" id="bp-h" min="10" max="250" value="80" oninput="document.getElementById('v-bh').textContent=(this.value/100).toFixed(2);bpLive()"></div>
+      <div class="ed-lbl">Vertical Crop</div>
+      <div class="ed-srow"><label>Crop Top <span id="v-bct">0</span>%</label><input type="range" id="bp-ct" min="0" max="49" value="0" oninput="sv('bp-ct','v-bct');bpLive()"></div>
+      <div class="ed-srow"><label>Crop Bottom <span id="v-bcb">0</span>%</label><input type="range" id="bp-cb" min="0" max="49" value="0" oninput="sv('bp-cb','v-bcb');bpLive()"></div>
+      <div class="ed-lbl">Horizontal Crop</div>
+      <div class="ed-srow"><label>Crop Left <span id="v-bcl">0</span>%</label><input type="range" id="bp-cl" min="0" max="99" value="0" oninput="sv('bp-cl','v-bcl');bpLive()"></div>
+      <div class="ed-srow"><label>Crop Right <span id="v-bcr">0</span>%</label><input type="range" id="bp-cr" min="0" max="99" value="0" oninput="sv('bp-cr','v-bcr');bpLive()"></div>
+      <div class="ed-srow"><label>Z-Index <span id="v-bz">20</span></label><input type="range" id="bp-z" min="1" max="5000" value="20" oninput="sv('bp-z','v-bz');bpLive()"></div>
+      <input type="hidden" id="bp-tw" value="1">
+      <button class="btn-gold" id="bp-add-btn" onclick="bpAdd()" style="margin-top:4px">+ Add to Calendar</button>
+      <button class="btn-gold" id="bp-update-btn" onclick="bpUpdateDate()" style="display:none;margin-top:4px">📅 Update Dates</button>
+      <div class="ed-feedback" id="bp-fb"></div>
+      <div class="ed-csv" id="bp-csv" style="display:none">—</div>
+    </div>
+  </div>
+
+  <!-- ── FOMC CONTEXT MENU ── -->
+  <div id="fomc-ctx-menu" style="display:none;position:fixed;background:#1a1a2e;border:1px solid #d4af37;border-radius:6px;z-index:9100;min-width:160px;box-shadow:0 6px 20px rgba(0,0,0,0.5);overflow:hidden;font-family:Arial,sans-serif;">
+    <div style="padding:10px 16px;color:#e88;font-size:13px;cursor:pointer;" onclick="fomcDelete()">🗑 Delete Rate Decision</div>
+  </div>
+
+  <!-- ── FOMC ADD DIALOG ── -->
+  <div id="fomc-dialog" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#1a1a2e;border:1px solid #d4af37;border-radius:8px;z-index:9200;width:280px;box-shadow:0 10px 40px rgba(0,0,0,0.7);font-family:Arial,sans-serif;">
+    <div style="background:linear-gradient(135deg,#b8962e,#d4af37);color:#1a1200;padding:10px 14px;font-weight:bold;font-size:11px;letter-spacing:0.09em;text-transform:uppercase;border-radius:8px 8px 0 0;display:flex;justify-content:space-between;align-items:center;">
+      <span>📈 ADD RATE DECISION</span>
+      <button onclick="fomcDialogClose()" style="background:none;border:none;color:#1a1200;font-size:17px;cursor:pointer;">✕</button>
+    </div>
+    <div style="padding:14px;display:flex;flex-direction:column;gap:10px;">
+      <div style="color:#7a7a9e;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;border-bottom:1px solid #2a2a4e;padding-bottom:3px;">Date</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;">
+        <div style="display:flex;flex-direction:column;gap:3px;">
+          <label style="font-size:9px;color:#7a7a9e;text-transform:uppercase;">Month</label>
+          <input type="number" id="fomc-mo" min="1" max="12" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:4px;color:#e8e0d0;padding:5px;font-size:12px;width:100%;">
+        </div>
+        <div style="display:flex;flex-direction:column;gap:3px;">
+          <label style="font-size:9px;color:#7a7a9e;text-transform:uppercase;">Day</label>
+          <input type="number" id="fomc-dy" min="1" max="31" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:4px;color:#e8e0d0;padding:5px;font-size:12px;width:100%;">
+        </div>
+        <div style="display:flex;flex-direction:column;gap:3px;">
+          <label style="font-size:9px;color:#7a7a9e;text-transform:uppercase;">Year</label>
+          <input type="number" id="fomc-yr" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:4px;color:#e8e0d0;padding:5px;font-size:12px;width:100%;">
+        </div>
+      </div>
+      <div style="color:#7a7a9e;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;border-bottom:1px solid #2a2a4e;padding-bottom:3px;">Decision</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">
+        <div style="display:flex;flex-direction:column;gap:3px;">
+          <label style="font-size:9px;color:#7a7a9e;text-transform:uppercase;">Change (bps)</label>
+          <input type="number" id="fomc-bps" placeholder="e.g. -25, 0, 50" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:4px;color:#e8e0d0;padding:5px;font-size:12px;width:100%;">
+        </div>
+        <div style="display:flex;flex-direction:column;gap:3px;">
+          <label style="font-size:9px;color:#7a7a9e;text-transform:uppercase;">New Rate %</label>
+          <input type="number" id="fomc-rate" step="0.25" placeholder="e.g. 4.50" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:4px;color:#e8e0d0;padding:5px;font-size:12px;width:100%;">
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:2px;">
+        <button onclick="fomcDialogPreset('hike')" style="padding:6px;background:#fff0f0;border:1px solid #e8c0c0;border-radius:4px;color:#b30000;font-weight:bold;font-size:11px;cursor:pointer;">▲ Hike</button>
+        <button onclick="fomcDialogPreset('hold')" style="padding:6px;background:#f5f5f0;border:1px solid #ccc;border-radius:4px;color:#555;font-weight:bold;font-size:11px;cursor:pointer;">■ Hold</button>
+        <button onclick="fomcDialogPreset('cut')"  style="padding:6px;background:#f0fff0;border:1px solid #c0e8c0;border-radius:4px;color:#006400;font-weight:bold;font-size:11px;cursor:pointer;">▼ Cut</button>
+      </div>
+      <div id="fomc-dialog-fb" style="font-size:10px;color:#e88;min-height:14px;text-align:center;"></div>
+      <button onclick="fomcDialogSave()" style="background:linear-gradient(135deg,#b8962e,#d4af37);color:#1a1200;border:none;border-radius:4px;padding:8px;font-weight:bold;font-size:12px;cursor:pointer;width:100%;">+ Add to Calendar</button>
+    </div>
+  </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-
-  <!-- Script to handle calendar functionality and CSV loading -->
   <script src="script.js"></script>
-
-  <!-- Modal and modals container -->
-  <div id="wikiModal" class="modal">
-    <span class="close">&times;</span>
-    <iframe class="modal-content" id="wikiIframe" frameborder="0"></iframe>
-  </div>  
-  <div id="modalsContainer"></div>
+  <script src="fomc.js"></script>
 
 </body>
 </html>
