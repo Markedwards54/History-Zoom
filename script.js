@@ -934,7 +934,7 @@ function ctxDeleteBlock() {
 async function saveEntireCSV(csvFile, rows) {
   showSaveStatus('⏳ Saving…');
   try {
-    const res = await fetch('CSV_WRITE_URL', {
+    const res = await fetch(CSV_WRITE_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ csvFile, replaceAll: true, rows })
@@ -1120,7 +1120,7 @@ async function epSaveLinks() {
   const row = buildEventRow(ev);
 
   try {
-    const res = await fetch('CSV_WRITE_URL', {
+    const res = await fetch(CSV_WRITE_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -1167,7 +1167,7 @@ async function epUpdateDate() {
 
   const row = buildEventRow(ev);
   try {
-    const res = await fetch('CSV_WRITE_URL', {
+    const res = await fetch(CSV_WRITE_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -1211,7 +1211,7 @@ async function bpUpdateDate() {
 
   const row = buildBlockRow(b);
   try {
-    const res = await fetch('CSV_WRITE_URL', {
+    const res = await fetch(CSV_WRITE_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -1358,7 +1358,7 @@ async function epSave() {
     matchYear:     ev ? String(ev.year||'')     : '',
   };
   try {
-    const r = await fetch('CSV_WRITE_URL',
+    const r = await fetch(CSV_WRITE_URL,
       {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)});
     if (!r.ok) { fb('ep-fb', `⚠ Server error ${r.status} — check csv_write.php is in History - Zoom folder`); return; }
     const d = await r.json();
@@ -1792,7 +1792,7 @@ async function bpSave() {
     matchImageUrl: '',
   };
   try {
-    const r = await fetch('CSV_WRITE_URL', {
+    const r = await fetch(CSV_WRITE_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -2610,7 +2610,7 @@ async function autoSaveRow(csvFile, newRow, matchImageUrl, matchMonth, matchDay,
       matchYear:     String(matchYear),
       matchWiki:     matchWiki || '',
     };
-    const res = await fetch('CSV_WRITE_URL', {
+    const res = await fetch(CSV_WRITE_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
