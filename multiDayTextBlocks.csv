@@ -756,6 +756,6 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 4,1,1945,6,25,1945,https://en.wikipedia.org/wiki/Battle_of_Okinawa,OKINAWA,1.8em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,60%,5%,20,0.35,0,1,18
 5,8,1945,5,8,1945,https://en.wikipedia.org/wiki/Victory_in_Europe_Day,VE DAY,2.2em,Arial,TRUE,BLACK,GOLD,0,0,0,0,10%,0%,50,0.8,0,1,30
 6,26,1945,7,2,1945,https://en.wikipedia.org/wiki/United_Nations_Conference_on_International_Organization,LONDON CONF.,1.4em,Arial,TRUE,WHITE,#555,30,0,10,0,40%,5%,20,0.5,0,1,15
-7,17,1945,8,2,1945,https://en.wikipedia.org/wiki/Potsdam_Conference,POTSDAM,1.8em,Arial,TRUE,BLACK,GOLD,30,0,10,0,60%,5%,20,0.35,0,1,24
+7,17,1945,8,2,1945,https://en.wikipedia.org/wiki/Potsdam_Conference,POTSDAM,4em,Arial,TRUE,black,gold,30,0,10,0,30%,19%,60,1.00,-39,2,20
 9,2,1945,9,2,1945,https://en.wikipedia.org/wiki/Victory_over_Japan_Day,VJ DAY,2.2em,Arial,TRUE,BLACK,GOLD,0,0,0,0,10%,0%,50,0.8,0,1,30
-11,20,1945,12,8,1945,https://en.wikipedia.org/wiki/Nuremberg_trials,NUREMBERG TRIALS,1.4em,Arial,TRUE,WHITE,#444,30,0,10,0,40%,5%,20,0.5,0,1,20
+11,20,1945,12,8,1945,https://en.wikipedia.org/wiki/Nuremberg_trials,NUREMBERG TRIALS BEGIN,2em,Arial,TRUE,black,grey,30,0,10,0,40%,8%,61,0.80,-44,4,8

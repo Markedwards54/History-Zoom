@@ -1927,6 +1927,31 @@ function blockRect(block) {
 }
 
 // ── IMAGE — click to select, drag body to move, handles to scale ──
+// ── SNAP HELPERS ──────────────────────────────────────────────
+// Snap a value to the nearest multiple of `step`
+function snapTo(val, step) {
+  return Math.round(val / step) * step;
+}
+
+// Snap image position: 10% grid for pt/pl
+// If within 15% of 0,0 snap all the way to 0,0 (top-left anchor)
+function snapImgPos(pt, pl) {
+  const snappedPt = snapTo(pt, 10);
+  const snappedPl = snapTo(pl, 10);
+  // Bonus: if very close to 0,0 snap to exact 0,0
+  return {
+    pt: Math.abs(snappedPt) <= 5 ? 0 : snappedPt,
+    pl: Math.abs(snappedPl) <= 5 ? 0 : snappedPl,
+  };
+}
+
+// Snap block vertical offset to nearest cell-height increment
+// cellH is the pixel height of one day cell
+function snapBlockVo(vo, cellH) {
+  const step = Math.round(cellH / 4); // snap to quarter-cell increments
+  return snapTo(vo, step);
+}
+
 function attachImgDrag(img, ev) {
 
   img.addEventListener('click', e => {
@@ -1969,7 +1994,9 @@ function attachImgDrag(img, ev) {
       img.style.top  = ev.pt + '%';
       img.style.left = ev.pl + '%';
       refreshSelection(imgVisualRect(img, ev));
-      showBadge(e.clientX, e.clientY, `top:${ev.pt}%  left:${ev.pl}%`);
+      const snappedPreview = snapImgPos(ev.pt, ev.pl);
+      showBadge(e.clientX, e.clientY,
+        `top:${ev.pt}%→${snappedPreview.pt}%  left:${ev.pl}%→${snappedPreview.pl}%`);
       const pt = document.getElementById('ep-pt');
       const pl = document.getElementById('ep-pl');
       if (pt) { pt.value = ev.pt; sv('ep-pt','v-pt'); }
@@ -1981,6 +2008,20 @@ function attachImgDrag(img, ev) {
       window.removeEventListener('mouseup',   onUp);
       hideBadge();
       if (!moved) return;
+
+      // Snap to nearest 10% grid on release
+      const snapped = snapImgPos(ev.pt, ev.pl);
+      ev.pt = snapped.pt;
+      ev.pl = snapped.pl;
+      img.style.top  = ev.pt + '%';
+      img.style.left = ev.pl + '%';
+
+      // Update sliders to show snapped values
+      const pt = document.getElementById('ep-pt');
+      const pl = document.getElementById('ep-pl');
+      if (pt) { pt.value = ev.pt; sv('ep-pt','v-pt'); }
+      if (pl) { pl.value = ev.pl; sv('ep-pl','v-pl'); }
+
       pushUndoSnapshot();
       refreshSelection(imgVisualRect(img, ev));
       await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year);
@@ -2158,7 +2199,21 @@ function attachBlockDrag(el, block) {
       window.removeEventListener('mouseup',   onUp);
       hideBadge();
       if (!moved) return;
+
+      // Snap vertical offset to quarter-cell increments
+      const cellH = el._cellH || 100;
+      block.vo = snapBlockVo(block.vo, cellH);
+      liveUpdateBlock(block);
       refreshSelection();
+
+      // Update slider to show snapped value
+      const vo = document.getElementById('bp-vo');
+      if (vo) { vo.value = block.vo; sv('bp-vo','v-bvo'); }
+
+      showBadge(el.getBoundingClientRect().left, el.getBoundingClientRect().top,
+                `snapped offset: ${block.vo}px`);
+      setTimeout(hideBadge, 800);
+
       await autoSaveRow('multiDayTextBlocks.csv', buildBlockRow(block), null, block.sm, block.sd, block.sy, block.wiki);
     };
 
