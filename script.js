@@ -1936,104 +1936,6 @@ function blockRect(block) {
 }
 
 // ── IMAGE — click to select, drag body to move, handles to scale ──
-// ── SNAP & ALIGNMENT GUIDE SYSTEM ────────────────────────────
-// Snap zones: within SNAP_PX pixels of a cell edge, lock to that edge
-const SNAP_THRESHOLD = 18; // % of cell — within this distance snaps to edge
-
-function snapImgPos(pt, pl) {
-  // Snap to cell edges (0% = top/left edge, 100% = bottom/right edge)
-  // Also snap to center (50%)
-  const snapPoints = [0, 50, 100];
-
-  function nearest(val) {
-    let best = val, bestDist = SNAP_THRESHOLD + 1;
-    for (const sp of snapPoints) {
-      const d = Math.abs(val - sp);
-      if (d < bestDist) { bestDist = d; best = sp; }
-    }
-    return bestDist <= SNAP_THRESHOLD ? best : val;
-  }
-
-  return { pt: nearest(pt), pl: nearest(pl) };
-}
-
-function snapBlockVo(vo, cellH) {
-  const step = Math.round(cellH / 4);
-  return Math.round(vo / step) * step;
-}
-
-// ── Alignment guides ─────────────────────────────────────────
-// Creates thin overlay lines showing where cell edges are while dragging
-let guideEls = [];
-
-function showAlignGuides(cell) {
-  hideAlignGuides();
-  if (!cell) return;
-  const r = cell.getBoundingClientRect();
-
-  // Lines to show: top, bottom, left, right, center-H, center-V
-  const lines = [
-    { x1:r.left, y1:r.top,              x2:r.right,  y2:r.top,              label:'top'      },
-    { x1:r.left, y1:r.bottom,           x2:r.right,  y2:r.bottom,           label:'bottom'   },
-    { x1:r.left, y1:r.top,              x2:r.left,   y2:r.bottom,           label:'left'     },
-    { x1:r.right,y1:r.top,              x2:r.right,  y2:r.bottom,           label:'right'    },
-    { x1:r.left, y1:r.top+r.height/2,   x2:r.right,  y2:r.top+r.height/2,  label:'centerH'  },
-    { x1:r.left+r.width/2,y1:r.top,     x2:r.left+r.width/2, y2:r.bottom,  label:'centerV'  },
-  ];
-
-  lines.forEach(ln => {
-    const el = document.createElement('div');
-    el.className = 'align-guide';
-    const isH = ln.y1 === ln.y2;
-    if (isH) {
-      el.style.cssText = `
-        position:fixed; pointer-events:none; z-index:99998;
-        left:${ln.x1}px; top:${ln.y1}px;
-        width:${ln.x2 - ln.x1}px; height:1px;
-        background: rgba(212,175,55,0.7);
-        box-shadow: 0 0 3px rgba(212,175,55,0.5);
-      `;
-    } else {
-      el.style.cssText = `
-        position:fixed; pointer-events:none; z-index:99998;
-        left:${ln.x1}px; top:${ln.y1}px;
-        width:1px; height:${ln.y2 - ln.y1}px;
-        background: rgba(212,175,55,0.7);
-        box-shadow: 0 0 3px rgba(212,175,55,0.5);
-      `;
-    }
-    // Highlight the guide that will snap
-    el.dataset.label = ln.label;
-    document.body.appendChild(el);
-    guideEls.push(el);
-  });
-}
-
-function highlightGuides(pt, pl) {
-  // Highlight guides that are within snap threshold
-  guideEls.forEach(el => {
-    const lbl = el.dataset.label;
-    const active =
-      (lbl === 'top'     && Math.abs(pt - 0)   <= SNAP_THRESHOLD) ||
-      (lbl === 'bottom'  && Math.abs(pt - 100) <= SNAP_THRESHOLD) ||
-      (lbl === 'centerH' && Math.abs(pt - 50)  <= SNAP_THRESHOLD) ||
-      (lbl === 'left'    && Math.abs(pl - 0)   <= SNAP_THRESHOLD) ||
-      (lbl === 'right'   && Math.abs(pl - 100) <= SNAP_THRESHOLD) ||
-      (lbl === 'centerV' && Math.abs(pl - 50)  <= SNAP_THRESHOLD);
-    el.style.background = active
-      ? 'rgba(255,80,80,0.9)'      // red = will snap here
-      : 'rgba(212,175,55,0.4)';    // gold = cell edge guide
-    el.style.height = (el.style.width === '1px')
-      ? el.style.height
-      : (active ? '2px' : '1px');
-  });
-}
-
-function hideAlignGuides() {
-  guideEls.forEach(el => el.remove());
-  guideEls = [];
-}
-
 function attachImgDrag(img, ev) {
 
   img.addEventListener('click', e => {
@@ -2070,26 +1972,13 @@ function attachImgDrag(img, ev) {
     const onMove = e => {
       const dx = e.clientX - startX, dy = e.clientY - startY;
       if (!moved && Math.abs(dx) < 3 && Math.abs(dy) < 3) return;
-      if (!moved) {
-        moved = true;
-        showAlignGuides(cell); // show cell boundary guides on first move
-      }
+      moved = true;
       ev.pt = Math.round(startPt + (dy / cellH) * 100);
       ev.pl = Math.round(startPl + (dx / cellW) * 100);
       img.style.top  = ev.pt + '%';
       img.style.left = ev.pl + '%';
       refreshSelection(imgVisualRect(img, ev));
-
-      // Highlight guides that will snap
-      highlightGuides(ev.pt, ev.pl);
-
-      const snapped = snapImgPos(ev.pt, ev.pl);
-      const snapMsg =
-        (snapped.pt !== ev.pt || snapped.pl !== ev.pl)
-          ? `→ snap ${snapped.pt}%, ${snapped.pl}%`
-          : `${ev.pt}%, ${ev.pl}%`;
-      showBadge(e.clientX, e.clientY, snapMsg);
-
+      showBadge(e.clientX, e.clientY, `top:${ev.pt}%  left:${ev.pl}%`);
       const pt = document.getElementById('ep-pt');
       const pl = document.getElementById('ep-pl');
       if (pt) { pt.value = ev.pt; sv('ep-pt','v-pt'); }
@@ -2099,23 +1988,8 @@ function attachImgDrag(img, ev) {
     const onUp = async () => {
       window.removeEventListener('mousemove', onMove);
       window.removeEventListener('mouseup',   onUp);
-      hideAlignGuides();
       hideBadge();
       if (!moved) return;
-
-      // Snap to nearest cell edge / center on release
-      const snapped = snapImgPos(ev.pt, ev.pl);
-      ev.pt = snapped.pt;
-      ev.pl = snapped.pl;
-      img.style.top  = ev.pt + '%';
-      img.style.left = ev.pl + '%';
-
-      // Update sliders
-      const pt = document.getElementById('ep-pt');
-      const pl = document.getElementById('ep-pl');
-      if (pt) { pt.value = ev.pt; sv('ep-pt','v-pt'); }
-      if (pl) { pl.value = ev.pl; sv('ep-pl','v-pl'); }
-
       pushUndoSnapshot();
       refreshSelection(imgVisualRect(img, ev));
       await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year);
@@ -2293,21 +2167,10 @@ function attachBlockDrag(el, block) {
       window.removeEventListener('mouseup',   onUp);
       hideBadge();
       if (!moved) return;
-
-      // Snap vertical offset to quarter-cell increments
-      const cellH = el._cellH || 100;
-      block.vo = snapBlockVo(block.vo, cellH);
       liveUpdateBlock(block);
       refreshSelection();
-
-      // Update slider to show snapped value
       const vo = document.getElementById('bp-vo');
       if (vo) { vo.value = block.vo; sv('bp-vo','v-bvo'); }
-
-      showBadge(el.getBoundingClientRect().left, el.getBoundingClientRect().top,
-                `snapped offset: ${block.vo}px`);
-      setTimeout(hideBadge, 800);
-
       await autoSaveRow('multiDayTextBlocks.csv', buildBlockRow(block), null, block.sm, block.sd, block.sy, block.wiki);
     };
 
