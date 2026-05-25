@@ -18,6 +18,8 @@ const CSV_WRITE_URL = API_BASE + '/csv_write.php';
 if (!IS_LOCAL) {
   const dl = document.getElementById('download-link');
   if (dl) dl.style.display = 'inline-block';
+  const bl = document.getElementById('backup-link');
+  if (bl) bl.style.display = 'inline-block';
 }
 
 // On Render, CSVs are served from persistent disk via csv_serve.php
@@ -257,6 +259,13 @@ function buildCalendar() {
       const dt = new Date(currentYear, mo-1, d);
       if (isRecession(dt)) cell.classList.add('recession');
       cell.textContent = d;
+
+      // Click the day number (not an image) → open On This Day
+      cell.addEventListener('click', e => {
+        if (editMode) return;
+        // Only trigger if clicking the cell background/number, not an image or block
+        if (e.target === cell) showOnThisDay(mo, d);
+      });
 
       // Attach events for this day
       EVENTS.forEach(ev => {
@@ -1927,29 +1936,102 @@ function blockRect(block) {
 }
 
 // ── IMAGE — click to select, drag body to move, handles to scale ──
-// ── SNAP HELPERS ──────────────────────────────────────────────
-// Snap a value to the nearest multiple of `step`
-function snapTo(val, step) {
-  return Math.round(val / step) * step;
-}
+// ── SNAP & ALIGNMENT GUIDE SYSTEM ────────────────────────────
+// Snap zones: within SNAP_PX pixels of a cell edge, lock to that edge
+const SNAP_THRESHOLD = 18; // % of cell — within this distance snaps to edge
 
-// Snap image position: 10% grid for pt/pl
-// If within 15% of 0,0 snap all the way to 0,0 (top-left anchor)
 function snapImgPos(pt, pl) {
-  const snappedPt = snapTo(pt, 10);
-  const snappedPl = snapTo(pl, 10);
-  // Bonus: if very close to 0,0 snap to exact 0,0
-  return {
-    pt: Math.abs(snappedPt) <= 5 ? 0 : snappedPt,
-    pl: Math.abs(snappedPl) <= 5 ? 0 : snappedPl,
-  };
+  // Snap to cell edges (0% = top/left edge, 100% = bottom/right edge)
+  // Also snap to center (50%)
+  const snapPoints = [0, 50, 100];
+
+  function nearest(val) {
+    let best = val, bestDist = SNAP_THRESHOLD + 1;
+    for (const sp of snapPoints) {
+      const d = Math.abs(val - sp);
+      if (d < bestDist) { bestDist = d; best = sp; }
+    }
+    return bestDist <= SNAP_THRESHOLD ? best : val;
+  }
+
+  return { pt: nearest(pt), pl: nearest(pl) };
 }
 
-// Snap block vertical offset to nearest cell-height increment
-// cellH is the pixel height of one day cell
 function snapBlockVo(vo, cellH) {
-  const step = Math.round(cellH / 4); // snap to quarter-cell increments
-  return snapTo(vo, step);
+  const step = Math.round(cellH / 4);
+  return Math.round(vo / step) * step;
+}
+
+// ── Alignment guides ─────────────────────────────────────────
+// Creates thin overlay lines showing where cell edges are while dragging
+let guideEls = [];
+
+function showAlignGuides(cell) {
+  hideAlignGuides();
+  if (!cell) return;
+  const r = cell.getBoundingClientRect();
+
+  // Lines to show: top, bottom, left, right, center-H, center-V
+  const lines = [
+    { x1:r.left, y1:r.top,              x2:r.right,  y2:r.top,              label:'top'      },
+    { x1:r.left, y1:r.bottom,           x2:r.right,  y2:r.bottom,           label:'bottom'   },
+    { x1:r.left, y1:r.top,              x2:r.left,   y2:r.bottom,           label:'left'     },
+    { x1:r.right,y1:r.top,              x2:r.right,  y2:r.bottom,           label:'right'    },
+    { x1:r.left, y1:r.top+r.height/2,   x2:r.right,  y2:r.top+r.height/2,  label:'centerH'  },
+    { x1:r.left+r.width/2,y1:r.top,     x2:r.left+r.width/2, y2:r.bottom,  label:'centerV'  },
+  ];
+
+  lines.forEach(ln => {
+    const el = document.createElement('div');
+    el.className = 'align-guide';
+    const isH = ln.y1 === ln.y2;
+    if (isH) {
+      el.style.cssText = `
+        position:fixed; pointer-events:none; z-index:99998;
+        left:${ln.x1}px; top:${ln.y1}px;
+        width:${ln.x2 - ln.x1}px; height:1px;
+        background: rgba(212,175,55,0.7);
+        box-shadow: 0 0 3px rgba(212,175,55,0.5);
+      `;
+    } else {
+      el.style.cssText = `
+        position:fixed; pointer-events:none; z-index:99998;
+        left:${ln.x1}px; top:${ln.y1}px;
+        width:1px; height:${ln.y2 - ln.y1}px;
+        background: rgba(212,175,55,0.7);
+        box-shadow: 0 0 3px rgba(212,175,55,0.5);
+      `;
+    }
+    // Highlight the guide that will snap
+    el.dataset.label = ln.label;
+    document.body.appendChild(el);
+    guideEls.push(el);
+  });
+}
+
+function highlightGuides(pt, pl) {
+  // Highlight guides that are within snap threshold
+  guideEls.forEach(el => {
+    const lbl = el.dataset.label;
+    const active =
+      (lbl === 'top'     && Math.abs(pt - 0)   <= SNAP_THRESHOLD) ||
+      (lbl === 'bottom'  && Math.abs(pt - 100) <= SNAP_THRESHOLD) ||
+      (lbl === 'centerH' && Math.abs(pt - 50)  <= SNAP_THRESHOLD) ||
+      (lbl === 'left'    && Math.abs(pl - 0)   <= SNAP_THRESHOLD) ||
+      (lbl === 'right'   && Math.abs(pl - 100) <= SNAP_THRESHOLD) ||
+      (lbl === 'centerV' && Math.abs(pl - 50)  <= SNAP_THRESHOLD);
+    el.style.background = active
+      ? 'rgba(255,80,80,0.9)'      // red = will snap here
+      : 'rgba(212,175,55,0.4)';    // gold = cell edge guide
+    el.style.height = (el.style.width === '1px')
+      ? el.style.height
+      : (active ? '2px' : '1px');
+  });
+}
+
+function hideAlignGuides() {
+  guideEls.forEach(el => el.remove());
+  guideEls = [];
 }
 
 function attachImgDrag(img, ev) {
@@ -1988,15 +2070,26 @@ function attachImgDrag(img, ev) {
     const onMove = e => {
       const dx = e.clientX - startX, dy = e.clientY - startY;
       if (!moved && Math.abs(dx) < 3 && Math.abs(dy) < 3) return;
-      moved = true;
+      if (!moved) {
+        moved = true;
+        showAlignGuides(cell); // show cell boundary guides on first move
+      }
       ev.pt = Math.round(startPt + (dy / cellH) * 100);
       ev.pl = Math.round(startPl + (dx / cellW) * 100);
       img.style.top  = ev.pt + '%';
       img.style.left = ev.pl + '%';
       refreshSelection(imgVisualRect(img, ev));
-      const snappedPreview = snapImgPos(ev.pt, ev.pl);
-      showBadge(e.clientX, e.clientY,
-        `top:${ev.pt}%→${snappedPreview.pt}%  left:${ev.pl}%→${snappedPreview.pl}%`);
+
+      // Highlight guides that will snap
+      highlightGuides(ev.pt, ev.pl);
+
+      const snapped = snapImgPos(ev.pt, ev.pl);
+      const snapMsg =
+        (snapped.pt !== ev.pt || snapped.pl !== ev.pl)
+          ? `→ snap ${snapped.pt}%, ${snapped.pl}%`
+          : `${ev.pt}%, ${ev.pl}%`;
+      showBadge(e.clientX, e.clientY, snapMsg);
+
       const pt = document.getElementById('ep-pt');
       const pl = document.getElementById('ep-pl');
       if (pt) { pt.value = ev.pt; sv('ep-pt','v-pt'); }
@@ -2006,17 +2099,18 @@ function attachImgDrag(img, ev) {
     const onUp = async () => {
       window.removeEventListener('mousemove', onMove);
       window.removeEventListener('mouseup',   onUp);
+      hideAlignGuides();
       hideBadge();
       if (!moved) return;
 
-      // Snap to nearest 10% grid on release
+      // Snap to nearest cell edge / center on release
       const snapped = snapImgPos(ev.pt, ev.pl);
       ev.pt = snapped.pt;
       ev.pl = snapped.pl;
       img.style.top  = ev.pt + '%';
       img.style.left = ev.pl + '%';
 
-      // Update sliders to show snapped values
+      // Update sliders
       const pt = document.getElementById('ep-pt');
       const pl = document.getElementById('ep-pl');
       if (pt) { pt.value = ev.pt; sv('ep-pt','v-pt'); }
@@ -2713,4 +2807,177 @@ window.addEventListener('load', () => {
     zoomRefreshTimer = setTimeout(() => { renderBlocks(); }, 250);
   });
   zoomObserver.observe(document.body);
+});
+
+// ══════════════════════════════════════════════════════════════
+// ON THIS DAY — shows all events on today's month/day
+// across every year in the CSV data
+// ══════════════════════════════════════════════════════════════
+
+// ══════════════════════════════════════════════════════════════
+// ON THIS DAY
+// ══════════════════════════════════════════════════════════════
+
+let otdMonth = null, otdDay = null;
+
+function openOnThisDay() {
+  const now = new Date();
+  showOnThisDay(now.getMonth() + 1, now.getDate());
+}
+
+// Only show block on its END date if text ends with these words
+function blockEndsSignificant(text) {
+  return /\b(ENDS?|ENDED|CONCLUDES?|CONCLUDED|FALLS?|FELL|SURRENDERS?|SURRENDERED|LIBERATED|LIBERATION)\s*$/i.test(text.trim());
+}
+
+// Only show block on its START date if text ends with these words
+function blockStartSignificant(text) {
+  return /\b(BEGINS?|BEGUN|STARTED?|LAUNCHES?|LAUNCHED|OPENS?|OPENED|COMMENCES?|COMMENCED)\s*$/i.test(text.trim());
+}
+
+function showOnThisDay(mo, dy) {
+  otdMonth = mo; otdDay = dy;
+
+  const monthNames = ['','January','February','March','April','May','June',
+                      'July','August','September','October','November','December'];
+  const ordinal = dy + (dy===1||dy===21||dy===31?'st':dy===2||dy===22?'nd':dy===3||dy===23?'rd':'th');
+
+  document.getElementById('otd-title').textContent = monthNames[mo] + ' ' + ordinal;
+
+  // Sync date picker
+  const moSel = document.getElementById('otd-mo-select');
+  const dySel = document.getElementById('otd-dy-select');
+  if (moSel) moSel.value = mo;
+  if (dySel) { dySel.innerHTML = ''; for (let i=1;i<=31;i++){const o=document.createElement('option');o.value=i;o.textContent=i;dySel.appendChild(o);} dySel.value = dy; }
+
+  const entries = [];
+
+  // 1. Image events
+  EVENTS.forEach(ev => {
+    if (parseInt(ev.month)===mo && parseInt(ev.day)===dy) {
+      entries.push({ year:ev.year, type:'event', label:wikiTitle(ev.wikiUrl), wiki:ev.wikiUrl, note:'' });
+    }
+  });
+
+  // 2. Text blocks with smart filtering
+  multiDayTextBlocks.forEach(b => {
+    const text = b.text||'';
+    const isSingle = (b.sy===b.ey && b.sm===b.em && b.sd===b.ed);
+    const endsOnly  = blockEndsSignificant(text);
+    const startOnly = blockStartSignificant(text);
+
+    // Start date match — skip if block text says it only matters when it ENDS
+    if (b.sm===mo && b.sd===dy && !endsOnly) {
+      entries.push({ year:b.sy, type:'block-start', label:text, wiki:b.wiki,
+                     note: isSingle?'':('begins'), color:b.bg, textColor:b.color });
+    }
+    // End date match (not single-day) — skip if block text says it only matters when it STARTS
+    if (!isSingle && b.em===mo && b.ed===dy && !startOnly) {
+      entries.push({ year:b.ey, type:'block-end', label:text, wiki:b.wiki,
+                     note:'ends', color:b.bg, textColor:b.color });
+    }
+  });
+
+  // 3. FOMC
+  if (typeof fomcData!=='undefined') {
+    fomcData.forEach(f => {
+      if (f.month===mo && f.day===dy) {
+        const dir  = f.bps>0?'▲ Hike':f.bps<0?'▼ Cut':'― Hold';
+        const col  = f.bps>0?'#fff0f0':f.bps<0?'#f0fff0':'#f5f5f0';
+        const tcol = f.bps>0?'#b30000':f.bps<0?'#006400':'#333';
+        entries.push({ year:f.year, type:'fomc', label:`Fed Rate: ${dir} → ${f.rate}%`,
+                       wiki:'https://en.wikipedia.org/wiki/History_of_Federal_Open_Market_Committee_actions',
+                       note: f.bps!==0?`${f.bps>0?'+':''}${f.bps}bp`:'no change', color:col, textColor:tcol });
+      }
+    });
+  }
+
+  entries.sort((a,b) => a.year - b.year);
+
+  const count = document.getElementById('otd-count');
+  count.textContent = entries.length
+    ? `${entries.length} event${entries.length!==1?'s':''} found across history`
+    : 'No events found for this date';
+
+  const list = document.getElementById('otd-list');
+  list.innerHTML = '';
+
+  if (!entries.length) {
+    list.innerHTML = '<div style="padding:40px;text-align:center;color:#3a3a5e;font-style:italic;">Nothing recorded on this date yet.</div>';
+  }
+
+  let lastCentury = null;
+  entries.forEach(entry => {
+    const century = Math.floor(Math.abs(entry.year)/100)*100;
+    const cLbl = entry.year<0?(century+100)+'s BC':century+'s';
+    if (cLbl!==lastCentury && entries.length>6) {
+      const sep=document.createElement('div');
+      sep.style.cssText='padding:4px 18px;font-size:10px;color:#4a4a6e;letter-spacing:0.1em;text-transform:uppercase;background:#0d0d1e;border-bottom:1px solid #1a1a3e;';
+      sep.textContent=cLbl; list.appendChild(sep); lastCentury=cLbl;
+    }
+    const row=document.createElement('div');
+    row.style.cssText='display:flex;align-items:flex-start;gap:12px;padding:11px 18px;border-bottom:1px solid #1a1a3e;cursor:pointer;transition:background 0.1s;';
+    row.onmouseenter=()=>row.style.background='#0d0d2e';
+    row.onmouseleave=()=>row.style.background='';
+    const yb=document.createElement('div');
+    yb.style.cssText=`flex-shrink:0;min-width:52px;text-align:center;padding:3px 6px;border-radius:4px;font-weight:bold;font-size:12px;background:${entry.color||'#2a1a4e'};color:${entry.textColor||'#c8a8ff'};border:1px solid rgba(255,255,255,0.1);`;
+    yb.textContent=entry.year<0?Math.abs(entry.year)+' BC':entry.year;
+    const icon=entry.type==='event'?'📷':entry.type==='block-start'?'▶':entry.type==='block-end'?'■':entry.type==='fomc'?'📈':'•';
+    const txt=document.createElement('div');
+    txt.style.cssText='flex:1;';
+    txt.innerHTML=`<div style="color:#e8e0d0;font-size:13px;font-weight:bold;line-height:1.3;">${icon} ${entry.label}</div>${entry.note?`<div style="color:#7a7a9e;font-size:11px;margin-top:2px;">${entry.note}</div>`:''}`;
+    row.onclick=()=>{ closeOnThisDay(); setYear(entry.year); if(entry.wiki) setTimeout(()=>openWiki(entry.wiki),400); };
+    row.appendChild(yb); row.appendChild(txt); list.appendChild(row);
+  });
+
+  document.getElementById('otd-modal').style.display = 'block';
+}
+
+function closeOnThisDay(e) {
+  if (e && e.target !== document.getElementById('otd-modal')) return;
+  document.getElementById('otd-modal').style.display = 'none';
+}
+
+function wikiTitle(url) {
+  if (!url) return 'Unknown event';
+  try {
+    const path = new URL(url).pathname;
+    const raw  = path.split('/wiki/')[1] || '';
+    return decodeURIComponent(raw).replace(/_/g,' ').replace(/#.*$/,'').trim() || url;
+  } catch { return url; }
+}
+
+// ── OTD modal: draggable via header bar ──────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  const bar   = document.getElementById('otd-drag-bar');
+  const inner = document.getElementById('otd-inner');
+  if (!bar || !inner) return;
+
+  let dragging = false, ox = 0, oy = 0;
+
+  bar.addEventListener('mousedown', e => {
+    if (e.target.tagName === 'BUTTON') return;
+    dragging = true;
+    // Convert center-transform to absolute position first
+    const r = inner.getBoundingClientRect();
+    inner.style.transform = 'none';
+    inner.style.left = r.left + 'px';
+    inner.style.top  = r.top  + 'px';
+    ox = e.clientX - r.left;
+    oy = e.clientY - r.top;
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', e => {
+    if (!dragging) return;
+    inner.style.left = (e.clientX - ox) + 'px';
+    inner.style.top  = (e.clientY - oy) + 'px';
+  });
+
+  document.addEventListener('mouseup', () => { dragging = false; });
+
+  // Escape key closes
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') document.getElementById('otd-modal').style.display = 'none';
+  });
 });

@@ -19,25 +19,57 @@ if (!in_array($f, ['events.csv', 'multiDayTextBlocks.csv', 'fomc.csv'])) {
     echo '{"success":false,"error":"bad file"}'; exit;
 }
 
-// ── Path resolution ─────────────────────────────────────────────
-// On Render: persistent disk at /var/data, project files at /app (or __DIR__)
-// On XAMPP:  everything in the same folder
-// Strategy: check for persistent disk first, fall back to __DIR__
-
+// ── Path resolution ─────────────────────────────────────────
 $persistentDir = '/var/data';
 $projectDir    = __DIR__;
+$isRender      = is_dir($persistentDir) && is_writable($persistentDir);
 
-if (is_dir($persistentDir) && is_writable($persistentDir)) {
-    // Render persistent disk — copy seed file on first run
-    $filePath = $persistentDir . '/' . $f;
+if ($isRender) {
+    $filePath  = $persistentDir . '/' . $f;
+    $backupDir = $persistentDir . '/backups';
     if (!file_exists($filePath)) {
-        // First run: copy from project directory to persistent disk
         $seed = $projectDir . '/' . $f;
         if (file_exists($seed)) copy($seed, $filePath);
     }
 } else {
-    // Local XAMPP
-    $filePath = $projectDir . '/' . $f;
+    $filePath  = $projectDir . '/' . $f;
+    $backupDir = $projectDir . '/backups';
+}
+
+// ── Backup function ─────────────────────────────────────────
+// Keeps last 20 timestamped backups per file
+function makeBackup($filePath, $backupDir, $filename) {
+    if (!file_exists($filePath)) return;
+    if (!is_dir($backupDir)) mkdir($backupDir, 0755, true);
+
+    // Daily backup — one per day per file
+    $today    = date('Y-m-d');
+    $dayStamp = $backupDir . '/' . $filename . '.' . $today . '.bak';
+    if (!file_exists($dayStamp)) {
+        copy($filePath, $dayStamp);
+    }
+
+    // Frequent backup — one per 15 minutes
+    $stamp    = date('Y-m-d_Hi'); // e.g. 2026-05-23_1430
+    // Round to nearest 15 min
+    $min      = (int)date('i');
+    $slot     = str_pad(floor($min / 15) * 15, 2, '0', STR_PAD_LEFT);
+    $freqStamp = $backupDir . '/' . $filename . '.' . date('Y-m-d_H') . $slot . '.bak';
+    copy($filePath, $freqStamp);
+
+    // Prune — keep only last 20 frequent backups per file (not daily ones)
+    $pattern = $backupDir . '/' . $filename . '.*.bak';
+    $files   = glob($pattern);
+    if ($files && count($files) > 20) {
+        usort($files, fn($a,$b) => filemtime($a) - filemtime($b));
+        $toDelete = array_slice($files, 0, count($files) - 20);
+        foreach ($toDelete as $old) {
+            // Never delete daily backups
+            if (!preg_match('/\d{4}-\d{2}-\d{2}\.bak$/', $old)) {
+                @unlink($old);
+            }
+        }
+    }
 }
 
 if (!file_exists($filePath)) {
@@ -45,8 +77,9 @@ if (!file_exists($filePath)) {
     exit;
 }
 
-// ── REPLACE ALL MODE (deletes, undos) ────────────────────────────
+// ── REPLACE ALL MODE ────────────────────────────────────────
 if (!empty($data['replaceAll']) && isset($data['rows'])) {
+    makeBackup($filePath, $backupDir, $f);
     $fp = fopen($filePath, 'c+');
     if (!$fp) { echo '{"success":false,"error":"cannot open"}'; exit; }
     flock($fp, LOCK_EX);
@@ -62,9 +95,12 @@ if (!empty($data['replaceAll']) && isset($data['rows'])) {
     echo '{"success":true,"mode":"replaced"}'; exit;
 }
 
-// ── SINGLE ROW UPDATE / APPEND ───────────────────────────────────
+// ── SINGLE ROW UPDATE / APPEND ──────────────────────────────
 $row = trim($data['newRow'] ?? '');
 if (!$row) { echo '{"success":false,"error":"no row"}'; exit; }
+
+// Make backup BEFORE writing
+makeBackup($filePath, $backupDir, $f);
 
 $mm = trim($data['matchMonth']    ?? '');
 $md = trim($data['matchDay']      ?? '');
@@ -81,7 +117,7 @@ $allLines = explode("\n", str_replace("\r", "", $content));
 $lines    = [];
 foreach ($allLines as $line) { if (trim($line) !== '') $lines[] = $line; }
 
-$found = false;
+$found   = false;
 $newCols = str_getcsv($row);
 
 if ($mm !== '' && $md !== '' && $my !== '') {
@@ -109,7 +145,7 @@ if ($mm !== '' && $md !== '' && $my !== '') {
         }
     } elseif ($f === 'fomc.csv') {
         foreach ($lines as $i => $line) {
-            $t = trim($line); if ($t === '' || $t[0] === 'm') continue; // skip header
+            $t = trim($line); if ($t === '' || $t[0] === 'm') continue;
             $c = str_getcsv($t);
             if (trim($c[0]??'') == $mm && trim($c[1]??'') == $md && trim($c[2]??'') == $my) {
                 $lines[$i] = $row; $found = true; break;
@@ -132,7 +168,6 @@ if ($mm !== '' && $md !== '' && $my !== '') {
 }
 
 if (!$found) $lines[] = $row;
-
 $lines = array_values($lines);
 $out   = implode("\r\n", $lines) . "\r\n";
 ftruncate($fp, 0); rewind($fp);
