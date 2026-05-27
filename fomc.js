@@ -123,13 +123,16 @@ function makeFomcLabel(entry) {
     label.innerHTML = `<span class="fomc-rate">${entry.rate}</span>`;
   }
 
-  // Tooltip: use enhanced description if available, otherwise basic info
+  // Tooltip: check override first, then built-in, then basic
   const tooltipKey = `${entry.month},${entry.day},${entry.year}`;
-  const enhanced = FOMC_TOOLTIPS[tooltipKey];
+  const override  = getFomcTooltipOverride(entry);
+  const enhanced  = FOMC_TOOLTIPS[tooltipKey];
   const dir = entry.bps > 0 ? 'Hike' : entry.bps < 0 ? 'Cut' : 'Hold';
-  label.title = enhanced
-    ? `${dir} — ${enhanced}`
-    : `Fed Rate Decision: ${entry.bps > 0 ? '+' : ''}${entry.bps}bp → ${entry.rate}%`;
+  label.title = override
+    ? override
+    : enhanced
+      ? `${dir} — ${enhanced}`
+      : `${dir}: ${entry.bps > 0 ? '+' : ''}${entry.bps}bp → ${entry.rate}%`;
   label.dataset.month = entry.month;
   label.dataset.day   = entry.day;
   label.dataset.year  = entry.year;
@@ -165,6 +168,71 @@ function hideFomcCtx() {
   const m = document.getElementById('fomc-ctx-menu');
   if (m) m.style.display = 'none';
   fomcCtxTarget = null;
+}
+
+// ── FOMC Tooltip storage ──────────────────────────────────────
+const FOMC_TOOLTIP_OVERRIDE_KEY = 'hz_fomc_tooltips';
+
+function getFomcTooltipStore() {
+  try { return JSON.parse(localStorage.getItem(FOMC_TOOLTIP_OVERRIDE_KEY) || '{}'); } catch { return {}; }
+}
+function getFomcTooltipOverride(entry) {
+  return getFomcTooltipStore()[`${entry.month},${entry.day},${entry.year}`] || null;
+}
+function setFomcTooltipOverride(entry, text) {
+  const store = getFomcTooltipStore();
+  const key = `${entry.month},${entry.day},${entry.year}`;
+  if (text) store[key] = text; else delete store[key];
+  localStorage.setItem(FOMC_TOOLTIP_OVERRIDE_KEY, JSON.stringify(store));
+}
+
+function fomcEditTooltip() {
+  const entry = fomcCtxTarget; // save BEFORE hideFomcCtx clears it
+  hideFomcCtx();
+  if (!entry) return;
+  fomcCtxTarget = entry; // restore so tooltip save can use it
+  const key     = `${entry.month},${entry.day},${entry.year}`;
+  const builtin = FOMC_TOOLTIPS[key] || null;
+  const override = getFomcTooltipOverride(entry);
+  const dir = entry.bps > 0 ? 'Hike' : entry.bps < 0 ? 'Cut' : 'Hold';
+  const defaultText = builtin
+    ? `${dir} — ${builtin}`
+    : `${dir} ${entry.bps > 0 ? '+' : ''}${entry.bps}bp → ${entry.rate}%`;
+  document.getElementById('fomc-tooltip-text').value = override || defaultText;
+  document.getElementById('fomc-tooltip-dialog').style.display = 'block';
+}
+
+function fomcTooltipReset() {
+  if (!fomcCtxTarget) return;
+  setFomcTooltipOverride(fomcCtxTarget, null);
+  // Reset the label title in DOM
+  document.querySelectorAll('.fomc-label').forEach(lbl => {
+    if (+lbl.dataset.month === fomcCtxTarget.month &&
+        +lbl.dataset.day   === fomcCtxTarget.day   &&
+        +lbl.dataset.year  === fomcCtxTarget.year) {
+      const key = `${fomcCtxTarget.month},${fomcCtxTarget.day},${fomcCtxTarget.year}`;
+      const builtin = FOMC_TOOLTIPS[key] || null;
+      const dir = fomcCtxTarget.bps > 0 ? 'Hike' : fomcCtxTarget.bps < 0 ? 'Cut' : 'Hold';
+      lbl.title = builtin ? `${dir} — ${builtin}` : `${dir} ${fomcCtxTarget.bps > 0?'+':''}${fomcCtxTarget.bps}bp → ${fomcCtxTarget.rate}%`;
+    }
+  });
+  document.getElementById('fomc-tooltip-dialog').style.display = 'none';
+}
+
+function fomcTooltipSave() {
+  if (!fomcCtxTarget) return;
+  const text = document.getElementById('fomc-tooltip-text').value.trim();
+  setFomcTooltipOverride(fomcCtxTarget, text || null);
+  // Update the label title in DOM immediately
+  document.querySelectorAll('.fomc-label').forEach(lbl => {
+    if (+lbl.dataset.month === fomcCtxTarget.month &&
+        +lbl.dataset.day   === fomcCtxTarget.day   &&
+        +lbl.dataset.year  === fomcCtxTarget.year) {
+      lbl.title = text || lbl.title;
+    }
+  });
+  document.getElementById('fomc-tooltip-dialog').style.display = 'none';
+  if (typeof showSaveStatus === 'function') showSaveStatus('✓ Tooltip saved');
 }
 
 function fomcDelete() {

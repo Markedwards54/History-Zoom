@@ -121,7 +121,25 @@
         <select class="ed-select" id="fmt-select" onchange="loadFmt()"><option value="">— Saved Formats —</option></select>
       </div>
       <button class="btn-gold" id="ep-add-btn" onclick="epAdd()" style="margin-top:4px">+ Add to Calendar</button>
-      <button class="btn-gold" id="ep-update-btn" onclick="epUpdateDate()" style="display:none;margin-top:4px">📅 Update Date</button>
+      <!-- Move to New Date — shown when editing existing event -->
+      <div id="ep-move-date-section" style="display:none;margin-top:8px;background:#0d0d1e;border:1px solid #2a2a4e;border-radius:6px;padding:8px;">
+        <div style="color:#d4af37;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px;">📅 Move to New Date</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;margin-bottom:6px;">
+          <div style="display:flex;flex-direction:column;gap:2px;">
+            <label style="font-size:9px;color:#7a7a9e;">Month</label>
+            <input type="number" id="ep-new-mo" min="1" max="12" style="background:#1a1a2e;border:1px solid #3a3a6e;border-radius:3px;color:#e8e0d0;padding:4px;font-size:12px;width:100%;">
+          </div>
+          <div style="display:flex;flex-direction:column;gap:2px;">
+            <label style="font-size:9px;color:#7a7a9e;">Day</label>
+            <input type="number" id="ep-new-dy" min="1" max="31" style="background:#1a1a2e;border:1px solid #3a3a6e;border-radius:3px;color:#e8e0d0;padding:4px;font-size:12px;width:100%;">
+          </div>
+          <div style="display:flex;flex-direction:column;gap:2px;">
+            <label style="font-size:9px;color:#7a7a9e;">Year</label>
+            <input type="number" id="ep-new-yr" style="background:#1a1a2e;border:1px solid #3a3a6e;border-radius:3px;color:#e8e0d0;padding:4px;font-size:12px;width:100%;">
+          </div>
+        </div>
+        <button id="ep-update-btn" onclick="epUpdateDate()" style="width:100%;padding:6px;background:#2a1a4e;border:1px solid #8a6aae;border-radius:4px;color:#c8a8ff;font-weight:bold;font-size:11px;cursor:pointer;">📅 Move Event to This Date</button>
+      </div>
       <div class="ed-feedback" id="ep-fb"></div>
       <div class="ed-csv" id="ep-csv" style="display:none">—</div>
     </div>
@@ -248,8 +266,30 @@
       </div>
     </div>
   </div>
-  <div id="fomc-ctx-menu" style="display:none;position:fixed;background:#1a1a2e;border:1px solid #d4af37;border-radius:6px;z-index:9100;min-width:160px;box-shadow:0 6px 20px rgba(0,0,0,0.5);overflow:hidden;font-family:Arial,sans-serif;">
+  <div id="fomc-ctx-menu" style="display:none;position:fixed;background:#1a1a2e;border:1px solid #d4af37;border-radius:6px;z-index:9100;min-width:180px;box-shadow:0 6px 20px rgba(0,0,0,0.5);overflow:hidden;font-family:Arial,sans-serif;">
+    <div style="padding:10px 16px;color:#d4af37;font-size:13px;cursor:pointer;border-bottom:1px solid #2a2a4e;" onclick="fomcEditTooltip()">✏ Edit Tooltip</div>
     <div style="padding:10px 16px;color:#e88;font-size:13px;cursor:pointer;" onclick="fomcDelete()">🗑 Delete Rate Decision</div>
+  </div>
+
+  <!-- FOMC tooltip edit dialog -->
+  <div id="fomc-tooltip-dialog" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+       background:#1a1a2e;border:1px solid #d4af37;border-radius:8px;z-index:9300;width:340px;
+       box-shadow:0 10px 40px rgba(0,0,0,0.7);font-family:Arial,sans-serif;">
+    <div style="background:linear-gradient(135deg,#b8962e,#d4af37);color:#1a1200;padding:10px 14px;font-weight:bold;font-size:11px;letter-spacing:0.09em;text-transform:uppercase;border-radius:8px 8px 0 0;display:flex;justify-content:space-between;align-items:center;">
+      <span>✏ Edit FOMC Tooltip</span>
+      <button onclick="document.getElementById('fomc-tooltip-dialog').style.display='none'" style="background:none;border:none;color:#1a1200;font-size:17px;cursor:pointer;">✕</button>
+    </div>
+    <div style="padding:14px;display:flex;flex-direction:column;gap:10px;">
+      <div style="color:#7a7a9e;font-size:11px;">Shown when cursor rests on the rate decision box</div>
+      <textarea id="fomc-tooltip-text" rows="3"
+        style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:4px;color:#e8e0d0;padding:8px;font-size:12px;width:100%;resize:vertical;font-family:Arial,sans-serif;"></textarea>
+      <div style="display:flex;gap:8px;">
+        <button onclick="fomcTooltipReset()"
+          style="flex:1;padding:7px;background:#0d0d1e;border:1px solid #2a2a4e;border-radius:4px;color:#7a7a9e;font-size:11px;cursor:pointer;">↺ Reset to default</button>
+        <button onclick="fomcTooltipSave()"
+          style="flex:1;padding:7px;background:linear-gradient(135deg,#b8962e,#d4af37);border:none;border-radius:4px;color:#1a1200;font-weight:bold;font-size:11px;cursor:pointer;">✓ Save</button>
+      </div>
+    </div>
   </div>
 
   <!-- ── FOMC ADD DIALOG ── -->

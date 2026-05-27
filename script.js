@@ -12,7 +12,11 @@ const IS_LOCAL = window.location.hostname === 'localhost' ||
 const API_BASE = IS_LOCAL
   ? `http://${window.location.hostname}:${window.location.port || 8080}`
   : window.location.origin;
-const CSV_WRITE_URL = API_BASE + '/csv_write.php';
+// On localhost: csv_write.php lives in the same folder as this script
+// On Render: it's at the root, served by router.php
+const CSV_WRITE_URL = IS_LOCAL
+  ? window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '/csv_write.php')
+  : API_BASE + '/csv_write.php';
 
 // Show download button only on Render (not needed on localhost)
 if (!IS_LOCAL) {
@@ -30,7 +34,18 @@ function csvUrl(filename) {
 }
 
 // ─── STATE ────────────────────────────────────────────────────
-let currentYear = parseInt(localStorage.getItem('hz_year') || '2026', 10);
+// Guard against year=0 saved in localStorage from accidental navigation
+let _savedYear = parseInt(localStorage.getItem('hz_year') || '2026', 10);
+if (isNaN(_savedYear)) { _savedYear = 2026; localStorage.setItem('hz_year', '2026'); }
+let currentYear = _savedYear;
+
+// ── Date helper — fixes JS bug where new Date(year<100) adds 1900 ──
+// Always use this instead of new Date(year, month, day)
+function makeDate(year, month1based, day) {
+  const d = new Date(0);
+  d.setFullYear(year, month1based - 1, day || 1);
+  return d;
+}
 let events             = [];   // loaded from events.csv
 let multiDayTextBlocks = [];   // loaded from multiDayTextBlocks.csv
 
@@ -212,8 +227,12 @@ function exitEditMode() {
 const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const DAYS   = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
-function daysInMonth(m, y) { return new Date(y, m, 0).getDate(); }
-function firstDay(m, y)    { return new Date(y, m-1, 1).getDay(); }
+function daysInMonth(m, y) {
+  const d = new Date(0); d.setFullYear(y, m, 0); return d.getDate();
+}
+function firstDay(m, y) {
+  const d = new Date(0); d.setFullYear(y, m-1, 1); return d.getDay();
+}
 function isRecession(d)    { return ALL_RECESSIONS.some(r => d >= r.start && d <= r.end); }
 
 function buildCalendar() {
@@ -262,7 +281,7 @@ function buildCalendar() {
       cell.dataset.month = mo;
       cell.dataset.day   = d;
       cell.dataset.year  = currentYear;
-      const dt = new Date(currentYear, mo-1, d);
+      const dt = makeDate(currentYear, mo, d);
       if (isRecession(dt)) cell.classList.add('recession');
       cell.textContent = d;
 
@@ -384,13 +403,21 @@ function renderBlocks() {
 
   BLOCKS.forEach(block => {
     // Skip malformed blocks with year=0 or NaN
-    if (!block.sy || isNaN(block.sy) || block.sy === 0) return;
+    if (!block.sy || isNaN(block.sy) || block.sy === 0) {
+      console.warn('[renderBlocks] SKIPPED year=0 block:', block.text, 'sy:', block.sy);
+      return;
+    }
+
+    // Log if this block overlaps year 0 somehow
+    if (currentYear === 0 || block.sy === 0 || block.ey === 0) {
+      console.warn('[renderBlocks] year=0 involvement:', block.text, 'sy:', block.sy, 'ey:', block.ey, 'currentYear:', currentYear);
+    }
 
     // Determine which days of currentYear this block covers
-    const blockStart = new Date(block.sy, block.sm-1, block.sd);
-    const blockEnd   = new Date(block.ey, block.em-1, block.ed);
-    const yearStart  = new Date(currentYear, 0, 1);
-    const yearEnd    = new Date(currentYear, 11, 31);
+    const blockStart = makeDate(block.sy, block.sm, block.sd);
+    const blockEnd   = makeDate(block.ey, block.em, block.ed);
+    const yearStart  = makeDate(currentYear, 1, 1);
+    const yearEnd    = makeDate(currentYear, 12, 31);
 
     // Only render if block overlaps this year
     if (blockEnd < yearStart || blockStart > yearEnd) return;
@@ -1025,6 +1052,7 @@ function sv(inputId, spanId) { // slider → span value
 function openEP(mo, dy, yr, img, ev, triggerEl) {
   closeAllPanels();
   epTarget = img ? {img, ev} : null;
+  console.log('[openEP] img:', !!img, 'ev:', !!ev, 'mo:', mo, 'dy:', dy, 'yr:', yr);
 
   // Snapshot original date+wiki for UPDATE matching
   epOriginal = ev ? { month: ev.month, day: ev.day, year: ev.year,
@@ -1064,8 +1092,15 @@ function openEP(mo, dy, yr, img, ev, triggerEl) {
 
   epImgChange();
   epCSV();
-  document.getElementById('ep-add-btn').style.display    = img ? 'none'  : 'block';
-  document.getElementById('ep-update-btn').style.display  = img ? 'block' : 'none';
+  document.getElementById('ep-add-btn').style.display         = img ? 'none'  : 'block';
+  document.getElementById('ep-move-date-section').style.display = img ? 'block' : 'none';
+
+  // Pre-fill new date fields with the event's current date
+  if (ev) {
+    document.getElementById('ep-new-mo').value = ev.month;
+    document.getElementById('ep-new-dy').value = ev.day;
+    document.getElementById('ep-new-yr').value = ev.year;
+  }
   document.getElementById('ep-fb').textContent = '';
   document.getElementById('event-panel').classList.add('open');
 
@@ -1199,10 +1234,19 @@ async function epSaveLinks() {
 async function epUpdateDate() {
   if (!epTarget || !epOriginal) { fb('ep-fb', '⚠ No event selected'); return; }
   const ev  = epTarget.ev;
-  const g   = id => +document.getElementById(id).value;
-  const newMonth = g('ep-sm'), newDay = g('ep-sd'), newYear = g('ep-sy');
+
+  // Read from the dedicated "Move to New Date" fields
+  const newMonth = +document.getElementById('ep-new-mo').value;
+  const newDay   = +document.getElementById('ep-new-dy').value;
+  const newYear  = +document.getElementById('ep-new-yr').value;
+
+  console.log('[epUpdateDate] moving from', epOriginal.month, epOriginal.day, epOriginal.year,
+              'to', newMonth, newDay, newYear);
 
   if (!newMonth || !newDay || !newYear) { fb('ep-fb', '⚠ Enter a valid date'); return; }
+  if (newMonth === ev.month && newDay === ev.day && newYear === ev.year) {
+    fb('ep-fb', '⚠ Date is the same — change the date first'); return;
+  }
 
   pushUndoSnapshot();
 
@@ -1210,6 +1254,8 @@ async function epUpdateDate() {
   ev.month = newMonth; ev.day = newDay; ev.year = newYear;
 
   const row = buildEventRow(ev);
+  console.log('[epUpdateDate] built row:', row);
+  console.log('[epUpdateDate] matching against day:', epOriginal.day, 'wiki:', epOriginal.wiki?.slice(30));
   try {
     const res = await fetch(CSV_WRITE_URL, {
       method: 'POST',
@@ -1225,9 +1271,8 @@ async function epUpdateDate() {
       })
     });
     const data = await res.json();
+    console.log('[epUpdateDate] PHP response:', JSON.stringify(data));
     if (data.success) {
-      showSaveStatus(`✓ ${data.mode}`);
-      fb('ep-fb', '✓ Date updated — reloading…');
       epOriginal = { month: newMonth, day: newDay, year: newYear,
                      wiki: ev.wikiUrl, imageUrl: ev.imageUrl };
       setTimeout(() => location.reload(), 800);
@@ -1337,8 +1382,8 @@ function epCSV() {
   const multi = (v.sm !== v.em || v.sd !== v.ed || v.sy !== v.ey);
   if (multi) {
     const rows = [];
-    const s = new Date(v.sy, v.sm-1, v.sd);
-    const e = new Date(v.ey, v.em-1, v.ed);
+    const s = makeDate(v.sy, v.sm, v.sd);
+    const e = makeDate(v.ey, v.em, v.ed);
     for (let d=new Date(s); d<=e && rows.length<365; d.setDate(d.getDate()+1))
       rows.push(`${d.getMonth()+1},${d.getDate()},${d.getFullYear()},${v.wiki},${v.img},${v.ct},${v.cr},${v.cb},${v.cl},${v.pt}%,${v.pl}%,${v.sc},${v.z}`);
     document.getElementById('ep-csv').textContent = rows.join('\n');
@@ -1363,8 +1408,8 @@ async function epAdd() {
   const v = epGetVals();
   if (!v.img) { fb('ep-fb','⚠ Paste an image URL first'); return; }
   pushUndoSnapshot();
-  const s = new Date(v.sy, v.sm-1, v.sd);
-  const e = new Date(v.ey, v.em-1, v.ed);
+  const s = makeDate(v.sy, v.sm, v.sd);
+  const e = makeDate(v.ey, v.em, v.ed);
   let count = 0;
   const added = [];
   for (let d=new Date(s); d<=e && count<365; d.setDate(d.getDate()+1), count++) {
@@ -2686,6 +2731,7 @@ async function autoSaveRow(csvFile, newRow, matchImageUrl, matchMonth, matchDay,
     if (data.success) {
       const color = data.mode === 'appended' ? '#f90' : '#d4af37';
       showSaveStatus(`✓ ${data.mode}`, false, color);
+      if (data.debug && data.debug !== 'n/a') console.log('[csv_write]', data.mode, data.debug);
     } else {
       showSaveStatus('⚠ ' + (data.error || 'Save failed'), true);
     }

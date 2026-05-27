@@ -136,17 +136,40 @@ if ($mm !== '' && $md !== '' && $my !== '') {
             $matchIndices[] = $i;
         }
         if (count($matchIndices) > 0) {
-            $bestIdx = $matchIndices[0];
+            $bestIdx  = null;
+            $newCols  = str_getcsv($row);
+            $newWiki  = trim($newCols[3] ?? '');
+            $newImg   = trim($newCols[4] ?? '');
+
+            // Find exact match: same date + same wiki + same image = true duplicate
             foreach ($matchIndices as $i) {
                 $c = str_getcsv(trim($lines[$i]));
                 $rwiki = trim($c[3]??''); $rimg = trim($c[4]??'');
-                if ($mw !== '' && $rwiki === $mw) { $bestIdx = $i; break; }
-                if ($mw !== '' && strpos($mw, $rwiki) === 0) { $bestIdx = $i; break; }
+                // Exact wiki match (handles comma-in-URL)
+                if ($mw !== '' && ($rwiki === $mw || strpos($mw, $rwiki) === 0)) {
+                    // Also match on image URL if provided
+                    if ($mi === '' || $rimg === $mi) { $bestIdx = $i; break; }
+                }
+                // Fallback: image URL match alone
                 if ($mi !== '' && $rimg === $mi) { $bestIdx = $i; break; }
             }
-            foreach ($matchIndices as $i) {
-                if ($i === $bestIdx) { $lines[$i] = $row; $found = true; }
-                else unset($lines[$i]);
+
+            if ($bestIdx !== null) {
+                // Update the matched row only — leave other events on same date untouched
+                $lines[$bestIdx] = $row;
+                $found = true;
+                $debugMsg = "updated row $bestIdx";
+                // Only remove rows that are true duplicates (identical wiki+image)
+                foreach ($matchIndices as $i) {
+                    if ($i === $bestIdx) continue;
+                    $c = str_getcsv(trim($lines[$i]));
+                    $rwiki = trim($c[3]??''); $rimg = trim($c[4]??'');
+                    $sameWiki = ($rwiki === $newWiki || ($newWiki && strpos($newWiki, $rwiki) === 0));
+                    $sameImg  = ($rimg === $newImg);
+                    if ($sameWiki && $sameImg) { unset($lines[$i]); $debugMsg .= " removed-dupe-$i"; }
+                }
+            } else {
+                $debugMsg = "no-match among " . count($matchIndices) . " rows for date $mm/$md/$my wiki=" . substr($mw,30,30) . " img=" . substr($mi,0,30);
             }
         }
     } elseif ($f === 'fomc.csv') {
@@ -182,4 +205,4 @@ fflush($fp); flock($fp, LOCK_UN); fclose($fp);
 
 if ($r === false) { ob_end_clean(); echo '{"success":false,"error":"write failed"}'; exit; }
 ob_end_clean();
-echo json_encode(['success' => true, 'mode' => $found ? 'updated' : 'appended', 'file' => $f]);
+echo json_encode(['success' => true, 'mode' => $found ? 'updated' : 'appended', 'file' => $f, 'debug' => $debugMsg ?? 'n/a']);
