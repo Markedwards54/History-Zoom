@@ -74,7 +74,10 @@ function loadCSVFiles(callback) {
 
   fetchCSV('events.csv', function(results) {
     events = results.data
-      .filter(e => e.month && e.year)
+      .filter(e => {
+        const yr = parseInt(e.year, 10);
+        return e.month && e.year && !isNaN(yr) && yr !== 0;
+      })
       .map(e => ({
         month: parseInt(e.month, 10),
         day:   parseInt(e.day,   10),
@@ -100,7 +103,10 @@ function loadCSVFiles(callback) {
     if (apr18.length) console.log('[CSV] Found Apr 18 2026 raw:', JSON.stringify(apr18[0]));
     else console.warn('[CSV] Apr 18 2026 NOT found in parsed data');
     multiDayTextBlocks = results.data
-      .filter(b => b.startMonth && b.startYear)
+      .filter(b => {
+        const sy = parseInt(b.startYear, 10);
+        return b.startMonth && b.startYear && !isNaN(sy) && sy !== 0;
+      })
       .map(b => ({
         sm: parseInt(b.startMonth, 10),
         sd: parseInt(b.startDay,   10),
@@ -299,9 +305,13 @@ function makeImg(ev) {
   const img = document.createElement('img');
   img.src   = ev.imageUrl;
   img.className = 'evt-img';
+  img._ev = ev; // store reference for broken image finder and outline
+
+  // Tooltip: use stored override if set, otherwise auto-generate from wiki URL
+  img.title = getTooltip(ev) || wikiTitle(ev.wikiUrl);
+
   applyImgStyle(img, ev);
 
-  // Non-edit click (wiki) handled inside attachImgDrag
   img.addEventListener('click', e => {
     if (!editMode) openWiki(ev.wikiUrl);
   });
@@ -373,6 +383,9 @@ function renderBlocks() {
   document.querySelectorAll('.txt-block').forEach(b => b.remove());
 
   BLOCKS.forEach(block => {
+    // Skip malformed blocks with year=0 or NaN
+    if (!block.sy || isNaN(block.sy) || block.sy === 0) return;
+
     // Determine which days of currentYear this block covers
     const blockStart = new Date(block.sy, block.sm-1, block.sd);
     const blockEnd   = new Date(block.ey, block.em-1, block.ed);
@@ -509,6 +522,10 @@ function renderBlockSegment(block, segStart, segEnd, weekNum) {
   el._block   = block;
   el._weekNum = weekNum;
   el._cellH   = cellH;
+
+  // Tooltip: use stored override if set, otherwise wiki title
+  const titleStr = wikiTitle ? wikiTitle(block.wiki) : block.text;
+  el.title = getBlockTooltip(block) || titleStr || block.text;
 
   // ── Per-segment text position ──
   // Each segment stores its own pl/pt_inner so moving text in one week
@@ -795,6 +812,9 @@ function toggleEdit() {
   const cancelBtn = document.getElementById('cancel-edit-btn');
   const undoBtn   = document.getElementById('undo-edit-btn');
 
+  const brokenBtn = document.getElementById('broken-img-btn');
+  if (brokenBtn) brokenBtn.style.display = editMode ? 'inline-block' : 'none';
+
   btn.textContent = editMode ? '✕ Exit Edit Mode' : '✏ Edit Mode';
   btn.classList.toggle('active', editMode);
   cancelBtn.style.display = editMode ? 'inline-block' : 'none';
@@ -1020,6 +1040,12 @@ function openEP(mo, dy, yr, img, ev, triggerEl) {
   document.getElementById('ep-wiki').value = ev ? (ev.wikiUrl  || '') : '';
   document.getElementById('ep-img').value  = ev ? (ev.imageUrl || '') : '';
 
+  // Pre-fill tooltip: use stored override, or auto-generate from wiki URL
+  const tooltipField = document.getElementById('ep-tooltip');
+  if (tooltipField) {
+    tooltipField.value = ev ? (getTooltip(ev) || wikiTitle(ev.wikiUrl || '') || '') : '';
+  }
+
   const ct = ev ? ev.ct : 0, cb = ev ? ev.cb : 0,
         cl = ev ? ev.cl : 0, cr = ev ? ev.cr : 0;
   const pt = ev ? ev.pt : 0, pl = ev ? ev.pl : 0;
@@ -1145,6 +1171,15 @@ async function epSaveLinks() {
     const data = await res.json();
     if (data.success) {
       showSaveStatus(`✓ ${data.mode}`);
+      // Save tooltip override
+      const tipText = document.getElementById('ep-tooltip')?.value.trim() || '';
+      if (tipText && tipText !== wikiTitle(ev.wikiUrl)) {
+        setTooltip(ev, tipText);
+      } else {
+        setTooltip(ev, null); // clear override — use auto
+      }
+      // Update img title immediately
+      if (epTarget.img) epTarget.img.title = tipText || wikiTitle(ev.wikiUrl);
       fb('ep-fb', '✓ Saved — reloading…');
       setTimeout(() => location.reload(), 800);
     } else {
@@ -1293,7 +1328,7 @@ function epLive() {
   epSaveTimer = setTimeout(() => {
     const ev = epTarget ? epTarget.ev : null;
     if (!ev) return;
-    autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year);
+    autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year, ev.wikiUrl);
   }, 1000);
 }
 
@@ -1345,7 +1380,7 @@ async function epAdd() {
   epCSV();
   // Save each new event immediately
   for (const ev of added) {
-    await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year);
+    await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year, ev.wikiUrl);
   }
   fb('ep-fb', added.length ? `✓ Added and saved (${added.length})` : '⚠ No cells found for that date/year');
 }
@@ -1486,6 +1521,12 @@ function openBP(mo, dy, yr, block, triggerEl) {
   document.getElementById('bp-ey').value = block ? block.ey : yr;
   document.getElementById('bp-wiki').value  = block ? (block.wiki  || '') : '';
   document.getElementById('bp-text').value  = block ? (block.text  || '') : '';
+
+  // Pre-fill tooltip
+  const bpTipField = document.getElementById('bp-tooltip');
+  if (bpTipField) {
+    bpTipField.value = block ? (getBlockTooltip(block) || wikiTitle(block.wiki || '') || '') : '';
+  }
   document.getElementById('bp-color').value = block ? (block.color || 'BLACK') : 'BLACK';
   document.getElementById('bp-bg').value    = block ? (block.bg    || 'GOLD')  : 'GOLD';
   document.getElementById('bp-fs').value    = block ? parseFloat(block.fs || '2.2') : 2.2;
@@ -1540,6 +1581,20 @@ function bpLive() {
   b.bg       = g('bp-bg');
   b.fs       = parseFloat(g('bp-fs')).toFixed(1) + 'em';
   b.bold     = document.getElementById('bp-bold').checked;
+
+  // Save tooltip override if user has edited it
+  const bpTipField = document.getElementById('bp-tooltip');
+  if (bpTipField) {
+    const tipText = bpTipField.value.trim();
+    const autoTitle = wikiTitle(b.wiki || '');
+    if (tipText && tipText !== autoTitle) setBlockTooltip(b, tipText);
+    else setBlockTooltip(b, null);
+    // Update live DOM tooltip
+    document.querySelectorAll('.txt-block').forEach(el => {
+      if (el._block === b) el.title = tipText || autoTitle;
+    });
+  }
+
   liveUpdateBlock(b);
   bpCSV();
   // Auto-save 1 second after slider stops moving
@@ -1992,7 +2047,7 @@ function attachImgDrag(img, ev) {
       if (!moved) return;
       pushUndoSnapshot();
       refreshSelection(imgVisualRect(img, ev));
-      await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year);
+      await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year, ev.wikiUrl);
     };
     window.addEventListener('mousemove', onMove);
     window.addEventListener('mouseup',   onUp);
@@ -2127,7 +2182,7 @@ function attachImgHandle(handle, img, ev) {
       hideBadge();
       pushUndoSnapshot();
       refreshSelection(imgVisualRect(img, ev));
-      await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year);
+      await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year, ev.wikiUrl);
     };
 
     window.addEventListener('mousemove', onMove);
@@ -2801,6 +2856,47 @@ function closeOnThisDay(e) {
   document.getElementById('otd-modal').style.display = 'none';
 }
 
+// ── TOOLTIP OVERRIDE STORAGE ──────────────────────────────────
+// Stored in localStorage — no CSV format change needed
+const TOOLTIP_KEY       = 'hz_tooltips';
+const BLOCK_TOOLTIP_KEY = 'hz_block_tooltips';
+
+function getTooltipStore()      { try { return JSON.parse(localStorage.getItem(TOOLTIP_KEY)||'{}'); }       catch { return {}; } }
+function getBlockTooltipStore() { try { return JSON.parse(localStorage.getItem(BLOCK_TOOLTIP_KEY)||'{}'); } catch { return {}; } }
+
+function setTooltip(ev, text) {
+  const store = getTooltipStore();
+  const key = `${ev.month}/${ev.day}/${ev.year}/${ev.imageUrl}`;
+  if (text) store[key] = text; else delete store[key];
+  localStorage.setItem(TOOLTIP_KEY, JSON.stringify(store));
+}
+function getTooltip(ev) {
+  return getTooltipStore()[`${ev.month}/${ev.day}/${ev.year}/${ev.imageUrl}`] || null;
+}
+function setBlockTooltip(block, text) {
+  const store = getBlockTooltipStore();
+  const key = `${block.sm}/${block.sd}/${block.sy}/${block.wiki}`;
+  if (text) store[key] = text; else delete store[key];
+  localStorage.setItem(BLOCK_TOOLTIP_KEY, JSON.stringify(store));
+}
+function getBlockTooltip(block) {
+  return getBlockTooltipStore()[`${block.sm}/${block.sd}/${block.sy}/${block.wiki}`] || null;
+}
+
+// Auto-fill tooltip field from wiki URL (called when wiki URL changes)
+function epAutoTooltip(force) {
+  const field = document.getElementById('ep-tooltip');
+  if (!field) return;
+  if (!force && field.value.trim()) return; // don't overwrite manual entry
+  field.value = wikiTitle(document.getElementById('ep-wiki').value);
+}
+function bpAutoTooltip(force) {
+  const field = document.getElementById('bp-tooltip');
+  if (!field) return;
+  if (!force && field.value.trim()) return;
+  field.value = wikiTitle(document.getElementById('bp-wiki').value);
+}
+
 function wikiTitle(url) {
   if (!url) return 'Unknown event';
   try {
@@ -2844,3 +2940,180 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') document.getElementById('otd-modal').style.display = 'none';
   });
 });
+
+// ══════════════════════════════════════════════════════════════
+// BROKEN IMAGE FINDER
+// ══════════════════════════════════════════════════════════════
+
+function openBrokenImages(scope) {
+  const list   = document.getElementById('broken-list');
+  const status = document.getElementById('broken-status');
+
+  // If scope not specified, show choice buttons
+  if (!scope) {
+    list.innerHTML = `
+      <div style="padding:30px 18px;display:flex;flex-direction:column;gap:12px;align-items:center;">
+        <p style="color:#7a7a9e;font-size:13px;text-align:center;max-width:360px;line-height:1.6;">
+          Choose scope — scanning all years can take a minute or two depending on how many images are in the calendar.
+        </p>
+        <button onclick="openBrokenImages('year')"
+                style="width:260px;padding:10px;background:#1a0a2e;border:1px solid #6a4aae;
+                       border-radius:6px;color:#c8a8ff;font-size:13px;cursor:pointer;">
+          🔍 Scan current year only (${currentYear})
+        </button>
+        <button onclick="openBrokenImages('all')"
+                style="width:260px;padding:10px;background:#0a1a0a;border:1px solid #2a5a2a;
+                       border-radius:6px;color:#7ab870;font-size:13px;cursor:pointer;">
+          🔍 Scan entire calendar (all years)
+        </button>
+      </div>`;
+    status.textContent = 'Select scan scope:';
+    document.getElementById('broken-modal').style.display = 'block';
+    return;
+  }
+
+  const eventsToScan = scope === 'year'
+    ? EVENTS.filter(ev => ev.year === currentYear)
+    : EVENTS;
+
+  status.textContent = `Preparing to scan ${eventsToScan.length} events…`;
+  list.innerHTML = '<div style="padding:20px 18px;color:#7a7a9e;font-style:italic;">Checking images…</div>';
+  document.getElementById('broken-modal').style.display = 'block';
+
+  setTimeout(() => scanBrokenImages(list, status, eventsToScan), 50);
+}
+
+function closeBrokenImages() {
+  document.getElementById('broken-modal').style.display = 'none';
+}
+
+async function scanBrokenImages(list, status, eventsToScan) {
+  const results = [];
+
+  const checks = eventsToScan.map(ev => new Promise(resolve => {
+    if (!ev.imageUrl || ev.imageUrl.trim() === '') {
+      results.push({ ev, reason: 'No image URL', year: ev.year });
+      resolve();
+      return;
+    }
+    const img = new Image();
+    const timer = setTimeout(() => {
+      results.push({ ev, reason: 'Timed out (slow/blocked)', year: ev.year });
+      resolve();
+    }, 6000);
+    img.onload  = () => { clearTimeout(timer); resolve(); };
+    img.onerror = () => {
+      clearTimeout(timer);
+      results.push({ ev, reason: 'Failed to load (404 or blocked)', year: ev.year });
+      resolve();
+    };
+    img.src = ev.imageUrl;
+  }));
+
+  // Run in batches of 20 to avoid overwhelming the browser
+  const batchSize = 20;
+  for (let i = 0; i < checks.length; i += batchSize) {
+    status.textContent = `Checking images ${i+1}–${Math.min(i+batchSize, checks.length)} of ${eventsToScan.length}…`;
+    await Promise.all(checks.slice(i, i + batchSize));
+  }
+
+  results.sort((a, b) => a.year - b.year);
+
+  status.textContent = results.length
+    ? `Found ${results.length} broken or missing image${results.length !== 1 ? 's' : ''} out of ${eventsToScan.length} events scanned`
+    : `✓ All ${eventsToScan.length} images loaded successfully`;
+
+  list.innerHTML = '';
+
+  if (results.length === 0) {
+    list.innerHTML = '<div style="padding:40px;text-align:center;color:#5ab870;font-size:14px;">✓ All images are loading correctly!</div>';
+    return;
+  }
+
+  results.forEach(({ ev, reason }) => {
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex;align-items:flex-start;gap:12px;padding:10px 18px;border-bottom:1px solid #1a1a3e;cursor:pointer;transition:background 0.1s;';
+    row.onmouseenter = () => row.style.background = '#0d0d2e';
+    row.onmouseleave = () => row.style.background = '';
+
+    const yr = document.createElement('div');
+    yr.style.cssText = 'flex-shrink:0;min-width:52px;text-align:center;padding:3px 6px;border-radius:4px;font-weight:bold;font-size:12px;background:#3a0a0a;color:#e88;border:1px solid #5a2a2a;';
+    yr.textContent = ev.year < 0 ? Math.abs(ev.year) + ' BC' : ev.year;
+
+    const txt = document.createElement('div');
+    txt.style.cssText = 'flex:1;min-width:0;';
+
+    const title = wikiTitle(ev.wikiUrl) || 'Unknown event';
+    const monthNames = ['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const dateStr = `${monthNames[ev.month] || ev.month}/${ev.day}/${ev.year}`;
+    const urlShort = ev.imageUrl
+      ? ev.imageUrl.length > 55 ? ev.imageUrl.slice(0, 55) + '…' : ev.imageUrl
+      : '(no URL)';
+
+    txt.innerHTML = `
+      <div style="color:#e8e0d0;font-size:13px;font-weight:bold;line-height:1.3;">${title}</div>
+      <div style="color:#e88;font-size:11px;margin-top:2px;">⚠ ${reason} &nbsp;·&nbsp; <span style="color:#c8a8ff;">${dateStr}</span></div>
+      <div style="color:#4a4a6e;font-size:10px;margin-top:2px;word-break:break-all;">${urlShort}</div>
+    `;
+
+    // Click → jump to year, highlight the actual image element, open edit panel
+    row.onclick = () => {
+      closeBrokenImages();
+      setYear(ev.year);
+      setTimeout(() => {
+        const cell = findCell(ev.month, ev.day);
+        if (!cell) return;
+
+        cell.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+        // Find the actual img element
+        let targetImg = null;
+        cell.querySelectorAll('.evt-img').forEach(img => {
+          if (img._ev && img._ev.imageUrl === ev.imageUrl) targetImg = img;
+        });
+
+        // Clear any previous outlines
+        document.querySelectorAll('.broken-outlined').forEach(el => {
+          el.style.outline = '';
+          el.style.outlineOffset = '';
+          el.classList.remove('broken-outlined');
+        });
+        document.querySelectorAll('.broken-marker').forEach(el => el.remove());
+
+        if (targetImg) {
+          // Flash the actual image element
+          targetImg.classList.add('broken-outlined');
+          let count = 0;
+          const flash = setInterval(() => {
+            targetImg.style.outline = count % 2 === 0 ? '3px solid #ff4444' : '3px solid #d4af37';
+            targetImg.style.outlineOffset = '2px';
+            count++;
+            if (count > 5) {
+              clearInterval(flash);
+              targetImg.style.outline = '2px solid #ff4444';
+              targetImg.style.outlineOffset = '2px';
+            }
+          }, 250);
+          setTimeout(() => openEP(ev.month, ev.day, ev.year, targetImg, ev, targetImg), 1600);
+        } else {
+          // Image element missing entirely — place a bright marker in the cell
+          const marker = document.createElement('div');
+          marker.className = 'broken-marker';
+          marker.style.cssText = `
+            position:absolute; top:0; left:0; width:100%; height:100%;
+            border:3px solid #ff4444; box-sizing:border-box; z-index:99999;
+            display:flex; align-items:center; justify-content:center; pointer-events:none;
+          `;
+          marker.innerHTML = '<span style="background:#ff4444;color:#fff;font-size:9px;padding:2px 4px;border-radius:2px;text-align:center;line-height:1.3;">BROKEN<br>IMAGE</span>';
+          cell.style.position = 'relative';
+          cell.appendChild(marker);
+          setTimeout(() => marker.remove(), 6000);
+        }
+      }, 600);
+    };
+
+    row.appendChild(yr);
+    row.appendChild(txt);
+    list.appendChild(row);
+  });
+}

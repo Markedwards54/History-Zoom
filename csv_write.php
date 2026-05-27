@@ -1,22 +1,31 @@
 <?php
+// Capture ALL output — prevents any warning/notice from corrupting JSON
+ob_start();
+
 error_reporting(0);
 ini_set('display_errors', 0);
-ob_start();
+
+// Send headers
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
-ob_clean();
 
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') { echo '{"success":true}'; exit; }
-if ($_SERVER['REQUEST_METHOD'] !== 'POST')    { echo '{"success":false,"error":"POST required"}'; exit; }
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    ob_end_clean(); echo '{"success":true}'; exit;
+}
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    ob_end_clean(); echo '{"success":false,"error":"POST required"}'; exit;
+}
 
 $data = json_decode(file_get_contents('php://input'), true);
-if (!$data) { echo '{"success":false,"error":"bad json"}'; exit; }
+if (!$data) {
+    ob_end_clean(); echo '{"success":false,"error":"bad json"}'; exit;
+}
 
 $f = basename($data['csvFile'] ?? '');
 if (!in_array($f, ['events.csv', 'multiDayTextBlocks.csv', 'fomc.csv'])) {
-    echo '{"success":false,"error":"bad file"}'; exit;
+    ob_end_clean(); echo '{"success":false,"error":"bad file"}'; exit;
 }
 
 // ── Path resolution ─────────────────────────────────────────
@@ -36,43 +45,39 @@ if ($isRender) {
     $backupDir = $projectDir . '/backups';
 }
 
-// ── Backup function ─────────────────────────────────────────
-// Keeps last 20 timestamped backups per file
+// ── Backup ──────────────────────────────────────────────────
 function makeBackup($filePath, $backupDir, $filename) {
     if (!file_exists($filePath)) return;
-    if (!is_dir($backupDir)) mkdir($backupDir, 0755, true);
+    if (!is_dir($backupDir)) @mkdir($backupDir, 0755, true);
 
-    // Daily backup — one per day per file
-    $today    = date('Y-m-d');
-    $dayStamp = $backupDir . '/' . $filename . '.' . $today . '.bak';
-    if (!file_exists($dayStamp)) {
-        copy($filePath, $dayStamp);
+    $today     = date('Y-m-d');
+    $dayStamp  = $backupDir . '/' . $filename . '.' . $today . '.bak';
+    if (!file_exists($dayStamp)) @copy($filePath, $dayStamp);
+
+    $min       = (int)date('i');
+    $slot      = str_pad(floor($min / 15) * 15, 2, '0', STR_PAD_LEFT);
+    $freqStamp = $backupDir . '/' . $filename . '.' . date('Y-m-d_H') . $slot . '.bak';
+    @copy($filePath, $freqStamp);
+
+    // Prune daily: keep last 30
+    $daily = array_filter(glob($backupDir . '/' . $filename . '.*.bak') ?: [],
+        fn($f) => preg_match('/\d{4}-\d{2}-\d{2}\.bak$/', $f));
+    if (count($daily) > 30) {
+        usort($daily, fn($a,$b) => filemtime($a) - filemtime($b));
+        foreach (array_slice($daily, 0, count($daily) - 30) as $old) @unlink($old);
     }
 
-    // Frequent backup — one per 15 minutes
-    $stamp    = date('Y-m-d_Hi'); // e.g. 2026-05-23_1430
-    // Round to nearest 15 min
-    $min      = (int)date('i');
-    $slot     = str_pad(floor($min / 15) * 15, 2, '0', STR_PAD_LEFT);
-    $freqStamp = $backupDir . '/' . $filename . '.' . date('Y-m-d_H') . $slot . '.bak';
-    copy($filePath, $freqStamp);
-
-    // Prune — keep only last 20 frequent backups per file (not daily ones)
-    $pattern = $backupDir . '/' . $filename . '.*.bak';
-    $files   = glob($pattern);
-    if ($files && count($files) > 20) {
-        usort($files, fn($a,$b) => filemtime($a) - filemtime($b));
-        $toDelete = array_slice($files, 0, count($files) - 20);
-        foreach ($toDelete as $old) {
-            // Never delete daily backups
-            if (!preg_match('/\d{4}-\d{2}-\d{2}\.bak$/', $old)) {
-                @unlink($old);
-            }
-        }
+    // Prune frequent: keep last 20
+    $freq = array_filter(glob($backupDir . '/' . $filename . '.*.bak') ?: [],
+        fn($f) => !preg_match('/\d{4}-\d{2}-\d{2}\.bak$/', $f));
+    if (count($freq) > 20) {
+        usort($freq, fn($a,$b) => filemtime($a) - filemtime($b));
+        foreach (array_slice($freq, 0, count($freq) - 20) as $old) @unlink($old);
     }
 }
 
 if (!file_exists($filePath)) {
+    ob_end_clean();
     echo json_encode(['success' => false, 'error' => 'File not found: ' . $filePath]);
     exit;
 }
@@ -81,7 +86,7 @@ if (!file_exists($filePath)) {
 if (!empty($data['replaceAll']) && isset($data['rows'])) {
     makeBackup($filePath, $backupDir, $f);
     $fp = fopen($filePath, 'c+');
-    if (!$fp) { echo '{"success":false,"error":"cannot open"}'; exit; }
+    if (!$fp) { ob_end_clean(); echo '{"success":false,"error":"cannot open"}'; exit; }
     flock($fp, LOCK_EX);
     $existing = stream_get_contents($fp);
     $lines    = explode("\n", str_replace("\r", "", $existing));
@@ -92,14 +97,15 @@ if (!empty($data['replaceAll']) && isset($data['rows'])) {
     $out = ($header !== '' ? $header . "\r\n" : '') . implode("\r\n", $data['rows']) . "\r\n";
     ftruncate($fp, 0); rewind($fp); fwrite($fp, $out);
     fflush($fp); flock($fp, LOCK_UN); fclose($fp);
-    echo '{"success":true,"mode":"replaced"}'; exit;
+    ob_end_clean();
+    echo '{"success":true,"mode":"replaced"}';
+    exit;
 }
 
 // ── SINGLE ROW UPDATE / APPEND ──────────────────────────────
 $row = trim($data['newRow'] ?? '');
-if (!$row) { echo '{"success":false,"error":"no row"}'; exit; }
+if (!$row) { ob_end_clean(); echo '{"success":false,"error":"no row"}'; exit; }
 
-// Make backup BEFORE writing
 makeBackup($filePath, $backupDir, $f);
 
 $mm = trim($data['matchMonth']    ?? '');
@@ -109,8 +115,8 @@ $mi = trim($data['matchImageUrl'] ?? '');
 $mw = trim($data['matchWiki']     ?? '');
 
 $fp = fopen($filePath, 'c+');
-if (!$fp) { echo '{"success":false,"error":"cannot open"}'; exit; }
-if (!flock($fp, LOCK_EX)) { fclose($fp); echo '{"success":false,"error":"cannot lock"}'; exit; }
+if (!$fp) { ob_end_clean(); echo '{"success":false,"error":"cannot open"}'; exit; }
+if (!flock($fp, LOCK_EX)) { fclose($fp); ob_end_clean(); echo '{"success":false,"error":"cannot lock"}'; exit; }
 
 $content  = stream_get_contents($fp);
 $allLines = explode("\n", str_replace("\r", "", $content));
@@ -174,5 +180,6 @@ ftruncate($fp, 0); rewind($fp);
 $r = fwrite($fp, $out);
 fflush($fp); flock($fp, LOCK_UN); fclose($fp);
 
-if ($r === false) { echo '{"success":false,"error":"write failed"}'; exit; }
+if ($r === false) { ob_end_clean(); echo '{"success":false,"error":"write failed"}'; exit; }
+ob_end_clean();
 echo json_encode(['success' => true, 'mode' => $found ? 'updated' : 'appended', 'file' => $f]);

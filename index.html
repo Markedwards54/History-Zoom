@@ -34,6 +34,7 @@
          title="Browse and restore backups">📦 Backups</a>
       <button id="edit-btn" onclick="toggleEdit()">✏ Edit Mode</button>
       <button id="undo-edit-btn" onclick="undoLastAction()" style="display:none" disabled title="Undo last change">↩ Undo</button>
+      <button id="broken-img-btn" onclick="openBrokenImages()" style="display:none;padding:5px 10px;border-radius:4px;border:1px solid #5a2a2a;background:#1a0a0a;color:#e88;font-size:0.75rem;cursor:pointer;" title="Find events with missing or broken images">🔍 Broken Images</button>
       <button id="cancel-edit-btn" onclick="cancelEditMode()" style="display:none">✕ Cancel</button>
     </div>
   </div>
@@ -73,8 +74,14 @@
       <!-- Hidden end date fields — kept for CSV compatibility -->
       <input type="hidden" id="ep-em"><input type="hidden" id="ep-ed"><input type="hidden" id="ep-ey">
       <div class="ed-lbl">Links</div>
-      <div class="ed-field"><label>Wikipedia URL</label><input type="text" id="ep-wiki" placeholder="https://en.wikipedia.org/wiki/…" oninput="epCSV()"></div>
+      <div class="ed-field"><label>Wikipedia URL</label><input type="text" id="ep-wiki" placeholder="https://en.wikipedia.org/wiki/…" oninput="epCSV(); epAutoTooltip()"></div>
       <div class="ed-field"><label>Image URL</label><input type="text" id="ep-img" placeholder="https://…" oninput="epImgChange()"></div>
+      <div class="ed-field"><label>Cursor Tooltip <span style="color:#4a4a6e;font-size:9px;font-weight:normal;">(auto-filled from wiki URL)</span></label>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <input type="text" id="ep-tooltip" placeholder="Auto from wiki URL…" style="flex:1;" oninput="epCSV()">
+          <button onclick="epAutoTooltip(true)" title="Reset to wiki URL title" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:3px;color:#7a7a9e;font-size:10px;padding:3px 6px;cursor:pointer;white-space:nowrap;">↺ Reset</button>
+        </div>
+      </div>
       <button onclick="epSaveLinks()" style="width:100%;padding:6px;background:#d4af37;color:#000;border:none;border-radius:4px;font-weight:bold;font-size:11px;cursor:pointer;margin-bottom:2px">💾 Update Links</button>
       <img id="ep-preview" alt="preview">
       <div class="hint-box">Images are <strong>not confined to the cell</strong>. Use crop &amp; position to fit multiple images per square.</div>
@@ -139,7 +146,13 @@
         <div class="ed-field"><label>End Yr</label><input type="number" id="bp-ey" oninput="bpCSV()"></div>
       </div>
       <div class="ed-lbl">Links &amp; Text</div>
-      <div class="ed-field"><label>Wikipedia URL</label><input type="text" id="bp-wiki" placeholder="https://en.wikipedia.org/wiki/…" oninput="bpCSV()"></div>
+      <div class="ed-field"><label>Wikipedia URL</label><input type="text" id="bp-wiki" placeholder="https://en.wikipedia.org/wiki/…" oninput="bpCSV(); bpAutoTooltip()"></div>
+      <div class="ed-field"><label>Cursor Tooltip <span style="color:#4a4a6e;font-size:9px;font-weight:normal;">(auto-filled from wiki URL)</span></label>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <input type="text" id="bp-tooltip" placeholder="Auto from wiki URL…" style="flex:1;" oninput="bpCSV()">
+          <button onclick="bpAutoTooltip(true)" title="Reset to wiki URL title" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:3px;color:#7a7a9e;font-size:10px;padding:3px 6px;cursor:pointer;white-space:nowrap;">↺ Reset</button>
+        </div>
+      </div>
       <div class="ed-field"><label>Display Text</label>
         <div style="display:flex;gap:5px;align-items:center">
           <input type="text" id="bp-text" placeholder="BATTLE OF HASTINGS" style="flex:1" oninput="bpCSV()">
@@ -207,7 +220,34 @@
     </div>
   </div>
 
-  <!-- ── FOMC CONTEXT MENU ── -->
+  <!-- ── BROKEN IMAGES MODAL ── -->
+  <div id="broken-modal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:8500;
+       background:rgba(0,0,0,0.65);backdrop-filter:blur(3px);" onclick="if(event.target===this)closeBrokenImages()">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+                width:min(640px,92vw);height:min(75vh,580px);background:#1a1a2e;
+                border:1px solid #5a2a2a;border-radius:10px;resize:both;
+                box-shadow:0 20px 60px rgba(0,0,0,0.7);overflow:hidden;display:flex;flex-direction:column;"
+         onclick="event.stopPropagation()">
+      <div style="background:linear-gradient(135deg,#3a0a0a,#5a1a1a);padding:12px 18px;
+                  display:flex;justify-content:space-between;align-items:center;flex-shrink:0;">
+        <div>
+          <div style="color:#e88;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:2px;">Edit Mode Tool</div>
+          <div style="color:#fff;font-size:1.1rem;font-weight:bold;">🔍 Broken / Missing Images</div>
+        </div>
+        <button onclick="closeBrokenImages()" style="background:none;border:none;color:#e88;font-size:22px;cursor:pointer;">✕</button>
+      </div>
+      <div id="broken-status" style="background:#0d0d1e;padding:7px 18px;font-size:11px;color:#7a7a9e;
+                                      border-bottom:1px solid #2a2a4e;flex-shrink:0;"></div>
+      <div id="broken-list" style="overflow-y:auto;flex:1;"></div>
+      <div style="padding:8px 18px;border-top:1px solid #2a2a4e;flex-shrink:0;
+                  display:flex;justify-content:space-between;align-items:center;">
+        <span style="font-size:11px;color:#4a4a6e;">Click any row to jump to that year</span>
+        <button onclick="closeBrokenImages()"
+                style="background:#3a0a0a;border:1px solid #5a2a2a;border-radius:4px;
+                       color:#e88;font-size:12px;padding:5px 14px;cursor:pointer;">Close</button>
+      </div>
+    </div>
+  </div>
   <div id="fomc-ctx-menu" style="display:none;position:fixed;background:#1a1a2e;border:1px solid #d4af37;border-radius:6px;z-index:9100;min-width:160px;box-shadow:0 6px 20px rgba(0,0,0,0.5);overflow:hidden;font-family:Arial,sans-serif;">
     <div style="padding:10px 16px;color:#e88;font-size:13px;cursor:pointer;" onclick="fomcDelete()">🗑 Delete Rate Decision</div>
   </div>
