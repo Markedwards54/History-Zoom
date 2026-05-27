@@ -1002,7 +1002,7 @@ async function saveEntireCSV(csvFile, rows) {
 function hideCtx() { document.getElementById('ctx-menu').style.display = 'none'; }
 document.addEventListener('click', e => {
   if (!e.target.closest('#ctx-menu'))      hideCtx();
-  if (!e.target.closest('#fomc-ctx-menu') && typeof hideFomcCtx === 'function') hideFomcCtx();
+  if (!e.target.closest('#fomc-ctx-menu') && !e.target.closest('#fomc-tooltip-dialog') && typeof hideFomcCtx === 'function') hideFomcCtx();
 });
 function ctxEvent() { hideCtx(); openEP(ctxMo, ctxDy, ctxYr, null, null, ctxCell); }
 function ctxBlock() { hideCtx(); openBP(ctxMo, ctxDy, ctxYr, null, ctxCell); }

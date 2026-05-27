@@ -716,7 +716,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,1,2009,2,7,2009,https://en.wikipedia.org/wiki/Somali_Civil_War_(2009%E2%80%93present),SOMALIAN CIVIL WAR BEGINS,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,25%,20,0.70,30,1,20
 7,7,1937,7,9,1937,https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident,MARCO POLO,1.9em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,3%,61,0.80,-46,1,100
 7,26,2009,7,29,2009,https://en.wikipedia.org/wiki/2009_Boko_Haram_uprising,BOKO HARAM,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,15%,20,0.80,0,1,100
-10,7,1952,10,18,1952,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION STARTS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,2%,65,0.80,-44,2,100
+10,7,1952,10,18,1952,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION STARTS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,20,0.80,0,2,100
 10,14,1956,10,21,1956,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,9%,20,0.80,0,1,100
 5,8,1992,5,9,1992,https://en.wikipedia.org/wiki/Battle_of_Shusha_(1992),SHUSHA,2.1em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,9%,20,0.80,0,1,100
 9,27,2020,11,10,2020,https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War,2ND NAGARNO-KARABAKH WAR,2.1em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,4%,61,0.80,0,3,19
