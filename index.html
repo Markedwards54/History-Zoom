@@ -397,6 +397,38 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <!-- ── LOGIN MODAL ── -->
+  <div id="hz-login-modal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
+       z-index:9900;background:rgba(0,0,0,0.75);backdrop-filter:blur(4px);">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+                width:min(340px,90vw);background:#1a1a2e;border:1px solid #8a6aae;
+                border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,0.8);overflow:hidden;">
+      <div style="background:linear-gradient(135deg,#2a1a4e,#3a2a6e);padding:16px 20px;">
+        <div style="color:#c8a8ff;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;">History Zoom</div>
+        <div style="color:#fff;font-size:1.1rem;font-weight:bold;margin-top:2px;">Edit Mode Login</div>
+      </div>
+      <div style="padding:20px;display:flex;flex-direction:column;gap:12px;">
+        <input type="password" id="hz-pw-input" placeholder="Password"
+               style="background:#0d0d1e;border:1px solid #3a3a6e;border-radius:6px;
+                      color:#e8e0d0;padding:10px 14px;font-size:15px;width:100%;
+                      box-sizing:border-box;-webkit-appearance:none;"
+               onkeydown="if(event.key===\'Enter\')hzLogin()">
+        <div id="hz-login-err" style="color:#e88;font-size:12px;display:none;text-align:center;"></div>
+        <button onclick="hzLogin()"
+                style="padding:11px;background:linear-gradient(135deg,#4a2a8e,#6a4aae);
+                       border:none;border-radius:6px;color:#fff;font-weight:bold;
+                       font-size:14px;cursor:pointer;-webkit-appearance:none;">
+          Unlock Edit Mode
+        </button>
+        <button onclick="document.getElementById(\'hz-login-modal\').style.display=\'none\'"
+                style="padding:8px;background:none;border:1px solid #2a2a4e;border-radius:6px;
+                       color:#4a4a6e;font-size:12px;cursor:pointer;">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
   <script src="fomc.js"></script>
 

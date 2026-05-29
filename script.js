@@ -107,6 +107,7 @@ function loadCSVFiles(callback) {
         pl: parseFloat(e.positionleft) || 0,
         sc: parseFloat(e.scale)  || 1,
         z:  parseInt(e.zIndexOverride, 10) || 10,
+        tooltip: e.tooltip || '',
       }));
     EVENTS = events;
     if (++csvLoaded >= 2) callback();
@@ -144,6 +145,7 @@ function loadCSVFiles(callback) {
         vo: parseFloat(b.verticalOffset)  || 0,
         h:  parseFloat(b.height) || 0.8,
         z:  parseInt(b.zIndexOverride, 10) || 20,
+        tooltip: b.tooltip || '',
         tw: b.textWeek ? String(b.textWeek).split(',').map(Number).filter(n => !isNaN(n) && n > 0) : [],
         segPl: {}, segPtInner: {},
         // pt_inner repurposes the 'scale' column; old rows have scale=1 so default to 20
@@ -833,6 +835,12 @@ function deepCloneBlocks() {
 }
 
 function toggleEdit() {
+  // If turning ON edit mode, check auth first
+  if (!editMode && !hzIsAuthed()) {
+    document.getElementById('hz-login-modal').style.display = 'block';
+    setTimeout(() => document.getElementById('hz-pw-input')?.focus(), 100);
+    return;
+  }
   editMode = !editMode;
   document.body.classList.toggle('edit-mode', editMode);
   const btn       = document.getElementById('edit-btn');
@@ -1206,15 +1214,10 @@ async function epSaveLinks() {
     const data = await res.json();
     if (data.success) {
       showSaveStatus(`✓ ${data.mode}`);
-      // Save tooltip override
+      // Save tooltip override to CSV
       const tipText = document.getElementById('ep-tooltip')?.value.trim() || '';
-      if (tipText && tipText !== wikiTitle(ev.wikiUrl)) {
-        setTooltip(ev, tipText);
-      } else {
-        setTooltip(ev, null); // clear override — use auto
-      }
-      // Update img title immediately
-      if (epTarget.img) epTarget.img.title = tipText || wikiTitle(ev.wikiUrl);
+      ev.tooltip = tipText;
+      if (tipText && epTarget.img) epTarget.img.title = tipText || wikiTitle(ev.wikiUrl);
       fb('ep-fb', '✓ Saved — reloading…');
       setTimeout(() => location.reload(), 800);
     } else {
@@ -1627,16 +1630,14 @@ function bpLive() {
   b.fs       = parseFloat(g('bp-fs')).toFixed(1) + 'em';
   b.bold     = document.getElementById('bp-bold').checked;
 
-  // Save tooltip override if user has edited it
+  // Save tooltip onto block object (gets written with next autoSaveRow)
   const bpTipField = document.getElementById('bp-tooltip');
   if (bpTipField) {
     const tipText = bpTipField.value.trim();
-    const autoTitle = wikiTitle(b.wiki || '');
-    if (tipText && tipText !== autoTitle) setBlockTooltip(b, tipText);
-    else setBlockTooltip(b, null);
+    b.tooltip = tipText;
     // Update live DOM tooltip
     document.querySelectorAll('.txt-block').forEach(el => {
-      if (el._block === b) el.title = tipText || autoTitle;
+      if (el._block === b) el.title = tipText || wikiTitle(b.wiki || '') || b.text;
     });
   }
 
@@ -2658,7 +2659,8 @@ function buildEventRow(ev) {
     csvField(ev.wikiUrl), csvField(ev.imageUrl),
     ev.ct, ev.cr, ev.cb, ev.cl,
     ev.pt + '%', ev.pl + '%',
-    ev.sc, ev.z
+    ev.sc, ev.z,
+    csvField(ev.tooltip || '')
   ].join(',');
 }
 
@@ -2685,7 +2687,8 @@ function buildBlockRow(b) {
     b.pt + '%', b.pl + '%',
     ptInner,
     b.h.toFixed(2), b.vo,
-    twVal, b.z
+    twVal, b.z,
+    csvField(b.tooltip || '')
   ].join(',');
 }
 
@@ -2724,7 +2727,10 @@ async function autoSaveRow(csvFile, newRow, matchImageUrl, matchMonth, matchDay,
     };
     const res = await fetch(CSV_WRITE_URL, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'X-HZ-Token': hzGetToken(),
+      },
       body: JSON.stringify(payload)
     });
     const data = await res.json();
@@ -2732,8 +2738,14 @@ async function autoSaveRow(csvFile, newRow, matchImageUrl, matchMonth, matchDay,
       const color = data.mode === 'appended' ? '#f90' : '#d4af37';
       showSaveStatus(`✓ ${data.mode}`, false, color);
       if (data.debug && data.debug !== 'n/a') console.log('[csv_write]', data.mode, data.debug);
+    } else if (data.code === 401) {
+      localStorage.removeItem(HZ_TOKEN_KEY);
+      showSaveStatus('⚠ Session expired — log in again', true);
+      document.getElementById('hz-login-modal').style.display = 'block';
+      setTimeout(() => document.getElementById('hz-pw-input')?.focus(), 100);
     } else {
       showSaveStatus('⚠ ' + (data.error || 'Save failed'), true);
+      console.error('[autoSaveRow] save failed:', data);
     }
     return data;
   } catch(e) {
@@ -2754,6 +2766,7 @@ window.addEventListener('load', () => {
   // Load CSV data then render
   loadCSVFiles(() => {
     setYear(currentYear);
+    migrateLocalStorageTooltips(); // one-time: moves localStorage tooltips into CSV
     // Load FOMC data after main CSVs
     if (typeof loadFOMC === 'function') {
       loadFOMC(() => renderFOMC());
@@ -2902,31 +2915,56 @@ function closeOnThisDay(e) {
   document.getElementById('otd-modal').style.display = 'none';
 }
 
-// ── TOOLTIP OVERRIDE STORAGE ──────────────────────────────────
-// Stored in localStorage — no CSV format change needed
-const TOOLTIP_KEY       = 'hz_tooltips';
-const BLOCK_TOOLTIP_KEY = 'hz_block_tooltips';
+// ── TOOLTIP SYSTEM — stored in CSV, not localStorage ─────────
+// Reading is just ev.tooltip / block.tooltip (populated by parser)
+// Writing updates the object and saves to CSV immediately
 
-function getTooltipStore()      { try { return JSON.parse(localStorage.getItem(TOOLTIP_KEY)||'{}'); }       catch { return {}; } }
-function getBlockTooltipStore() { try { return JSON.parse(localStorage.getItem(BLOCK_TOOLTIP_KEY)||'{}'); } catch { return {}; } }
-
-function setTooltip(ev, text) {
-  const store = getTooltipStore();
-  const key = `${ev.month}/${ev.day}/${ev.year}/${ev.imageUrl}`;
-  if (text) store[key] = text; else delete store[key];
-  localStorage.setItem(TOOLTIP_KEY, JSON.stringify(store));
-}
 function getTooltip(ev) {
-  return getTooltipStore()[`${ev.month}/${ev.day}/${ev.year}/${ev.imageUrl}`] || null;
-}
-function setBlockTooltip(block, text) {
-  const store = getBlockTooltipStore();
-  const key = `${block.sm}/${block.sd}/${block.sy}/${block.wiki}`;
-  if (text) store[key] = text; else delete store[key];
-  localStorage.setItem(BLOCK_TOOLTIP_KEY, JSON.stringify(store));
+  return ev.tooltip || null;
 }
 function getBlockTooltip(block) {
-  return getBlockTooltipStore()[`${block.sm}/${block.sd}/${block.sy}/${block.wiki}`] || null;
+  return block.tooltip || null;
+}
+
+// Called when user saves a tooltip override in the edit panel
+async function setTooltip(ev, text) {
+  ev.tooltip = text || '';
+  await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year, ev.wikiUrl);
+}
+async function setBlockTooltip(block, text) {
+  block.tooltip = text || '';
+  await autoSaveRow('multiDayTextBlocks.csv', buildBlockRow(block), null, block.sm, block.sd, block.sy, block.wiki);
+}
+
+// Migrate any existing localStorage tooltips into CSV on first load
+// (one-time migration so users don't lose edits they made before this update)
+async function migrateLocalStorageTooltips() {
+  const evStore = (() => { try { return JSON.parse(localStorage.getItem('hz_tooltips')||'{}'); } catch { return {}; } })();
+  const bkStore = (() => { try { return JSON.parse(localStorage.getItem('hz_block_tooltips')||'{}'); } catch { return {}; } })();
+
+  let migrated = 0;
+  for (const [key, text] of Object.entries(evStore)) {
+    // key format: month/day/year/imageUrl
+    const parts = key.split('/');
+    if (parts.length < 4) continue;
+    const [mo, dy, yr] = parts.map(Number);
+    const imgUrl = parts.slice(3).join('/');
+    const ev = EVENTS.find(e => e.month===mo && e.day===dy && e.year===yr && e.imageUrl===imgUrl);
+    if (ev && !ev.tooltip) { await setTooltip(ev, text); migrated++; }
+  }
+  for (const [key, text] of Object.entries(bkStore)) {
+    const parts = key.split('/');
+    if (parts.length < 4) continue;
+    const [sm, sd, sy] = parts.map(Number);
+    const wiki = parts.slice(3).join('/');
+    const b = multiDayTextBlocks.find(b => b.sm===sm && b.sd===sd && b.sy===sy && b.wiki===wiki);
+    if (b && !b.tooltip) { await setBlockTooltip(b, text); migrated++; }
+  }
+  if (migrated > 0) {
+    localStorage.removeItem('hz_tooltips');
+    localStorage.removeItem('hz_block_tooltips');
+    console.log(`[tooltips] Migrated ${migrated} tooltips from localStorage to CSV`);
+  }
 }
 
 // Auto-fill tooltip field from wiki URL (called when wiki URL changes)
@@ -3163,3 +3201,63 @@ async function scanBrokenImages(list, status, eventsToScan) {
     list.appendChild(row);
   });
 }
+
+// ══════════════════════════════════════════════════════════════
+// AUTH — password protection for edit mode
+// ══════════════════════════════════════════════════════════════
+
+const HZ_TOKEN_KEY = 'hz_edit_token';
+
+function hzGetToken() {
+  // Check localStorage first (survives page refresh)
+  return localStorage.getItem(HZ_TOKEN_KEY) || '';
+}
+
+function hzIsAuthed() {
+  // On localhost: always allow (no PHP auth running)
+  if (IS_LOCAL) return true;
+  return !!hzGetToken();
+}
+
+async function hzLogin() {
+  const pw  = document.getElementById('hz-pw-input').value;
+  const err = document.getElementById('hz-login-err');
+  if (!pw) { err.textContent = 'Enter a password'; err.style.display = 'block'; return; }
+
+  err.style.display = 'none';
+  const btn = document.querySelector('#hz-login-modal button');
+
+  try {
+    const res  = await fetch('/hz_login.php', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: pw })
+    });
+    const data = await res.json();
+    if (data.success) {
+      localStorage.setItem(HZ_TOKEN_KEY, data.token);
+      document.getElementById('hz-login-modal').style.display = 'none';
+      document.getElementById('hz-pw-input').value = '';
+      // Now actually toggle edit mode on
+      toggleEdit();
+    } else {
+      err.textContent = data.error || 'Incorrect password';
+      err.style.display = 'block';
+      document.getElementById('hz-pw-input').value = '';
+      document.getElementById('hz-pw-input').focus();
+    }
+  } catch(e) {
+    err.textContent = 'Network error — try again';
+    err.style.display = 'block';
+  }
+}
+
+function hzLogout() {
+  localStorage.removeItem(HZ_TOKEN_KEY);
+  fetch('/hz_logout.php', { method: 'POST' }).catch(() => {});
+  if (editMode) toggleEdit(); // exit edit mode
+}
+
+// Pass auth token with every CSV write request
+const _origAutoSaveRow = autoSaveRow;
+// Patch fetch to include token header (done inline in autoSaveRow instead)

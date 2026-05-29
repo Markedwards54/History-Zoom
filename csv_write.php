@@ -18,6 +18,14 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     ob_end_clean(); echo '{"success":false,"error":"POST required"}'; exit;
 }
 
+
+require_once __DIR__ . '/auth.php';
+if (!hz_check_auth()) {
+    ob_end_clean();
+    echo '{"success":false,"error":"unauthorized","code":401}';
+    exit;
+}
+
 $data = json_decode(file_get_contents('php://input'), true);
 if (!$data) {
     ob_end_clean(); echo '{"success":false,"error":"bad json"}'; exit;
