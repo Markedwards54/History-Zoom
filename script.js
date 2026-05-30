@@ -1190,9 +1190,10 @@ async function epSaveLinks() {
 
   if (!newWiki && !newImg) { fb('ep-fb', '⚠ No URLs entered'); return; }
 
-  // Update ev in memory
+  // Update ev in memory — tooltip MUST be set before buildEventRow
   ev.wikiUrl  = newWiki  || ev.wikiUrl;
   ev.imageUrl = newImg   || ev.imageUrl;
+  ev.tooltip  = document.getElementById('ep-tooltip')?.value.trim() || '';
 
   // Build the updated CSV row
   const row = buildEventRow(ev);
@@ -2832,7 +2833,7 @@ function showOnThisDay(mo, dy) {
   // 1. Image events
   EVENTS.forEach(ev => {
     if (parseInt(ev.month)===mo && parseInt(ev.day)===dy) {
-      entries.push({ year:ev.year, type:'event', label:wikiTitle(ev.wikiUrl), wiki:ev.wikiUrl, note:'' });
+      entries.push({ year:ev.year, type:'event', label: ev.tooltip || wikiTitle(ev.wikiUrl), wiki:ev.wikiUrl, note:'' });
     }
   });
 
@@ -2845,12 +2846,12 @@ function showOnThisDay(mo, dy) {
 
     // Start date match — skip if block text says it only matters when it ENDS
     if (b.sm===mo && b.sd===dy && !endsOnly) {
-      entries.push({ year:b.sy, type:'block-start', label:text, wiki:b.wiki,
+      entries.push({ year:b.sy, type:'block-start', label: b.tooltip || text, wiki:b.wiki,
                      note: isSingle?'':('begins'), color:b.bg, textColor:b.color });
     }
     // End date match (not single-day) — skip if block text says it only matters when it STARTS
     if (!isSingle && b.em===mo && b.ed===dy && !startOnly) {
-      entries.push({ year:b.ey, type:'block-end', label:text, wiki:b.wiki,
+      entries.push({ year:b.ey, type:'block-end', label: b.tooltip || text, wiki:b.wiki,
                      note:'ends', color:b.bg, textColor:b.color });
     }
   });
@@ -2979,6 +2980,29 @@ function bpAutoTooltip(force) {
   if (!field) return;
   if (!force && field.value.trim()) return;
   field.value = wikiTitle(document.getElementById('bp-wiki').value);
+}
+
+// Standalone tooltip save — saves just the tooltip without touching URLs
+async function epSaveTooltip() {
+  if (!epTarget) { return; }
+  const ev = epTarget.ev;
+  const tipText = document.getElementById('ep-tooltip')?.value.trim() || '';
+  ev.tooltip = tipText;
+  if (epTarget.img) epTarget.img.title = tipText || wikiTitle(ev.wikiUrl);
+  const data = await autoSaveRow('events.csv', buildEventRow(ev), ev.imageUrl, ev.month, ev.day, ev.year, ev.wikiUrl);
+  if (data?.success) fb('ep-fb', '✓ Tooltip saved');
+}
+
+async function bpSaveTooltip() {
+  if (!bpCurrentBlock) { return; }
+  const b = bpCurrentBlock;
+  const tipText = document.getElementById('bp-tooltip')?.value.trim() || '';
+  b.tooltip = tipText;
+  document.querySelectorAll('.txt-block').forEach(el => {
+    if (el._block === b) el.title = tipText || wikiTitle(b.wiki || '') || b.text;
+  });
+  const data = await autoSaveRow('multiDayTextBlocks.csv', buildBlockRow(b), null, b.sm, b.sd, b.sy, b.wiki);
+  if (data?.success) fb('bp-fb', '✓ Tooltip saved');
 }
 
 function wikiTitle(url) {
