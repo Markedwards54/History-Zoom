@@ -131,6 +131,18 @@ $allLines = explode("\n", str_replace("\r", "", $content));
 $lines    = [];
 foreach ($allLines as $line) { if (trim($line) !== '') $lines[] = $line; }
 
+// Auto-add tooltip column if missing (one-time migration)
+if (count($lines) > 0 && strpos($lines[0], 'tooltip') === false) {
+    $lines[0] = $lines[0] . ',tooltip';
+    for ($i = 1; $i < count($lines); $i++) {
+        $lines[$i] = $lines[$i] . ',';
+    }
+    // Write immediately so future reads see the column
+    $migrated = implode("\r\n", $lines) . "\r\n";
+    ftruncate($fp, 0); rewind($fp); fwrite($fp, $migrated); rewind($fp);
+    $content = $migrated;
+}
+
 $found   = false;
 $newCols = str_getcsv($row);
 

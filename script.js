@@ -835,8 +835,9 @@ function deepCloneBlocks() {
 }
 
 function toggleEdit() {
-  // If turning ON edit mode, check auth first
-  if (!editMode && !hzIsAuthed()) {
+  // On localhost, always allow edit mode — no PHP auth available
+  // On Render, check auth token
+  if (!editMode && !IS_LOCAL && !hzGetToken()) {
     document.getElementById('hz-login-modal').style.display = 'block';
     setTimeout(() => document.getElementById('hz-pw-input')?.focus(), 100);
     return;
@@ -3252,7 +3253,10 @@ async function hzLogin() {
   const btn = document.querySelector('#hz-login-modal button');
 
   try {
-    const res  = await fetch('/hz_login.php', {
+    const loginUrl = IS_LOCAL
+      ? window.location.pathname.replace(/\/[^/]*$/, '/hz_login.php')
+      : '/hz_login.php';
+    const res  = await fetch(loginUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ password: pw })
@@ -3278,7 +3282,10 @@ async function hzLogin() {
 
 function hzLogout() {
   localStorage.removeItem(HZ_TOKEN_KEY);
-  fetch('/hz_logout.php', { method: 'POST' }).catch(() => {});
+  const logoutUrl = IS_LOCAL
+    ? window.location.pathname.replace(/\/[^/]*$/, '/hz_logout.php')
+    : '/hz_logout.php';
+  fetch(logoutUrl, { method: 'POST' }).catch(() => {});
   if (editMode) toggleEdit(); // exit edit mode
 }
 

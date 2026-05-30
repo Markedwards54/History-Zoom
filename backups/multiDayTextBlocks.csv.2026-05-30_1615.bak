@@ -1,0 +1,763 @@
+startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,fontFamily,bold,color,backgroundColor,croptop,cropright,cropbottom,cropleft,positiontop,positionleft,scale,height,verticalOffset,textWeek,zIndexOverride
+5,1,-1270,5,30,-1270,https://en.wikipedia.org/wiki/Battle_of_Kadesh,BATTLE OF KADESH,2.2em,Arial,TRUE,BLACK,GOLD,30,0,10,0,40%,17%,20,0.80,0,2,20
+1,1,-587,12,31,-587,https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(587_BC),SIEGE OF JERUSALEM,2.2em,Arial,TRUE,BLACK,GOLD,30,0,10,0,40%,17%,20,0.80,0,"2,8,13,18,23,29,34,39,44,49,55,60",20
+1,1,-539,12,31,-539,https://en.wikipedia.org/wiki/Fall_of_Babylon,FALL OF BABYLON,2.2em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,19%,20,0.80,0,"2,7,12,18,23,28,34,39,44,49,54,59",20
+1,1,-492,1,11,-492,https://en.wikipedia.org/wiki/First_Persian_invasion_of_Greece,FIRST PERSIAN INVASION OF GREECE BEGINS,1.5em,Arial,TRUE,BLACK,GOLD,30,0,10,0,45%,2%,20,0.80,0,2,20
+9,1,-490,9,11,-490,https://en.wikipedia.org/wiki/First_Persian_invasion_of_Greece,FIRST PERSIAN INVASION OF GREECE ENDS,1.3em,Arial,TRUE,BLACK,GOLD,30,0,10,0,45%,3%,20,0.80,0,2,20
+1,1,-480,1,10,-480,https://en.wikipedia.org/wiki/Second_Persian_invasion_of_Greece,SECOND PERSIAN INVASION OF GREECE BEGINS,1.4em,Arial,TRUE,BLACK,GOLD,30,0,10,0,45%,3%,20,0.80,0,2,20
+7,21,-480,7,23,-480,https://en.wikipedia.org/wiki/Battle_of_Thermopylae,THERMOPYLAE,2.0em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,17%,20,0.80,0,1,20
+9,26,-480,9,27,-480,https://en.wikipedia.org/wiki/Battle_of_Salamis,SALAMIS,2.0em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,5%,20,0.80,0,1,20
+8,21,-479,8,28,-479,https://en.wikipedia.org/wiki/Second_Persian_invasion_of_Greece,SECOND PERSIAN INVASION OF GREECE ENDS,1.5em,Arial,TRUE,BLACK,GOLD,30,0,10,0,45%,1%,20,0.80,0,1,20
+4,4,-431,4,12,-431,https://en.wikipedia.org/wiki/Peloponnesian_War,PELOPONNESIAN WAR BEGINS,2.2em,Arial,TRUE,BLACK,GOLD,30,0,10,0,40%,2%,20,0.80,0,2,20
+4,14,-404,4,25,-404,https://en.wikipedia.org/wiki/Peloponnesian_War,PELOPONNESIAN WAR ENDS,2.2em,Arial,TRUE,BLACK,GOLD,30,0,10,0,40%,5%,20,0.80,0,1,20
+7,18,-390,8,21,-390,https://en.wikipedia.org/wiki/Sack_of_Rome_(390_BC),SACK OF ROME,2.3em,Arial,TRUE,RED,BLACK,30,0,10,0,40%,25%,20,0.75,20,"1,4",2
+9,1,-52,9,20,-52,https://en.wikipedia.org/wiki/Battle_of_Alesia,BATTLE OF ALESIA,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,20%,20,0.80,0,2,20
+1,16,-27,1,27,-27,https://en.wikipedia.org/wiki/Pax_Romana,PAX ROMANA BEGINS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,15%,20,0.80,0,2,20
+9,8,9,9,11,9,https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest,TEUTOBURG FOREST,1.85em,Arial,TRUE,black,RED,30,0,10,0,40%,17%,20,0.80,20,1,9
+4,13,70,9,8,70,https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE),SIEGE OF JERUSALEM,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.80,10,"2,5,11,16,21",19
+9,1,132,9,30,132,https://en.wikipedia.org/wiki/Bar_Kokhba_revolt,BAR KOKHBA BEGINS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.80,10,2,19
+7,1,136,7,31,136,https://en.wikipedia.org/wiki/Bar_Kokhba_revolt,BAR KOKHBA BEGINS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.80,10,2,19
+1,1,165,1,12,165,https://en.wikipedia.org/wiki/Antonine_Plague,ANTONINE PLAGUE BEGINS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,5%,20,0.80,0,2,20
+1,1,180,1,8,180,https://en.wikipedia.org/wiki/Antonine_Plague,ANTONINE PLAGUE ENDS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,5%,20,0.80,0,2,20
+5,1,325,8,31,325,https://en.wikipedia.org/wiki/First_Council_of_Nicaea,NICAEAN CREED,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,23%,20,0.80,25,"2,8,13,18",19
+6,2,455,6,16,455,https://en.wikipedia.org/wiki/Sack_of_Rome_(455),SACK OF ROME BY VANDALS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,3%,20,0.80,0,2,20
+9,2,476,9,4,476,https://en.wikipedia.org/wiki/Battle_of_Ravenna_(476),RAVENNA,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,8%,20,0.80,0,1,20
+8,15,636,8,20,636,https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk,YARMUK,2.3em,Arial,TRUE,GREEN,black,30,0,10,0,40%,30%,20,0.80,0,1,20
+1,1,878,1,31,878,https://en.wikipedia.org/wiki/Battle_of_Chippenham,BATTLE OF CHIPPENHAM,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,10%,20,0.80,0,2,20
+5,1,878,5,31,878,https://en.wikipedia.org/wiki/Battle_of_Edington,BATTLE OF EDINGTON,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,13%,20,0.80,0,2,20
+1,14,1077,1,25,1077,https://en.wikipedia.org/wiki/Road_to_Canossa,ROAD TO CANOSSA,2.3em,Arial,TRUE,YELLOW,BLACK,30,0,10,0,40%,15%,20,0.80,0,1,9
+11,17,1095,11,27,1095,https://en.wikipedia.org/wiki/Council_of_Clermont,COUNCIL OF CLERMONT,2.3em,Arial,TRUE,white,RED,30,0,10,0,40%,11%,20,0.80,0,1,9
+4,1,1096,10,31,1096,https://en.wikipedia.org/wiki/People%27s_Crusade,PEOPLE'S CRUSADE,2.3em,Arial,TRUE,white,RED,30,0,10,0,40%,17%,20,0.80,0,"2,7,13,18,23,29,34",9
+10,20,1097,10,30,1097,https://en.wikipedia.org/wiki/Siege_of_Antioch,SIEGE OF ANTIOCH BEGINS,2.3em,Arial,TRUE,white,RED,30,0,10,0,40%,5%,20,0.80,0,2,9
+6,19,1098,6,28,1098,https://en.wikipedia.org/wiki/Siege_of_Antioch,SIEGE OF ANTIOCH ENDS,2.3em,Arial,TRUE,white,RED,30,0,10,0,40%,9%,20,0.80,0,1,9
+6,7,1099,7,15,1099,https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(1099),SIEGE OF JERUSALEM,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,17%,20,0.70,20,"2,6",21
+9,20,1187,10,2,1187,https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(1187),SALADIN TAKES JERUSALEM,2.1em,Arial,TRUE,WHITE,BROWN,30,0,10,0,40%,8%,20,0.70,20,1,21
+7,3,1187,7,4,1187,https://en.wikipedia.org/wiki/Battle_of_Hattin,HATTIN,2.1em,Arial,TRUE,WHITE,BROWN,30,0,10,0,40%,8%,20,0.70,20,1,21
+8,28,1189,9,9,1189,https://en.wikipedia.org/wiki/Siege_of_Acre_(1189%E2%80%931191),SIEGE OF ACRE BEGINS,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,17%,20,0.70,20,3,21
+5,11,1189,5,20,1189,https://en.wikipedia.org/wiki/Third_Crusade,THIRD CRUSADE BEGINS,2.1em,Arial,TRUE,WHITE,BROWN,30,0,10,0,40%,8%,20,0.70,20,2,21
+7,7,1191,7,12,1191,https://en.wikipedia.org/wiki/Siege_of_Acre_(1189%E2%80%931191),SIEGE OF ACRE ENDS,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,12%,20,0.70,20,1,21
+8,23,1192,9,2,1192,https://en.wikipedia.org/wiki/Third_Crusade,THIRD CRUSADE ENDS,2.1em,Arial,TRUE,WHITE,BROWN,30,0,10,0,40%,15%,20,0.70,20,1,21
+1,1,1346,1,8,1346,https://en.wikipedia.org/wiki/Black_Death,BLACK DEATH BEGINS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,8%,20,0.80,0,2,20
+9,4,1346,9,10,1346,https://en.wikipedia.org/wiki/Siege_of_Calais_(1346%E2%80%931347),SIEGE OF CALAIS BEGINS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,8%,20,0.80,20,1,20
+7,23,1347,8,3,1347,https://en.wikipedia.org/wiki/Siege_of_Calais_(1346%E2%80%931347),SIEGE OF CALAIS ENDS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,10%,20,0.80,20,1,20
+1,1,1353,1,6,1353,https://en.wikipedia.org/wiki/Black_Death,BLACK DEATH ENDS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,8%,20,0.80,0,1,20
+8,30,1363,10,4,1363,https://en.wikipedia.org/wiki/Battle_of_Lake_Poyang,LAKE POYANG,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,22%,20,0.80,0,3,9
+10,12,1428,10,18,1428,https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans,SIEGE OF ORLEANS BEGINS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,5%,20,0.80,20,1,20
+5,3,1429,5,8,1429,https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans,SIEGE OF ORLEANS ENDS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,1%,20,0.80,20,1,20
+4,6,1453,5,29,1453,https://en.wikipedia.org/wiki/Fall_of_Constantinople,FALL OF CONSTANTINOPLE,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,5%,20,0.80,0,"2,6",20
+1,1,1492,1,2,1492,https://en.wikipedia.org/wiki/Granada_War,GRANADA FALLS,1.15em,Arial,TRUE,RED,YELLOW,30,0,10,0,45%,17%,20,0.70,20,1,21
+9,20,1519,9,27,1519,https://en.wikipedia.org/wiki/Magellan_expedition,MAGELLAN EXPEDITION STARTS,2.1em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,2%,20,0.80,0,2,20
+5,26,1521,8,13,1521,https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan,FALL OF TENOCHITITLAN,2.3em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,12%,20,0.80,0,"4,9,15",20
+9,1,1522,9,6,1522,https://en.wikipedia.org/wiki/Magellan_expedition,MAGELLAN EXPEDITION ENDS,1.3em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,2%,20,0.80,0,2,20
+2,1,1534,6,24,1535,https://en.wikipedia.org/wiki/M%C3%BCnster_rebellion,MUNSTER REBELLION,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,10,"2,7,12,17,22,27,32,37,43,48,53,59,64,69,75,80,85",19
+1,26,1554,2,6,1554,https://en.wikipedia.org/wiki/Wyatt%27s_rebellion,WYATT'S REBELLION,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,12%,20,0.70,20,3,21
+4,14,1560,7,7,1560,https://en.wikipedia.org/wiki/Siege_of_Leith,SIEGE OF LIETH,2.1em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,24%,20,0.70,20,"2,6,11",21
+8,6,1566,9,8,1566,https://en.wikipedia.org/wiki/Siege_of_Szigetv%C3%A1r,SIEGE OF SZIGETVAR,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,18%,20,0.80,0,2,20
+11,9,1569,1,21,1570,https://en.wikipedia.org/wiki/Rising_of_the_North,RISING OF THE NORTH,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,17%,20,0.70,20,"1,6,11",21
+10,1,1582,10,9,1582,https://en.wikipedia.org/wiki/Gregorian_calendar,GREGORIAN CALENDAR,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,13%,20,0.80,0,2,20
+1,1,1585,1,12,1585,https://en.wikipedia.org/wiki/Anglo-Spanish_War_(1585%E2%80%931604),ANGLO-SPANISH WAR BEGINS,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,3%,20,0.70,20,2,21
+5,27,1586,5,29,1586,https://en.wikipedia.org/wiki/Raid_on_St._Augustine,DRAKE RAIDS ST. AUGUSTINE,1.0em,Arial,TRUE,RED,GOLD,30,0,10,0,50%,2%,20,0.80,0,1,20
+7,29,1588,8,8,1588,https://en.wikipedia.org/wiki/Spanish_Armada,SPANISH ARMADA ATTACKS,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,3%,20,0.70,20,3,21
+1,6,1596,1,20,1596,https://en.wikipedia.org/wiki/Drake%27s_Assault_on_Panama,DRAKE'S FAILED ASSAULT ON PANAMA,1.8em,Arial,TRUE,RED,YELLOW,30,0,10,0,42%,1%,20,0.70,20,2,21
+6,30,1596,7,15,1596,https://en.wikipedia.org/wiki/Capture_of_C%C3%A1diz,CAPTURE OF CADIZ,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,35%,17%,20,0.70,20,3,21
+3,27,1599,9,24,1599,https://en.wikipedia.org/wiki/Essex_in_Ireland,ESSEX IN IRELAND,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,35%,20%,20,0.70,20,"4,9,15,20,25,30",21
+2,3,1601,2,8,1601,https://en.wikipedia.org/wiki/Essex%27s_Rebellion,ESSEX'S REBELLION,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,3%,20,0.70,20,2,21
+5,1,1609,5,9,1609,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#First_Anglo%E2%80%93Powhatan_War,FIRST ANGLO-POWHATAN WARS BEGIN,1.8em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,17%,20,0.80,0,2,20
+4,6,1614,4,16,1614,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#First_Anglo%E2%80%93Powhatan_War,FIRST ANGLO-POWHATAN WARS END,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,1%,20,0.80,0,1,20
+5,23,1618,5,31,1618,https://en.wikipedia.org/wiki/Thirty_Years%27_War,THIRTY YEARS' WAR BEGINS,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,20,0.80,0,2,20
+3,22,1622,3,31,1622,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Second_Anglo-Powhatan_War,SECOND ANGLO-POWHATAN WAR BEGINS,1.2em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,17%,20,0.80,0,2,20
+9,10,1627,9,18,1627,https://en.wikipedia.org/wiki/Siege_of_La_Rochelle,SIEGE OF LA ROCHELLE BEGINS,2.2em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,17%,20,0.80,25,2,19
+10,22,1628,10,28,1628,https://en.wikipedia.org/wiki/Siege_of_La_Rochelle,SIEGE OF LA ROCHELLE ENDS,2.2em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,5%,20,0.80,25,1,19
+5,20,1631,5,24,1631,https://en.wikipedia.org/wiki/Sack_of_Magdeburg,MAGDEBURG,2.4em,Arial,TRUE,BLACK,YELLOW,30,0,10,0,40%,15%,20,0.80,0,1,20
+9,19,1632,9,30,1632,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Second_Anglo-Powhatan_War,SECOND ANGLO-POWHATAN WAR ENDS,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,3%,20,0.80,0,1,20
+7,1,1636,7,12,1636,https://en.wikipedia.org/wiki/Pequot_War,PEQUOT WAR BEGINS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,20%,20,0.80,0,2,20
+9,19,1638,9,30,1638,https://en.wikipedia.org/wiki/Pequot_War,PEQUOT WAR ENDS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,20%,20,0.80,0,1,20
+8,1,1641,8,10,1641,https://en.wikipedia.org/wiki/English_Civil_War,ENGLISH CIVIL WAR STARTS,2.4em,Arial,TRUE,RED,TAN,30,0,10,0,40%,2%,20,0.80,0,2,20
+8,10,1643,9,5,1643,https://en.wikipedia.org/wiki/Siege_of_Gloucester,FAILED SIEGE OF GLOUCESTER,2.1em,Arial,TRUE,RED,LINEN,30,0,10,0,40%,5%,20,0.80,25,2,19
+4,18,1644,4,30,1644,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Third_Anglo-Powhatan_War,THIRD ANGLO-POWHATAN WAR BEGINS,1.8em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,17%,20,0.80,0,2,20
+10,21,1646,10,31,1646,https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars#Third_Anglo-Powhatan_War,THIRD ANGLO-POWHATAN WAR ENDS,1.8em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,3%,20,0.80,0,1,20
+7,25,1648,11,1,1648,https://en.wikipedia.org/wiki/Battle_of_Prague_(1648),BATTLE OF PRAGUE,2.3em,Arial,TRUE,GOLD,BLUE,30,0,10,0,40%,12%,20,0.80,20,"2,5,10,15",20
+10,18,1648,10,24,1648,https://en.wikipedia.org/wiki/Thirty_Years%27_War,THIRTY YEARS' WAR ENDS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,13%,20,0.80,0,1,20
+9,1,1651,9,9,1651,https://en.wikipedia.org/wiki/English_Civil_War,ENGLISH CIVIL WAR ENDS,2.4em,Arial,TRUE,RED,TAN,30,0,10,0,40%,7%,20,0.80,0,2,20
+6,20,1675,6,29,1675,https://en.wikipedia.org/wiki/King_Philip%27s_War,METACOM'S WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,20,0.80,1,2,20
+1,1,1676,1,11,1676,https://en.wikipedia.org/wiki/Bacon's_Rebellion,BACON'S REBELLION STARTS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,62,0.80,-39,2,20
+1,1,1677,1,9,1677,https://en.wikipedia.org/wiki/Bacon's_Rebellion,BACON'S REBELLION ENDS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,63,0.80,-43,2,20
+4,3,1678,4,12,1678,https://en.wikipedia.org/wiki/King_Philip%27s_War,METACOM'S WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,20,0.80,1,1,20
+8,10,1680,8,21,1680,https://en.wikipedia.org/wiki/Pueblo_Revolt,PUEBLO REVOLT,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,22%,20,0.80,0,2,20
+7,14,1683,9,11,1683,https://en.wikipedia.org/wiki/Battle_of_Vienna,SIEGE OF VIENNA,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,22%,20,0.80,25,"2,5,10",19
+8,1,1689,8,13,1689,https://en.wikipedia.org/wiki/Protestant_Revolution_(Maryland),COODE'S REBELLION,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,18%,20,0.80,0,2,20
+3,9,1697,3,16,1697,https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great,GRAND EMBASSY OF PETER THE GREAT BEGINS,1.47em,Arial,TRUE,BLACK,RED,30,0,10,0,50%,17%,20,0.80,0,2,9
+8,17,1698,8,25,1698,https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great,GRAND EMBASSY OF PETER THE GREAT ENDS,1.5em,Arial,TRUE,BLACK,RED,30,0,10,0,50%,2%,20,0.80,0,1,9
+2,22,1700,2,27,1700,https://en.wikipedia.org/wiki/Great_Northern_War,GREAT NORTHERN WAR BEGINS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,1%,20,0.80,0,1,20
+9,1,1721,9,10,1721,https://en.wikipedia.org/wiki/Great_Northern_War,GREAT NORTHERN WAR ENDS,2.0em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,1%,20,0.80,0,1,20
+5,1,1755,7,9,1755,https://en.wikipedia.org/wiki/Braddock_Expedition,BRADDOCK'S EXPEDITION,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,8%,20,0.80,0,"2,7",20
+5,17,1756,5,22,1756,https://en.wikipedia.org/wiki/Seven_Years%27_War,SEVEN YEARS WAR BEGINS,2.2em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,17%,20,0.80,0,1,20
+6,22,1763,8,10,1763,https://en.wikipedia.org/wiki/Siege_of_Fort_Pitt,SIEGE OF FORT PITT,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,15%,20,0.80,0,"4,9",20
+4,27,1763,5,7,1763,https://en.wikipedia.org/wiki/Pontiac%27s_War,PONTIAC'S WAR BEGINS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,10%,20,0.80,0,2,20
+5,9,1763,5,21,1763,https://en.wikipedia.org/wiki/Siege_of_Fort_Detroit,SIEGE OF FT. DETROIT BEGINS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,20,0.80,0,2,20
+10,23,1763,10,31,1763,https://en.wikipedia.org/wiki/Siege_of_Fort_Detroit,SIEGE OF FT. DETROIT ENDS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,5%,20,0.80,0,1,20
+10,7,1765,10,25,1765,https://en.wikipedia.org/wiki/Stamp_Act_Congress,STAMP ACT CONGRESS,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,12%,20,0.80,0,2,20
+7,20,1766,7,25,1766,https://en.wikipedia.org/wiki/Pontiac%27s_War,PONTIAC'S WAR ENDS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,7%,20,0.80,0,1,20
+9,5,1774,10,26,1774,https://en.wikipedia.org/wiki/First_Continental_Congress,FIRST CONTINENTAL CONGRESS,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,3%,20,0.80,0,"2,6",20
+4,19,1775,4,29,1775,https://en.wikipedia.org/wiki/Siege_of_Boston,SIEGE OF BOSTON BEGINS,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,12%,20,0.80,0,2,20
+5,10,1775,5,20,1775,https://en.wikipedia.org/wiki/Second_Continental_Congress,SECOND CONTINENTAL CONGRESS BEGINS,1.6em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,1%,20,0.80,0,2,20
+3,10,1776,3,17,1776,https://en.wikipedia.org/wiki/Siege_of_Boston,SIEGE OF BOSTON ENDS,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,15%,20,0.80,0,1,20
+6,11,1776,7,5,1776,https://en.wikipedia.org/wiki/Committee_of_Five,INDEPENDENCE COMMITTEE,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,8%,20,0.80,0,2,20
+7,2,1777,7,6,1777,https://en.wikipedia.org/wiki/Siege_of_Fort_Ticonderoga_(1777),FT. TICHONDEROGA,2.0EM,Arial,TRUE,WHITE,RED,30,0,10,0,40%,1%,20,0.80,0,1,20
+8,2,1777,8,22,1777,https://en.wikipedia.org/wiki/Siege_of_Fort_Stanwix,SIEGE OF FORT STANWIX,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,13%,20,0.80,0,2,20
+12,19,1777,6,19,1778,https://en.wikipedia.org/wiki/Valley_Forge,VALLEY FORGE,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,27%,20,0.80,-42,"2,4,9,13,18,23,29",20
+6,18,1779,10,3,1779,https://en.wikipedia.org/wiki/Sullivan_Expedition,SULLIVAN EXPEDITION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,17%,20,0.80,0,"2,5,10,15",20
+3,29,1780,5,12,1780,https://en.wikipedia.org/wiki/Siege_of_Charleston,SIEGE OF CHARLESTON,2.0EM,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.80,0,3,20
+9,28,1781,10,19,1781,https://en.wikipedia.org/wiki/Siege_of_Yorktown,SIEGE OF YORKTOWN,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,17%,20,0.80,0,4,20
+1,1,1781,1,19,1781,https://en.wikipedia.org/wiki/Raid_on_Richmond,RAID ON RICHMOND,2.4em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.80,0,2,20
+2,7,1785,2,7,1785,https://en.wikipedia.org/wiki/Eleventh_Amendment_to_the_United_States_Constitution,11,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+8,29,1786,2,14,1787,https://en.wikipedia.org/wiki/Shays%27s_Rebellion,SHAY'S REBELLION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,22%,20,0.80,0,"3,8,13,18,23,28",20
+5,17,1787,9,17,1787,https://en.wikipedia.org/wiki/Constitutional_Convention_(United_States),CONSTITUTIONAL CONVENTION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,3%,20,0.80,0,"2,5,11,15,20",20
+10,21,1790,10,28,1790,https://www.britannica.com/question/Who-did-the-Haitian-Revolution-involve,OGE REBELLION,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,14%,20,0.70,0,2,80
+8,22,1791,8,27,1791,https://en.wikipedia.org/wiki/Haitian_Revolution,HAITIAN REVOLUTION BEGINS,1.6EM,Arial,TRUE,white,PURPLE,30,0,0,0,50%,3%,20,0.70,0,1,80
+4,20,1792,4,28,1792,https://en.wikipedia.org/wiki/War_of_the_First_Coalition,FIRST COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,20,0.70,0,2,80
+9,2,1792,9,6,1792,https://en.wikipedia.org/wiki/September_Massacres,SEP MASSACRES,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,20,0.70,0,1,80
+3,1,1792,4,30,1792,https://en.wikipedia.org/wiki/Panic_of_1792,PANIC OF 1782,2.3em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,25%,20,0.80,10,"2,7",19
+12,3,1792,1,15,1793,https://en.wikipedia.org/wiki/Trial_of_Louis_XVI,TRIAL OF LOUIS XVI,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,17%,20,0.70,0,"2,6",80
+8,29,1793,12,19,1793,https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793),SIEGE OF TOULON,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,20%,20,0.70,0,"3,8,13,18",80
+8,1,1793,8,10,1793,https://en.wikipedia.org/wiki/War_in_the_Vend%C3%A9e#Genocide_controversy,VENDEE GENOCIDE,2.3EM,Arial,TRUE,white,BLACK,30,0,0,0,45%,20%,20,0.70,0,2,80
+7,27,1794,8,9,1794,https://en.wikipedia.org/wiki/Thermidorian_Reaction,THERMIDORIAN REACTION BEGINS,2EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,17%,20,0.70,0,3,80
+10,18,1795,11,2,1795,https://en.wikipedia.org/wiki/Thermidorian_Reaction,THERMIDORIAN REACTION ENDS,2.1EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,2%,20,0.70,0,1,80
+6,23,1795,7,21,1795,https://en.wikipedia.org/wiki/Invasion_of_France_(1795),BATTLE OF QUIBERON,2.1EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,17%,20,0.70,0,4,80
+4,20,1796,4,22,1796,https://en.wikipedia.org/wiki/Battle_of_Mondov%C3%AC,MONDAVI,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,13%,20,0.70,0,1,80
+5,1,1796,5,31,1796,https://en.wikipedia.org/wiki/Conspiracy_of_the_Equals,CONSPIRACY OF EQUALS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,8%,20,0.75,0,"3,7,13",20
+10,8,1797,10,17,1797,https://en.wikipedia.org/wiki/War_of_the_First_Coalition,FIRST COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,13%,20,0.70,0,1,80
+8,1,1798,8,3,1798,https://en.wikipedia.org/wiki/Battle_of_the_Nile,BATTLE OF THE NILE,1.45em,Arial,TRUE,WHITE,RED,30,0,10,0,42%,17%,20,0.70,20,1,21
+7,7,1798,7,17,1798,https://en.wikipedia.org/wiki/Quasi-War,QUASI WAR BEGINS,2.1EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,17%,20,0.70,0,2,80
+11,29,1798,12,8,1798,https://en.wikipedia.org/wiki/War_of_the_Second_Coalition,SECOND COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,5%,20,0.70,0,3,80
+3,20,1799,5,21,1799,https://en.wikipedia.org/wiki/Siege_of_Acre_(1799),SIEGE OF ACRE,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,40%,27%,20,0.70,0,"2,5,10",80
+9,21,1800,9,30,1800,https://en.wikipedia.org/wiki/Quasi-War,QUASI WAR ENDS,2.1EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,22%,20,0.70,0,1,1
+5,10,1801,5,19,1801,https://en.wikipedia.org/wiki/First_Barbary_War,FIRST BARBARY WAR BEGINS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,2%,20,0.70,0,1,80
+3,7,1802,3,25,1802,https://en.wikipedia.org/wiki/War_of_the_Second_Coalition,SECOND COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,8%,20,0.70,0,1,80
+2,1,1804,4,22,1804,https://en.wikipedia.org/wiki/1804_Haitian_massacre,HAITIAN MASSACRE,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,18%,20,0.70,0,"2,7,12",80
+6,15,1804,6,15,1804,https://en.wikipedia.org/wiki/Twelfth_Amendment_to_the_United_States_Constitution,12,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+5,14,1804,5,26,1804,https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition,LEWIS AND CLARK BEGINS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,7%,20,0.70,0,2,80
+4,11,1805,4,20,1805,https://en.wikipedia.org/wiki/War_of_the_Third_Coalition,THIRD COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,20,0.70,0,2,80
+6,2,1805,6,10,1805,https://en.wikipedia.org/wiki/First_Barbary_War,FIRST BARBARY WAR ENDS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,5%,20,0.70,0,1,80
+4,27,1805,5,31,1805,https://en.wikipedia.org/wiki/Battle_of_Derna_(1805),BATTLE OF DERNA,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,20%,20,0.70,0,4,80
+10,16,1805,10,19,1805,https://en.wikipedia.org/wiki/Battle_of_Ulm,ULM,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,35%,20,0.70,0,1,80
+7,6,1806,7,18,1806,https://en.wikipedia.org/wiki/War_of_the_Third_Coalition,THIRD COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,20,0.70,0,1,80
+9,14,1806,9,23,1806,https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition,LEWIS AND CLARK ENDS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,10%,20,0.70,0,1,80
+2,8,1806,2,15,1806,https://en.wikipedia.org/wiki/Invasion_of_Naples_(1806),INVASION OF NAPLES,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,13%,20,0.70,0,2,80
+10,9,1806,11,8,1806,https://en.wikipedia.org/wiki/War_of_the_Fourth_Coalition,FOURTH COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,5%,20,0.70,0,6,80
+6,7,1807,7,9,1807,https://en.wikipedia.org/wiki/War_of_the_Fourth_Coalition,FOURTH COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,8%,20,0.70,0,1,80
+11,19,1807,11,30,1807,https://en.wikipedia.org/wiki/Invasion_of_Portugal_(1807),INVASION OF PORTUGAL,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,12%,20,0.70,0,2,80
+8,15,1807,9,7,1807,https://en.wikipedia.org/wiki/Battle_of_Copenhagen_(1807),BATTLE OF COPENHAGEN,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,8%,20,0.70,0,2,80
+3,17,1808,3,19,1808,https://en.wikipedia.org/wiki/Tumult_of_Aranjuez,ARANJUEZ,2.3EM,Arial,TRUE,RED,YELLOW,30,0,0,0,45%,8%,20,0.70,0,1,80
+2,21,1808,2,27,1808,https://en.wikipedia.org/wiki/Finnish_War,FINNISH WAR BEGINS,2.3EM,Arial,TRUE,BLUE,RED,30,0,0,0,45%,15%,20,0.70,0,1,80
+9,10,1809,9,17,1809,https://en.wikipedia.org/wiki/Finnish_War,FINNISH WAR ENDS,2.3EM,Arial,TRUE,BLUE,RED,30,0,0,0,45%,17%,20,0.70,0,1,80
+4,10,1809,4,22,1809,https://en.wikipedia.org/wiki/War_of_the_Fifth_Coalition,FIFTH COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,20,0.70,0,2,80
+10,8,1809,10,14,1809,https://en.wikipedia.org/wiki/War_of_the_Fifth_Coalition,FIFTH COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,10%,20,0.70,0,1,80
+1,8,1811,1,10,1811,https://en.wikipedia.org/wiki/1811_German_Coast_uprising,GERMAN COAST,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,5%,20,0.80,0,1,20
+6,18,1812,6,27,1812,https://en.wikipedia.org/wiki/War_of_1812,WAR OF 1812 BEGINS,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,17%,20,0.70,0,2,80
+6,24,1812,12,24,1812,https://en.wikipedia.org/wiki/French_invasion_of_Russia,NAPOLEON INVADES RUSSIA,2.3EM,Arial,TRUE,BLUE,RED,30,0,0,0,45%,4%,20,0.70,0,"4,9,15,20,25,30",79
+12,20,1812,12,26,1812,https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition,SIXTH COALITION BEGINS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,10%,20,0.70,10,1,80
+1,18,1813,1,23,1813,https://en.wikipedia.org/wiki/Battle_of_Frenchtown,FRENCHTOWN,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,22%,70,0.70,-38,1,80
+10,16,1813,10,19,1813,https://en.wikipedia.org/wiki/Battle_of_Leipzig,LEIPZIG,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,22%,20,0.70,10,2,80
+4,28,1813,4,30,1813,https://en.wikipedia.org/wiki/Battle_of_York#Burning_of_York,YORK BURNED,1.8em,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,3%,69,0.70,-37,1,80
+5,25,1813,5,27,1813,https://en.wikipedia.org/wiki/Battle_of_Fort_George,FORT GEORGE,1.8em,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,2%,66,0.70,-36,1,80
+9,12,1814,9,15,1814,https://en.wikipedia.org/wiki/Battle_of_Baltimore,BALTIMORE,1.7EM,Arial,TRUE,white,BLUE,30,0,0,0,50%,17%,20,0.70,0,1,80
+5,22,1814,5,30,1814,https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition,SIXTH COALITION ENDS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,10%,20,0.70,10,1,80
+12,15,1814,12,31,1814,https://en.wikipedia.org/wiki/Hartford_Convention,HARTFORD CONVENTION,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,10%,20,0.70,10,3,80
+9,6,1814,9,11,1814,https://en.wikipedia.org/wiki/Battle_of_Plattsburgh,PLATTSBURGH,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,13%,20,0.70,10,1,80
+3,20,1815,7,8,1815,https://en.wikipedia.org/wiki/Hundred_Days,HUNDRED DAYS,3.0EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,14%,20,0.80,0,"1,4,10,15,20",80
+2,12,1815,2,17,1815,https://en.wikipedia.org/wiki/War_of_1812,WAR OF 1812 ENDS,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,17%,20,0.70,0,1,80
+1,1,1815,1,5,1815,https://en.wikipedia.org/wiki/Hartford_Convention,HARTFORD CONVENTION,2EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,17%,20,0.70,10,1,80
+7,26,1830,7,29,1830,https://en.wikipedia.org/wiki/July_Revolution,JULY REVOLUTION,2.1em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,2%,20,0.80,0,1,20
+8,25,1830,7,21,1831,https://en.wikipedia.org/wiki/Belgian_Revolution,BELGIAN REVOLUTION,2.3em,Arial,TRUE,YELLOW,BLACK,30,0,10,0,40%,11%,61,0.80,-37,"4,9,15,20,25,31,36,41,46,51,56",8
+8,21,1831,8,23,1831,https://en.wikipedia.org/wiki/Nat_Turner's_Rebellion,NAT TURNER,2.3EM,Arial,TRUE,WHITE,BLACK,30,0,0,0,45%,1%,20,0.70,10,1,80
+10,29,1831,10,31,1831,https://en.wikipedia.org/wiki/1831_Bristol_riots,BRISTOL,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,4%,20,0.80,25,2,8
+4,6,1832,4,14,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR BEGINS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,20,0.80,0,2,9
+8,19,1832,8,27,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR ENDS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,20,0.80,0,1,9
+7,10,1832,7,21,1832,https://en.wikipedia.org/wiki/Bank_War,BANK WAR STARTS,2.3EM,Arial,TRUE,WHITE,GREEN,30,0,0,0,45%,22%,20,0.70,10,2,80
+10,2,1835,10,10,1835,https://en.wikipedia.org/wiki/Texas_Revolution,TEXAS REVOLUTION BEGINS,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,5%,20,0.70,10,2,80
+2,23,1836,3,6,1836,https://en.wikipedia.org/wiki/Battle_of_the_Alamo,BATTLE OF THE ALAMO,2.1em,Arial,TRUE,black,lightblue,30,0,10,0,40%,2%,20,0.80,0,"1,3",20
+1,24,1836,1,31,1836,https://en.wikipedia.org/wiki/Bank_War,BANK WAR ENDS,2.3EM,Arial,TRUE,WHITE,GREEN,30,0,0,0,45%,22%,20,0.70,10,1,80
+4,10,1836,4,22,1836,https://en.wikipedia.org/wiki/Texas_Revolution,TEXAS REVOLUTION ENDS,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,8%,20,0.70,10,1,80
+8,6,1838,11,1,1838,https://en.wikipedia.org/wiki/1838_Mormon_War,1838 MORMON WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,19%,20,0.80,25,"2,6,12",19
+9,4,1839,9,14,1839,https://en.wikipedia.org/wiki/First_Opium_War,FIRST OPIUM WAR BEGINS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,8%,20,0.70,10,2,80
+6,28,1839,8,21,1839,https://en.wikipedia.org/wiki/La_Amistad,AMISTAD REVOLT,2.3EM,Arial,TRUE,WHITE,BLACK,30,0,0,0,45%,22%,20,0.70,10,"4,9",80
+8,21,1842,8,29,1842,https://en.wikipedia.org/wiki/First_Opium_War,FIRST OPIUM WAR ENDS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,10%,20,0.70,10,1,80
+4,25,1846,5,16,1846,https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War,MEXICAN AMERICAN WAR BEGINS,2EM,Arial,TRUE,BLACK,LIGHTBLUE,30,0,0,0,45%,4%,20,0.70,10,5,80
+9,22,1846,9,30,1846,https://en.wikipedia.org/wiki/Siege_of_Los_Angeles,SIEGE OF LOS ANGELES,2.1EM,Arial,TRUE,BLACK,LIGHTBLUE,30,0,0,0,45%,17%,20,0.70,30,1,80
+9,21,1846,9,24,1846,https://en.wikipedia.org/wiki/Battle_of_Monterrey,MONTERREY,2.1EM,Arial,TRUE,BLACK,LIGHTBLUE,30,0,0,0,45%,18%,20,0.70,-8,1,80
+1,19,1847,7,9,1847,https://en.wikipedia.org/wiki/Taos_Revolt,TAOS REVOLT,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,25%,20,0.80,-5,"2,5,10,15,20,26,31",20
+2,22,1847,2,23,1847,https://en.wikipedia.org/wiki/Battle_of_Buena_Vista,BUENA,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,5%,20,0.80,0,1,20
+2,22,1847,2,23,1847,https://en.wikipedia.org/wiki/Battle_of_Buena_Vista,VISTA,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,15%,20,0.75,40,1,20
+3,9,1847,3,29,1847,https://en.wikipedia.org/wiki/Siege_of_Veracruz,SIEGE OF VERACRUZ,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,15%,20,0.75,35,2,20
+9,8,1847,9,11,1847,https://en.wikipedia.org/wiki/Battle_for_Mexico_City,BATTLE FOR,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,12%,20,0.75,35,1,20
+9,12,1847,9,15,1847,https://en.wikipedia.org/wiki/Battle_for_Mexico_City,MEXICO CITY,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,12%,20,0.75,35,1,20
+9,12,1847,9,13,1847,https://en.wikipedia.org/wiki/Battle_of_Chapultepec,CHAPULTEPEC,1.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,1%,20,0.75,0,1,19
+7,22,1848,7,27,1848,https://en.wikipedia.org/wiki/Battle_of_Custoza_(1848),CUSTOZA,2.3em,Arial,TRUE,black,YELLOW,30,0,10,0,40%,27%,20,0.80,0,2,20
+3,23,1848,3,31,1848,https://en.wikipedia.org/wiki/First_Italian_War_of_Independence,FIRST ITALIAN WAR BEGINS,2.15em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,1%,20,0.80,0,2,20
+6,12,1848,6,17,1848,https://en.wikipedia.org/wiki/Prague_uprising_(1848),PRAGUE UPRISING,2.3em,Arial,TRUE,black,YELLOW,30,0,10,0,40%,10%,20,0.80,0,1,20
+6,22,1848,6,26,1848,https://en.wikipedia.org/wiki/June_Days_uprising,JUNE DAYS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,10%,20,0.80,0,1,20
+1,16,1848,2,2,1848,https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War,MEXICAN AMERICAN WAR ENDS,2EM,Arial,TRUE,BLACK,LIGHTBLUE,30,0,0,0,45%,6%,20,0.70,10,1,80
+8,12,1849,8,22,1849,https://en.wikipedia.org/wiki/First_Italian_War_of_Independence,FIRST ITALIAN WAR ENDS,2.15em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,10%,20,0.80,0,1,20
+12,1,1850,12,7,1850,https://en.wikipedia.org/wiki/Taiping_Rebellion,TAIPING REBELLION BEGINS,2.3EM,Arial,TRUE,RED,YELLOW,30,0,0,0,45%,5%,20,0.70,10,1,80
+10,16,1853,10,22,1853,https://en.wikipedia.org/wiki/Crimean_War,CRIMEAN WAR BEGINS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,45%,25%,20,0.80,0,1,20
+10,17,1854,10,21,1854,https://en.wikipedia.org/wiki/Siege_of_Sevastopol_(1854%E2%80%931855),SIEGE OF SEVASTOPOL BEGINS,1.6em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,17%,20,0.80,0,1,19
+8,19,1855,9,11,1855,https://en.wikipedia.org/wiki/Siege_of_Sevastopol_(1854%E2%80%931855),SIEGE OF SEVASTOPOL ENDS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,2%,20,0.80,0,1,19
+3,23,1856,3,30,1856,https://en.wikipedia.org/wiki/Crimean_War,CRIMEAN WAR ENDS,1.9em,Arial,TRUE,BLACK,orange,30,0,10,0,45%,25%,20,0.80,0,1,20
+10,8,1856,10,18,1856,https://en.wikipedia.org/wiki/Second_Opium_War,SECOND OPIUM WAR BEGINS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,3%,20,0.70,10,2,80
+5,10,1857,5,16,1857,https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857,SEPOY REBELLION BEGINS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,5%,20,0.80,0,1,20
+6,25,1857,4,12,1858,https://en.wikipedia.org/wiki/Utah_War,UTAH WAR,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,40%,29%,65,0.80,-42,"4,9,15,20,25,30,35,41,46,51",20
+10,24,1858,11,1,1858,https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857,SEPOY REBELLION ENDS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,6%,61,0.80,-42,1,20
+10,16,1859,10,18,1859,https://en.wikipedia.org/wiki/John_Brown%27s_raid_on_Harpers_Ferry,HARPERS FERRY,1.6em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,60,0.80,-42,1,20
+6,15,1859,10,1,1859,https://en.wikipedia.org/wiki/Pig_War_(1859),PIG WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,35%,63,0.80,-48,"2,5,11,16",20
+10,14,1860,10,24,1860,https://en.wikipedia.org/wiki/Second_Opium_War,SECOND OPIUM WAR ENDS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,7%,20,0.70,10,1,80
+8,12,1860,8,21,1860,https://en.wikipedia.org/wiki/Battle_of_Taku_Forts_(1860),TAKU FORTS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,30%,20,0.70,10,1,80
+11,8,1861,11,16,1861,https://en.wikipedia.org/wiki/Trent_Affair,TRENT AFFAIR,2.4em,Arial,TRUE,BLUE,RED,30,0,10,0,40%,25%,20,0.80,0,2,20
+4,12,1861,4,13,1861,https://en.wikipedia.org/wiki/Battle_of_Fort_Sumter,FT. SUMTER,1.5em,Arial,TRUE,black,LightGray,30,0,10,0,40%,8%,20,0.80,30,1,20
+4,12,1861,4,13,1861,https://en.wikipedia.org/wiki/American_Civil_War,START,2.4em,Arial,TRUE,white,black,30,0,10,0,40%,12%,20,0.70,-12,1,20
+2,11,1862,2,16,1862,https://en.wikipedia.org/wiki/Battle_of_Fort_Donelson,FT. DONELSON,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,15%,20,0.80,0,1,20
+4,6,1862,4,7,1862,https://en.wikipedia.org/wiki/Battle_of_Shiloh,SHILOH,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,5%,20,0.80,25,1,21
+4,5,1862,5,4,1862,https://en.wikipedia.org/wiki/Siege_of_Yorktown_(1862),SIEGE OF YORKTOWN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,14%,20,0.80,0,3,20
+4,25,1862,5,1,1862,https://en.wikipedia.org/wiki/Capture_of_New_Orleans,NO CAPTURED,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,5%,20,0.80,25,2,21
+6,25,1862,7,1,1862,https://en.wikipedia.org/wiki/Seven_Days_Battles,SEVEN DAYS,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,14%,20,0.80,0,1,20
+8,18,1862,9,26,1862,https://en.wikipedia.org/wiki/Dakota_War_of_1862,DAKOTA WAR,2.4em,Arial,TRUE,black,orange,30,0,10,0,40%,20%,20,0.80,33,"1,5",20
+8,28,1862,8,30,1862,https://en.wikipedia.org/wiki/Second_Battle_of_Bull_Run,BULL RUN 2,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,5%,20,0.80,5,1,21
+8,14,1862,10,10,1862,https://en.wikipedia.org/wiki/Confederate_Heartland_Offensive,HEARTLAND,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,20%,20,0.80,-10,"2,6,11",20
+12,11,1862,12,15,1862,https://en.wikipedia.org/wiki/Battle_of_Fredericksburg,FREDERICKSBURG,1.6EM,Arial,TRUE,black,LightGray,30,0,10,0,40%,17%,20,0.80,0,1,20
+10,10,1862,10,12,1862,https://en.wikipedia.org/wiki/Raid_on_Chambersburg,CHAMBERSBURG,1.1EM,Arial,TRUE,black,LightGray,30,0,10,0,50%,17%,20,0.80,20,1,20
+9,12,1862,9,13,1862,https://en.wikipedia.org/wiki/Battle_of_Harpers_Ferry,HARPERS,2.1em,Arial,TRUE,black,LightGray,30,0,10,0,40%,17%,20,0.80,20,1,201
+9,14,1862,9,15,1862,https://en.wikipedia.org/wiki/Battle_of_Harpers_Ferry,FERRY,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,5%,20,0.80,20,1,20
+4,29,1862,5,30,1862,https://en.wikipedia.org/wiki/Siege_of_Corinth,SIEGE OF CORINTH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,20,0.80,0,4,1
+4,30,1863,5,6,1863,https://en.wikipedia.org/wiki/Battle_of_Chancellorsville,CHANCELLORSVILLE,1.6EM,Arial,TRUE,black,LightGray,30,0,10,0,40%,10%,20,0.80,0,3,20
+5,18,1863,7,4,1863,https://en.wikipedia.org/wiki/Siege_of_Vicksburg,VICKSBURG SIEGE,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,20%,20,0.80,0,"2,5",20
+7,1,1863,7,3,1863,https://en.wikipedia.org/wiki/Battle_of_Gettysburg,GETTYSBURG,2.1em,Arial,TRUE,white,darkblue,30,0,10,0,40%,2%,20,0.80,25,1,20
+7,11,1863,7,16,1863,https://en.wikipedia.org/wiki/New_York_City_draft_riots,NY DRAFT RIOTS,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,10%,20,0.80,0,2,20
+9,18,1863,9,20,1863,https://en.wikipedia.org/wiki/Battle_of_Chickamauga,CHICKAMAUGA,1.3EM,Arial,TRUE,black,LightGray,30,0,10,0,55%,17%,20,0.80,0,1,20
+9,21,1863,11,25,1863,https://en.wikipedia.org/wiki/Chattanooga_campaign,CHATTANOOGA,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,30%,20,0.80,0,"1,4,9",20
+10,13,1863,11,7,1863,https://en.wikipedia.org/wiki/Bristoe_campaign,BRISTOE,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,35%,20,0.80,25,"2,4",20
+11,27,1863,12,2,1863,https://en.wikipedia.org/wiki/Battle_of_Mine_Run,MINE RUN,1.5EM,Arial,TRUE,white,GREY,30,0,10,0,52%,13%,20,0.80,0,"2,3",20
+1,20,1863,1,22,1863,https://en.wikipedia.org/wiki/Mud_March_(American_Civil_War),MUD MARCH,1.5em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,3%,20,0.80,0,1,9
+6,13,1863,6,15,1863,https://en.wikipedia.org/wiki/Second_Battle_of_Winchester,WINCHESTER 2,1.25em,Arial,TRUE,BLACK,LIGHTGREY,30,0,10,0,50%,4%,20,0.80,15,2,20
+5,5,1864,5,7,1864,https://en.wikipedia.org/wiki/Battle_of_the_Wilderness,WILDERNESS,1.9em,Arial,TRUE,white,GREY,30,0,10,0,52%,6%,61,0.80,-48,1,20
+5,9,1864,5,21,1864,https://en.wikipedia.org/wiki/Battle_of_Spotsylvania_Court_House,BATTLE OF SPOTSYLVANIA COURT HOUSE,1.5em,Arial,TRUE,white,GREY,30,0,10,0,45%,2%,62,0.80,-43,2,20
+5,23,1864,5,26,1864,https://en.wikipedia.org/wiki/Battle_of_North_Anna,NORTH ANNA,2EM,Arial,TRUE,white,GREY,30,0,10,0,45%,16%,58,0.80,-46,1,20
+5,28,1864,5,30,1864,https://en.wikipedia.org/wiki/Battle_of_Totopotomoy_Creek,BETHESDA CHURCH,0.9em,Arial,TRUE,white,GREY,30,0,10,0,52%,2%,61,0.80,-52,2,20
+5,31,1864,6,12,1864,https://en.wikipedia.org/wiki/Battle_of_Cold_Harbor,COLD HARBOR,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,40%,23%,62,0.80,-47,3,21
+6,9,1864,6,18,1864,https://en.wikipedia.org/wiki/Siege_of_Petersburg,PETERSBURG STARTS,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,16%,59,0.80,-25,2,20
+6,17,1864,6,18,1864,https://en.wikipedia.org/wiki/Battle_of_Lynchburg,LYNCHBURG,1.4em,Arial,TRUE,black,LightGray,35,0,10,0,52%,3%,65,0.80,43,1,20
+7,11,1864,7,12,1864,https://en.wikipedia.org/wiki/Battle_of_Fort_Stevens,FT. STEVENS,1.5EM,Arial,TRUE,black,lightblue,30,0,10,0,40%,3%,20,0.80,0,1,20
+11,15,1864,12,21,1864,https://en.wikipedia.org/wiki/Sherman%27s_March_to_the_Sea,MARCH TO THE SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,15%,20,0.80,-10,"2,5",20
+9,18,1864,12,27,1864,https://en.wikipedia.org/wiki/Franklin%E2%80%93Nashville_campaign,FRANKLIN-NASHVILLE,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,20,0.80,30,"4,11,15",2
+8,7,1864,8,13,1864,https://en.wikipedia.org/wiki/Taiping_Rebellion,TAIPING REBELLION ENDS,2.3EM,Arial,TRUE,RED,YELLOW,30,0,0,0,45%,9%,20,0.70,10,1,80
+2,14,1864,2,20,1864,https://en.wikipedia.org/wiki/Meridian_campaign,MERIDIAN,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,32%,61,0.80,-38,1,19
+12,25,1864,12,27,1864,https://en.wikipedia.org/wiki/First_Battle_of_Fort_Fisher,WILMINGTON,2.2em,Arial,TRUE,WHITE,GREY,30,0,10,0,40%,3%,20,0.80,0,1,5000
+12,18,1865,12,18,1865,https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution,13,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+1,1,1865,1,7,1865,https://en.wikipedia.org/wiki/Carolinas_campaign,CAROLINAS CAMPAIGN STARTS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,1%,20,0.80,0,1,20
+3,19,1865,3,25,1865,https://en.wikipedia.org/wiki/Siege_of_Petersburg,PETERSBURG ENDS,2.4em,Arial,TRUE,black,lightblue,30,0,10,0,40%,18%,20,0.80,30,1,20
+4,23,1865,4,26,1865,https://en.wikipedia.org/wiki/Carolinas_campaign,CAROLINA ENDS,1.8em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,1%,20,0.80,0,1,20
+2,11,1865,2,22,1865,https://en.wikipedia.org/wiki/Battle_of_Wilmington,WILMINGTON,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,23%,20,0.80,25,"2,8,13,18",19
+8,27,1866,9,15,1866,https://en.wikipedia.org/wiki/Swing_Around_the_Circle,SWING AROUND THE CIRCLE,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,3%,20,0.75,0,3,20
+7,9,1868,7,9,1868,https://en.wikipedia.org/wiki/Fourteenth_Amendment_to_the_United_States_Constitution,14,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+2,24,1868,5,26,1868,https://en.wikipedia.org/wiki/Impeachment_of_Andrew_Johnson,JOHNSON IMPEACHMENT,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,10%,20,0.75,0,"3,8,13",20
+2,3,1870,2,3,1870,https://en.wikipedia.org/wiki/Fifteenth_Amendment_to_the_United_States_Constitution,15,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+3,18,1871,5,28,1871,https://en.wikipedia.org/wiki/Paris_Commune,PARIS COMMUNE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,23%,63,0.80,-43,"2,5,11",20
+10,17,1871,4,30,1872,https://en.wikipedia.org/wiki/South_Carolina_Ku_Klux_Klan_trials_of_1871%E2%80%931872,KLAN WAR AND TRIALS,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,13%,61,0.80,-48,"5,10,15,20,25,31",9
+9,2,1872,9,7,1872,https://en.wikipedia.org/wiki/Hague_Congress_(1872),HAGUE CONGRESS,1.9em,Arial,TRUE,white,RED,30,0,10,0,40%,15%,20,0.70,20,1,21
+9,14,1872,9,16,1872,https://en.wikipedia.org/wiki/St._Imier_Congress,ST IMIER,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,5%,20,0.70,20,2,21
+9,14,1874,9,17,1874,https://en.wikipedia.org/wiki/Battle_of_Liberty_Place,LIBERTY PLACE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,5%,20,0.75,0,1,20
+12,7,1874,1,5,1875,https://en.wikipedia.org/wiki/Vicksburg_massacre,VICKSBURG MASSACRE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,12%,20,0.75,0,2,20
+7,1,1876,7,31,1876,https://en.wikipedia.org/wiki/Hamburg_massacre,HAMBURG MASSACRE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.75,0,3,20
+7,19,1877,7,30,1877,https://en.wikipedia.org/wiki/Pittsburgh_railroad_strike_of_1877,PITTSBURGH RAILWAY RIOTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,3%,20,0.75,0,2,20
+7,14,1877,9,4,1877,https://en.wikipedia.org/wiki/Great_Railroad_Strike_of_1877,GREAT RAILROAD STRIKE,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,10%,20,0.75,40,"2,6",2
+6,14,1877,6,23,1877,https://en.wikipedia.org/wiki/Nez_Perce_War,NEZ PERCE WAR BEGINS,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,10%,20,0.80,15,2,20
+10,1,1877,10,5,1877,https://en.wikipedia.org/wiki/Nez_Perce_War,NEZ PERCE WAR ENDS,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,1%,20,0.80,15,1,20
+1,11,1879,7,4,1879,https://en.wikipedia.org/wiki/Anglo-Zulu_War,ANGLO-ZULU WAR,2.3em,Arial,TRUE,white,GREY,30,0,10,0,40%,20%,20,0.80,0,"2,6,11,17,22,27",21
+1,22,1879,1,23,1879,https://en.wikipedia.org/wiki/Battle_of_Rorke%27s_Drift,RORKE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,10%,20,0.80,0,1,21
+4,26,1881,4,28,1881,https://en.wikipedia.org/wiki/Kiev_pogrom_(1881),KIEV POGROM,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,4%,20,0.70,20,1,21
+7,14,1881,7,20,1881,https://en.wikipedia.org/wiki/1881_London_Social_Revolutionary_Congress,SR CONGRESS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,20,0.70,20,2,21
+2,26,1885,3,14,1885,https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State,CONGO ATROCITIES "BEGIN",2.3em,Arial,TRUE,YELLOW,DARKBLUE,30,0,10,0,40%,5%,20,0.80,1,3,20
+11,14,1889,1,25,1890,https://en.wikipedia.org/wiki/Around_the_World_in_Seventy-Two_Days,NELLIE BLY AND 72 DAYS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,10%,20,0.75,20,"2,5,10",2
+7,1,1892,11,20,1892,https://en.wikipedia.org/wiki/Homestead_strike,HOMESTEAD STRIKE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,0,"2,8,13,19,25",21
+5,11,1894,7,20,1894,https://en.wikipedia.org/wiki/Pullman_Strike,PULLMAN STRIKE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,18%,20,0.80,0,"2,6,11",21
+7,25,1894,7,28,1894,https://en.wikipedia.org/wiki/First_Sino-Japanese_War,FIRST SINO-JAP WAR,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,3%,20,0.70,0,1,20
+4,7,1895,4,16,1895,https://en.wikipedia.org/wiki/First_Sino-Japanese_War,FIRST SINO-JAP WAR ENDS,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,15%,20,0.70,0,1,20
+8,29,1897,8,31,1897,https://en.wikipedia.org/wiki/First_Zionist_Congress,FIRST ZION,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,12%,20,0.70,20,1,21
+4,21,1898,7,17,1898,https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War,SPANISH-AMERICAN WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,20,0.80,1,"2,4,9,15",20
+2,4,1899,2,11,1899,https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War,PHILIPPINE-AMERICAN WAR BEGINS,1.9em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,20,0.80,1,2,20
+5,18,1899,7,29,1899,https://en.wikipedia.org/wiki/Hague_Conventions_of_1899_and_1907#Hague_Convention_of_1899,FIRST HAGUE CONFERENCE,1.9em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,12%,20,0.70,20,"2,5,10",21
+6,20,1900,8,14,1900,https://en.wikipedia.org/wiki/Siege_of_the_International_Legations,SIEGE OF THE INTERNATIONAL LEGATIONS,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,99%,70,0.80,-36,"2,4",20
+6,22,1902,7,4,1902,https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War,PHILIPPINE-AMERICAN WAR ENDS,2.0em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,20,0.80,1,1,20
+12,9,1902,12,27,1902,https://en.wikipedia.org/wiki/Venezuelan_crisis_of_1902%E2%80%931903,VENEZUELAN BLOCKADE,2.3em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,8%,20,0.80,0,3,20
+5,12,1902,5,31,1902,https://en.wikipedia.org/wiki/Anthracite_coal_strike_of_1902,ANTHRACITE COAL STRIKE BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,3%,20,0.70,20,3,21
+10,12,1902,10,23,1902,https://en.wikipedia.org/wiki/Anthracite_coal_strike_of_1902,ANTHRACITE COAL STRIKE ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,6%,20,0.70,20,1,21
+2,8,1903,2,19,1903,https://en.wikipedia.org/wiki/Venezuelan_crisis_of_1902%E2%80%931903,VENEZUELAN BLOCKADE,2.3em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,8%,20,0.80,0,1,20
+8,1,1904,8,6,1904,https://en.wikipedia.org/wiki/Siege_of_Port_Arthur,SIEGE OF PORT ARTHUR BEGINS,1.8EM,Arial,TRUE,BLUE,RED,30,0,10,0,43%,1%,20,0.80,0,1,20
+1,1,1905,1,2,1905,https://en.wikipedia.org/wiki/Siege_of_Port_Arthur,ARTHUR ENDS,1.35EM,Arial,TRUE,BLUE,RED,30,0,10,0,43%,1%,20,0.80,0,1,20
+1,22,1905,1,28,1905,https://en.wikipedia.org/wiki/Russian_Revolution_of_1905,1905 REVOLUTION STARTS,2.3em,Arial,TRUE,BLUE,RED,30,0,10,0,43%,15%,20,0.80,0,1,20
+6,11,1905,6,16,1905,https://en.wikipedia.org/wiki/Russian_Revolution_of_1905,1905 REVOLUTION ENDS,2.3em,Arial,TRUE,BLUE,RED,30,0,10,0,43%,5%,20,0.80,0,1,20
+6,27,1905,7,7,1905,https://en.wikipedia.org/wiki/Russian_battleship_Potemkin#Mutiny,POTEMKIN MUTINY,2.0em,Arial,TRUE,BLUE,RED,30,0,10,0,43%,5%,20,0.80,0,1,20
+6,15,1907,10,18,1907,https://en.wikipedia.org/wiki/Hague_Conventions_of_1899_and_1907#Hague_Convention_of_1907,SECOND HAGUE CONFERENCE,1.9em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,10%,20,0.70,20,"2,6,11,16,21",21
+7,3,1908,7,24,1908,https://en.wikipedia.org/wiki/Young_Turk_Revolution,YOUNG TURK REVOLUTION,2.3em,Arial,TRUE,BLACK,GOLD,30,0,10,0,40%,7%,20,0.80,0,2,20
+10,5,1908,10,8,1908,https://en.wikipedia.org/wiki/Bosnian_Crisis,AUSTRIA ANNEXES BOSNIA,1.4em,Arial,TRUE,WHITE,RED,30,0,10,0,50%,3%,20,0.80,0,1,20
+11,8,1908,11,15,1908,https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State,CONGO ATROCITIES "END",2.3em,Arial,TRUE,YELLOW,DARKBLUE,30,0,10,0,40%,10%,20,0.80,1,1,20
+7,26,1909,8,2,1909,https://en.wikipedia.org/wiki/Tragic_Week_(Spain),TRAGIC WEEK,2.3em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,20%,20,0.80,0,1,9
+11,20,1910,11,30,1910,https://www.jekyllisland.com/magazine/birth-of-the-fed/,JEKYLL ISLAND,2.3em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,25%,20,0.80,0,1,20
+9,29,1911,11,11,1911,https://en.wikipedia.org/wiki/Italian_invasion_of_Libya,ITALY INVADES LIBYA,2.3em,Arial,TRUE,black,lightgreen,30,0,10,0,40%,17%,20,0.80,25,2,20
+10,10,1911,12,1,1911,https://en.wikipedia.org/wiki/Wuchang_Uprising,WUCHANG UPRISING,2.3em,Arial,TRUE,red,gold,30,0,10,0,40%,17%,20,0.80,0,2,20
+5,11,1911,5,19,1911,https://en.wikipedia.org/wiki/Battle_of_Cuautla,BATTLE OF CUAUTLA,2.3em,Arial,TRUE,RED,GREEN,30,0,10,0,40%,10%,20,0.80,1,"2,4,9,14",20
+10,6,1912,10,12,1912,https://en.wikipedia.org/wiki/First_Balkan_War,FIRST BALKAN WAR STARTS,2.3em,Arial,TRUE,black,pink,30,0,10,0,40%,4%,20,0.80,0,1,20
+2,3,1913,2,3,1913,https://en.wikipedia.org/wiki/Sixteenth_Amendment_to_the_United_States_Constitution,16,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+4,8,1913,4,8,1913,https://en.wikipedia.org/wiki/Seventeenth_Amendment_to_the_United_States_Constitution,17,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+5,25,1913,5,31,1913,https://en.wikipedia.org/wiki/First_Balkan_War,FIRST BALKAN WAR ENDS,2.3em,Arial,TRUE,black,pink,30,0,10,0,40%,8%,20,0.80,0,1,20
+6,29,1913,8,10,1913,https://en.wikipedia.org/wiki/Second_Balkan_War,SECOND BALKAN WAR,2.3em,Arial,TRUE,black,pink,30,0,10,0,40%,12%,20,0.80,0,"3,8",20
+2,9,1913,2,19,1913,https://en.wikipedia.org/wiki/Ten_Tragic_Days,TEN TRAGIC DAYS,2.3em,Arial,TRUE,RED,GREEN,30,0,10,0,40%,18%,20,0.75,0,1,20
+7,23,1914,7,25,1914,https://simple.wikipedia.org/wiki/July_Ultimatum,ULTIMATUM,2.3em,Arial,TRUE,black,red,30,0,10,0,40%,6%,20,0.80,0,1,20
+7,28,1914,7,31,1914,https://en.wikipedia.org/wiki/July_Crisis#Austria-Hungary_declares_war_on_Serbia_(28_July),WWI STARTS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,17%,20,0.80,0,1,20
+8,7,1914,9,6,1914,https://en.wikipedia.org/wiki/Battle_of_the_Frontiers,BATTLE OF THE FRONTEIRS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,5%,20,0.80,15,3,20
+8,23,1914,8,30,1914,https://en.wikipedia.org/wiki/Battle_of_Tannenberg,BATTLE OF TANNENBERG,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,8%,20,0.80,0,1,20
+9,7,1914,9,24,1914,https://en.wikipedia.org/wiki/Battle_of_the_Drina,BATTLE OF THE DRINA,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,8%,20,0.70,0,2,20
+9,5,1914,9,14,1914,https://en.wikipedia.org/wiki/First_Battle_of_the_Marne,BATTLE OF THE MARNE,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,8%,20,0.70,35,2,20
+9,17,1914,10,18,1914,https://en.wikipedia.org/wiki/Race_to_the_Sea,RACE TO THE SEA,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,18%,20,0.70,35,2,20
+10,16,1914,10,31,1914,https://en.wikipedia.org/wiki/Battle_of_the_Yser,BATTLE OF YSER,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,22%,20,0.70,0,2,20
+11,22,1914,12,15,1914,https://en.wikipedia.org/wiki/Battle_of_Kolubara,BATTLE OF THE KOLUBARA,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,38%,5%,20,0.70,0,"1,4",20
+4,21,1914,4,25,1914,https://en.wikipedia.org/wiki/Battle_of_Veracruz_(1914),VERA CRUZ BEGINS,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,5%,20,0.75,0,1,20
+11,15,1914,11,23,1914,https://en.wikipedia.org/wiki/Battle_of_Veracruz_(1914),VERA CRUZ ENDS,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,21%,20,0.75,20,1,2
+2,19,1915,2,27,1915,https://en.wikipedia.org/wiki/Gallipoli_campaign,GALLIPOLI BEGINS,2.3em,Arial,TRUE,BLACK,cornsilk,30,0,10,0,38%,20%,20,0.70,0,2,20
+3,10,1915,3,13,1915,https://en.wikipedia.org/wiki/Battle_of_Neuve_Chapelle,NEUVE CHAPELLE,2.2em,Arial,TRUE,BLACK,cornsilk,30,0,10,0,40%,17%,20,0.70,0,1,20
+5,24,1915,5,29,1915,https://en.wikipedia.org/wiki/White_War,WHITE WAR BEGINS,2.3em,Arial,TRUE,BLACK,GREEN,30,0,10,0,38%,12%,20,0.70,0,1,20
+7,28,1915,7,31,1915,https://en.wikipedia.org/wiki/United_States_occupation_of_Haiti,USA INTO HAITI,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,8%,20,0.80,1,1,20
+4,24,1915,4,30,1915,https://en.wikipedia.org/wiki/Armenian_genocide,ARMENIAN GENOCIDE BEGINS,1.6em,Arial,TRUE,black,YELLOW,30,0,10,0,40%,19%,20,0.80,20,2,20
+11,25,1915,1,18,1916,https://en.wikipedia.org/wiki/Great_Retreat_(Serbia),GREAT RETREAT,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,38%,25%,20,0.70,0,"4,9",20
+1,1,1916,1,9,1916,https://en.wikipedia.org/wiki/Gallipoli_campaign,GALLIPOLI ENDS,2.3em,Arial,TRUE,BLACK,cornsilk,30,0,10,0,38%,33%,20,0.70,25,2,20
+3,14,1916,3,18,1916,https://en.wikipedia.org/wiki/Pancho_Villa_Expedition,PANCHO VILLA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,20,0.80,1,1,21
+5,15,1916,6,10,1916,https://en.wikipedia.org/wiki/Battle_of_Asiago,BATTLE OF ASIAGO,2.4em,Arial,TRUE,black,GREEN,30,0,10,0,40%,15%,20,0.80,25,"2,5",20
+6,11,1916,6,17,1916,https://en.wikipedia.org/wiki/Arab_Revolt,ARAB REVOLT BEGINS,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,15%,20,0.80,25,1,20
+2,21,1916,12,18,1916,https://en.wikipedia.org/wiki/Battle_of_Verdun,BATTLE OF VERDUN,2.4em,Arial,TRUE,black,LightGray,30,0,10,0,35%,15%,20,0.70,-12,"1,6,9,15,20,25,32,38,41,47,51",20
+7,1,1916,11,18,1916,https://en.wikipedia.org/wiki/Battle_of_the_Somme,BATTLE OF THE SOMME,2.4em,Arial,TRUE,black,grey,30,0,10,0,40%,15%,20,0.80,30,"2,9,15,18,24",20
+4,24,1916,4,29,1916,https://en.wikipedia.org/wiki/Easter_Rising,EASTER RISING,2.3em,Arial,TRUE,orange,green,30,0,10,0,40%,20%,20,0.80,25,1,20
+2,9,1917,3,20,1917,https://en.wikipedia.org/wiki/Operation_Alberich,OPERATION ALBERICH,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,13%,61,0.70,-41,2,20
+3,8,1917,3,16,1917,https://en.wikipedia.org/wiki/February_Revolution,FEBRUARY REVOLUTION,2.3em,Arial,TRUE,black,red,30,0,10,0,40%,3%,20,0.80,30,2,21
+4,2,1917,4,7,1917,https://en.wikipedia.org/wiki/Bloody_April,BLOODY APRIL STARTS,2.1EM,Arial,TRUE,white,black,30,0,10,0,38%,18%,20,0.70,-22,1,20
+4,9,1917,5,16,1917,https://en.wikipedia.org/wiki/Battle_of_Arras_(1917),BATTLE OF ARRAS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,38%,21%,20,0.70,35,"3,6",20
+4,22,1917,5,9,1917,https://en.wikipedia.org/wiki/Battle_of_Doiran_(1917),BATTLE OF DOIRAN,2.3em,Arial,TRUE,white,black,30,0,10,0,38%,18%,20,0.70,0,1,20
+7,1,1917,7,12,1917,https://en.wikipedia.org/wiki/Manchu_Restoration,MANCHU RESTORATION,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,13%,20,0.70,0,1,20
+7,16,1917,7,20,1917,https://en.wikipedia.org/wiki/July_Days,JULY DAYS,2.3em,Arial,TRUE,black,red,30,0,10,0,40%,26%,20,0.80,0,1,21
+7,31,1917,11,10,1917,https://en.wikipedia.org/wiki/Battle_of_Passchendaele,BATTLE OF PASSCHENDAELE,2.3em,Arial,TRUE,white,black,30,0,10,0,36%,2%,20,0.70,0,"3,8,14",20
+10,24,1917,11,19,1917,https://en.wikipedia.org/wiki/Battle_of_Caporetto,BATTLE OF CAPORETTO,2.3em,Arial,TRUE,black,GREEN,30,0,10,0,38%,12%,20,0.70,30,5,20
+9,10,1917,9,13,1917,https://en.wikipedia.org/wiki/Kornilov_affair,KORNILOV AFFAIR,2.1em,Arial,TRUE,black,red,30,0,10,0,40%,2%,20,0.80,30,1,21
+1,21,1917,1,27,1917,https://en.wikipedia.org/wiki/Armenian_genocide,ARMENIAN GENOCIDE "ENDS",2.3em,Arial,TRUE,black,YELLOW,30,0,10,0,40%,1%,20,0.80,20,1,20
+2,3,1918,2,9,1918,https://en.wikipedia.org/wiki/Spanish_flu,SPANISH FLU BEGINS,2.3em,Arial,TRUE,BLACK,VIOLET,30,0,10,0,40%,15%,20,0.80,0,1,21
+3,21,1918,7,18,1918,https://en.wikipedia.org/wiki/German_spring_offensive,SPRING OFFENSIVE,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,20%,20,0.80,0,"2,5,10,15,21",21
+8,8,1918,11,11,1918,https://en.wikipedia.org/wiki/Hundred_Days_Offensive,100 DAYS OFFENSIVE,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,38%,15%,20,0.70,-5,"2,5,12",20
+9,12,1918,9,15,1918,https://en.wikipedia.org/wiki/Battle_of_Saint-Mihiel,SAINT-MIHEIL,2EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,5%,20,0.70,10,1,21
+9,26,1918,9,28,1918,https://en.wikipedia.org/wiki/Meuse%E2%80%93Argonne_offensive,M-A STARTS,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,5%,20,0.70,10,1,21
+10,2,1918,10,7,1918,https://en.wikipedia.org/wiki/Lost_Battalion_(World_War_I),LOST BATTALION,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,1%,20,0.70,10,1,21
+10,20,1918,10,25,1918,https://en.wikipedia.org/wiki/Arab_Revolt,ARAB REVOLT ENDS,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,8%,20,0.80,25,1,22
+10,24,1918,11,4,1918,https://en.wikipedia.org/wiki/Battle_of_Vittorio_Veneto,BATTLE OF VITTORIO VENETO,1.65EM,Arial,TRUE,black,GREEN,30,0,10,0,40%,2%,20,0.80,10,2,21
+1,16,1919,1,16,1919,https://en.wikipedia.org/wiki/Eighteenth_Amendment_to_the_United_States_Constitution,18,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+1,5,1919,1,12,1919,https://en.wikipedia.org/wiki/Spartacist_uprising,SPARTACIST UPRISING,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,15%,20,0.80,0,1,21
+5,11,1919,5,17,1919,https://en.wikipedia.org/wiki/Syrian_National_Congress,SYRIAN NATIONAL CONGRESS,2.3em,Arial,TRUE,black,TAN,30,0,10,0,40%,1%,20,0.80,25,1,22
+1,1,1920,1,10,1920,https://en.wikipedia.org/wiki/Palmer_Raids,PALMER RAIDS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,27%,20,0.80,1,2,20
+3,8,1920,3,13,1920,https://en.wikipedia.org/wiki/Franco-Syrian_War,FRANCO-SYRIAN WAR BEGINS,1.9EM,Arial,TRUE,black,TAN,30,0,10,0,40%,3%,20,0.80,0,1,20
+7,18,1920,7,25,1920,https://en.wikipedia.org/wiki/Franco-Syrian_War,FRANCO-SYRIAN WAR ENDS,1.9EM,Arial,TRUE,black,TAN,30,0,10,0,40%,12%,20,0.80,0,1,20
+3,13,1920,3,18,1920,https://en.wikipedia.org/wiki/Kapp_Putsch,KAPP PUTSCH,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,15%,20,0.80,25,2,19
+4,25,1920,7,10,1920,https://en.wikipedia.org/wiki/Kiev_offensive_(1920),KIEV OFFENSIVE,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,20,0.80,25,"1,3,9,14",19
+8,12,1920,8,25,1920,https://en.wikipedia.org/wiki/Battle_of_Warsaw_(1920),BATTLE OF WARSAW,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,20,0.80,25,2,19
+9,15,1920,9,25,1920,https://en.wikipedia.org/wiki/Battle_of_the_Niemen_River,BATTLE OF NIEMAN,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,20,0.80,25,2,19
+4,4,1920,4,10,1920,https://en.wikipedia.org/wiki/Spanish_flu,SPANISH FLU ENDS,2.3em,Arial,TRUE,BLACK,VIOLET,30,0,10,0,40%,20%,20,0.80,0,1,21
+11,7,1920,11,17,1920,https://en.wikipedia.org/wiki/Siege_of_Perekop_(1920),SIEGE OF PEREKOP,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,20,0.80,0,1,20
+3,12,1921,3,30,1921,https://en.wikipedia.org/wiki/Cairo_Conference_(1921),CAIRO CONFERENCE,2.4em,Arial,TRUE,black,TAN,30,0,10,0,40%,17%,20,0.80,25,3,19
+3,1,1921,3,18,1921,https://en.wikipedia.org/wiki/Kronstadt_rebellion,KRONSTADT REBELLION,2.1em,Arial,TRUE,black,red,30,0,10,0,40%,20%,20,0.80,0,2,21
+8,25,1921,8,27,1921,https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain,BLAIR,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,20%,20,0.70,10,1,21
+8,28,1921,9,2,1921,https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain,MOUNTAIN,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,30%,20,0.70,10,1,21
+5,1,1921,5,7,1921,https://en.wikipedia.org/wiki/Jaffa_riots,JAFFA RIOTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,28%,20,0.70,20,1,21
+6,28,1922,7,8,1922,https://en.wikipedia.org/wiki/Irish_Civil_War,IRISH CIVIL WAR BEGINS,2.3em,Arial,TRUE,orange,green,30,0,10,0,40%,10%,20,0.80,1,3,20
+11,8,1923,11,9,1923,https://en.wikipedia.org/wiki/Beer_Hall_Putsch,PUTSCH,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,5%,20,0.80,25,1,19
+5,13,1923,5,24,1923,https://en.wikipedia.org/wiki/Irish_Civil_War,IRISH CIVIL WAR "ENDS",2.3em,Arial,TRUE,orange,green,30,0,10,0,40%,10%,20,0.80,1,1,20
+2,26,1924,4,1,1924,https://en.wikipedia.org/wiki/Beer_Hall_Putsch#Trial_and_prison,HITLER ON TRIAL,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,20%,20,0.80,25,4,19
+5,12,1926,5,14,1926,https://en.wikipedia.org/wiki/May_Coup_(Poland),MAY COUP,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,10%,20,0.80,25,1,19
+8,1,1927,8,6,1927,https://en.wikipedia.org/wiki/Chinese_Civil_War,CHINESE CIVIL WAR STARTS,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,2%,20,0.70,0,1,20
+4,12,1927,4,15,1927,https://en.wikipedia.org/wiki/Shanghai_massacre,SHANGHAI,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,25%,20,0.70,0,1,20
+10,18,1927,10,22,1927,https://en.wikipedia.org/wiki/1927%E2%80%931928_Colorado_Coal_Strike,COLORADO COAL STRIKE,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,20,0.70,20,1,21
+8,23,1929,8,29,1929,https://en.wikipedia.org/wiki/1929_Palestine_riots,PALESTINE RIOTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,20,0.70,20,2,21
+3,12,1930,3,31,1930,https://en.wikipedia.org/wiki/Salt_March,SALT MARCH,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,30%,20,0.80,0,2,20
+4,1,1930,4,6,1930,https://en.wikipedia.org/wiki/Salt_March,SALT MARCH,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,20%,20,0.80,0,1,20
+9,18,1931,2,27,1932,https://en.wikipedia.org/wiki/Japanese_invasion_of_Manchuria,JAPAN INVADES MANCHURIA,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,15%,20,0.70,0,"2,5,10,15,20,25",20
+11,2,1932,11,5,1932,https://en.wikipedia.org/wiki/Emu_War,EMU WAR STARTS,1.8em,Arial,TRUE,WHITE,BROWN,30,0,10,0,45%,12%,20,0.70,0,1,20
+12,4,1932,12,10,1932,https://en.wikipedia.org/wiki/Emu_War,EMU WAR ENDS,1.8em,Arial,TRUE,WHITE,BROWN,30,0,10,0,45%,30%,20,0.70,0,1,20
+1,23,1933,1,23,1933,https://en.wikipedia.org/wiki/Twentieth_Amendment_to_the_United_States_Constitution,20,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+12,5,1933,12,5,1933,https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution,21,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+3,5,1933,3,11,1933,https://www.federalreservehistory.org/essays/bank-holiday-of-1933,BANK HOLIDAY,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,28%,20,0.70,-5,1,21
+6,30,1934,7,2,1934,https://en.wikipedia.org/wiki/Night_of_the_Long_Knives,KNIVES,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,10%,20,0.80,25,2,19
+7,29,1934,8,1,1934,https://en.wikipedia.org/wiki/United_States_occupation_of_Haiti,USA OUT OF HAITI,1.65em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,1%,20,0.80,15,1,2001
+10,16,1934,10,27,1934,https://en.wikipedia.org/wiki/Long_March,LONG MARCH BEGINS,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,17%,20,0.70,0,2,20
+7,25,1934,7,30,1934,https://en.wikipedia.org/wiki/July_Putsch,JULY PUTSCH,2.1EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,26%,20,0.70,-8,1,80
+2,12,1934,2,15,1934,https://en.wikipedia.org/wiki/Austrian_Civil_War,AUS CIVIL WAR,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,7%,20,0.80,25,1,19
+12,23,1934,12,29,1934,https://en.wikipedia.org/wiki/Trial_of_Neumann_and_Sass,NEUMANN AND SASS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,10,1,19
+10,1,1935,10,5,1935,https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War,ITALO-ETHIOPIAN WAR STARTS,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,5%,20,0.70,30,1,20
+10,13,1935,10,19,1935,https://en.wikipedia.org/wiki/Long_March,LONG MARCH ENDS,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,38%,17%,20,0.70,0,1,20
+4,19,1936,4,25,1936,https://en.wikipedia.org/wiki/1936%E2%80%931939_Arab_revolt_in_Palestine,ARAB REVOLT IN PALESTINE BEGINS,1.9em,Arial,TRUE,black,TAN,30,0,10,0,40%,1%,20,0.80,25,1,22
+8,1,1936,8,16,1936,https://en.wikipedia.org/wiki/1936_Summer_Olympics,BERLIN OLYMPICS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,22%,20,0.80,25,2,19
+7,17,1936,7,25,1936,https://en.wikipedia.org/wiki/Spanish_Civil_War,SPANISH CIVIL WAR BEGINS,2.3em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,5%,20,0.80,25,2,19
+8,19,1936,8,29,1936,https://en.wikipedia.org/wiki/Great_Purge,STALIN'S PURGE BEGINS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,10%,20,0.80,1,2,20
+2,14,1937,2,19,1937,https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War,ITALO-ETHIOPIAN WAR ENDS,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,15%,20,0.70,30,1,20
+7,7,1937,8,8,1937,https://en.wikipedia.org/wiki/Battle_of_Beiping%E2%80%93Tianjin,BATTLE OF BEIPING-TIANJIN,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,11%,63,0.70,-41,"2,5,10,15,19,25",20
+8,13,1937,11,26,1937,https://en.wikipedia.org/wiki/Battle_of_Shanghai,BATTLE OF SHANGHAI,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,17%,63,0.70,-32,"2,6,11,17",20
+7,6,1938,7,15,1938,https://en.wikipedia.org/wiki/%C3%89vian_Conference,EVIAN CONFERENCE,2.3em,Arial,TRUE,BLACK,gold,30,0,10,0,40%,12%,20,0.80,0,2,20
+2,9,1938,5,21,1938,https://en.wikipedia.org/wiki/Battle_of_Xuzhou,BATTLE OF XUZHOU,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,20,0.70,0,"2,8,11,16",20
+6,11,1938,10,27,1938,https://en.wikipedia.org/wiki/Battle_of_Wuhan,BATTLE OF WUHAN,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,25%,20,0.70,30,"2,8,12,17,22",18
+6,5,1938,6,11,1938,https://en.wikipedia.org/wiki/1938_Yellow_River_flood,YELLOW RIVER FLOOD,2.3em,Arial,TRUE,red,gold,30,0,10,0,40%,17%,20,0.80,0,1,20
+11,13,1938,11,17,1938,https://en.wikipedia.org/wiki/Great_Purge,STALIN'S PURGE ENDS,2.2em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,1%,20,0.80,1,1,20
+8,13,1939,8,26,1939,https://en.wikipedia.org/wiki/1936%E2%80%931939_Arab_revolt_in_Palestine,ARAB REVOLT IN PALESTINE ENDS,2.0em,Arial,TRUE,black,TAN,30,0,10,0,40%,1%,20,0.80,25,1,22
+3,26,1939,4,1,1939,https://en.wikipedia.org/wiki/Spanish_Civil_War,SPANISH CIVIL WAR ENDS,2.3em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,2%,20,0.80,25,1,19
+4,7,1939,4,12,1939,https://en.wikipedia.org/wiki/Italian_invasion_of_Albania,ITALY INVADES ALBANIA,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,5%,20,0.70,30,2,20
+9,1,1939,10,6,1939,https://en.wikipedia.org/wiki/Invasion_of_Poland,GERMANY INVADES W POLAND,1.7EM,Arial,TRUE,WHITE,BLACK,30,0,10,0,44%,12%,20,0.65,-10,"2,6",20
+9,7,1939,10,16,1939,https://en.wikipedia.org/wiki/Saar_Offensive,SAAR OFFENSIVE,1.7EM,Arial,TRUE,WHITE,PURPLE,30,0,10,0,45%,30%,20,0.65,20,"2,5",20
+9,17,1939,10,6,1939,https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland,USSR INVADES E POLAND,1.7EM,Arial,TRUE,black,RED,30,0,10,0,45%,18%,20,0.65,50,"1,3",20
+11,30,1939,3,13,1940,https://en.wikipedia.org/wiki/Winter_War,THE WINTER WAR,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,25%,20,0.80,1,"3,8,13,18",20
+4,10,1940,4,13,1940,https://en.wikipedia.org/wiki/German_occupation_of_Norway,NORWAY STARTS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,2%,20,0.80,10,1,21
+5,10,1940,6,25,1940,https://en.wikipedia.org/wiki/Battle_of_France,BATTLE OF FRANCE,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,18%,20,0.80,20,"2,7",21
+6,5,1940,6,8,1940,https://en.wikipedia.org/wiki/German_occupation_of_Norway,NORWAY FALLS,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,7%,20,0.80,0,1,21
+5,26,1940,6,4,1940,https://en.wikipedia.org/wiki/Dunkirk_evacuation,DUNKIRK,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,20%,20,0.80,0,"1,3",21
+7,10,1940,10,31,1940,https://en.wikipedia.org/wiki/Battle_of_Britain,BATTLE OF BRITAIN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,17%,20,0.80,20,"2,7,11,16",21
+10,28,1940,11,13,1940,https://en.wikipedia.org/wiki/Battle_of_Pindus,BATTLE OF PINDUS,2em,Arial,TRUE,BLACK,LIGHTSKYBLUE,30,0,10,0,40%,3%,20,0.80,20,1,21
+11,12,1940,11,14,1940,https://en.wikipedia.org/wiki/German%E2%80%93Soviet_Axis_talks#Molotov_travels_to_Berlin,USSR/AXIS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,14%,20,0.80,-5,"1,4",21
+12,9,1940,2,9,1941,https://en.wikipedia.org/wiki/Operation_Compass,OPERATION COMPASS,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,14%,20,0.80,20,"2,6",21
+2,2,1941,2,8,1941,https://en.wikipedia.org/wiki/Operation_Sonnenblume,SUNFLOWER BEGINS,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,17%,20,0.70,-5,1,21
+4,6,1941,4,18,1941,https://en.wikipedia.org/wiki/Invasion_of_Yugoslavia,GERMANY TAKES YUGOSLAVIA,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,2%,20,0.70,-5,1,23
+4,6,1941,6,1,1941,https://en.wikipedia.org/wiki/German_invasion_of_Greece,GERMANY TAKES GREECE,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,8%,20,0.70,-5,"3,7",22
+5,18,1941,5,24,1941,https://en.wikipedia.org/wiki/Operation_Sonnenblume,SUNFLOWER ENDS,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,20%,20,0.70,20,1,23
+5,20,1941,6,1,1941,https://en.wikipedia.org/wiki/Battle_of_Crete,BATTLE OF CRETE,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,20%,20,0.70,30,2,21
+6,22,1941,6,29,1941,https://en.wikipedia.org/wiki/Defense_of_Brest_Fortress,BATTLE OF BREST,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,20%,20,0.70,20,1,21
+7,7,1941,9,26,1941,https://en.wikipedia.org/wiki/Battle_of_Kiev_(1941),BATTLE OF KIEV,2.2em,Arial,TRUE,white,black,30,0,10,0,40%,25%,20,0.70,20,"2,6,14",21
+8,25,1941,8,31,1941,https://en.wikipedia.org/wiki/Anglo-Soviet_invasion_of_Iran,ANGLO SOVIET IRAN INVASION,1.9em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,2%,20,0.70,0,1,21
+8,9,1941,8,9,1941,https://en.wikipedia.org/wiki/Atlantic_Charter,ATLANTIC CONFERENCE,1.7EM,Arial,TRUE,black,gold,30,0,10,0,45%,10%,20,0.70,-10,2,20
+8,10,1941,8,12,1941,https://en.wikipedia.org/wiki/Atlantic_Charter,ATLANTIC,1.7EM,Arial,TRUE,black,gold,30,0,10,0,45%,10%,20,0.70,-10,1,22
+8,10,1941,8,12,1941,https://en.wikipedia.org/wiki/Atlantic_Charter,CONFERENCE,1.7EM,Arial,TRUE,black,gold,30,0,10,0,45%,10%,20,0.70,28,1,22
+9,8,1941,9,13,1941,https://en.wikipedia.org/wiki/Siege_of_Leningrad,LENINGRAD SIEGE BEGINS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,1%,20,0.70,0,1,21
+9,15,1941,9,20,1941,https://en.wikipedia.org/wiki/Copenhagen_(play),COPENHAGEN,2.3em,Arial,TRUE,black,GREEN,38,0,10,0,45%,20%,20,0.80,-10,1,21
+11,16,1941,12,30,1941,https://en.wikipedia.org/wiki/Operation_Crusader,OPERATION CRUSADER,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,14%,20,0.70,-10,"1,7",21
+5,25,1941,5,27,1941,https://en.wikipedia.org/wiki/Last_battle_of_Bismarck,BISMARCK,2.2em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,8%,20,0.70,-5,1,22
+9,30,1941,1,7,1942,https://en.wikipedia.org/wiki/Battle_of_Moscow,BATTLE OF MOSCOW,2.3em,Arial,TRUE,black,RED,30,0,10,0,45%,7%,64,0.80,-42,"3,8,15",20
+4,9,1942,4,17,1942,https://en.wikipedia.org/wiki/Bataan_Death_March,BATAAN DEATH MARCH,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,3%,61,0.71,-50,2,20
+5,4,1942,5,8,1942,https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea,CORAL SEA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,20,0.80,-10,1,20
+5,5,1942,5,6,1942,https://en.wikipedia.org/wiki/Battle_of_Corregidor,CORREGIDOR,1.4EM,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,17%,20,0.70,35,1,20
+5,12,1942,5,28,1942,https://en.wikipedia.org/wiki/Second_Battle_of_Kharkov,2ND BATTLE OF KHARKOV,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,5%,61,0.70,-44,2,21
+5,26,1942,6,21,1942,https://en.wikipedia.org/wiki/Battle_of_Gazala,GAZALA,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,36%,61,0.70,-37,4,22
+6,4,1942,6,7,1942,https://en.wikipedia.org/wiki/Battle_of_Midway,MIDWAY,3.3em,Arial,TRUE,white,DARKBLUE,30,0,10,0,30%,4%,60,0.90,-29,1,22
+7,1,1942,7,27,1942,https://en.wikipedia.org/wiki/First_Battle_of_El_Alamein,1ST EL ALAMEIN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,25%,20,0.70,0,2,22
+10,23,1942,11,7,1942,https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein,2ND EL ALAMEIN,1.7EM,Arial,TRUE,BLACK,LINEN,30,0,10,0,45%,30%,20,0.60,50,"2,3",20
+11,8,1942,11,16,1942,https://en.wikipedia.org/wiki/Operation_Torch,OPERATION TORCH,1.7EM,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,45%,25%,20,0.60,50,1,20
+2,8,1942,2,15,1942,https://en.wikipedia.org/wiki/Fall_of_Singapore,FALL OF SINGAPORE,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,24%,58,0.80,-45,1,20
+6,28,1942,7,24,1942,https://en.wikipedia.org/wiki/Battle_of_Voronezh_(1942),VORONEZH,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,32%,20,0.80,-29,3,19
+8,17,1942,8,18,1942,https://en.wikipedia.org/wiki/Raid_on_Makin_Island,MAKIN,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,15%,20,0.80,0,1,3001
+8,23,1942,2,2,1943,https://en.wikipedia.org/wiki/Battle_of_Stalingrad,BATTLE OF STALINGRAD,2.2EM,Arial,TRUE,black,RED,30,0,10,0,40%,13%,20,0.72,13,"1,4,9,14,19,25",20
+8,7,1942,2,9,1943,https://en.wikipedia.org/wiki/Guadalcanal_campaign,GUADALCANAL,1.7EM,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,30%,20,0.60,-10,"2,7,12,17,22,27",20
+7,9,1943,8,17,1943,https://en.wikipedia.org/wiki/Allied_invasion_of_Sicily,OPERATION HUSKY,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,45%,25%,20,0.80,25,"2,6",8
+7,5,1943,8,23,1943,https://en.wikipedia.org/wiki/Battle_of_Kursk,BATTLE OF KURSK,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,25%,20,0.70,0,"2,7",9
+1,14,1943,1,24,1943,https://en.wikipedia.org/wiki/Casablanca_Conference,CASABLANCA CONFERENCE,1.7EM,Arial,TRUE,black,gold,30,0,10,0,45%,15%,20,0.60,50,2,20
+2,19,1943,2,24,1943,https://en.wikipedia.org/wiki/Battle_of_Kasserine_Pass,KASSERINE,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,17%,20,0.70,20,2,21
+3,23,1943,4,3,1943,https://en.wikipedia.org/wiki/Battle_of_El_Guettar,EL GUETTAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,22%,20,0.80,1,1,20
+4,22,1943,5,6,1943,https://en.wikipedia.org/wiki/Operations_Vulcan_and_Strike,VULCAN,2.3em,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,40%,35%,20,0.80,1,2,20
+5,6,1943,5,12,1943,https://en.wikipedia.org/wiki/Operations_Vulcan_and_Strike,STRIKE,2.3em,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,40%,30%,20,0.80,1,2,20
+9,3,1943,9,17,1943,https://en.wikipedia.org/wiki/Allied_invasion_of_Italy,INVASION OF MAINLAND ITALY,2.1em,Arial,TRUE,black,lightblue,30,0,10,0,35%,2%,60,0.80,-32,2,8
+9,12,1943,9,18,1943,https://en.wikipedia.org/wiki/Operation_Avalanche,OPERATION AVALANCHE,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,40%,6%,57,0.80,-38,1,8
+10,3,1943,10,9,1943,https://en.wikipedia.org/wiki/Winter_Line,GUSTAV LINE ESTABLISHED,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,40%,3%,58,0.80,-20,1,8
+11,16,1943,11,22,1943,https://en.wikipedia.org/wiki/Cairo_Conference,CAIRO,4em,Arial,TRUE,black,gold,30,0,10,0,30%,22%,63,1.00,-42,1,20
+11,28,1943,12,1,1943,https://en.wikipedia.org/wiki/Tehran_Conference,TEHRAN,3.0em,Arial,TRUE,black,gold,30,0,10,0,30%,5%,62,1.00,-39,1,20
+9,26,1943,11,16,1943,https://en.wikipedia.org/wiki/Battle_of_Leros,BATTLE OF LEROS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,16%,60,0.75,-46,"4,9",1
+5,16,1943,5,17,1943,https://en.wikipedia.org/wiki/Operation_Chastise,CHASTISE,1.7em,Arial,TRUE,BLACK,LINEN,30,0,10,0,40%,4%,60,0.70,-26,1,21
+1,23,1944,1,27,1944,https://en.wikipedia.org/wiki/Siege_of_Leningrad,LENINGRAD ENDS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,8%,60,0.70,-22,1,21
+1,22,1944,2,12,1944,https://en.wikipedia.org/wiki/Battle_of_Anzio,INVASION OF ANZIO,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,16%,60,0.70,-39,5,18
+7,2,1944,7,3,1944,https://en.wikipedia.org/wiki/Battle_of_Imphal,ENDS,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,17%,68,0.56,2,1,22
+7,2,1944,7,3,1944,https://en.wikipedia.org/wiki/Battle_of_Imphal,ENDS,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,20%,20,0.70,40,1,22
+2,17,1944,2,23,1944,https://en.wikipedia.org/wiki/Battle_of_Eniwetok,ENIWETOK,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,19%,63,0.70,-24,2,20
+3,8,1944,3,18,1944,https://en.wikipedia.org/wiki/Battle_of_Imphal,BATTLE OF IMPHAL BEGINS,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,1%,60,0.70,-30,2,22
+4,4,1944,4,15,1944,https://en.wikipedia.org/wiki/Battle_of_Kohima,BATTLE OF KOHIMA BEGINS,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,1%,62,0.70,-29,2,22
+6,11,1944,6,22,1944,https://en.wikipedia.org/wiki/Battle_of_Kohima,BATTLE OF KOHIMA ENDS,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,35%,8%,63,0.70,-6,1,19
+6,6,1944,8,30,1944,https://en.wikipedia.org/wiki/Operation_Overlord,OVERLORD,1.7EM,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,45%,30%,57,0.65,-49,"2,7,12",20
+6,22,1944,8,19,1944,https://en.wikipedia.org/wiki/Operation_Bagration,BAGRATION,1.7EM,Arial,TRUE,black,RED,30,0,10,0,40%,33%,62,0.65,-11,"2,5,10",20
+7,1,1944,7,22,1944,https://en.wikipedia.org/wiki/Bretton_Woods_Conference,BRETTON WOODS,1.7EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,45%,26%,62,0.65,50,2,20
+8,15,1944,9,14,1944,https://en.wikipedia.org/wiki/Operation_Dragoon,DRAGOON,1.7EM,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,60%,35%,58,0.50,-11,"2,5",21
+9,12,1944,10,21,1944,https://en.wikipedia.org/wiki/Battle_of_Aachen,BATTLE OF AACHEN,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,63,0.70,-143,"3,6",20
+9,17,1944,9,25,1944,https://en.wikipedia.org/wiki/Operation_Market_Garden,MARKET GARDEN,2.3em,Arial,TRUE,BLACK,LINEN,30,0,10,0,70%,19%,62,0.50,-25,"1,3",21
+10,23,1944,10,26,1944,https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf,LEYTE GULF,2.3em,Arial,TRUE,WHITE,DARKBLUE,30,0,10,0,40%,11%,59,0.80,-32,1,20
+9,22,1946,10,1,1946,https://en.wikipedia.org/wiki/Nuremberg_trials,NUREMBERG TRIALS END,2em,Arial,TRUE,black,grey,30,0,10,0,40%,10%,20,0.80,25,1,8
+12,19,1946,12,28,1946,https://en.wikipedia.org/wiki/First_Indochina_War,FIRST INDOCHINA WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,20,0.80,20,2,2
+11,30,1947,12,6,1947,https://en.wikipedia.org/wiki/1947%E2%80%931948_civil_war_in_Mandatory_Palestine,CIVIL WAR IN PALESTINE BEGINS,1.8em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,20,0.80,0,2,20
+2,21,1948,2,25,1948,https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d'%C3%A9tat,CZECH COUP,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,20,0.80,0,2,9
+5,14,1948,5,22,1948,https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War,ARAB-ISRAEL WAR BEGINS,1.8em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,30%,20,0.80,25,2,20
+6,24,1948,7,10,1948,https://en.wikipedia.org/wiki/Berlin_Blockade,BERLIN AIRLIFT STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,20,0.80,25,4,20
+5,9,1948,5,13,1948,https://en.wikipedia.org/wiki/1947%E2%80%931948_civil_war_in_Mandatory_Palestine,CIVIL WAR IN PALESTINE ENDS,1.6em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,2%,20,0.80,0,1,20
+4,21,1948,4,22,1948,https://en.wikipedia.org/wiki/Battle_of_Haifa_(1948),HAIFA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,20,0.80,0,1,20
+4,25,1948,4,31,1948,https://en.wikipedia.org/wiki/Operation_Hametz,OPERATION HAMETZ,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,20,0.80,0,1,20
+8,1,1948,8,7,1948,https://en.wikipedia.org/wiki/Trofim_Lysenko#Repression_of_biologists,LYSENKOISM V  GENETICS,2.3EM,Arial,TRUE,BLACK,RED,30,0,0,0,45%,10%,20,0.70,10,1,80
+11,6,1948,1,10,1949,https://en.wikipedia.org/wiki/Huaihai_campaign,BATTLE OF HSUPENG,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,15%,20,0.80,0,"3,8,11",9
+5,1,1949,5,12,1949,https://en.wikipedia.org/wiki/Berlin_Blockade,BERLIN AIRLIFT ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,12%,20,0.80,25,1,20
+3,6,1949,3,10,1949,https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War,ARAB-ISRAEL WAR ENDS,2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,17%,20,0.80,25,1,20
+6,25,1950,6,30,1950,https://en.wikipedia.org/wiki/Operation_Pokpung,POKPUNG,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,30%,20,0.80,0,1,9
+9,10,1950,9,19,1950,https://en.wikipedia.org/wiki/Battle_of_Inchon,BATTLE OF INCHON,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,20,0.80,1,1,20
+9,30,1950,11,25,1950,https://en.wikipedia.org/wiki/UN_offensive_into_North_Korea,UN OFFENSIVE,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,25%,20,0.80,1,"3,8",20
+11,25,1950,11,30,1950,https://en.wikipedia.org/wiki/Battle_of_the_Ch%27ongch%27on_River,CH'ONGCH'ON RIVER,1.7EM,Arial,TRUE,gold,red,30,0,10,0,45%,25%,20,0.80,40,2,8
+12,2,1950,12,24,1950,https://en.wikipedia.org/wiki/UN_Forces_retreat_from_North_Korea,UN RETREAT FROM NK,2.3em,Arial,TRUE,black,lightblue,30,0,10,0,45%,15%,20,0.80,30,"2,6",8
+11,27,1950,12,13,1950,https://en.wikipedia.org/wiki/Battle_of_Chosin_Reservoir,CHOSIN,2.3em,Arial,TRUE,gold,RED,30,0,10,0,40%,35%,20,0.80,-5,"1,3",9
+10,25,1950,10,29,1950,https://en.wikipedia.org/wiki/Battle_of_Onjong,ONJONG,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,25%,20,0.80,20,1,300
+8,4,1950,9,18,1950,https://en.wikipedia.org/wiki/Battle_of_the_Pusan_Perimeter,PUSAN PERIMETER,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,20,0.80,20,"2,7",2
+7,26,1950,7,29,1950,https://en.wikipedia.org/wiki/No_Gun_Ri_massacre,NO GUN RI,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,20%,20,0.80,0,1,2
+12,31,1950,1,7,1951,https://en.wikipedia.org/wiki/Third_Battle_of_Seoul,NEW YEAR OFFENSIVE,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,5%,20,0.80,0,2,9
+2,27,1951,2,27,1951,https://en.wikipedia.org/wiki/Twenty-second_Amendment_to_the_United_States_Constitution,22,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,4%,64,0.95,-39,1,80
+3,7,1951,3,23,1951,https://en.wikipedia.org/wiki/Operation_Ripper,OPERATION RIPPER,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,18%,20,0.80,25,2,20
+4,22,1951,5,22,1951,https://en.wikipedia.org/wiki/Chinese_spring_offensive,FIFTH PHASE,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,24%,58,0.80,-35,"1,4",9
+5,20,1951,7,1,1951,https://en.wikipedia.org/wiki/UN_May%E2%80%93June_1951_counteroffensive,UN MAY-JUNE COUNTER,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,60,0.80,-50,"1,4",20
+7,2,1951,7,7,1951,https://en.wikipedia.org/wiki/Korean_War#Stalemate_(July_1951_%E2%80%93_July_1953),STALEMATE BEGINS,2em,Arial,TRUE,black,grey,30,0,10,0,40%,12%,58,0.80,-25,1,8
+7,26,1953,7,31,1953,https://en.wikipedia.org/wiki/Cuban_Revolution,CUBA STARTS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,40%,20,0.80,0,1,9
+8,15,1953,8,19,1953,https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat,IRAN COUP,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,20,0.80,25,2,20
+4,22,1954,6,17,1954,https://en.wikipedia.org/wiki/Army%E2%80%93McCarthy_hearings,ARMY-MCCARTHY HEARINGS,2.3em,Arial,TRUE,black,grey,30,0,10,0,40%,3%,20,0.80,0,4,20
+6,18,1954,6,27,1954,https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat,GUATEMALAN COUP,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,20,0.80,25,2,20
+3,13,1954,5,7,1954,https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu,DIEN BIEN PHU,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,24%,59,0.80,-43,"2,6",9
+6,13,1954,6,19,1954,https://en.wikipedia.org/wiki/Operation_Wetback,OPERATION WETBACK,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,10%,20,0.80,10,1,5000
+11,1,1955,11,5,1955,https://en.wikipedia.org/wiki/Vietnam_War,VIETNAM STARTS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,7%,62,0.80,-36,1,9
+9,16,1955,9,23,1955,https://en.wikipedia.org/wiki/Revoluci%C3%B3n_Libertadora,REVOLUCION,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,17%,20,0.80,0,2,20
+12,5,1955,12,17,1955,https://en.wikipedia.org/wiki/Montgomery_bus_boycott,MONTGOMERY BUS BOYCOTTS START,1.8em,Arial,TRUE,white,black,30,0,10,0,40%,1%,20,0.70,20,2,21
+4,18,1955,4,24,1955,https://en.wikipedia.org/wiki/Bandung_Conference,BANDUNG,2.3em,Arial,TRUE,white,red,30,0,10,0,40%,27%,61,0.80,-41,1,19
+12,9,1956,12,20,1956,https://en.wikipedia.org/wiki/Montgomery_bus_boycott,MONTGOMERY BUS BOYCOTTS END,1.8em,Arial,TRUE,white,black,30,0,10,0,40%,5%,20,0.70,20,1,21
+1,1,1956,1,7,1956,https://en.wikipedia.org/wiki/COINTELPRO,COINTELPRO STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,20,0.80,0,1,20
+6,28,1956,6,30,1956,https://en.wikipedia.org/wiki/1956_Pozna%C5%84_protests,POZNAN,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,20%,20,0.80,25,"1,3,9,14",19
+10,23,1956,11,11,1956,https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956,HUNGARIAN REVOLUTION,1.9em,Arial,TRUE,black,RED,30,0,10,0,40%,2%,20,0.80,0,1,9
+10,30,1956,11,7,1956,https://en.wikipedia.org/wiki/Suez_Crisis,SUEZ CRISIS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,20,0.80,25,2,20
+3,4,1956,3,10,1956,https://en.wikipedia.org/wiki/1956_Georgian_demonstrations,GEORGIAN DEMONSTRATIONS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,3%,20,0.80,0,1,9
+2,1,1958,2,9,1958,https://en.wikipedia.org/wiki/Great_Leap_Forward,GREAT LEAP FORWARD BEGINS,2.2em,Arial,TRUE,black,RED,30,0,10,0,40%,2%,20,0.80,0,2,9
+5,13,1958,5,29,1958,https://en.wikipedia.org/wiki/May_1958_crisis_in_France,ALGIERS CRISIS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,23%,20,0.80,-5,2,9
+12,28,1958,1,1,1959,https://en.wikipedia.org/wiki/Battle_of_Santa_Clara,SANTA CLARA,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,20,0.80,0,1,9
+3,10,1959,3,23,1959,https://en.wikipedia.org/wiki/1959_Tibetan_uprising,TIBETAN UPRISING,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,20%,20,0.80,1,2,20
+9,15,1959,9,27,1959,https://en.wikipedia.org/wiki/State_visit_by_Nikita_Khrushchev_to_the_United_States,KHRUSHCHEV VISITS USA,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,10%,20,0.80,0,2,9
+11,1,1959,11,7,1959,https://en.wikipedia.org/wiki/Rwandan_Revolution,HUTU REVOLUTION,2.3em,Arial,TRUE,RED,BLACK,30,0,10,0,40%,17%,20,0.80,25,1,19
+7,5,1960,7,9,1960,https://en.wikipedia.org/wiki/Congo_Crisis,CONGO CRISIS BEGINS,2.1em,Arial,TRUE,red,black,30,0,10,0,40%,3%,20,0.80,1,1,20
+7,5,1960,7,9,1960,https://en.wikipedia.org/wiki/Congo_Crisis,CONGO CRISIS BEGINS,2.1em,Arial,TRUE,red,black,30,0,10,0,40%,3%,20,0.80,1,1,20
+5,4,1961,5,13,1961,https://en.wikipedia.org/wiki/Freedom_Riders,FREEDOM RIDERS START,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,20,0.70,20,2,21
+12,3,1961,12,10,1961,https://en.wikipedia.org/wiki/Freedom_Riders,FREEDOM RIDERS END,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,20%,20,0.70,20,1,21
+3,29,1961,3,29,1961,https://en.wikipedia.org/wiki/Twenty-third_Amendment_to_the_United_States_Constitution,23,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+4,17,1961,4,20,1961,https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion,BAY OF PIGS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,20,0.80,0,1,9
+6,4,1961,6,10,1961,https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961,BERLIN CRISIS BEGINS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,20,0.80,0,1,9
+11,5,1961,11,9,1961,https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961,BERLIN CRISIS ENDS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,4%,20,0.80,0,1,9
+10,16,1962,10,29,1962,https://en.wikipedia.org/wiki/Cuban_Missile_Crisis,CUBAN MISSLE CRISIS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,20,0.80,0,2,9
+1,11,1962,2,7,1962,https://en.wikipedia.org/wiki/Seven_Thousand_Cadres_Conference,SEVEN THOUSAND CADRES,2.3em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,5%,20,0.80,0,2,9
+10,1,1962,10,13,1962,https://en.wikipedia.org/wiki/Second_Vatican_Council,VATICAN II BEGINS,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,20%,20,0.80,1,2,20
+10,20,1962,11,21,1962,https://en.wikipedia.org/wiki/Sino-Indian_War,SINO INDIAN WAR,2.3em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,22%,20,0.80,25,5,1
+2,8,1963,2,10,1963,https://en.wikipedia.org/wiki/Ramadan_Revolution,RAMADAN,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,2%,20,0.70,20,1,21
+11,1,1963,11,2,1963,https://en.wikipedia.org/wiki/1963_South_Vietnamese_coup_d%27%C3%A9tat,VIET COUP,1.8em,Arial,TRUE,black,RED,30,0,10,0,40%,2%,20,0.80,0,1,9
+11,13,1963,11,18,1963,https://en.wikipedia.org/wiki/November_1963_Iraqi_coup_d%27%C3%A9tat,NOVEMBER IRAQ COUP,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,1%,20,0.70,20,1,21
+1,23,1964,1,23,1964,https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution,24,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+1,13,1964,1,16,1964,https://en.wikipedia.org/wiki/1964_Arab_League_summit_(Cairo),ARAB SUMMIT,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,10%,20,0.80,1,1,20
+11,21,1965,11,25,1965,https://en.wikipedia.org/wiki/Congo_Crisis,CONGO CRISIS ENDS,1.4em,Arial,TRUE,red,black,30,0,10,0,45%,2%,20,0.80,1,1,20
+3,7,1965,3,25,1965,https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches,SELMA TO MONTGOMERY MARCHES,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,1%,20,0.70,20,2,21
+4,24,1965,5,8,1965,https://en.wikipedia.org/wiki/Dominican_Civil_War,DOMINICAN CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,1%,20,0.80,0,4,20
+8,22,1965,9,3,1965,https://en.wikipedia.org/wiki/Dominican_Civil_War,DOMINICAN CIVIL WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,3%,20,0.80,0,1,20
+3,3,1965,3,6,1965,https://en.wikipedia.org/wiki/Operation_Rolling_Thunder,ROLLING THUNDER,2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,3%,20,0.80,0,1,20
+11,14,1965,11,18,1965,https://en.wikipedia.org/wiki/Battle_of_Ia_Drang,LA DRANG VALLEY,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,20,0.80,0,1,20
+8,11,1965,8,16,1965,https://en.wikipedia.org/wiki/Watts_riots,WATTS RIOTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,7%,20,0.80,0,1,20
+6,9,1965,6,13,1965,https://en.wikipedia.org/wiki/Battle_of_%C4%90%E1%BB%93ng_Xo%C3%A0i,DONG XOAI,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,21%,20,0.80,0,1,9
+12,5,1965,12,8,1965,https://en.wikipedia.org/wiki/Second_Vatican_Council,VATICAN II ENDS,2em,Arial,TRUE,red,black,30,0,10,0,40%,10%,20,0.80,1,1,20
+10,3,1965,10,16,1965,https://en.wikipedia.org/wiki/Indonesian_mass_killings_of_1965%E2%80%9366,INDONESIAN MASS KILLINGS "BEGIN",1.8em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,2%,20,0.75,0,2,20
+11,3,1966,11,12,1966,https://en.wikipedia.org/wiki/%C3%91ancahuaz%C3%BA_Guerrilla,NANCAHUAZU GUERRILLA BEGINS,2.0em,Arial,TRUE,LIGHTBLUE,BLACK,30,0,10,0,40%,2%,20,0.80,0,2,9
+1,1,1967,1,7,1967,https://en.wikipedia.org/wiki/Operation_CHAOS,OPERATION CHAOS STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,20,0.80,0,1,20
+2,10,1967,2,10,1967,https://en.wikipedia.org/wiki/Twenty-fifth_Amendment_to_the_United_States_Constitution,25,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+6,5,1967,6,10,1967,https://en.wikipedia.org/wiki/Six-Day_War,SIX DAY WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,25%,20,0.80,0,1,20
+11,3,1967,11,23,1967,https://en.wikipedia.org/wiki/Battle_of_Dak_To,DAK TO - HILL 875,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,20,0.80,0,2,20
+1,8,1967,1,26,1967,https://en.wikipedia.org/wiki/Operation_Cedar_Falls,OPERATION CEDAR FALLS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,20,0.80,0,1,20
+9,24,1967,10,9,1967,https://en.wikipedia.org/wiki/%C3%91ancahuaz%C3%BA_Guerrilla,NANCAHUAZU GUERRILLA ENDS,2.0em,Arial,TRUE,LIGHTBLUE,BLACK,30,0,10,0,40%,4%,20,0.80,0,1,9
+1,30,1968,2,10,1968,https://en.wikipedia.org/wiki/Tet_Offensive,TET OFFENSIVE BEGINS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,7%,65,0.80,-43,3,9
+8,20,1968,8,21,1968,https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia,DANUBE,2.0em,Arial,TRUE,black,RED,30,0,10,0,40%,5%,60,0.80,-33,1,9
+9,15,1968,9,23,1968,https://en.wikipedia.org/wiki/Tet_Offensive,TET OFFENSIVE ENDS,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,10%,61,0.80,-42,1,9
+9,24,1968,9,28,1968,https://en.wikipedia.org/wiki/Chicago_Seven,CHICAGO 7 TRIAL STARTS,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,3%,60,0.70,-30,1,21
+4,4,1968,4,11,1968,https://en.wikipedia.org/wiki/King_assassination_riots,KING ASSASSINATION RIOTS,1.6em,Arial,TRUE,white,black,30,0,10,0,40%,1%,61,0.70,-36,2,21
+8,23,1968,8,29,1968,https://en.wikipedia.org/wiki/1968_Democratic_National_Convention_protests,DNC PROTESTS,1.8em,Arial,TRUE,white,black,30,0,10,0,40%,16%,60,0.70,-34,2,21
+2,9,1969,2,18,1969,https://en.wikipedia.org/wiki/Chicago_Seven,CHICAGO 7 TRIAL VERDICT,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,20,0.70,20,1,21
+10,8,1969,10,11,1969,https://en.wikipedia.org/wiki/Days_of_Rage,DAYS OF RAGE,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,20,0.70,20,1,21
+3,18,1969,3,29,1969,https://en.wikipedia.org/wiki/Operation_Menu,OPERATION MENU STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,8%,20,0.80,0,2,20
+6,28,1969,7,3,1969,https://en.wikipedia.org/wiki/Stonewall_riots,STONEWALL,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,2%,20,0.80,0,3,20
+8,15,1969,8,16,1969,https://en.wikipedia.org/wiki/Woodstock,WOOD,2em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.70,20,1,21
+8,17,1969,8,18,1969,https://en.wikipedia.org/wiki/Woodstock,STOCK,2em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.70,20,1,21
+7,14,1969,7,18,1969,https://en.wikipedia.org/wiki/Football_War,FOOTBALL WAR,2.2em,Arial,TRUE,white,BLUE,30,0,10,0,40%,15%,20,0.80,0,1,9
+3,2,1969,3,8,1969,https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict,SINO SOVIET BORDER CONFLICT BEGINS,1.7em,Arial,TRUE,red,black,30,0,10,0,40%,1%,20,0.80,0,1,20
+8,24,1969,9,11,1969,https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict,SINO SOVIET BORDER CONFLICT ENDS,1.7em,Arial,TRUE,red,black,30,0,10,0,40%,3%,20,0.80,0,1,20
+4,11,1970,4,17,1970,https://en.wikipedia.org/wiki/Apollo_13,APOLLO 13,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,28%,20,0.80,0,2,20
+5,17,1970,5,26,1970,https://en.wikipedia.org/wiki/Operation_Menu,OPERATION MENU ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,8%,20,0.80,0,1,20
+7,1,1971,7,1,1971,https://en.wikipedia.org/wiki/Twenty-sixth_Amendment_to_the_United_States_Constitution,26,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+3,26,1971,4,10,1971,https://en.wikipedia.org/wiki/Bangladesh_Liberation_War,BANGLADESH WAR/GENOCIDE BEGINS,1.8em,Arial,TRUE,RED,DARKGREEN,30,0,10,0,40%,1%,20,0.80,0,4,9
+12,5,1971,12,16,1971,https://en.wikipedia.org/wiki/Bangladesh_Liberation_War,BANGLADESH WAR/GENOCIDE ENDS,1.8em,Arial,TRUE,RED,DARKGREEN,30,0,10,0,40%,3%,20,0.80,0,1,9
+2,21,1972,2,28,1972,https://en.wikipedia.org/wiki/1972_visit_by_Richard_Nixon_to_China,NIXON GOES TO CHINA,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,8%,20,0.80,-10,1,9
+2,16,1972,4,11,1972,https://en.wikipedia.org/wiki/1972_Yugoslav_smallpox_outbreak,YUGOSLAV SMALLPOX OUTBREAK,2em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,1%,20,0.75,35,"2,5,10",20
+10,6,1973,10,25,1973,https://en.wikipedia.org/wiki/Yom_Kippur_War,YOM KIPPUR WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,20,0.80,0,2,20
+10,21,1973,10,27,1973,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,20,1,20
+3,10,1974,3,16,1974,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO LIFTED,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,20,1,20
+12,13,1974,12,21,1974,https://en.wikipedia.org/wiki/1975_spring_offensive,VIET SPRING OFFENSIVE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,20,0.80,0,2,9
+4,13,1975,4,26,1975,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,20,0.80,30,2,20
+4,20,1975,4,30,1975,https://en.wikipedia.org/wiki/Fall_of_Saigon,FALL OF SAIGON,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,21%,20,0.80,-10,1,9
+11,11,1975,11,29,1975,https://en.wikipedia.org/wiki/Angolan_Civil_War,ANGOLAN CIVIL WAR BEGINS,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,3%,20,0.80,1,3,20
+6,25,1975,7,12,1975,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY BEGINS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,15%,20,0.80,0,4,20
+11,2,1975,11,8,1975,https://en.wikipedia.org/wiki/Operation_Condor,OPERATION CONDOR BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,2%,20,0.75,0,1,20
+9,15,1976,9,18,1976,https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations,HSCA BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,16%,20,0.70,20,1,21
+3,13,1977,3,21,1977,https://en.wikipedia.org/wiki/The_Emergency_(India),EMERGENCY ENDS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,17%,20,0.80,0,1,20
+11,1,1978,11,11,1978,"https://en.wikipedia.org/wiki/1979_oil_crisis#:~:text=In%20November%201978%2C%20a%20strike,Foreign%20workers%20left%20the%20country.",OIL STRIKES BEGIN,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,20,0.80,0,2,20
+11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,20,0.80,0,2,20
+11,1,1978,11,11,1978,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO ENDS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,20,0.80,0,2,20
+4,27,1978,4,28,1978,https://en.wikipedia.org/wiki/Saur_Revolution,SAUR,2.3em,Arial,TRUE,RED,BLACK,30,0,10,0,40%,15%,20,0.80,0,1,9
+11,4,1979,11,10,1979,https://en.wikipedia.org/wiki/Iran_hostage_crisis,IRAN HOSTAGE CRISIS BEGINS,2.1em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,1%,58,0.80,-40,1,20
+12,24,1979,12,31,1979,https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War,SOVIET AFGHAN WAR STARTS,1.8em,Arial,TRUE,red,black,30,0,10,0,40%,2%,59,0.50,-35,1,20
+11,20,1979,12,4,1979,https://en.wikipedia.org/wiki/Grand_Mosque_seizure,GRAND MOSQUE SEIZURE,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,1%,59,0.80,-32,2,20
+1,1,1979,1,3,1979,https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations,HSCA ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,12%,20,0.70,20,1,21
+2,17,1979,3,16,1979,https://en.wikipedia.org/wiki/Sino-Vietnamese_War,SINO-VIETNAMESE WAR,2.3em,Arial,TRUE,gold,RED,30,0,10,0,40%,6%,61,0.80,-36,"2,5",9
+7,3,1979,7,7,1979,https://en.wikipedia.org/wiki/Operation_Cyclone,OPERATION CYCLONE BEGINS,1.65em,Arial,TRUE,LIGHTBLUE,BLACK,30,0,10,0,40%,17%,20,0.80,0,1,9
+9,22,1980,9,30,1980,https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War,IRAN IRAQ WAR STARTS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,12%,20,0.80,1,1,20
+1,11,1981,1,20,1981,https://en.wikipedia.org/wiki/Iran_hostage_crisis,IRAN HOSTAGES RELEASED,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,20,0.80,0,1,20
+2,2,1982,2,28,1982,https://en.wikipedia.org/wiki/1982_Hama_massacre,HAMA MASSACRE,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,25%,20,0.80,1,2,20
+9,16,1982,9,18,1982,https://en.wikipedia.org/wiki/Sabra_and_Shatila_massacre,SABRA AND SHATILA,1.3em,Arial,TRUE,red,black,30,0,10,0,50%,5%,20,0.80,1,1,20
+6,6,1982,6,19,1982,https://en.wikipedia.org/wiki/1982_Lebanon_War,LEBANON WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,64,0.80,-26,2,20
+4,2,1982,6,14,1982,https://en.wikipedia.org/wiki/Falklands_War,FALKLANDS WAR,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,21%,61,0.75,-36,"2,7",19
+10,25,1983,11,2,1983,https://en.wikipedia.org/wiki/United_States_invasion_of_Grenada,GRENADA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,23%,20,0.80,0,1,20
+7,23,1983,7,30,1983,https://en.wikipedia.org/wiki/Sri_Lankan_civil_war,SRI LANKAN CIVIL WAR BEGINS,2.1em,Arial,TRUE,WHITE,DARKRED,30,0,10,0,40%,3%,20,0.75,0,2,20
+6,1,1984,6,10,1984,https://en.wikipedia.org/wiki/Operation_Blue_Star,OPERATION BLUE STAR,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,12%,20,0.80,0,2,20
+11,1,1984,11,3,1984,https://en.wikipedia.org/wiki/1984_anti-Sikh_riots,ANTI-SIKH RIOTS,1.75em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,2%,20,0.80,0,1,20
+5,19,1985,6,5,1985,https://en.wikipedia.org/wiki/1982_Lebanon_War,LEBANON WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,20,0.80,0,1,20
+11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,PALACE OF,1.7em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,2%,20,0.80,-8,1,5000
+11,6,1985,11,7,1985,https://en.wikipedia.org/wiki/Palace_of_Justice_siege,JUSTICE,2em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,7%,20,0.80,30,1,5000
+2,22,1986,2,25,1986,https://en.wikipedia.org/wiki/People_Power_Revolution,EDSA,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,28%,20,0.80,1,2,20
+5,3,1987,5,9,1987,https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair,IRAN CONTRA TRIAL STARTS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,20,0.80,0,1,20
+12,9,1987,12,26,1987,https://en.wikipedia.org/wiki/First_Intifada,FIRST INTIFADA BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,20,0.80,0,3,20
+8,14,1988,8,20,1988,https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War,IRAN IRAQ WAR ENDS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,18%,20,0.80,1,1,20
+2,20,1988,2,27,1988,https://en.wikipedia.org/wiki/First_Nagorno-Karabakh_War,FIRST NAGARNO-KARABAKH WAR BEGINS,1.6em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,3%,20,0.80,0,2,9
+2,5,1989,2,15,1989,https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War,SOVIET AFGHAN WAR ENDS,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,12%,20,0.80,1,1,20
+11,17,1989,11,28,1989,https://en.wikipedia.org/wiki/Velvet_Revolution,VELVET REVOLUTION,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,20%,20,0.80,1,2,20
+12,16,1989,12,25,1989,https://en.wikipedia.org/wiki/Romanian_revolution,ROMANIAN REVOLUTION,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,20%,20,0.80,1,2,20
+10,7,1990,10,13,1990,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,20,0.80,25,1,25
+8,2,1990,2,28,1991,https://en.wikipedia.org/wiki/Gulf_War,GULF WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,33%,20,0.80,0,"2,7,14,18,23,28,33",20
+2,25,1991,2,27,1991,https://en.wikipedia.org/wiki/Highway_of_Death,HIGHWAY OF DEATH,1.5em,Arial,TRUE,red,black,30,0,10,0,40%,1%,20,0.80,1,1,20
+8,19,1991,8,22,1991,https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt,COUP ATTEMPT,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,5%,20,0.80,0,1,9
+5,7,1992,5,7,1992,https://en.wikipedia.org/wiki/Twenty-seventh_Amendment_to_the_United_States_Constitution,27,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80
+4,29,1992,5,3,1992,https://en.wikipedia.org/wiki/1992_Los_Angeles_riots,LA RIOTS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,6%,20,0.70,20,"1,2",21
+8,21,1992,8,31,1992,https://en.wikipedia.org/wiki/Ruby_Ridge_standoff,RUBY RIDGE,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,20,0.80,0,2,9
+9,5,1993,9,13,1993,https://en.wikipedia.org/wiki/First_Intifada,FIRST INTIFADA ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,13%,20,0.80,0,1,20
+2,28,1993,4,3,1993,https://en.wikipedia.org/wiki/Waco_siege,WACO SIEGE,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,20,0.80,0,3,9
+4,4,1993,4,10,1993,https://en.wikipedia.org/wiki/Waco_siege,WACO SIEGE,2.3em,Arial,TRUE,black,GOLD,30,0,10,0,40%,30%,20,0.80,0,2,9
+10,3,1993,10,4,1993,https://en.wikipedia.org/wiki/Battle_of_Mogadishu_(1993),MOGADISHU,1.5em,Arial,TRUE,red,black,30,0,10,0,40%,5%,20,0.80,1,1,20
+5,1,1994,7,19,1994,https://en.wikipedia.org/wiki/Rwandan_genocide,RWANDAN GENOCIDE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.75,0,"3,7,13",20
+5,1,1994,5,12,1994,https://en.wikipedia.org/wiki/First_Nagorno-Karabakh_War,FIRST NAGARNO-KARABAKH WAR ENDS,1.7em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,2%,20,0.80,35,1,9
+7,11,1995,7,31,1995,https://en.wikipedia.org/wiki/Srebrenica_massacre,SREBRENICA,2.3em,Arial,TRUE,black,LightGray,30,0,10,0,40%,28%,20,0.80,0,2,20
+11,14,1995,11,19,1995,https://en.wikipedia.org/wiki/1995%E2%80%931996_United_States_federal_government_shutdowns,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,27%,20,0.80,0,1,19
+12,16,1995,12,31,1995,https://en.wikipedia.org/wiki/1995%E2%80%931996_United_States_federal_government_shutdowns,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,31%,20,0.80,0,2,19
+10,24,1996,10,31,1996,https://en.wikipedia.org/wiki/First_Congo_War,FIRST CONGO WAR BEGINS,1.8EM,Arial,TRUE,red,black,30,0,10,0,40%,3%,20,0.80,1,2,20
+7,7,1996,7,12,1996,"https://en.wikipedia.org/wiki/XI_International_AIDS_Conference,_1996",XI AIDS CONFERENCE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,8%,20,0.80,0,1,20
+1,1,1996,1,6,1996,https://en.wikipedia.org/wiki/1995%E2%80%931996_United_States_federal_government_shutdowns,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,35%,20,0.80,0,1,19
+5,11,1997,5,16,1997,https://en.wikipedia.org/wiki/First_Congo_War,FIRST CONGO WAR ENDS,2.2em,Arial,TRUE,red,black,30,0,10,0,40%,5%,20,0.80,1,1,20
+8,2,1998,8,8,1998,https://en.wikipedia.org/wiki/Second_Congo_War,SECOND CONGO WAR BEGINS,2.1em,Arial,TRUE,red,black,30,0,10,0,40%,2%,60,0.80,-46,1,22
+8,7,1998,8,20,1998,https://en.wikipedia.org/wiki/Operation_Infinite_Reach,OPERATION INFINITE REACH,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,64,0.80,-27,2,20
+11,30,1999,12,2,1999,https://en.wikipedia.org/wiki/1999_Seattle_WTO_protests,WTO,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,27%,20,0.70,20,2,21
+9,28,2000,10,7,2000,https://en.wikipedia.org/wiki/Second_Intifada,SECOND INTIFADA BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,20,0.80,0,2,20
+7,11,2000,7,25,2000,https://en.wikipedia.org/wiki/2000_Camp_David_Summit,CAMP DAVID,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,32%,20,0.80,0,2,20
+11,26,2000,11,30,2000,https://en.wikipedia.org/wiki/Cassette_Scandal,KUCHMAGATE,2.3em,Arial,TRUE,GOLD,BLUE,30,0,10,0,40%,17%,20,0.80,0,1,20
+10,7,2001,10,13,2001,https://en.wikipedia.org/wiki/United_States_invasion_of_Afghanistan,US INVADES AFGHANISTAN,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,3%,60,0.80,-33,1,20
+11,30,2001,12,17,2001,https://en.wikipedia.org/wiki/Battle_of_Tora_Bora,TORA BORA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,30%,20,0.80,0,3,20
+3,24,2002,4,4,2002,https://en.wikipedia.org/wiki/Angolan_Civil_War,ANGOLAN CIVIL WAR ENDS,2.3em,Arial,TRUE,RED,BLACK,30,0,10,0,40%,2%,58,0.80,-41,1,9
+7,13,2003,7,18,2003,https://en.wikipedia.org/wiki/Second_Congo_War,SECOND CONGO WAR ENDS,1.9em,Arial,TRUE,red,black,30,0,10,0,40%,2%,58,0.80,-35,1,20
+3,20,2003,3,29,2003,https://en.wikipedia.org/wiki/Iraq_War,IRAQ WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,20%,61,0.80,-41,2,20
+1,23,2005,2,8,2005,https://en.wikipedia.org/wiki/Second_Intifada,SECOND INTIFADA ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,63,0.80,-40,1,20
+8,23,2005,8,31,2005,https://en.wikipedia.org/wiki/Hurricane_Katrina,HURRICANE KATRINA,2.1em,Arial,TRUE,white,black,30,0,10,0,38%,1%,59,0.70,-31,1,21
+3,15,2006,3,25,2006,https://en.wikipedia.org/wiki/Battle_of_Ramadi_(2006),BATTLE OF RAMADI BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,9%,61,0.70,-34,2,21
+11,5,2006,11,15,2006,https://en.wikipedia.org/wiki/Battle_of_Ramadi_(2006),BATTLE OF RAMADI ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,10%,59,0.70,-31,1,21
+6,10,2007,6,15,2007,https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007),BATTLE OF GAZA,2.3em,Arial,TRUE,WHITE ,GREEN,30,0,10,0,40%,21%,58,0.80,-38,1,20
+8,7,2008,8,12,2008,https://en.wikipedia.org/wiki/Russo-Georgian_War,GEORGIA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,14%,62,0.80,-43,2,20
+11,26,2008,11,29,2008,https://en.wikipedia.org/wiki/2008_Mumbai_attacks,26/11 ATTACKS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,4%,62,0.80,-36,1,20
+12,27,2008,1,18,2009,https://en.wikipedia.org/wiki/Gaza_War_(2008%E2%80%932009),GAZA WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,5%,59,0.80,-41,"2,4",20
+5,10,2009,5,18,2009,https://en.wikipedia.org/wiki/Sri_Lankan_civil_war,SRI LANKAN CIVIL WAR ENDS,2.2em,Arial,TRUE,WHITE,DARKRED,30,0,10,0,40%,1%,61,0.75,-37,1,20
+9,17,2011,11,15,2011,https://en.wikipedia.org/wiki/Occupy_Wall_Street,OCCUPY WALL STREET,2.3em,Arial,TRUE,white,black,30,0,10,0,37%,10%,61,0.70,-33,5,21
+11,14,2012,11,21,2012,https://en.wikipedia.org/wiki/2012_Gaza_War,2012 GAZA WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,2%,60,0.80,-36,1,20
+10,1,2013,10,17,2013,https://en.wikipedia.org/wiki/2013_United_States_federal_government_shutdown,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,31%,60,0.80,-39,"2,4",19
+6,13,2014,6,21,2014,https://en.wikipedia.org/wiki/War_against_the_Islamic_State#International_coalitions_against_ISIL,WAR ON ISIS BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,14%,64,0.80,-40,2,20
+2,27,2014,3,16,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.6em,Arial,TRUE,red,black,30,0,10,0,40%,34%,61,0.80,-43,3,20
+3,17,2014,3,23,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,31%,60,0.80,-43,8,20
+3,24,2014,3,27,2014,https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation,CRIMEA,2.0em,Arial,TRUE,red,black,30,0,10,0,40%,40%,20,0.80,-43,8,20
+7,8,2014,8,26,2014,https://en.wikipedia.org/wiki/2014_Gaza_War,2014 GAZA WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,21%,63,0.80,-50,"2,7",20
+4,1,2016,4,5,2016,https://en.wikipedia.org/wiki/2016_Nagorno-Karabakh_conflict,APRIL WAR,2.3em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,4%,61,0.80,-42,2,9
+12,27,2017,12,31,2017,https://en.wikipedia.org/wiki/2018%E2%80%932024_Arab_protests,2ND ARAB SPRING,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,4%,63,0.70,-39,1,21
+3,30,2018,4,7,2018,https://en.wikipedia.org/wiki/2018%E2%80%932019_Gaza_border_protests,MARCH TO RETURN,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,17%,58,0.80,-42,2,20
+12,22,2018,1,25,2019,https://en.wikipedia.org/wiki/2018%E2%80%932019_United_States_federal_government_shutdown,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,28%,57,0.80,-37,"2,4",19
+6,8,2020,7,1,2020,https://en.wikipedia.org/wiki/Capitol_Hill_Occupied_Protest,CHAZ,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,38%,60,0.70,-40,2,21
+8,13,2021,8,30,2021,https://en.wikipedia.org/wiki/2021_Kabul_airlift,EVACUATION FROM AFGHANISTAN,1.8em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,59,0.80,-38,2,20
+5,6,2021,5,21,2021,https://en.wikipedia.org/wiki/2021_Israel%E2%80%93Palestine_crisis,2021 ISRAEL-PALESTINE CRISIS,2.0em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,1%,63,0.80,-37,2,20
+5,2,2023,5,6,2023,https://en.wikipedia.org/wiki/2023_Writers_Guild_of_America_strike,WRITERS STRIKE STARTS,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,2%,66,0.70,-31,1,21
+11,5,2023,11,9,2023,https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike,SAG STRIKE ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,12%,60,0.70,-35,1,21
+7,14,2023,7,19,2023,https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike,SAG STRIKE STARTS,1.7em,Arial,TRUE,white,black,30,0,10,0,40%,2%,60,0.70,-34,2,21
+9,24,2023,9,27,2023,https://en.wikipedia.org/wiki/2023_Writers_Guild_of_America_strike,WRITERS STRIKE ENDS,1.5em,Arial,TRUE,white,black,30,0,10,0,40%,3%,59,0.70,-37,1,21
+6,23,2023,6,24,2023,https://en.wikipedia.org/wiki/Wagner_Group_rebellion,WAGNER,1.9em,Arial,TRUE,black,RED,30,0,10,0,40%,5%,58,0.80,-33,1,9
+1,7,2025,1,18,2025,https://en.wikipedia.org/wiki/2025_California_wildfires,CALIFORNIA WILDFIRES BEGIN,2.0em,Arial,TRUE,black,GOLD,30,0,10,0,40%,3%,65,0.80,-39,2,9
+6,6,2025,6,21,2025,https://en.wikipedia.org/wiki/June_2025_Los_Angeles_protests,LA PROTESTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,28%,59,0.80,-30,3,19
+10,1,2025,11,12,2025,https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown,SHUTDOWN,2.3em,Arial,TRUE,BLACK,GREY,30,0,10,0,40%,29%,59,0.80,-43,2,19
+12,8,1901,2,22,1902,https://en.wikipedia.org/wiki/Pacification_of_Samar,PACIFICATION OF SAMAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,5%,20,0.80,25,"2,6,11",19
+7,23,1967,7,28,1967,https://en.wikipedia.org/wiki/1967_Detroit_riot,DETROIT RIOTS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,20%,20,0.80,25,1,19
+9,13,1951,10,15,1951,https://en.wikipedia.org/wiki/Battle_of_Heartbreak_Ridge,HEARTBREAK RIDGE,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,15%,20,0.80,25,"2,6,11",19
+10,24,1952,11,25,1952,https://en.wikipedia.org/wiki/Battle_of_Triangle_Hill,TRIANGLE HILL,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,23%,20,0.80,25,"2,5",19
+7,22,1999,7,25,1999,https://en.wikipedia.org/wiki/Woodstock_%2799,WOODSTOCK 99,1.8em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,2%,20,0.70,20,1,21
+6,17,2006,6,24,2006,https://en.wikipedia.org/wiki/War_in_Somalia_(2006%E2%80%932009),ETHIOPIA INVADES SOMALIA,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,4%,65,0.70,-39,2,20
+1,25,2009,1,30,2009,https://en.wikipedia.org/wiki/War_in_Somalia_(2006%E2%80%932009),ETHIOPIA LEAVES SOMALIA,1.5EM,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,12%,57,0.70,-37,1,20
+2,1,2009,2,7,2009,https://en.wikipedia.org/wiki/Somali_Civil_War_(2009%E2%80%93present),SOMALIAN CIVIL WAR BEGINS,1.7em,Arial,TRUE,WHITE,GREEN,30,0,10,0,44%,17%,63,0.70,-26,1,20
+7,7,1937,7,9,1937,https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident,MARCO POLO,1.9em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,3%,61,0.80,-46,1,100
+7,26,2009,7,29,2009,https://en.wikipedia.org/wiki/2009_Boko_Haram_uprising,BOKO HARAM,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,11%,54,0.80,-35,1,100
+10,7,1952,10,18,1952,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION STARTS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,20,0.80,0,2,100
+10,14,1956,10,21,1956,https://en.wikipedia.org/wiki/Mau_Mau_rebellion,MAU MAU REBELLION ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,9%,20,0.80,0,1,100
+5,8,1992,5,9,1992,https://en.wikipedia.org/wiki/Battle_of_Shusha_(1992),SHUSHA,2.1em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,9%,20,0.80,0,1,100
+9,27,2020,11,10,2020,https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War,2ND NAGARNO-KARABAKH WAR,1.9em,Arial,TRUE,BLUE,GOLD,30,0,10,0,40%,4%,61,0.80,-42,3,19
+10,16,2016,10,22,2016,https://en.wikipedia.org/wiki/Battle_of_Mosul_(2016%E2%80%932017),BATTLE OF MOSUL BEGINS,2.1em,Arial,TRUE,GREEN,BLACK,30,0,10,0,40%,9%,58,0.80,-36,1,19
+7,9,2017,7,20,2017,https://en.wikipedia.org/wiki/Battle_of_Mosul_(2016%E2%80%932017),BATTLE OF MOSUL ENDS,2.1em,Arial,TRUE,GREEN,BLACK,30,0,10,0,40%,12%,60,0.80,-39,1,19
+10,9,2016,10,15,2016,https://en.wikipedia.org/wiki/Rohingya_genocide,ROHINGYA GENOCIDE BEGINS,2.1em,Arial,TRUE,BLACK,LIGHTGREEN,30,0,10,0,40%,3%,58,0.80,-36,1,19
+6,4,2014,6,10,2014,https://en.wikipedia.org/wiki/Fall_of_Mosul,FALL OF MOSUL,2.1em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,7%,56,0.80,-38,1,19
+5,12,1968,6,24,1968,https://en.wikipedia.org/wiki/Poor_People%27s_Campaign,POOR PEOPLE'S CAMPAIGN,2.1em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,7%,61,0.80,-40,"1,6",19
+6,17,656,6,28,656,https://en.wikipedia.org/wiki/First_Fitna,FIRST FITNA BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,20,0.80,0,2,100
+1,1,661,1,28,661,https://en.wikipedia.org/wiki/First_Fitna,FIRST FITNA ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,20,0.80,0,2,100
+10,10,680,10,16,680,https://en.wikipedia.org/wiki/Second_Fitna,SECOND FITNA BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,20,0.80,0,1,100
+3,1,692,11,30,692,https://en.wikipedia.org/wiki/Siege_of_Mecca_(692),MECCA CAPTURED SECOND FITNA ENDS,1.7em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,1%,20,0.80,0,"2,7,12,17,22,28,33,38,44",100
+1,1,711,3,31,711,https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Iberian_Peninsula,UMAYYAD INVADES IBERIA,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,10%,20,0.80,0,"2,7,12",100
+6,9,747,6,21,747,https://en.wikipedia.org/wiki/Abbasid_revolution,ABBASID REVOLUTION BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,20,0.80,0,"2,7,12",100
+1,1,750,1,25,750,https://en.wikipedia.org/wiki/Abbasid_revolution,ABBASID REVOLUTION ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,20,0.80,0,2,100
+1,30,1258,2,10,1258,https://en.wikipedia.org/wiki/Siege_of_Baghdad,SIEGE OF BAGHDAD,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,20,0.80,0,3,100
+9,17,2009,10,10,2009,https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission,FCIC BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,30%,59,0.70,-37,5,21
+1,1,2011,1,31,2011,https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission,FCIC ENDS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,32%,60,0.70,-40,2,21
+8,16,1992,8,29,1992,https://en.wikipedia.org/wiki/Hurricane_Andrew,HURRICANE ANDREW,1.8em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,25%,20,0.70,45,2,21
+4,20,1876,5,26,1876,https://en.wikipedia.org/wiki/April_Uprising_of_1876,BULGARIAN HORRORS,2.3em,Arial,TRUE,black,pink,30,0,10,0,40%,13%,20,0.80,0,"2,5",20
+1,12,1964,1,31,1964,https://en.wikipedia.org/wiki/Massacre_of_Arabs_during_the_Zanzibar_Revolution,ZANZIBAR MASSACRE,2.3em,Arial,TRUE,BLACK,GREEN,30,0,10,0,40%,13%,20,0.80,-10,3,5
+5,1,1851,10,15,1851,https://en.wikipedia.org/wiki/Great_Exhibition,CRYSTAL PALACE EXHIBITION,2.1em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,2%,59,0.80,-40,"2,7,12,17,23,28",19
+1,8,1933,1,12,1933,https://en.wikipedia.org/wiki/Anarchist_insurrection_of_January_1933,SPANISH ANARCHY REVOLT,1.8em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,1%,20,0.80,25,1,19
+12,8,1933,12,15,1933,https://en.wikipedia.org/wiki/Anarchist_insurrection_of_December_1933,SPANISH ANARCHY REVOLT,2.1em,Arial,TRUE,RED,YELLOW,30,0,10,0,40%,3%,20,0.80,25,2,19
+1,18,1932,1,27,1932,https://en.wikipedia.org/wiki/Alt_Llobregat_insurrection,ALT LLOBREGAT,2.1em,Arial,TRUE,RED,YELLOW,30,0,10,0,47%,3%,20,0.80,25,2,19
+4,12,1934,6,3,1934,https://en.wikipedia.org/wiki/Auto-Lite_strike_(1934),THE BATTLE OF TOLEDO,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,10%,20,0.70,20,"2,6",21
+4,26,1935,8,15,1935,https://en.wikipedia.org/wiki/1935_Pacific_Northwest_lumber_strike,PNW LUMBER STRIKE,2.1em,Arial,TRUE,white,black,30,0,10,0,40%,18%,20,0.70,20,"5,9,15,20",21
+1,15,1935,1,17,1935,https://en.wikipedia.org/wiki/Zunyi_Conference,ZUNYI,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,30%,20,0.70,20,1,21
+12,12,1936,12,26,1936,https://en.wikipedia.org/wiki/Xi%27an_Incident,XI'AN INCIDENT,2.1em,Arial,TRUE,GOLD,RED,30,0,10,0,40%,30%,20,0.70,20,2,21
+12,30,1936,2,11,1937,https://en.wikipedia.org/wiki/Flint_sit-down_strike,FLINT SIT-DOWN STRIKE,2.1em,Arial,TRUE,white,black,30,0,10,0,40%,10%,64,0.66,5,"2,3",21
+4,19,1944,4,29,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO BEGINS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,24%,60,0.80,-49,2,20
+12,24,1944,12,31,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO ENDS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,26%,55,0.80,-11,1,20
+3,19,1865,3,21,1865,https://en.wikipedia.org/wiki/Battle_of_Bentonville,BENTONVILLE,2.1em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,1%,20,0.80,-10,1,20
+10,25,1949,10,27,1949,https://en.wikipedia.org/wiki/Battle_of_Guningtou,GUGINGTOU,2.3em,Arial,TRUE,RED,BLUE,30,0,10,0,40%,3%,20,0.80,0,1,20
+4,11,1960,4,26,1960,https://en.wikipedia.org/wiki/April_Revolution,APRIL REVOLUTION,2.3em,Arial,TRUE,RED,WHITE,30,0,10,0,40%,20%,20,0.80,0,2,20
+10,1,1972,10,7,1972,https://en.wikipedia.org/wiki/October_Restoration,YUSHIN,2.3em,Arial,TRUE,RED,WHITE,30,0,10,0,40%,40%,20,0.80,0,1,20
+10,16,1979,10,20,1979,https://en.wikipedia.org/wiki/Busan%E2%80%93Masan_Uprising,BUSAN-MASAN,1.7em,Arial,TRUE,RED,WHITE,30,0,10,0,40%,43%,58,0.80,-32,1,20
+6,10,1987,6,29,1987,https://en.wikipedia.org/wiki/June_Democratic_Struggle,JUNE DEMOCRATIC STRUGGLE,2.0em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,3%,60,0.80,-40,2,20
+4,3,1963,5,10,1963,https://en.wikipedia.org/wiki/Birmingham_campaign,BIRMINGHAM CAMPAIGN,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,20%,20,0.70,20,"4,7",21
+12,20,1989,1,31,1990,https://en.wikipedia.org/wiki/United_States_invasion_of_Panama,US - PANAMA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,30%,20,0.80,20,"2,4",17
+8,31,1888,11,9,1888,https://en.wikipedia.org/wiki/Jack_the_Ripper,JACK THE RIPPER MURDERS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,5%,20,0.80,20,"3,9",17
+3,6,2026,3,15,2026,https://en.wikipedia.org/wiki/2026_Kenya_floods,KENYA FLOODS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,25%,59,0.80,-33,2,17
+12,16,1944,1,28,1945,https://en.wikipedia.org/wiki/Battle_of_the_Bulge,BATTLE OF THE BULGE,2.5em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,6%,59,0.72,-38,"1,6",20
+2,4,1945,2,11,1945,https://en.wikipedia.org/wiki/Yalta_Conference,YALTA,3.4em,Arial,TRUE,BLACK,GOLD,30,0,10,0,15%,34%,62,0.85,-19,1,25
+2,13,1945,2,15,1945,https://en.wikipedia.org/wiki/Bombing_of_Dresden_in_World_War_II,DRESDEN,2.0em,Arial,TRUE,BLACK,ORANGE,30,0,10,0,16%,17%,61,0.59,-18,1,25
+2,19,1945,3,26,1945,https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima,IWO JIMA,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,24%,38%,60,0.71,-18,"1,5",19
+3,9,1945,3,10,1945,https://en.wikipedia.org/wiki/Bombing_of_Tokyo,TOKYO,2.0em,Arial,TRUE,BLACK,orange,30,0,10,0,24%,10%,61,0.80,-23,1,25
+4,16,1945,5,2,1945,https://en.wikipedia.org/wiki/Battle_of_Berlin,BATTLE OF BERLIN,2.0em,Arial,TRUE,BLACK,RED,30,0,10,0,21%,24%,63,0.69,0,2,22
+4,1,1945,6,25,1945,https://en.wikipedia.org/wiki/Battle_of_Okinawa,OKINAWA,2.8em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,14%,30%,65,0.81,-14,"1,8,12",18
+5,8,1945,5,8,1945,https://en.wikipedia.org/wiki/Victory_in_Europe_Day,VE,2.9em,Arial,TRUE,BLACK,white,0,0,0,0,8%,8%,59,0.76,7,1,30
+6,26,1945,7,2,1945,https://en.wikipedia.org/wiki/United_Nations_Conference_on_International_Organization,LONDON CONFERENCE,1.9em,Arial,TRUE,WHITE,#555,30,0,10,0,5%,4%,58,0.85,-5,1,15
+7,17,1945,8,2,1945,https://en.wikipedia.org/wiki/Potsdam_Conference,POTSDAM,4em,Arial,TRUE,black,gold,30,0,10,0,30%,19%,60,1.00,-39,2,20
+9,2,1945,9,2,1945,https://en.wikipedia.org/wiki/Victory_over_Japan_Day,VJ,3.1em,Arial,TRUE,BLACK,white,0,0,0,0,25%,8%,50,0.65,-3,1,30
+11,20,1945,12,8,1945,https://en.wikipedia.org/wiki/Nuremberg_trials,NUREMBERG TRIALS BEGIN,2em,Arial,TRUE,black,grey,30,0,10,0,40%,8%,61,0.80,-44,4,8
+1,1,-1200,12,31,-1200,https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse,BRONZE AGE COLLAPSE,2.2em,Arial,TRUE,BLACK,BROWN,0,0,0,0,72%,7%,50,0.48,-45,"2,8,13,18,24,29,34,40,45,50,55,60",20
+5,13,2026,5,15,2026,https://en.wikipedia.org/wiki/2026_state_visit_by_Donald_Trump_to_China,TRUMP-XI VISIT,1.7em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,40%,4%,48,0.41,-16,"1,2",20
+5,18,1980,5,27,1980,https://en.wikipedia.org/wiki/Gwangju_Uprising,GWANGJU UPRISING,2.2em,Arial,TRUE,RED,WHITE,0,0,0,0,40%,16%,51,0.51,-18,1,20

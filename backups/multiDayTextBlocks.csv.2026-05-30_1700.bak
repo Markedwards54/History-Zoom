@@ -749,7 +749,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 12,16,1944,1,28,1945,https://en.wikipedia.org/wiki/Battle_of_the_Bulge,BATTLE OF THE BULGE,2.5em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,6%,59,0.72,-38,"1,6",20,
 2,4,1945,2,11,1945,https://en.wikipedia.org/wiki/Yalta_Conference,YALTA,3.4em,Arial,TRUE,BLACK,GOLD,30,0,10,0,15%,34%,62,0.85,-19,1,25,
 2,13,1945,2,15,1945,https://en.wikipedia.org/wiki/Bombing_of_Dresden_in_World_War_II,DRESDEN,2.0em,Arial,TRUE,BLACK,ORANGE,30,0,10,0,16%,17%,61,0.59,-18,1,25,
-2,19,1945,3,26,1945,https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima,IWO JIMA,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,24%,35%,62,0.71,-18,"1,5",19,
+2,19,1945,3,26,1945,https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima,IWO JIMA,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,24%,24%,61,0.71,-18,"1,5",19,,
 3,9,1945,3,10,1945,https://en.wikipedia.org/wiki/Bombing_of_Tokyo,TOKYO,2.0em,Arial,TRUE,BLACK,orange,30,0,10,0,24%,10%,61,0.80,-23,1,25,
 4,16,1945,5,2,1945,https://en.wikipedia.org/wiki/Battle_of_Berlin,BATTLE OF BERLIN,2.0em,Arial,TRUE,BLACK,RED,30,0,10,0,21%,24%,63,0.69,0,2,22,
 4,1,1945,6,25,1945,https://en.wikipedia.org/wiki/Battle_of_Okinawa,OKINAWA,2.8em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,14%,30%,65,0.81,-14,"1,8,12",18,
