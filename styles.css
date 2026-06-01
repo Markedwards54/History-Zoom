@@ -313,15 +313,16 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
 @media screen and (max-width: 600px) {
   #calendarContainer { padding: 4px; overflow-x: hidden; }
   #calendar { grid-template-columns: 1fr !important; gap: 6px; width: 100%; }
-  .month-block { width: 100%; box-sizing: border-box; overflow: hidden; }
+  .month-block { width: 100%; box-sizing: border-box; overflow: visible; }
   .weekday-row { grid-template-columns: repeat(7, minmax(0, 1fr)) !important; }
-  .days-grid   { grid-template-columns: repeat(7, minmax(0, 1fr)) !important; }
-  .day-cell    { width: auto !important; min-width: 0 !important; height: 60px !important;
-                 font-size: 0.5rem !important; overflow: hidden !important; }
-  .evt-img     { max-width: 100% !important; max-height: 58px !important; }
-  .wd          { font-size: 0.45rem !important; padding: 1px 0; }
+  .days-grid   { grid-template-columns: repeat(7, minmax(0, 1fr)) !important; position: relative; }
+  .day-cell    { width: auto !important; min-width: 0 !important; height: 80px !important;
+                 font-size: 0.55rem !important; overflow: visible !important; }
+  .evt-img     { max-width: 200% !important; max-height: 120px !important;
+                 position: absolute !important; z-index: 10; }
+  .wd          { font-size: 0.5rem !important; padding: 2px 0; }
   #year-display { font-size: 1.1rem; }
-  .txt-block, .fomc-label { display: none; } /* hide overlays on mobile — too small to use */
+  .txt-block, .fomc-label { display: none; }
 }
 
 /* ─── FOMC RATE DECISION LABELS ─── */

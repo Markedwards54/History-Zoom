@@ -103,6 +103,11 @@ if (!empty($data['replaceAll']) && isset($data['rows'])) {
         if (trim($l) !== '' && !is_numeric(substr(trim($l), 0, 1))) { $header = $l; break; }
     }
     $out = ($header !== '' ? $header . "\r\n" : '') . implode("\r\n", $data['rows']) . "\r\n";
+    // Auto-add tooltip column to header if missing
+    if ($header !== '' && strpos($header, 'tooltip') === false) {
+        $header = $header . ',tooltip';
+        $out = $header . "\r\n" . implode("\r\n", $data['rows']) . "\r\n";
+    }
     ftruncate($fp, 0); rewind($fp); fwrite($fp, $out);
     fflush($fp); flock($fp, LOCK_UN); fclose($fp);
     ob_end_clean();
@@ -132,6 +137,7 @@ $lines    = [];
 foreach ($allLines as $line) { if (trim($line) !== '') $lines[] = $line; }
 
 // Auto-add tooltip column if missing (one-time migration)
+$tooltipAdded = false;
 if (count($lines) > 0 && strpos($lines[0], 'tooltip') === false) {
     $lines[0] = $lines[0] . ',tooltip';
     for ($i = 1; $i < count($lines); $i++) {
@@ -141,6 +147,7 @@ if (count($lines) > 0 && strpos($lines[0], 'tooltip') === false) {
     $migrated = implode("\r\n", $lines) . "\r\n";
     ftruncate($fp, 0); rewind($fp); fwrite($fp, $migrated); rewind($fp);
     $content = $migrated;
+    $tooltipAdded = true;
 }
 
 $found   = false;
@@ -225,4 +232,4 @@ fflush($fp); flock($fp, LOCK_UN); fclose($fp);
 
 if ($r === false) { ob_end_clean(); echo '{"success":false,"error":"write failed"}'; exit; }
 ob_end_clean();
-echo json_encode(['success' => true, 'mode' => $found ? 'updated' : 'appended', 'file' => $f, 'debug' => $debugMsg ?? 'n/a']);
+echo json_encode(['success' => true, 'mode' => $found ? 'updated' : 'appended', 'file' => $f, 'debug' => $debugMsg ?? 'n/a', 'tooltipAdded' => $tooltipAdded ?? false]);
