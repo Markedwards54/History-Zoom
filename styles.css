@@ -310,39 +310,33 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
 
 /* ─── RESPONSIVE ─── */
 
-/* Tablet: 2 columns */
+/* Tablet */
 @media screen and (max-width: 900px) and (min-width: 601px) {
   #calendar { grid-template-columns: repeat(2, auto); }
 }
 
-/* Mobile portrait — scale each month to fit screen width */
+/* Mobile — use zoom which affects layout unlike transform:scale */
 @media screen and (max-width: 600px) {
-  #calendarContainer { padding: 2px; overflow-x: hidden; align-items: flex-start; }
-  #calendar { grid-template-columns: 1fr !important; gap: 2px; width: 100%; }
-
-  /* Scale the month: 525px natural → ~378px on 390px screen (scale 0.72) */
-  /* Use a wrapping technique: set explicit scaled dimensions */
+  #calendarContainer { padding: 2px; overflow-x: hidden; }
+  #calendar { grid-template-columns: 1fr !important; gap: 4px; width: 100%; }
   .month-block {
+    zoom: 0.72;
+    -moz-transform: scale(0.72);
+    -moz-transform-origin: top left;
     width: 525px;
-    transform: scale(0.72);
-    transform-origin: top left;
-    /* Negative margins pull layout back to match scaled visual size */
-    margin-right: -147px;  /* 525 * (1-0.72) = 147px */
   }
-  /* Month heights vary (5 or 6 row months) — JS will handle vertical spacing */
-  /* Use padding-bottom trick on calendar to avoid overlap */
   #year-display { font-size: 1.1rem; }
 }
 
 /* Mobile landscape */
 @media screen and (max-height: 500px) and (max-width: 900px) {
   #calendarContainer { padding: 2px; overflow-x: hidden; }
-  #calendar { grid-template-columns: repeat(2, auto) !important; gap: 2px; }
+  #calendar { grid-template-columns: repeat(2, auto) !important; gap: 3px; }
   .month-block {
+    zoom: 0.50;
+    -moz-transform: scale(0.50);
+    -moz-transform-origin: top left;
     width: 525px;
-    transform: scale(0.48);
-    transform-origin: top left;
-    margin-right: -273px; /* 525 * (1-0.48) */
   }
 }
 

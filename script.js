@@ -316,26 +316,10 @@ function buildCalendar() {
     cal.appendChild(mb);
   }
 
-  // Fix vertical spacing for scaled mobile months
-  fixMobileMonthSpacing();
-
   // Render text blocks
   renderBlocks();
   // Render FOMC labels if loaded
   if (typeof renderFOMCAfterBuild === 'function') renderFOMCAfterBuild();
-}
-
-function fixMobileMonthSpacing() {
-  // Only needed on mobile where months are CSS-scaled
-  if (window.innerWidth > 600) return;
-  const scale = window.innerWidth <= 600 ? 0.72 : 1;
-  document.querySelectorAll('.month-block').forEach(mb => {
-    // Natural height * scale = visual height; layout height = natural height
-    // margin-bottom compensates for the gap between visual and layout
-    const naturalH = mb.offsetHeight;
-    const compensation = -(naturalH * (1 - scale));
-    mb.style.marginBottom = compensation + 'px';
-  });
 }
 
 function makeImg(ev) {
@@ -530,15 +514,17 @@ function renderBlockSegment(block, segStart, segEnd, weekNum) {
   const startGrid = startCell.parentElement; // .days-grid
   const endGrid   = endCell.parentElement;
 
+  // On mobile, month-block uses CSS zoom — getBoundingClientRect returns
+  // screen pixels (post-zoom) but we need CSS pixels (pre-zoom) for style.left/width
+  const monthBlock = startGrid.closest('.month-block');
+  const zoom = monthBlock ? (parseFloat(getComputedStyle(monthBlock).zoom) || 1) : 1;
+
   const sr  = startCell.getBoundingClientRect();
   const er  = endCell.getBoundingClientRect();
-  const pgr = startGrid.getBoundingClientRect(); // container's screen position
+  const pgr = startGrid.getBoundingClientRect();
 
-  const left  = sr.left  - pgr.left;
-  // Width: from left edge of startCell to right edge of endCell (screen coords)
-  // If they're in different month blocks, er.right > pgr.right — that's fine,
-  // overflow:visible on the parent will let it bleed across.
-  const width = er.right - sr.left;
+  const left  = (sr.left  - pgr.left)  / zoom;
+  const width = (er.right - sr.left)   / zoom;
 
   const cellH  = startCell.offsetHeight;
   const height = cellH * block.h;
