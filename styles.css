@@ -15,7 +15,7 @@ body {
 #controls {
   position: sticky;
   top: 0;
-  z-index: 500;
+  z-index: 4000;
   background: #1a1a2e;
   padding: 7px 14px;
   display: flex;
