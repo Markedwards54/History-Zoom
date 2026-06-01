@@ -316,10 +316,26 @@ function buildCalendar() {
     cal.appendChild(mb);
   }
 
+  // Fix vertical spacing for scaled mobile months
+  fixMobileMonthSpacing();
+
   // Render text blocks
   renderBlocks();
   // Render FOMC labels if loaded
   if (typeof renderFOMCAfterBuild === 'function') renderFOMCAfterBuild();
+}
+
+function fixMobileMonthSpacing() {
+  // Only needed on mobile where months are CSS-scaled
+  if (window.innerWidth > 600) return;
+  const scale = window.innerWidth <= 600 ? 0.72 : 1;
+  document.querySelectorAll('.month-block').forEach(mb => {
+    // Natural height * scale = visual height; layout height = natural height
+    // margin-bottom compensates for the gap between visual and layout
+    const naturalH = mb.offsetHeight;
+    const compensation = -(naturalH * (1 - scale));
+    mb.style.marginBottom = compensation + 'px';
+  });
 }
 
 function makeImg(ev) {

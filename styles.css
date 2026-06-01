@@ -309,20 +309,41 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
 .ed-feedback { font-size: 10px; color: #5ab870; font-style: italic; min-height: 14px; text-align: center; }
 
 /* ─── RESPONSIVE ─── */
-@media screen and (max-width: 900px) { #calendar { grid-template-columns: repeat(2, auto); } }
+
+/* Tablet: 2 columns */
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  #calendar { grid-template-columns: repeat(2, auto); }
+}
+
+/* Mobile portrait — scale each month to fit screen width */
 @media screen and (max-width: 600px) {
-  #calendarContainer { padding: 4px; overflow-x: hidden; }
-  #calendar { grid-template-columns: 1fr !important; gap: 6px; width: 100%; }
-  .month-block { width: 100%; box-sizing: border-box; overflow: visible; }
-  .weekday-row { grid-template-columns: repeat(7, minmax(0, 1fr)) !important; }
-  .days-grid   { grid-template-columns: repeat(7, minmax(0, 1fr)) !important; position: relative; }
-  .day-cell    { width: auto !important; min-width: 0 !important; height: 80px !important;
-                 font-size: 0.55rem !important; overflow: visible !important; }
-  .evt-img     { max-width: 200% !important; max-height: 120px !important;
-                 position: absolute !important; z-index: 10; }
-  .wd          { font-size: 0.5rem !important; padding: 2px 0; }
+  #calendarContainer { padding: 2px; overflow-x: hidden; align-items: flex-start; }
+  #calendar { grid-template-columns: 1fr !important; gap: 2px; width: 100%; }
+
+  /* Scale the month: 525px natural → ~378px on 390px screen (scale 0.72) */
+  /* Use a wrapping technique: set explicit scaled dimensions */
+  .month-block {
+    width: 525px;
+    transform: scale(0.72);
+    transform-origin: top left;
+    /* Negative margins pull layout back to match scaled visual size */
+    margin-right: -147px;  /* 525 * (1-0.72) = 147px */
+  }
+  /* Month heights vary (5 or 6 row months) — JS will handle vertical spacing */
+  /* Use padding-bottom trick on calendar to avoid overlap */
   #year-display { font-size: 1.1rem; }
-  .txt-block, .fomc-label { display: none; }
+}
+
+/* Mobile landscape */
+@media screen and (max-height: 500px) and (max-width: 900px) {
+  #calendarContainer { padding: 2px; overflow-x: hidden; }
+  #calendar { grid-template-columns: repeat(2, auto) !important; gap: 2px; }
+  .month-block {
+    width: 525px;
+    transform: scale(0.48);
+    transform-origin: top left;
+    margin-right: -273px; /* 525 * (1-0.48) */
+  }
 }
 
 /* ─── FOMC RATE DECISION LABELS ─── */
