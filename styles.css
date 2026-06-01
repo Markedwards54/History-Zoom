@@ -324,6 +324,7 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
     -moz-transform: scale(0.72);
     -moz-transform-origin: top left;
     width: 525px;
+    overflow: hidden;
   }
   #year-display { font-size: 1.1rem; }
 }
@@ -337,6 +338,7 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
     -moz-transform: scale(0.50);
     -moz-transform-origin: top left;
     width: 525px;
+    overflow: hidden;
   }
 }
 
