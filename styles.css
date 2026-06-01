@@ -326,6 +326,7 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
     width: 525px;
     overflow: hidden;
   }
+  .days-grid { overflow: hidden !important; }
   #year-display { font-size: 1.1rem; }
 }
 
@@ -340,6 +341,7 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
     width: 525px;
     overflow: hidden;
   }
+  .days-grid { overflow: hidden !important; }
 }
 
 /* ─── FOMC RATE DECISION LABELS ─── */
