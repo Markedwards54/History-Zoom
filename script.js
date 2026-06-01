@@ -1102,6 +1102,7 @@ function openEP(mo, dy, yr, img, ev, triggerEl) {
   epImgChange();
   epCSV();
   document.getElementById('ep-add-btn').style.display         = img ? 'none'  : 'block';
+  document.getElementById('ep-delete-btn').style.display       = img ? 'block' : 'none';
   document.getElementById('ep-move-date-section').style.display = img ? 'block' : 'none';
 
   // Pre-fill new date fields with the event's current date
@@ -1601,6 +1602,7 @@ function openBP(mo, dy, yr, block, triggerEl) {
 
   document.getElementById('bp-add-btn').style.display    = block ? 'none'  : 'block';
   document.getElementById('bp-update-btn').style.display = block ? 'block' : 'none';
+  document.getElementById('bp-delete-btn').style.display = block ? 'block' : 'none';
   document.getElementById('bp-fb').textContent = '';
   bpCSV();
   document.getElementById('block-panel').classList.add('open');
@@ -2917,7 +2919,72 @@ function closeOnThisDay(e) {
   document.getElementById('otd-modal').style.display = 'none';
 }
 
-// ── TOOLTIP SYSTEM — stored in CSV, not localStorage ─────────
+// ── DELETE FUNCTIONS ──────────────────────────────────────────
+async function epDeleteEvent() {
+  if (!epTarget) return;
+  const ev = epTarget.ev;
+  const label = ev.tooltip || wikiTitle(ev.wikiUrl) || 'this event';
+  if (!confirm(`Delete "${label}" (${ev.month}/${ev.day}/${ev.year})?\n\nThis cannot be undone.`)) return;
+
+  // Remove from in-memory array
+  const idx = EVENTS.findIndex(e =>
+    e.month === ev.month && e.day === ev.day && e.year === ev.year &&
+    e.imageUrl === ev.imageUrl && e.wikiUrl === ev.wikiUrl
+  );
+  if (idx !== -1) EVENTS.splice(idx, 1);
+
+  // Remove img element from DOM immediately
+  if (epTarget.img && epTarget.img.parentNode) epTarget.img.parentNode.removeChild(epTarget.img);
+
+  // Save the entire events array back (replaceAll mode)
+  const rows = EVENTS.map(e => buildEventRow(e));
+  await autoSaveReplaceAll('events.csv', rows);
+
+  closeEP();
+  fb('ep-fb', '✓ Deleted');
+}
+
+async function bpDeleteBlock() {
+  if (!bpCurrentBlock) return;
+  const b = bpCurrentBlock;
+  const label = b.tooltip || b.text || 'this block';
+  if (!confirm(`Delete "${label}"?\n\nThis cannot be undone.`)) return;
+
+  // Remove from in-memory array
+  const idx = multiDayTextBlocks.findIndex(x =>
+    x.sm === b.sm && x.sd === b.sd && x.sy === b.sy &&
+    x.wiki === b.wiki && x.text === b.text
+  );
+  if (idx !== -1) multiDayTextBlocks.splice(idx, 1);
+  BLOCKS = multiDayTextBlocks;
+
+  // Re-render blocks
+  renderBlocks();
+
+  // Save full block array back
+  const rows = multiDayTextBlocks.map(x => buildBlockRow(x));
+  await autoSaveReplaceAll('multiDayTextBlocks.csv', rows);
+
+  closeBP();
+}
+
+async function autoSaveReplaceAll(csvFile, rows) {
+  showSaveStatus('⏳ Saving…');
+  try {
+    const res = await fetch(CSV_WRITE_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-HZ-Token': hzGetToken() },
+      body: JSON.stringify({ csvFile, replaceAll: true, rows })
+    });
+    const data = await res.json();
+    if (data.success) showSaveStatus('✓ deleted');
+    else showSaveStatus('⚠ ' + (data.error || 'failed'), true);
+    return data;
+  } catch(e) {
+    showSaveStatus('⚠ ' + e.message, true);
+    return { success: false };
+  }
+}
 // Reading is just ev.tooltip / block.tooltip (populated by parser)
 // Writing updates the object and saves to CSV immediately
 

@@ -122,6 +122,7 @@
         <select class="ed-select" id="fmt-select" onchange="loadFmt()"><option value="">— Saved Formats —</option></select>
       </div>
       <button class="btn-gold" id="ep-add-btn" onclick="epAdd()" style="margin-top:4px">+ Add to Calendar</button>
+      <button id="ep-delete-btn" onclick="epDeleteEvent()" style="display:none;margin-top:6px;width:100%;padding:6px;background:#2a0a0a;border:1px solid #6a1a1a;border-radius:4px;color:#e88;font-size:12px;cursor:pointer;">🗑 Delete This Event</button>
       <!-- Move to New Date — shown when editing existing event -->
       <div id="ep-move-date-section" style="display:none;margin-top:8px;background:#0d0d1e;border:1px solid #2a2a4e;border-radius:6px;padding:8px;">
         <div style="color:#d4af37;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px;">📅 Move to New Date</div>
@@ -235,6 +236,7 @@
       <input type="hidden" id="bp-tw" value="1">
       <button class="btn-gold" id="bp-add-btn" onclick="bpAdd()" style="margin-top:4px">+ Add to Calendar</button>
       <button class="btn-gold" id="bp-update-btn" onclick="bpUpdateDate()" style="display:none;margin-top:4px">📅 Update Dates</button>
+      <button id="bp-delete-btn" onclick="bpDeleteBlock()" style="display:none;margin-top:6px;width:100%;padding:6px;background:#2a0a0a;border:1px solid #6a1a1a;border-radius:4px;color:#e88;font-size:12px;cursor:pointer;">🗑 Delete This Text Block</button>
       <div class="ed-feedback" id="bp-fb"></div>
       <div class="ed-csv" id="bp-csv" style="display:none">—</div>
     </div>
