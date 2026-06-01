@@ -514,10 +514,15 @@ function renderBlockSegment(block, segStart, segEnd, weekNum) {
   const startGrid = startCell.parentElement; // .days-grid
   const endGrid   = endCell.parentElement;
 
-  // On mobile, month-block uses CSS zoom — getBoundingClientRect returns
-  // screen pixels (post-zoom) but we need CSS pixels (pre-zoom) for style.left/width
+  // Detect actual zoom level by comparing offsetWidth (CSS px) to
+  // getBoundingClientRect width (screen px). Works on all browsers including iOS Safari.
   const monthBlock = startGrid.closest('.month-block');
-  const zoom = monthBlock ? (parseFloat(getComputedStyle(monthBlock).zoom) || 1) : 1;
+  let zoom = 1;
+  if (monthBlock) {
+    const rect = monthBlock.getBoundingClientRect();
+    zoom = rect.width / monthBlock.offsetWidth;
+    if (!zoom || isNaN(zoom) || zoom === 0) zoom = 1;
+  }
 
   const sr  = startCell.getBoundingClientRect();
   const er  = endCell.getBoundingClientRect();
