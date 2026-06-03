@@ -317,6 +317,32 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
 
 /* Mobile — use zoom which affects layout unlike transform:scale */
 @media screen and (max-width: 600px) {
+  /* Header: stack into two compact rows */
+  #controls {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 5px 8px;
+    gap: 4px;
+  }
+  #left-controls {
+    display: flex; flex-wrap: wrap; gap: 5px; align-items: center;
+    justify-content: center;
+  }
+  #year-display {
+    position: static;
+    transform: none;
+    font-size: 1.4rem;
+    text-align: center;
+    order: -1; /* show year above buttons */
+  }
+  #right-controls {
+    display: flex; flex-wrap: wrap; gap: 5px;
+    align-items: center; justify-content: center;
+  }
+  .nav-btn { font-size: 0.72rem; padding: 4px 7px; }
+  #search-year { width: 60px; font-size: 0.72rem; }
+
+  /* Calendar */
   #calendarContainer { padding: 2px; overflow-x: hidden; }
   #calendar { grid-template-columns: 1fr !important; gap: 4px; width: 100%; }
   .month-block {
@@ -327,16 +353,37 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
     overflow: hidden;
   }
   .days-grid { overflow: hidden !important; }
-  #year-display { font-size: 1.1rem; }
 }
 
-/* Mobile landscape — 3 months across at zoom 0.50 (794px total, fits 844px screen) */
+/* Mobile landscape — 3 months across, zoom 0.46 fits safely on real iPhone */
 @media screen and (max-height: 500px) and (max-width: 900px) {
+  /* Compact single-row header */
+  #controls {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 3px 6px;
+    gap: 4px;
+    align-items: center;
+  }
+  #year-display {
+    position: static;
+    transform: none;
+    font-size: 1.0rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  #left-controls { gap: 4px; flex-wrap: nowrap; }
+  #right-controls { gap: 4px; flex-wrap: nowrap; }
+  .nav-btn { font-size: 0.65rem; padding: 3px 5px; }
+  #search-year { width: 48px; font-size: 0.65rem; padding: 2px 4px; }
+  #otd-btn { font-size: 0.65rem !important; padding: 3px 6px !important; }
+
+  /* Calendar */
   #calendarContainer { padding: 2px; overflow-x: hidden; }
-  #calendar { grid-template-columns: repeat(3, auto) !important; gap: 3px; }
+  #calendar { grid-template-columns: repeat(3, auto) !important; gap: 2px; }
   .month-block {
-    zoom: 0.50;
-    -moz-transform: scale(0.50);
+    zoom: 0.46;
+    -moz-transform: scale(0.46);
     -moz-transform-origin: top left;
     width: 525px;
     overflow: hidden;
