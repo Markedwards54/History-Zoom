@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>History Zoom</title>
-  <link rel="stylesheet" href="styles.css?v=20260603">
+  <link rel="stylesheet" href="styles.css?v=20260604">
 </head>
 <body>
 
@@ -77,10 +77,14 @@
       <div class="ed-field"><label>Wikipedia URL</label><input type="text" id="ep-wiki" placeholder="https://en.wikipedia.org/wiki/…" oninput="epCSV(); epAutoTooltip()"></div>
       <div class="ed-field"><label>Image URL</label><input type="text" id="ep-img" placeholder="https://…" oninput="epImgChange()"></div>
       <div class="ed-field"><label>Cursor Tooltip <span style="color:#4a4a6e;font-size:9px;font-weight:normal;">(auto-filled from wiki URL)</span></label>
-        <div style="display:flex;gap:4px;align-items:center;">
-          <input type="text" id="ep-tooltip" placeholder="Auto from wiki URL…" style="flex:1;" oninput="epCSV()">
-          <button onclick="epSaveTooltip()" title="Save tooltip now" style="background:#1a2a1a;border:1px solid #2a5a2a;border-radius:3px;color:#5ab870;font-size:10px;padding:3px 6px;cursor:pointer;white-space:nowrap;">💾 Save</button>
-          <button onclick="epAutoTooltip(true)" title="Reset to wiki URL title" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:3px;color:#7a7a9e;font-size:10px;padding:3px 6px;cursor:pointer;white-space:nowrap;">↺ Reset</button>
+        <textarea id="ep-tooltip" placeholder="Auto from wiki URL…" rows="3" spellcheck="true"
+                  style="flex:1;width:100%;background:#0d0d1e;border:1px solid #3a3a6e;border-radius:4px;
+                         color:#e8e0d0;padding:6px 8px;font-size:12px;resize:vertical;
+                         font-family:Arial,sans-serif;box-sizing:border-box;line-height:1.4;"
+                  oninput="epCSV()"></textarea>
+        <div style="display:flex;gap:4px;margin-top:4px;">
+          <button onclick="epSaveTooltip()" title="Save tooltip now" style="flex:1;background:#1a2a1a;border:1px solid #2a5a2a;border-radius:3px;color:#5ab870;font-size:10px;padding:4px 6px;cursor:pointer;">💾 Save Tooltip</button>
+          <button onclick="epAutoTooltip(true)" title="Reset to wiki URL title" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:3px;color:#7a7a9e;font-size:10px;padding:4px 6px;cursor:pointer;white-space:nowrap;">↺ Reset</button>
         </div>
       </div>
       <button onclick="epSaveLinks()" style="width:100%;padding:6px;background:#d4af37;color:#000;border:none;border-radius:4px;font-weight:bold;font-size:11px;cursor:pointer;margin-bottom:2px">💾 Update Links</button>
@@ -167,11 +171,16 @@
       </div>
       <div class="ed-lbl">Links &amp; Text</div>
       <div class="ed-field"><label>Wikipedia URL</label><input type="text" id="bp-wiki" placeholder="https://en.wikipedia.org/wiki/…" oninput="bpCSV(); bpAutoTooltip()"></div>
+      <button onclick="bpSaveLinks()" style="width:100%;padding:6px;background:#d4af37;color:#000;border:none;border-radius:4px;font-weight:bold;font-size:11px;cursor:pointer;margin-bottom:6px;">💾 Update Links</button>
       <div class="ed-field"><label>Cursor Tooltip <span style="color:#4a4a6e;font-size:9px;font-weight:normal;">(auto-filled from wiki URL)</span></label>
-        <div style="display:flex;gap:4px;align-items:center;">
-          <input type="text" id="bp-tooltip" placeholder="Auto from wiki URL…" style="flex:1;" oninput="bpCSV()">
-          <button onclick="bpSaveTooltip()" title="Save tooltip now" style="background:#1a2a1a;border:1px solid #2a5a2a;border-radius:3px;color:#5ab870;font-size:10px;padding:3px 6px;cursor:pointer;white-space:nowrap;">💾 Save</button>
-          <button onclick="bpAutoTooltip(true)" title="Reset to wiki URL title" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:3px;color:#7a7a9e;font-size:10px;padding:3px 6px;cursor:pointer;white-space:nowrap;">↺ Reset</button>
+        <textarea id="bp-tooltip" placeholder="Auto from wiki URL…" rows="3" spellcheck="true"
+                  style="width:100%;background:#0d0d1e;border:1px solid #3a3a6e;border-radius:4px;
+                         color:#e8e0d0;padding:6px 8px;font-size:12px;resize:vertical;
+                         font-family:Arial,sans-serif;box-sizing:border-box;line-height:1.4;"
+                  oninput="bpCSV()"></textarea>
+        <div style="display:flex;gap:4px;margin-top:4px;">
+          <button onclick="bpSaveTooltip()" title="Save tooltip now" style="flex:1;background:#1a2a1a;border:1px solid #2a5a2a;border-radius:3px;color:#5ab870;font-size:10px;padding:4px 6px;cursor:pointer;">💾 Save Tooltip</button>
+          <button onclick="bpAutoTooltip(true)" title="Reset to wiki URL title" style="background:#0d0d1e;border:1px solid #2a2a4e;border-radius:3px;color:#7a7a9e;font-size:10px;padding:4px 6px;cursor:pointer;white-space:nowrap;">↺ Reset</button>
         </div>
       </div>
       <div class="ed-field"><label>Display Text</label>

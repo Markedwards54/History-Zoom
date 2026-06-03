@@ -1898,6 +1898,31 @@ function bpCopyCSV() {
   fb('bp-fb','✓ Copied!');
 }
 
+async function bpSaveLinks() {
+  if (!bpCurrentBlock) { fb('bp-fb', '⚠ No block selected'); return; }
+  const b = bpCurrentBlock;
+  const newWiki = document.getElementById('bp-wiki').value.trim();
+  if (!newWiki) { fb('bp-fb', '⚠ Enter a Wikipedia URL'); return; }
+
+  // Update block in memory
+  b.wiki = newWiki;
+
+  // Also update tooltip if it was auto-generated (reset to new wiki title)
+  const tipField = document.getElementById('bp-tooltip');
+  if (tipField && (!tipField.value.trim() || tipField.value === wikiTitle(b.wiki))) {
+    tipField.value = wikiTitle(newWiki);
+    b.tooltip = tipField.value;
+  }
+
+  // Update the title attribute on DOM elements
+  document.querySelectorAll('.txt-block').forEach(el => {
+    if (el._block === b) el.title = b.tooltip || wikiTitle(b.wiki) || b.text;
+  });
+
+  const data = await autoSaveRow('multiDayTextBlocks.csv', buildBlockRow(b), null, b.sm, b.sd, b.sy, b.wiki);
+  if (data?.success) fb('bp-fb', '✓ Links updated');
+}
+
 async function bpSave() {
   const csvText = document.getElementById('bp-csv').textContent.trim();
   if (!csvText || csvText === '—') { fb('bp-fb','⚠ No row to save'); return; }

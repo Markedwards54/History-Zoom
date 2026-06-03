@@ -330,10 +330,10 @@ body.edit-mode.element-locked .txt-block { pointer-events: all !important; }
   #year-display { font-size: 1.1rem; }
 }
 
-/* Mobile landscape */
+/* Mobile landscape — 3 months across at zoom 0.50 (794px total, fits 844px screen) */
 @media screen and (max-height: 500px) and (max-width: 900px) {
   #calendarContainer { padding: 2px; overflow-x: hidden; }
-  #calendar { grid-template-columns: repeat(2, auto) !important; gap: 3px; }
+  #calendar { grid-template-columns: repeat(3, auto) !important; gap: 3px; }
   .month-block {
     zoom: 0.50;
     -moz-transform: scale(0.50);
