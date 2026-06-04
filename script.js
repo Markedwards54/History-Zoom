@@ -651,9 +651,61 @@ function openWiki(url) {
   let currentMode = wikiModePref;
   applyWikiMode(modal, currentMode);
 
-  // Title bar with toggle + close
+  // ── Title bar ──────────────────────────────────────────────
   const bar = document.createElement('div');
   bar.className = 'modal-bar';
+
+  // Nav buttons — declared first so everything below can reference them
+  const navGroup = document.createElement('div');
+  navGroup.style.cssText = 'display:flex;gap:0;flex-shrink:0;';
+
+  const backBtn = document.createElement('button');
+  backBtn.className = 'modal-mode-btn';
+  backBtn.textContent = '◀';
+  backBtn.title = 'Back';
+  backBtn.style.cssText = 'min-width:24px;padding:2px 6px;opacity:0.4;border-radius:4px 0 0 4px;';
+  backBtn.disabled = true;
+
+  const fwdBtn = document.createElement('button');
+  fwdBtn.className = 'modal-mode-btn';
+  fwdBtn.textContent = '▶';
+  fwdBtn.title = 'Forward';
+  fwdBtn.style.cssText = 'min-width:24px;padding:2px 6px;opacity:0.4;border-radius:0 4px 4px 0;margin-left:-1px;';
+  fwdBtn.disabled = true;
+
+  navGroup.appendChild(backBtn);
+  navGroup.appendChild(fwdBtn);
+
+  // Navigation state — declared after buttons
+  let navDepth  = 0;
+  let maxDepth  = 0;
+
+  const updateNavBtns = () => {
+    backBtn.disabled = navDepth <= 0;
+    backBtn.style.opacity = navDepth <= 0 ? '0.4' : '1';
+    fwdBtn.disabled = navDepth >= maxDepth;
+    fwdBtn.style.opacity = navDepth >= maxDepth ? '0.4' : '1';
+  };
+
+  backBtn.onclick = (e) => {
+    e.stopPropagation();
+    if (navDepth > 0) {
+      navDepth--;
+      lastHistLen--; // account for the back navigation so poller doesn't double-count
+      iframe.contentWindow?.history.back();
+      updateNavBtns();
+    }
+  };
+
+  fwdBtn.onclick = (e) => {
+    e.stopPropagation();
+    if (navDepth < maxDepth) {
+      navDepth++;
+      lastHistLen++; // account for the forward navigation
+      iframe.contentWindow?.history.forward();
+      updateNavBtns();
+    }
+  };
 
   const title = document.createElement('span');
   title.textContent = 'WIKI';
@@ -676,21 +728,55 @@ function openWiki(url) {
   closeBtn.textContent = '✕';
   closeBtn.onclick = () => modal.remove();
 
+  bar.appendChild(navGroup);
   bar.appendChild(title);
   bar.appendChild(toggleBtn);
   bar.appendChild(closeBtn);
   modal.appendChild(bar);
 
-  // Iframe wrapper
+  // ── Iframe ─────────────────────────────────────────────────
   const wrap = document.createElement('div');
   wrap.className = 'modal-iframe-wrap';
   const iframe = document.createElement('iframe');
   iframe.className = 'modal-iframe';
   iframe.src = url;
+
+  // iframe is now declared — back/fwdBtn.onclick can reference it
+  // Use polling to detect cross-origin navigation (load event doesn't fire cross-origin)
+  let lastHistLen = 1;
+  let pollInterval = null;
+
+  iframe.addEventListener('load', () => {
+    // iframe finished loading initial page — start polling for navigation
+    lastHistLen = 1;
+    if (pollInterval) clearInterval(pollInterval);
+    pollInterval = setInterval(() => {
+      try {
+        const len = iframe.contentWindow?.history?.length;
+        if (len && len !== lastHistLen) {
+          if (len > lastHistLen) {
+            // User navigated forward
+            navDepth += (len - lastHistLen);
+            maxDepth = Math.max(maxDepth, navDepth);
+          } else {
+            // history.length decreased — shouldn't happen but handle it
+            navDepth = Math.max(0, navDepth - (lastHistLen - len));
+          }
+          lastHistLen = len;
+          updateNavBtns();
+        }
+      } catch(e) { /* cross-origin error — ignore */ }
+    }, 300);
+  });
+
+  // Stop polling when modal is removed
+  const origRemove = modal.remove.bind(modal);
+  modal.remove = () => { if (pollInterval) clearInterval(pollInterval); origRemove(); };
+
   wrap.appendChild(iframe);
   modal.appendChild(wrap);
 
-  // Resize handles — 8 directions
+  // ── Resize handles ─────────────────────────────────────────
   ['n','s','e','w','nw','ne','sw','se'].forEach(dir => {
     const h = document.createElement('div');
     h.className = `modal-resize ${dir}`;
@@ -700,7 +786,7 @@ function openWiki(url) {
 
   container.appendChild(modal);
 
-  // ── Drag (title bar) ──
+  // ── Drag ───────────────────────────────────────────────────
   bar.addEventListener('mousedown', e => {
     if (e.target.closest('.modal-mode-btn') || e.target.closest('.modal-close')) return;
     if (e.button !== 0) return;
