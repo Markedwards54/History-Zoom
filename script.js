@@ -3339,6 +3339,21 @@ function hzIsAuthed() {
   return !!hzGetToken();
 }
 
+// Show Login button on Render so users can explicitly open the login modal
+if (!IS_LOCAL) {
+  document.addEventListener('DOMContentLoaded', () => {
+    const loginBtn = document.getElementById('hz-login-btn');
+    if (loginBtn) loginBtn.style.display = 'inline-block';
+  });
+}
+
+function hzShowLogin() {
+  document.getElementById('hz-login-modal').style.display = 'block';
+  document.getElementById('hz-pw-input').value = '';
+  document.getElementById('hz-login-err').style.display = 'none';
+  setTimeout(() => document.getElementById('hz-pw-input')?.focus(), 100);
+}
+
 async function hzLogin() {
   const pw  = document.getElementById('hz-pw-input').value;
   const err = document.getElementById('hz-login-err');

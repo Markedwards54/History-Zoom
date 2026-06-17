@@ -33,6 +33,10 @@
          style="display:none;padding:5px 10px;border-radius:4px;border:1px solid #4a3a0a;background:#1a0e00;color:#d4af37;font-size:0.75rem;text-decoration:none;"
          title="Browse and restore backups">📦 Backups</a>
       <button id="edit-btn" onclick="toggleEdit()">✏ Edit Mode</button>
+      <button id="hz-login-btn" onclick="hzShowLogin()"
+              style="display:none;padding:5px 10px;border-radius:4px;border:1px solid #8a6aae;
+                     background:#2a1a4e;color:#c8a8ff;font-size:0.75rem;cursor:pointer;"
+              title="Log in to enable Edit Mode">🔑 Login</button>
       <button id="undo-edit-btn" onclick="undoLastAction()" style="display:none" disabled title="Undo last change">↩ Undo</button>
       <button id="broken-img-btn" onclick="openBrokenImages()" style="display:none;padding:5px 10px;border-radius:4px;border:1px solid #5a2a2a;background:#1a0a0a;color:#e88;font-size:0.75rem;cursor:pointer;" title="Find events with missing or broken images">🔍 Broken Images</button>
       <button id="cancel-edit-btn" onclick="cancelEditMode()" style="display:none">✕ Cancel</button>

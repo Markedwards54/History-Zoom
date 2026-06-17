@@ -13,7 +13,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 7,18,-390,8,21,-390,https://en.wikipedia.org/wiki/Sack_of_Rome_(390_BC),SACK OF ROME,2.3em,Arial,TRUE,RED,BLACK,30,0,10,0,40%,25%,20,0.75,20,"1,4",2,
 9,1,-52,9,20,-52,https://en.wikipedia.org/wiki/Battle_of_Alesia,BATTLE OF ALESIA,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,20%,20,0.80,0,2,20,
 1,16,-27,1,27,-27,https://en.wikipedia.org/wiki/Pax_Romana,PAX ROMANA BEGINS,2.3em,Arial,TRUE,BLACK,RED,30,0,10,0,40%,15%,20,0.80,0,2,20,
-9,8,9,9,11,9,https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest,TEUTOBURG FOREST,1.85em,Arial,TRUE,black,RED,30,0,10,0,40%,17%,20,0.80,20,1,9,
+9,8,9,9,11,9,https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest,TEUTOBURG FOREST,1.6em,Arial,TRUE,black,RED,30,0,10,0,40%,3%,61,0.80,-40,1,9,Battle of the Teutoburg Forest
 4,13,70,9,8,70,https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE),SIEGE OF JERUSALEM,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.80,10,"2,5,11,16,21",19,
 9,1,132,9,30,132,https://en.wikipedia.org/wiki/Bar_Kokhba_revolt,BAR KOKHBA BEGINS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.80,10,2,19,
 7,1,136,7,31,136,https://en.wikipedia.org/wiki/Bar_Kokhba_revolt,BAR KOKHBA BEGINS,2.3em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,20,0.80,10,2,19,
@@ -51,7 +51,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 9,1,1522,9,6,1522,https://en.wikipedia.org/wiki/Magellan_expedition,MAGELLAN EXPEDITION ENDS,1.3em,Arial,TRUE,RED,GOLD,30,0,10,0,40%,2%,20,0.80,0,2,20,
 2,1,1534,6,24,1535,https://en.wikipedia.org/wiki/M%C3%BCnster_rebellion,MUNSTER REBELLION,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,10,"2,7,12,17,22,27,32,37,43,48,53,59,64,69,75,80,85",19,
 1,26,1554,2,6,1554,https://en.wikipedia.org/wiki/Wyatt%27s_rebellion,WYATT'S REBELLION,2.3em,Arial,TRUE,white,black,30,0,10,0,35%,12%,20,0.70,20,3,21,
-4,14,1560,7,7,1560,https://en.wikipedia.org/wiki/Siege_of_Leith,SIEGE OF LIETH,2.1em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,24%,20,0.70,20,"2,6,11",21,
+4,14,1560,7,7,1560,https://en.wikipedia.org/wiki/Siege_of_Leith,SIEGE OF LIETH,2.1em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,24%,63,0.70,-40,"2,6,11",21,
 8,6,1566,9,8,1566,https://en.wikipedia.org/wiki/Siege_of_Szigetv%C3%A1r,SIEGE OF SZIGETVAR,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,18%,20,0.80,0,2,20,
 11,9,1569,1,21,1570,https://en.wikipedia.org/wiki/Rising_of_the_North,RISING OF THE NORTH,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,17%,60,0.70,-30,"1,6,11",21,"Rising of the North | Unsuccessful attempt by Catholic nobles from Northern England to depose Queen Elizabeth I of England and replace her with Mary, Queen of Scots."
 10,1,1582,10,9,1582,https://en.wikipedia.org/wiki/Gregorian_calendar,GREGORIAN CALENDAR,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,13%,20,0.80,0,2,20,
@@ -86,7 +86,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 7,14,1683,9,11,1683,https://en.wikipedia.org/wiki/Battle_of_Vienna,SIEGE OF VIENNA,2.3em,Arial,TRUE,RED,LIGHTGREY,30,0,10,0,40%,21%,61,0.80,-34,"2,5,10",19,
 8,1,1689,8,13,1689,https://en.wikipedia.org/wiki/Protestant_Revolution_(Maryland),COODE'S REBELLION,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,16%,63,0.80,-39,2,20,"Protestant Revolution (Maryland) | The Lords Baltimore lost control of their proprietary colony, and for the next 25 years, Maryland would be ruled directly by the Crown."
 3,9,1697,3,16,1697,https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great,GRAND EMBASSY OF PETER THE GREAT BEGINS,1.3em,Arial,TRUE,BLACK,RED,30,0,10,0,50%,2%,58,0.80,-57,2,9,Grand Embassy of Peter the Great
-8,17,1698,8,25,1698,https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great,GRAND EMBASSY OF PETER THE GREAT ENDS,1.4em,Arial,TRUE,BLACK,RED,30,0,10,0,50%,0%,57,0.80,-42,1,9,Grand Embassy of Peter the Great
+8,17,1698,8,25,1698,https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great,GRAND EMBASSY OF PETER THE GREAT ENDS,1.4em,Arial,TRUE,BLACK,RED,30,0,10,0,50%,17%,57,0.80,-42,1,9,Grand Embassy of Peter the Great
 2,22,1700,2,27,1700,https://en.wikipedia.org/wiki/Great_Northern_War,GREAT NORTHERN WAR BEGINS,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,1%,58,0.80,-35,1,20,Great Northern War
 9,1,1721,9,10,1721,https://en.wikipedia.org/wiki/Great_Northern_War,GREAT NORTHERN WAR ENDS,2.0em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,1%,20,0.80,0,1,20,
 5,1,1755,7,9,1755,https://en.wikipedia.org/wiki/Braddock_Expedition,BRADDOCK'S EXPEDITION,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,5%,60,0.80,-37,"2,7",20,
@@ -94,7 +94,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 6,22,1763,8,10,1763,https://en.wikipedia.org/wiki/Siege_of_Fort_Pitt,SIEGE OF FORT PITT,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,12%,64,0.80,-45,"4,9",20,
 4,27,1763,5,7,1763,https://en.wikipedia.org/wiki/Pontiac%27s_War,PONTIAC'S WAR BEGINS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,10%,63,0.80,-39,2,20,
 5,9,1763,5,21,1763,https://en.wikipedia.org/wiki/Siege_of_Fort_Detroit,SIEGE OF FT. DETROIT BEGINS,2.1em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,63,0.80,-39,2,20,Siege of Fort Detroit
-10,23,1763,10,31,1763,https://en.wikipedia.org/wiki/Siege_of_Fort_Detroit,SIEGE OF FT. DETROIT ENDS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,0%,63,0.80,-37,1,20,
+10,23,1763,10,31,1763,https://en.wikipedia.org/wiki/Siege_of_Fort_Detroit,SIEGE OF FT. DETROIT ENDS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,17%,63,0.80,-37,1,20,
 10,7,1765,10,25,1765,https://en.wikipedia.org/wiki/Stamp_Act_Congress,STAMP ACT CONGRESS,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,11%,61,0.80,-35,2,20,
 7,20,1766,7,25,1766,https://en.wikipedia.org/wiki/Pontiac%27s_War,PONTIAC'S WAR ENDS,2.3em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,3%,60,0.80,-28,1,20,
 9,5,1774,10,26,1774,https://en.wikipedia.org/wiki/First_Continental_Congress,FIRST CONTINENTAL CONGRESS,1.8em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,5%,59,0.80,-33,"2,6",20,First Continental Congress
@@ -105,7 +105,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 7,2,1777,7,6,1777,https://en.wikipedia.org/wiki/Siege_of_Fort_Ticonderoga_(1777),FT. TICHONDEROGA,1.8em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,2%,61,0.80,-38,1,20,"Siege of Fort Ticonderoga (1777) | Uncontested surrender of Ticonderoga to British caused an uproar in the American public and in its military circles, as Ticonderoga was widely believed to be virtually impregnable, and a vital point of defense. General St. Clair and his superior, General Philip Schuyler, were vilified by Congress."
 8,2,1777,8,22,1777,https://en.wikipedia.org/wiki/Siege_of_Fort_Stanwix,SIEGE OF FORT STANWIX,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,12%,64,0.80,-45,2,20,"Siege of Fort Stanwix | The siege was finally broken when American reinforcements under the command of Major General Benedict Arnold approached, and Arnold used a ruse to convince the besiegers that he had a much larger force."
 12,19,1777,6,19,1778,https://en.wikipedia.org/wiki/Valley_Forge,VALLEY FORGE,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,26%,63,0.80,-42,"2,5,11,14,19,24,30",20,
-6,18,1779,10,3,1779,https://en.wikipedia.org/wiki/Sullivan_Expedition,SULLIVAN EXPEDITION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,17%,59,0.80,-42,"2,5,10,15",20,
+6,18,1779,10,3,1779,https://en.wikipedia.org/wiki/Sullivan_Expedition,SULLIVAN EXPEDITION,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,17%,59,0.80,-42,"2,7,10,15",20,
 3,29,1780,5,12,1780,https://en.wikipedia.org/wiki/Siege_of_Charleston,SIEGE OF CHARLESTON,2.0EM,Arial,TRUE,WHITE,RED,30,0,10,0,40%,14%,60,0.80,-42,3,20,"Siege of Charleston | After approximately six weeks of siege, Major General Benjamin Lincoln, commanding the Charleston garrison, surrendered his forces to the British. It was one of the worst American defeats of the war."
 9,28,1781,10,19,1781,https://en.wikipedia.org/wiki/Siege_of_Yorktown,SIEGE OF YORKTOWN,2.1EM,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,17%,61,0.80,-33,4,20,"Siege of Yorktown | The final major land engagement of the American Revolutionary War. It was won decisively by the Continental Army, led by George Washington, with support from the Marquis de Lafayette and French Army troops, led by Comte de Rochambeau, and a French Navy force commanded by the Comte de Grasse, defeating the British Army commanded by British Lieutenant General Charles Cornwallis."
 1,1,1781,1,19,1781,https://en.wikipedia.org/wiki/Raid_on_Richmond,RAID ON RICHMOND,2.4em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,15%,60,0.80,-39,2,20,"Raid on Richmond | Benedict Aronold and Simcoe conduct a series of British military actions against the capital of Virginia, Richmond, and the surrounding area"
@@ -121,66 +121,65 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 8,29,1793,12,19,1793,https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793),SIEGE OF TOULON,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,20%,67,0.70,-45,"3,8,13,18",80,
 8,1,1793,8,10,1793,https://en.wikipedia.org/wiki/War_in_the_Vend%C3%A9e#Genocide_controversy,VENDEE GENOCIDE,2.3EM,Arial,TRUE,white,BLACK,30,0,0,0,45%,20%,66,0.70,-42,2,80,
 7,27,1794,8,9,1794,https://en.wikipedia.org/wiki/Thermidorian_Reaction,THERMIDORIAN REACTION BEGINS,1.8em,Arial,TRUE,white,PURPLE,30,0,0,0,45%,2%,67,0.70,-44,3,80,Thermidorian Reaction
-10,18,1795,11,2,1795,https://en.wikipedia.org/wiki/Thermidorian_Reaction,THERMIDORIAN REACTION ENDS,2.1EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,2%,20,0.70,0,1,80,
+10,18,1795,11,2,1795,https://en.wikipedia.org/wiki/Thermidorian_Reaction,THERMIDORIAN REACTION ENDS,1.9em,Arial,TRUE,white,PURPLE,30,0,0,0,45%,2%,63,0.70,-36,1,80,Thermidorian Reaction
 6,23,1795,7,21,1795,https://en.wikipedia.org/wiki/Invasion_of_France_(1795),BATTLE OF QUIBERON,2.1EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,16%,67,0.70,-35,4,80,
 4,20,1796,4,22,1796,https://en.wikipedia.org/wiki/Battle_of_Mondov%C3%AC,MONDAVI,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,10%,67,0.70,-41,1,80,
 5,1,1796,5,31,1796,https://en.wikipedia.org/wiki/Conspiracy_of_the_Equals,CONSPIRACY OF EQUALS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,3%,62,0.75,-36,"3,7,13",20,
 10,8,1797,10,17,1797,https://en.wikipedia.org/wiki/War_of_the_First_Coalition,FIRST COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,66,0.70,-37,1,80,
-8,1,1798,8,3,1798,https://en.wikipedia.org/wiki/Battle_of_the_Nile,BATTLE OF THE NILE,1.45em,Arial,TRUE,WHITE,RED,30,0,10,0,42%,17%,20,0.70,20,1,21,
-7,7,1798,7,17,1798,https://en.wikipedia.org/wiki/Quasi-War,QUASI WAR BEGINS,2.1EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,17%,20,0.70,0,2,80,
-11,29,1798,12,8,1798,https://en.wikipedia.org/wiki/War_of_the_Second_Coalition,SECOND COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,5%,20,0.70,0,3,80,
-3,20,1799,5,21,1799,https://en.wikipedia.org/wiki/Siege_of_Acre_(1799),SIEGE OF ACRE,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,40%,27%,20,0.70,0,"2,5,10",80,
-9,21,1800,9,30,1800,https://en.wikipedia.org/wiki/Quasi-War,QUASI WAR ENDS,2.1EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,22%,20,0.70,0,1,1,
-5,10,1801,5,19,1801,https://en.wikipedia.org/wiki/First_Barbary_War,FIRST BARBARY WAR BEGINS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,2%,20,0.70,0,1,80,
-3,7,1802,3,25,1802,https://en.wikipedia.org/wiki/War_of_the_Second_Coalition,SECOND COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,8%,20,0.70,0,1,80,
-2,1,1804,4,22,1804,https://en.wikipedia.org/wiki/1804_Haitian_massacre,HAITIAN MASSACRE,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,18%,20,0.70,0,"2,7,12",80,
-6,15,1804,6,15,1804,https://en.wikipedia.org/wiki/Twelfth_Amendment_to_the_United_States_Constitution,12,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80,
-5,14,1804,5,26,1804,https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition,LEWIS AND CLARK BEGINS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,7%,20,0.70,0,2,80,
+8,1,1798,8,3,1798,https://en.wikipedia.org/wiki/Battle_of_the_Nile,BATTLE OF THE NILE,1.3em,Arial,TRUE,WHITE,RED,30,0,10,0,42%,2%,60,0.70,-28,1,21,Battle of the Nile
+7,7,1798,7,17,1798,https://en.wikipedia.org/wiki/Quasi-War,QUASI WAR BEGINS,2.1EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,17%,66,0.70,-39,2,80,
+11,29,1798,12,8,1798,https://en.wikipedia.org/wiki/War_of_the_Second_Coalition,SECOND COALITION BEGINS,2.2em,Arial,TRUE,white,PURPLE,30,0,0,0,40%,2%,66,0.70,-35,3,80,War of the Second Coalition
+3,20,1799,5,21,1799,https://en.wikipedia.org/wiki/Siege_of_Acre_(1799),SIEGE OF ACRE,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,40%,27%,64,0.70,-39,"2,5,10",80,
+9,21,1800,9,30,1800,https://en.wikipedia.org/wiki/Quasi-War,QUASI WAR ENDS,2.1EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,22%,63,0.70,-42,1,1,
+5,10,1801,5,19,1801,https://en.wikipedia.org/wiki/First_Barbary_War,FIRST BARBARY WAR BEGINS,2.1em,Arial,TRUE,white,BLUE,30,0,0,0,40%,2%,67,0.70,-39,1,80,First Barbary War
+3,7,1802,3,25,1802,https://en.wikipedia.org/wiki/War_of_the_Second_Coalition,SECOND COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,3%,67,0.70,-36,1,80,
+2,1,1804,4,22,1804,https://en.wikipedia.org/wiki/1804_Haitian_massacre,HAITIAN MASSACRE,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,18%,67,0.70,-33,"2,7,12",80,
+6,15,1804,6,15,1804,https://en.wikipedia.org/wiki/Twelfth_Amendment_to_the_United_States_Constitution,12,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,-1%,65,1.00,-38,1,80,Twelfth Amendment to the United States Constitution | Provides the procedure for electing the president and vice president.
+5,14,1804,5,26,1804,https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition,LEWIS AND CLARK BEGINS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,45%,2%,63,0.70,-38,2,80,
 4,11,1805,4,20,1805,https://en.wikipedia.org/wiki/War_of_the_Third_Coalition,THIRD COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,4%,64,0.70,-36,2,80,
 6,2,1805,6,10,1805,https://en.wikipedia.org/wiki/First_Barbary_War,FIRST BARBARY WAR ENDS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,1%,63,0.70,-35,1,80,
-4,27,1805,5,31,1805,https://en.wikipedia.org/wiki/Battle_of_Derna_(1805),BATTLE OF DERNA,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,20%,63,0.70,-33,4,80,
-10,16,1805,10,19,1805,https://en.wikipedia.org/wiki/Battle_of_Ulm,ULM,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,33%,66,0.70,-30,1,80,
-7,6,1806,7,18,1806,https://en.wikipedia.org/wiki/War_of_the_Third_Coalition,THIRD COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,20,0.70,0,1,80,
-9,14,1806,9,23,1806,https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition,LEWIS AND CLARK ENDS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,10%,20,0.70,0,1,80,
-2,8,1806,2,15,1806,https://en.wikipedia.org/wiki/Invasion_of_Naples_(1806),INVASION OF NAPLES,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,13%,20,0.70,0,2,80,
-10,9,1806,11,8,1806,https://en.wikipedia.org/wiki/War_of_the_Fourth_Coalition,FOURTH COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,5%,20,0.70,0,6,80,
-6,7,1807,7,9,1807,https://en.wikipedia.org/wiki/War_of_the_Fourth_Coalition,FOURTH COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,8%,20,0.70,0,1,80,
-11,19,1807,11,30,1807,https://en.wikipedia.org/wiki/Invasion_of_Portugal_(1807),INVASION OF PORTUGAL,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,12%,20,0.70,0,2,80,
-8,15,1807,9,7,1807,https://en.wikipedia.org/wiki/Battle_of_Copenhagen_(1807),BATTLE OF COPENHAGEN,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,8%,20,0.70,0,2,80,
-3,17,1808,3,19,1808,https://en.wikipedia.org/wiki/Tumult_of_Aranjuez,ARANJUEZ,2.3EM,Arial,TRUE,RED,YELLOW,30,0,0,0,45%,8%,20,0.70,0,1,80,
-2,21,1808,2,27,1808,https://en.wikipedia.org/wiki/Finnish_War,FINNISH WAR BEGINS,2.3EM,Arial,TRUE,BLUE,RED,30,0,0,0,45%,15%,20,0.70,0,1,80,
-9,10,1809,9,17,1809,https://en.wikipedia.org/wiki/Finnish_War,FINNISH WAR ENDS,2.3EM,Arial,TRUE,BLUE,RED,30,0,0,0,45%,17%,20,0.70,0,1,80,
-4,10,1809,4,22,1809,https://en.wikipedia.org/wiki/War_of_the_Fifth_Coalition,FIFTH COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,10%,20,0.70,0,2,80,
-10,8,1809,10,14,1809,https://en.wikipedia.org/wiki/War_of_the_Fifth_Coalition,FIFTH COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,10%,20,0.70,0,1,80,
-1,8,1811,1,10,1811,https://en.wikipedia.org/wiki/1811_German_Coast_uprising,GERMAN COAST,1.7em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,5%,20,0.80,0,1,20,
-6,18,1812,6,27,1812,https://en.wikipedia.org/wiki/War_of_1812,WAR OF 1812 BEGINS,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,17%,20,0.70,0,2,80,
-6,24,1812,12,24,1812,https://en.wikipedia.org/wiki/French_invasion_of_Russia,NAPOLEON INVADES RUSSIA,2.3EM,Arial,TRUE,BLUE,RED,30,0,0,0,45%,4%,20,0.70,0,"4,9,15,20,25,30",79,
-12,20,1812,12,26,1812,https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition,SIXTH COALITION BEGINS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,10%,20,0.70,10,1,80,
-1,18,1813,1,23,1813,https://en.wikipedia.org/wiki/Battle_of_Frenchtown,FRENCHTOWN,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,22%,70,0.70,-38,1,80,
-10,16,1813,10,19,1813,https://en.wikipedia.org/wiki/Battle_of_Leipzig,LEIPZIG,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,22%,20,0.70,10,2,80,
-4,28,1813,4,30,1813,https://en.wikipedia.org/wiki/Battle_of_York#Burning_of_York,YORK BURNED,1.8em,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,3%,69,0.70,-37,1,80,
+4,27,1805,5,31,1805,https://en.wikipedia.org/wiki/Battle_of_Derna_(1805),BATTLE OF DERNA,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,20%,63,0.70,-33,4,80,Battle of Derna (1805) | The first foreign military intervention in U.S. history.  US Marienes and mercenaries marched to and defeated Ottoman Tripolitania.
+10,16,1805,10,19,1805,https://en.wikipedia.org/wiki/Battle_of_Ulm,ULM,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,33%,66,0.70,-30,1,80,Battle of Ulm | Allowed Napoleon I to trap an entire Austrian army under the command of Karl Freiherr Mack von Leiberich with minimal losses and to force its surrender near Ulm in the Electorate of Bavaria
+7,6,1806,7,18,1806,https://en.wikipedia.org/wiki/War_of_the_Third_Coalition,THIRD COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,9%,67,0.70,-28,1,80,
+9,14,1806,9,23,1806,https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition,LEWIS AND CLARK ENDS,2.3EM,Arial,TRUE,white,BLUE,30,0,0,0,40%,8%,67,0.70,-40,1,80,
+2,8,1806,2,15,1806,https://en.wikipedia.org/wiki/Invasion_of_Naples_(1806),INVASION OF NAPLES,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,12%,63,0.70,-35,2,80,Invasion of Naples (1806) | Establishment of the Napoleonic kingdom of Naples
+6,7,1807,7,9,1807,https://en.wikipedia.org/wiki/War_of_the_Fourth_Coalition,FOURTH COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,4%,68,0.70,-39,1,80,
+11,19,1807,11,30,1807,https://en.wikipedia.org/wiki/Invasion_of_Portugal_(1807),INVASION OF PORTUGAL,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,7%,67,0.70,-35,2,80,
+8,15,1807,9,7,1807,https://en.wikipedia.org/wiki/Battle_of_Copenhagen_(1807),BATTLE OF COPENHAGEN,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,5%,65,0.70,-33,2,80,
+3,17,1808,3,19,1808,https://en.wikipedia.org/wiki/Tumult_of_Aranjuez,ARANJUEZ,2.3EM,Arial,TRUE,RED,YELLOW,30,0,0,0,45%,5%,66,0.70,-34,1,80,Tumult of Aranjuez | An uprising against Prime Minister Manuel Godoy and Charles IV of Spain that took place in the town of Aranjuez on 17–19 March 1808. It was instigated by disgruntled citizens and the supporters of Charles's son Ferdinand VII
+2,21,1808,2,27,1808,https://en.wikipedia.org/wiki/Finnish_War,FINNISH WAR BEGINS,2.3EM,Arial,TRUE,BLUE,RED,30,0,0,0,45%,13%,63,0.70,-42,1,80,
+9,10,1809,9,17,1809,https://en.wikipedia.org/wiki/Finnish_War,FINNISH WAR ENDS,2.3EM,Arial,TRUE,BLUE,RED,30,0,0,0,45%,16%,67,0.70,-33,1,80,
+4,10,1809,4,22,1809,https://en.wikipedia.org/wiki/War_of_the_Fifth_Coalition,FIFTH COALITION BEGINS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,4%,68,0.70,-31,2,80,
+10,8,1809,10,14,1809,https://en.wikipedia.org/wiki/War_of_the_Fifth_Coalition,FIFTH COALITION ENDS,2.3EM,Arial,TRUE,white,PURPLE,30,0,0,0,45%,10%,66,0.70,-39,1,80,
+1,8,1811,1,10,1811,https://en.wikipedia.org/wiki/1811_German_Coast_uprising,GERMAN COAST,1.6em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,3%,61,0.80,-33,1,20,1811 German Coast uprising | Slave rebellion which occurred in the Territory of Orleans that was ultimately suppressed.  The rebellion was the largest of its kind in the history of the United States.
+6,18,1812,6,27,1812,https://en.wikipedia.org/wiki/War_of_1812,WAR OF 1812 BEGINS,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,14%,69,0.70,-19,2,80,
+6,24,1812,12,24,1812,https://en.wikipedia.org/wiki/French_invasion_of_Russia,NAPOLEON INVADES RUSSIA,2.2em,Arial,TRUE,BLUE,RED,30,0,0,0,45%,2%,66,0.70,-42,"4,9,17,20,25,30",79,French invasion of Russia
+12,20,1812,12,26,1812,https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition,SIXTH COALITION BEGINS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,6%,65,0.70,-31,1,80,
+1,18,1813,1,23,1813,https://en.wikipedia.org/wiki/Battle_of_Frenchtown,FRENCHTOWN,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,22%,70,0.70,-38,1,80,"Battle of Frenchtown | Also known as the Battle of the River Raisin and the River Raisin Massacre.  Ill-prepared, the Americans lost 397 soldiers in this second battle, while 547 were taken prisoner. A number of wounded prisoners were murdered the following morning by a group of Indigenous warriors.  The deadliest conflict recorded on Michigan soil, and represents the highest number of Americans killed in a single battle during the War of 1812"
+10,16,1813,10,19,1813,https://en.wikipedia.org/wiki/Battle_of_Leipzig,LEIPZIG,3.0em,Arial,TRUE,WHITE,RED,30,0,0,0,45%,8%,64,0.70,-38,2,80,"Battle of Leipzig | Also known as the Battle of the Nations.  The Coalition armies of Austria, Prussia, Sweden, and Russia, led by Tsar Alexander I, Karl von Schwarzenberg, Gebhard von Blücher and Swedish Crown Prince Charles John, decisively defeated the Grande Armée of French Emperor Napoleon Bonaparte.  This made it the largest of the battles during the Napoleonic Wars and, arguably, the deciding battle of the wars."
+4,28,1813,4,30,1813,https://en.wikipedia.org/wiki/Battle_of_York#Burning_of_York,YORK BURNED,1.8em,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,3%,69,0.70,-37,1,80,"Burning of York | American troops carried out many acts of plunder. Some of them set fire to the buildings of the Legislative Assembly, and Government House, home to the Lieutenant Governor of Upper Canada.  The looting of York occurred in spite of Pike's earlier orders that all civilian property be respected and that any soldier convicted of such transgressions would be executed."
 5,25,1813,5,27,1813,https://en.wikipedia.org/wiki/Battle_of_Fort_George,FORT GEORGE,1.8em,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,2%,66,0.70,-36,1,80,
-9,12,1814,9,15,1814,https://en.wikipedia.org/wiki/Battle_of_Baltimore,BALTIMORE,1.7EM,Arial,TRUE,white,BLUE,30,0,0,0,50%,17%,20,0.70,0,1,80,
-5,22,1814,5,30,1814,https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition,SIXTH COALITION ENDS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,10%,20,0.70,10,1,80,
-12,15,1814,12,31,1814,https://en.wikipedia.org/wiki/Hartford_Convention,HARTFORD CONVENTION,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,10%,20,0.70,10,3,80,
-9,6,1814,9,11,1814,https://en.wikipedia.org/wiki/Battle_of_Plattsburgh,PLATTSBURGH,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,13%,20,0.70,10,1,80,
-3,20,1815,7,8,1815,https://en.wikipedia.org/wiki/Hundred_Days,HUNDRED DAYS,3.0EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,14%,20,0.80,0,"1,4,10,15,20",80,
-2,12,1815,2,17,1815,https://en.wikipedia.org/wiki/War_of_1812,WAR OF 1812 ENDS,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,17%,20,0.70,0,1,80,
-1,1,1815,1,5,1815,https://en.wikipedia.org/wiki/Hartford_Convention,HARTFORD CONVENTION,2EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,17%,20,0.70,10,1,80,
-7,26,1830,7,29,1830,https://en.wikipedia.org/wiki/July_Revolution,JULY REVOLUTION,2.1em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,2%,20,0.80,0,1,20,
+9,12,1814,9,15,1814,https://en.wikipedia.org/wiki/Battle_of_Baltimore,BALTIMORE,1.5em,Arial,TRUE,white,BLUE,30,0,0,0,50%,2%,66,0.70,-42,1,80,"Battle of Baltimore | Defending American forces repulsed sea and land invasions off the busy major port city of Baltimore, Maryland, by British forces preventing the United States' third largest city at the time from falling to British forces and ending the British Chesapeake campaign."
+5,22,1814,5,30,1814,https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition,SIXTH COALITION ENDS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,9%,66,0.70,-39,1,80,
+12,15,1814,12,31,1814,https://en.wikipedia.org/wiki/Hartford_Convention,HARTFORD CONVENTION,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,6%,67,0.70,-47,3,80,"Hartford Convention | A series of meetings in Hartford, Connecticut, United States, where New England leaders of the Federalist Party met to discuss their grievances and concerns about the ongoing War of 1812 and the political problems arising from the federal government's increasing power.  News of Major General Andrew Jackson's overwhelming victory in New Orleans swept over the Northeast. This led to an increased sense of nationalism, and many thought the Federalists were traitors.  Many historians consider it a contributing factor to the downfall of the Federalist Party."
+9,6,1814,9,11,1814,https://en.wikipedia.org/wiki/Battle_of_Plattsburgh,PLATTSBURGH,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,12%,67,0.70,-37,1,80,"Battle of Plattsburgh | Ended the final British invasion of the northern states of the United States during the War of 1812. Two British forces, an army under Lieutenant General Sir George Prevost and a naval squadron under Captain George Downie converged on the lakeside town of Plattsburgh, New York.  Downie's squadron attacked shortly after dawn on 11 September 1814, but was defeated after a hard fight in which Downie was killed."
+3,20,1815,7,8,1815,https://en.wikipedia.org/wiki/Hundred_Days,HUNDRED DAYS,3.0EM,Arial,TRUE,white,PURPLE,30,0,0,0,40%,11%,64,0.80,-41,"1,4,10,20",80,
+2,12,1815,2,17,1815,https://en.wikipedia.org/wiki/War_of_1812,WAR OF 1812 ENDS,2.3EM,Arial,TRUE,white,RED,30,0,0,0,45%,12%,66,0.70,-33,1,80,
+1,1,1815,1,5,1815,https://en.wikipedia.org/wiki/Hartford_Convention,HARTFORD CONVENTION,1.8em,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,2%,63,0.70,-40,1,80,"Hartford Convention | Hartford Convention | A series of meetings in Hartford, Connecticut, United States, where New England leaders of the Federalist Party met to discuss their grievances and concerns about the ongoing War of 1812 and the political problems arising from the federal government's increasing power.  News of Major General Andrew Jackson's overwhelming victory in New Orleans swept over the Northeast. This led to an increased sense of nationalism, and many thought the Federalists were traitors.  Many historians consider it a contributing factor to the downfall of the Federalist Party."
+7,26,1830,7,29,1830,https://en.wikipedia.org/wiki/July_Revolution,JULY REVOLUTION,1.9em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,2%,58,0.80,-33,1,20,July Revolution
 8,25,1830,7,21,1831,https://en.wikipedia.org/wiki/Belgian_Revolution,BELGIAN REVOLUTION,2.3em,Arial,TRUE,YELLOW,BLACK,30,0,10,0,40%,11%,61,0.80,-37,"4,9,15,20,25,31,36,41,46,51,56",8,
-8,21,1831,8,23,1831,https://en.wikipedia.org/wiki/Nat_Turner's_Rebellion,NAT TURNER,2.3EM,Arial,TRUE,WHITE,BLACK,30,0,0,0,45%,1%,20,0.70,10,1,80,
+8,21,1831,8,23,1831,https://en.wikipedia.org/wiki/Nat_Turner's_Rebellion,NAT TURNER,2.1em,Arial,TRUE,WHITE,BLACK,30,0,0,0,45%,3%,64,0.70,-33,1,80,Nat Turner's Rebellion
 10,29,1831,10,31,1831,https://en.wikipedia.org/wiki/1831_Bristol_riots,BRISTOL,2.1em,Arial,TRUE,WHITE,RED,30,0,10,0,40%,4%,20,0.80,25,2,8,
 4,6,1832,4,14,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR BEGINS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,6%,58,0.80,-39,2,9,
 8,19,1832,8,27,1832,https://en.wikipedia.org/wiki/Black_Hawk_War,BLACK HAWK WAR ENDS,2.2em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,10%,59,0.80,-46,1,9,
 7,10,1832,7,21,1832,https://en.wikipedia.org/wiki/Bank_War,BANK WAR STARTS,2.3EM,Arial,TRUE,WHITE,GREEN,30,0,0,0,45%,18%,64,0.70,-42,2,80,
-10,2,1835,10,10,1835,https://en.wikipedia.org/wiki/Texas_Revolution,TEXAS REVOLUTION BEGINS,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,5%,20,0.70,10,2,80,
-2,23,1836,3,6,1836,https://en.wikipedia.org/wiki/Battle_of_the_Alamo,BATTLE OF THE ALAMO,2.1em,Arial,TRUE,black,lightblue,30,0,10,0,40%,2%,20,0.80,0,"1,3",20,
-1,24,1836,1,31,1836,https://en.wikipedia.org/wiki/Bank_War,BANK WAR ENDS,2.3EM,Arial,TRUE,WHITE,GREEN,30,0,0,0,45%,22%,20,0.70,10,1,80,
-4,10,1836,4,22,1836,https://en.wikipedia.org/wiki/Texas_Revolution,TEXAS REVOLUTION ENDS,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,8%,20,0.70,10,1,80,
-8,6,1838,11,1,1838,https://en.wikipedia.org/wiki/1838_Mormon_War,1838 MORMON WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,19%,20,0.80,25,"2,6,12",19,
-9,4,1839,9,14,1839,https://en.wikipedia.org/wiki/First_Opium_War,FIRST OPIUM WAR BEGINS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,8%,20,0.70,10,2,80,
-6,28,1839,8,21,1839,https://en.wikipedia.org/wiki/La_Amistad,AMISTAD REVOLT,2.3EM,Arial,TRUE,WHITE,BLACK,30,0,0,0,45%,22%,20,0.70,10,"4,9",80,
+10,2,1835,10,10,1835,https://en.wikipedia.org/wiki/Texas_Revolution,TEXAS REVOLUTION BEGINS,2.2em,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,1%,63,0.70,-40,2,80,Texas Revolution
+2,23,1836,3,6,1836,https://en.wikipedia.org/wiki/Battle_of_the_Alamo,BATTLE OF THE ALAMO,1.9em,Arial,TRUE,black,lightblue,30,0,10,0,40%,3%,63,0.80,-33,"1,3",20,Battle of the Alamo
+1,24,1836,1,31,1836,https://en.wikipedia.org/wiki/Bank_War,BANK WAR ENDS,2.3EM,Arial,TRUE,WHITE,GREEN,30,0,0,0,45%,22%,63,0.70,-36,1,80,
+4,10,1836,4,22,1836,https://en.wikipedia.org/wiki/Texas_Revolution,TEXAS REVOLUTION ENDS,2.3EM,Arial,TRUE,WHITE,BLUE,30,0,0,0,45%,3%,64,0.70,-43,1,80,
+8,6,1838,11,1,1838,https://en.wikipedia.org/wiki/1838_Mormon_War,1838 MORMON WAR,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,16%,58,0.80,-34,"2,6,12",19,
+9,4,1839,9,14,1839,https://en.wikipedia.org/wiki/First_Opium_War,FIRST OPIUM WAR BEGINS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,4%,66,0.70,-38,2,80,
+6,28,1839,8,21,1839,https://en.wikipedia.org/wiki/La_Amistad,AMISTAD REVOLT,2.3EM,Arial,TRUE,WHITE,BLACK,30,0,0,0,45%,22%,67,0.70,-46,"4,9",80,
 8,21,1842,8,29,1842,https://en.wikipedia.org/wiki/First_Opium_War,FIRST OPIUM WAR ENDS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,10%,20,0.70,10,1,80,
 4,25,1846,5,16,1846,https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War,MEXICAN AMERICAN WAR BEGINS,2EM,Arial,TRUE,BLACK,LIGHTBLUE,30,0,0,0,45%,4%,20,0.70,10,5,80,
 9,22,1846,9,30,1846,https://en.wikipedia.org/wiki/Siege_of_Los_Angeles,SIEGE OF LOS ANGELES,2.1EM,Arial,TRUE,BLACK,LIGHTBLUE,30,0,0,0,45%,17%,20,0.70,30,1,80,
@@ -208,8 +207,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 10,24,1858,11,1,1858,https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857,SEPOY REBELLION ENDS,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,6%,61,0.80,-42,1,20,
 10,16,1859,10,18,1859,https://en.wikipedia.org/wiki/John_Brown%27s_raid_on_Harpers_Ferry,HARPERS FERRY,1.6em,Arial,TRUE,BLACK,orange,30,0,10,0,40%,2%,60,0.80,-42,1,20,
 6,15,1859,10,1,1859,https://en.wikipedia.org/wiki/Pig_War_(1859),PIG WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,35%,63,0.80,-48,"2,5,11,16",20,
-10,14,1860,10,24,1860,https://en.wikipedia.org/wiki/Second_Opium_War,SECOND OPIUM WAR ENDS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,7%,20,0.70,10,1,80,
-8,12,1860,8,21,1860,https://en.wikipedia.org/wiki/Battle_of_Taku_Forts_(1860),TAKU FORTS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,30%,20,0.70,10,1,80,
+10,14,1860,10,24,1860,https://en.wikipedia.org/wiki/Second_Opium_War,SECOND OPIUM WAR ENDS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,2%,66,0.70,-39,1,80,
+8,12,1860,8,21,1860,https://en.wikipedia.org/wiki/Battle_of_Taku_Forts_(1860),TAKU FORTS,2.3EM,Arial,TRUE,WHITE,RED,30,0,0,0,45%,29%,67,0.70,-39,1,80,
 11,8,1861,11,16,1861,https://en.wikipedia.org/wiki/Trent_Affair,TRENT AFFAIR,2.4em,Arial,TRUE,BLUE,RED,30,0,10,0,40%,25%,20,0.80,0,2,20,
 4,12,1861,4,13,1861,https://en.wikipedia.org/wiki/Battle_of_Fort_Sumter,FT. SUMTER,1.5em,Arial,TRUE,black,LightGray,30,0,10,0,40%,8%,20,0.80,30,1,20,
 4,12,1861,4,13,1861,https://en.wikipedia.org/wiki/American_Civil_War,START,2.4em,Arial,TRUE,white,black,30,0,10,0,40%,12%,20,0.70,-12,1,20,
@@ -269,11 +268,11 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 7,14,1877,9,4,1877,https://en.wikipedia.org/wiki/Great_Railroad_Strike_of_1877,GREAT RAILROAD STRIKE,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,10%,20,0.75,40,"2,6",2,
 6,14,1877,6,23,1877,https://en.wikipedia.org/wiki/Nez_Perce_War,NEZ PERCE WAR BEGINS,2.3em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,10%,20,0.80,15,2,20,
 10,1,1877,10,5,1877,https://en.wikipedia.org/wiki/Nez_Perce_War,NEZ PERCE WAR ENDS,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,1%,20,0.80,15,1,20,
-1,11,1879,7,4,1879,https://en.wikipedia.org/wiki/Anglo-Zulu_War,ANGLO-ZULU WAR,2.3em,Arial,TRUE,white,GREY,30,0,10,0,40%,20%,20,0.80,0,"2,6,11,17,22,27",21,
-1,22,1879,1,23,1879,https://en.wikipedia.org/wiki/Battle_of_Rorke%27s_Drift,RORKE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,10%,20,0.80,0,1,21,
+1,11,1879,7,4,1879,https://en.wikipedia.org/wiki/Anglo-Zulu_War,ANGLO-ZULU WAR,2.3em,Arial,TRUE,white,GREY,30,0,10,0,40%,20%,61,0.80,-36,"2,6,11,17,22,27",21,
+1,22,1879,1,23,1879,https://en.wikipedia.org/wiki/Battle_of_Rorke%27s_Drift,RORKE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,9%,59,0.80,-34,1,21,
 4,26,1881,4,28,1881,https://en.wikipedia.org/wiki/Kiev_pogrom_(1881),KIEV POGROM,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,4%,20,0.70,20,1,21,
 7,14,1881,7,20,1881,https://en.wikipedia.org/wiki/1881_London_Social_Revolutionary_Congress,SR CONGRESS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,15%,20,0.70,20,2,21,
-2,26,1885,3,14,1885,https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State,CONGO ATROCITIES "BEGIN",2.3em,Arial,TRUE,YELLOW,DARKBLUE,30,0,10,0,40%,5%,20,0.80,1,3,20,
+2,26,1885,3,14,1885,https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State,CONGO ATROCITIES "BEGIN",2.2em,Arial,TRUE,YELLOW,DARKBLUE,30,0,10,0,40%,2%,63,0.80,-30,3,20,Atrocities in the Congo Free State
 11,14,1889,1,25,1890,https://en.wikipedia.org/wiki/Around_the_World_in_Seventy-Two_Days,NELLIE BLY AND 72 DAYS,2.3em,Arial,TRUE,WHITE,PURPLE,30,0,10,0,40%,8%,63,0.75,-40,"2,5,10",2,
 7,1,1892,11,20,1892,https://en.wikipedia.org/wiki/Homestead_strike,HOMESTEAD STRIKE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,0,"2,8,13,19,25",21,
 5,11,1894,7,20,1894,https://en.wikipedia.org/wiki/Pullman_Strike,PULLMAN STRIKE,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,17%,61,0.80,-37,"2,6,11",21,
@@ -378,8 +377,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 3,12,1930,4,6,1930,https://en.wikipedia.org/wiki/Salt_March,SALT MARCH,2.3em,Arial,TRUE,GREEN,ORANGE,30,0,10,0,40%,26%,66,0.80,-40,2,20,
 9,18,1931,2,27,1932,https://en.wikipedia.org/wiki/Japanese_invasion_of_Manchuria,JAPAN INVADES MANCHURIA,1.8em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,12%,64,0.70,-48,"2,5,10,15,21,26",20,
 11,2,1932,12,10,1932,https://en.wikipedia.org/wiki/Emu_War,EMU WAR,1.8em,Arial,TRUE,WHITE,BROWN,30,0,10,0,45%,35%,61,0.70,-37,"3,7",20,
-1,23,1933,1,23,1933,https://en.wikipedia.org/wiki/Twentieth_Amendment_to_the_United_States_Constitution,20,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,63,1.00,-41,1,80,
-12,5,1933,12,5,1933,https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution,21,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,4%,65,1.00,-41,1,80,
+1,23,1933,1,23,1933,https://en.wikipedia.org/wiki/Twentieth_Amendment_to_the_United_States_Constitution,20,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,63,1.00,-41,1,80,"Twentieth Amendment to the United States Constitution | Moved the beginning and ending of the terms of the president and vice president from March 4 to January 20, and of members of Congress from March 4 to January 3"
+12,5,1933,12,5,1933,https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution,21,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,4%,65,1.00,-41,1,80,"Twenty-first Amendment to the United States Constitution | Repealed the Eighteenth Amendment to the United States Constitution, which had mandated nationwide prohibition on alcohol."
 3,5,1933,3,11,1933,https://www.federalreservehistory.org/essays/bank-holiday-of-1933,BANK HOLIDAY,2.3em,Arial,TRUE,WHITE,BLUE,30,0,10,0,38%,27%,63,0.70,-2,1,21,https://www.federalreservehistory.org/essays/bank-holiday-of-1933
 6,30,1934,7,2,1934,https://en.wikipedia.org/wiki/Night_of_the_Long_Knives,KNIVES,2.3em,Arial,TRUE,white,black,30,0,10,0,40%,3%,61,0.80,-40,2,19,
 7,29,1934,8,1,1934,https://en.wikipedia.org/wiki/United_States_occupation_of_Haiti,USA HAITI ENDS,1.7em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,45%,1%,64,0.80,-33,1,2001,United States ends occupation of Haiti
@@ -572,7 +571,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 3,2,1969,3,8,1969,https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict,SINO SOVIET BORDER CONFLICT BEGINS,1.7em,Arial,TRUE,red,black,30,0,10,0,40%,1%,20,0.80,0,1,20,
 8,24,1969,9,11,1969,https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict,SINO SOVIET BORDER CONFLICT ENDS,1.7em,Arial,TRUE,red,black,30,0,10,0,40%,3%,20,0.80,0,1,20,
 4,11,1970,4,17,1970,https://en.wikipedia.org/wiki/Apollo_13,APOLLO 13,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,28%,20,0.80,0,2,20,
-5,17,1970,5,26,1970,https://en.wikipedia.org/wiki/Operation_Menu,OPERATION MENU ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,8%,20,0.80,0,1,20,
+5,17,1970,5,26,1970,https://en.wikipedia.org/wiki/Operation_Menu,OPERATION MENU ENDS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,7%,60,0.80,-31,1,20,
 7,1,1971,7,1,1971,https://en.wikipedia.org/wiki/Twenty-sixth_Amendment_to_the_United_States_Constitution,26,3.8em,Arial,TRUE,black,white,30,0,0,0,30%,8%,20,1.00,0,1,80,
 3,26,1971,4,10,1971,https://en.wikipedia.org/wiki/Bangladesh_Liberation_War,BANGLADESH WAR/GENOCIDE BEGINS,1.8em,Arial,TRUE,RED,DARKGREEN,30,0,10,0,40%,1%,20,0.80,0,4,9,
 12,5,1971,12,16,1971,https://en.wikipedia.org/wiki/Bangladesh_Liberation_War,BANGLADESH WAR/GENOCIDE ENDS,1.8em,Arial,TRUE,RED,DARKGREEN,30,0,10,0,40%,3%,20,0.80,0,1,9,
@@ -580,8 +579,8 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 2,16,1972,4,11,1972,https://en.wikipedia.org/wiki/1972_Yugoslav_smallpox_outbreak,YUGOSLAV SMALLPOX OUTBREAK,2em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,1%,20,0.75,35,"2,5,10",20,
 10,6,1973,10,25,1973,https://en.wikipedia.org/wiki/Yom_Kippur_War,YOM KIPPUR WAR,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,19%,64,0.80,-48,2,20,
 10,21,1973,10,27,1973,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO BEGINS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,20,1,20,
-3,10,1974,3,16,1974,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO LIFTED,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,15%,20,0.80,20,1,20,
-12,13,1974,12,21,1974,https://en.wikipedia.org/wiki/1975_spring_offensive,VIET SPRING OFFENSIVE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,13%,20,0.80,0,2,9,
+3,10,1974,3,16,1974,https://en.wikipedia.org/wiki/1973_oil_crisis,OIL EMBARGO LIFTED,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,11%,58,0.80,-38,1,20,
+12,13,1974,12,21,1974,https://en.wikipedia.org/wiki/1975_spring_offensive,VIET SPRING OFFENSIVE,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,6%,61,0.80,-36,2,9,
 4,13,1975,4,26,1975,https://en.wikipedia.org/wiki/Lebanese_Civil_War,LEBANESE CIVIL WAR BEGINS,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,2%,20,0.80,30,2,20,
 4,20,1975,4,30,1975,https://en.wikipedia.org/wiki/Fall_of_Saigon,FALL OF SAIGON,2.3em,Arial,TRUE,black,RED,30,0,10,0,40%,21%,20,0.80,-10,1,9,
 11,11,1975,11,29,1975,https://en.wikipedia.org/wiki/Angolan_Civil_War,ANGOLAN CIVIL WAR BEGINS,2.3em,Arial,TRUE,red,black,30,0,10,0,40%,3%,20,0.80,1,3,20,
@@ -706,7 +705,7 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 10,10,680,10,16,680,https://en.wikipedia.org/wiki/Second_Fitna,SECOND FITNA BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,20,0.80,0,1,100,
 3,1,692,11,30,692,https://en.wikipedia.org/wiki/Siege_of_Mecca_(692),MECCA CAPTURED SECOND FITNA ENDS,1.7em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,1%,20,0.80,0,"2,7,12,17,22,28,33,38,44",100,
 1,1,711,3,31,711,https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Iberian_Peninsula,UMAYYAD INVADES IBERIA,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,10%,20,0.80,0,"2,7,12",100,
-6,9,747,6,21,747,https://en.wikipedia.org/wiki/Abbasid_revolution,ABBASID REVOLUTION BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,0%,64,0.80,-46,"2,7,12",100,"Abbasid revolution | overthrow of the Umayyad Caliphate (661–750), the second major caliphate, by the Hashimiyya movement, resulting in the establishment of the Abbasid Caliphate (750–1517), the third major caliphate."
+6,9,747,6,21,747,https://en.wikipedia.org/wiki/Abbasid_revolution,ABBASID REVOLUTION BEGINS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,17%,64,0.80,-46,"2,7,12",100,"Abbasid revolution | overthrow of the Umayyad Caliphate (661–750), the second major caliphate, by the Hashimiyya movement, resulting in the establishment of the Abbasid Caliphate (750–1517), the third major caliphate."
 1,1,750,1,25,750,https://en.wikipedia.org/wiki/Abbasid_revolution,ABBASID REVOLUTION ENDS,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,5%,20,0.80,0,2,100,
 1,30,1258,2,10,1258,https://en.wikipedia.org/wiki/Siege_of_Baghdad,SIEGE OF BAGHDAD,2.1em,Arial,TRUE,WHITE,GREEN,30,0,10,0,40%,20%,20,0.80,0,3,100,
 9,17,2009,10,10,2009,https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission,FCIC BEGINS,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,30%,59,0.70,-37,5,21,
@@ -726,13 +725,13 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 4,19,1944,4,29,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO BEGINS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,8%,60,0.80,-49,2,20,
 12,24,1944,12,31,1944,https://en.wikipedia.org/wiki/Operation_Ichi-Go,ICHI-GO ENDS,2.1em,Arial,TRUE,RED,SEASHELL,30,0,10,0,45%,28%,66,0.74,-17,1,20,
 3,19,1865,3,21,1865,https://en.wikipedia.org/wiki/Battle_of_Bentonville,BENTONVILLE,2.1em,Arial,TRUE,WHITE,BLUE,30,0,10,0,40%,1%,20,0.80,-10,1,20,
-10,25,1949,10,27,1949,https://en.wikipedia.org/wiki/Battle_of_Guningtou,GUGINGTOU,2.1em,Arial,TRUE,RED,BLUE,30,0,10,0,40%,4%,60,0.80,-35,1,20,Battle of Guningtou
+10,25,1949,10,27,1949,https://en.wikipedia.org/wiki/Battle_of_Guningtou,GUGINGTOU,2.1em,Arial,TRUE,RED,BLUE,30,0,10,0,40%,4%,60,0.80,-35,1,20,"Battle of Guningtou | The battle resulted in a decisive victory for the Republic of China (ROC, known today as Taiwan) forces and marked a significant turning point in the civil war. The defeat of Chinese Communist Party (CCP) forces not only preserved Kinmen under ROC control but also effectively halted CCP plans for an immediate invasion of Taiwan. The victory ensured the survival of the Republic of China government on Taiwan and reshaped the strategic landscape of the Taiwan Strait."
 4,11,1960,4,26,1960,https://en.wikipedia.org/wiki/April_Revolution,APRIL REVOLUTION,2.3em,Arial,TRUE,RED,WHITE,30,0,10,0,40%,20%,20,0.80,0,2,20,
 10,1,1972,10,7,1972,https://en.wikipedia.org/wiki/October_Restoration,YUSHIN,2.3em,Arial,TRUE,RED,WHITE,30,0,10,0,40%,40%,20,0.80,0,1,20,
 10,16,1979,10,20,1979,https://en.wikipedia.org/wiki/Busan%E2%80%93Masan_Uprising,BUSAN-MASAN,1.7em,Arial,TRUE,RED,WHITE,30,0,10,0,40%,43%,58,0.80,-32,1,20,
 6,10,1987,6,29,1987,https://en.wikipedia.org/wiki/June_Democratic_Struggle,JUNE DEMOCRATIC STRUGGLE,2.0em,Arial,TRUE,RED,DARKBLUE,30,0,10,0,40%,3%,60,0.80,-40,2,20,
 4,3,1963,5,10,1963,https://en.wikipedia.org/wiki/Birmingham_campaign,BIRMINGHAM CAMPAIGN,1.9em,Arial,TRUE,white,black,30,0,10,0,40%,20%,20,0.70,20,"4,7",21,
-12,20,1989,1,31,1990,https://en.wikipedia.org/wiki/United_States_invasion_of_Panama,US - PANAMA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,30%,20,0.80,20,"2,4",17,
+12,20,1989,1,31,1990,https://en.wikipedia.org/wiki/United_States_invasion_of_Panama,US - PANAMA,2.3em,Arial,TRUE,black,LIGHTBLUE,30,0,10,0,40%,29%,59,0.80,-39,"2,5",17,
 8,31,1888,11,9,1888,https://en.wikipedia.org/wiki/Jack_the_Ripper,JACK THE RIPPER MURDERS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,5%,20,0.80,20,"3,9",17,
 3,6,2026,3,15,2026,https://en.wikipedia.org/wiki/2026_Kenya_floods,KENYA FLOODS,2.3em,Arial,TRUE,WHITE,BLACK,30,0,10,0,40%,25%,59,0.80,-33,2,17,
 12,16,1944,1,28,1945,https://en.wikipedia.org/wiki/Battle_of_the_Bulge,BATTLE OF THE BULGE,2.5em,Arial,TRUE,BLACK,LIGHTBLUE,30,0,10,0,40%,6%,59,0.72,-44,"3,6",20,
@@ -792,3 +791,22 @@ startMonth,startDay,startYear,endMonth,endDay,endYear,wikiUrl,text,fontSize,font
 9,5,1634,9,6,1634,https://en.wikipedia.org/wiki/Battle_of_N%C3%B6rdlingen_(1634),NÖRDLINGEN,1.3em,Arial,TRUE,BLACK,YELLOW,0,0,0,0,40%,4%,51,0.38,-14,"1,2",20,"Battle of Nördlingen (1634) | An Imperial-Spanish force led by the Cardinal-Infante Ferdinand and Ferdinand of Hungary inflicted a crushing defeat on the Swedish-German army led by Gustav Horn and Bernhard of Saxe-Weimar, forcing the Swedes to withdraw from Bavaria"
 11,17,1775,1,25,1776,https://en.wikipedia.org/wiki/Noble_train_of_artillery,KNOX EXPEDITION,2.2em,Arial,TRUE,WHITE,BLUE,0,0,0,0,40%,18%,54,0.44,0,"2,5,12",20,Noble train of artillery
 6,20,1791,6,21,1791,https://en.wikipedia.org/wiki/Flight_to_Varennes,VARENNES,1.6em,Arial,TRUE,WHITE,BLUE,0,0,0,0,40%,3%,51,0.44,-13,"1,2",20,Flight to Varennes
+9,16,1779,10,18,1779,https://en.wikipedia.org/wiki/Siege_of_Savannah_(1779),FAILED SIEGE OF SAVANNAH,2.2em,Arial,TRUE,white,red,0,0,0,0,40%,3%,48,0.47,0,"2,5",20,"Siege of Savannah (1779) |  With the failure of the joint French-American attack, the siege was abandoned, and the British remained in control of Savannah until July 1782, near the end of the war"
+10,27,1787,10,27,1787,https://en.wikipedia.org/wiki/Federalist_No._1,1,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,61%,34%,47,0.48,-37,"1,2",20,"Federalist No. 1 | Describes the ratification debate, including Hamilton's views of civil discourse and the debate's polarizing nature."
+11,22,1787,11,22,1787,https://en.wikipedia.org/wiki/Federalist_No._10,10,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,61%,24%,47,0.48,-37,"1,2",20,"Federalist No. 10 | Addresses how to reconcile citizens with interests contrary to the rights of others or inimical to the interests of the community as a whole. Shows an explicit rejection by the Founding Fathers of the principles of direct democracy and factionalism, and suggests that a representative democracy is more effective against partisanship and factionalism"
+11,30,1787,11,30,1787,https://en.wikipedia.org/wiki/Federalist_No._14,14,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,40%,17%,48,0.47,-12,"1,2",20,Federalist No. 14 | Addresses a major objection of the Anti-Federalists to the proposed United States Constitution: that the sheer size of the United States would make it impossible to govern justly as a single country.
+1,16,1788,1,16,1788,https://en.wikipedia.org/wiki/Federalist_No._39,39,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,40%,25%,48,0.54,-15,"1,2",20,"Federalist No. 39 | Defines a republican form of government, and he also considers whether the nation is federal or national: a confederacy, or consolidation of states."
+2,6,1788,2,6,1788,https://en.wikipedia.org/wiki/Federalist_No._51,51,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,40%,22%,48,0.54,-15,"1,2",20,"Federalist No. 51 | Addresses the separation of powers, the federal structure of government and the maintenance of checks and balances by ""opposite and rival interests"" within the national government.  ""Ambition must be made to counteract ambition."""
+3,15,1788,3,15,1788,https://en.wikipedia.org/wiki/Federalist_No._70,70,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,61%,25%,47,0.48,-37,"1,2",20,Federalist No. 70 | Refutes the argument that a unitary executive would be too similar to the British monarchy and to convince the states of the necessity of unity in the executive branch.
+5,28,1788,5,28,1788,https://en.wikipedia.org/wiki/Federalist_No._78,78,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,40%,21%,48,0.54,-15,"1,2",20,"Federalist No. 78 | Written to explicate and justify the structure of the judiciary under the proposed Constitution of the United States; it is the first of six essays by Hamilton on this issue. In particular, it addresses concerns by the Anti-Federalists over the scope and power of the federal judiciary, which would have comprised unelected, politically insulated judges that would be appointed for life."
+7,16,1788,7,16,1788,https://en.wikipedia.org/wiki/Federalist_No._84,84,2.2em,Arial,TRUE,BLACK,LIGHTBLUE,0,0,0,0,61%,24%,47,0.48,-37,"1,2",20,"Federalist No. 84 | Written by Hamilton, It is best known for its opposition to a bill of rights"
+10,9,1806,10,31,1806,https://en.wikipedia.org/wiki/War_of_the_Fourth_Coalition,WAR OF THE FOURTH COALITION BEGINS,1.3em,Arial,TRUE,WHITE,PURPLE,0,0,0,0,69%,3%,55,0.53,-43,4,20,War of the Fourth Coalition
+5,5,1808,5,7,1808,https://en.wikipedia.org/wiki/Abdications_of_Bayonne,BAYONNE,2.7em,Arial,TRUE,white,purple,0,0,0,0,40%,3%,52,0.56,-14,"1,2",20,"Abdications of Bayonne | rench emperor Napoleon I forced two Spanish kings—Charles IV and his son, Ferdinand VII—to renounce the throne in his favour.  Napoleon in his turn handed the crown of Spain to his brother Joseph Bonaparte."
+5,21,1809,5,22,1809,https://en.wikipedia.org/wiki/Battle_of_Aspern%E2%80%93Essling,ASPERN–ESSLING,1.0em,Arial,TRUE,BLACK,GOLD,0,0,0,0,40%,1%,51,0.36,-8,"1,2",20,Battle of Aspern–Essling | The French and their allies were attacked and forced back across the river by the Austrians under Archduke Charles. It was the first time Napoleon had been personally defeated in a major battle.
+7,5,1809,7,6,1809,https://en.wikipedia.org/wiki/Battle_of_Wagram,WAGRAM,1.9em,Arial,TRUE,WHITE,PURPLE,0,0,0,0,40%,2%,58,0.48,-11,"1,2",20,Battle of Wagram | Costly but decisive victory for Emperor Napoleon's French and allied army against the Austrian army under the command of Archduke Charles of Austria-Teschen. The battle led to the breakup of the Fifth Coalition.
+9,14,1812,9,18,1812,https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812),FIRE OF MOSCOW,2.5em,Arial,TRUE,WHITE,BLACK,0,0,0,0,75%,2%,50,0.45,-47,"1,2",700,Fire of Moscow (1812) | A catastrophic urban fire that destroyed almost all of Moscow in September 1812 during the French occupation of the city following the French invasion of Russia.
+11,26,1812,11,29,1812,https://en.wikipedia.org/wiki/Battle_of_Berezina,BEREZINA,2.7em,Arial,TRUE,WHITE,PURPLE,0,0,0,0,40%,1%,46,0.53,-17,1,582,Battle of Berezina
+5,28,1813,5,29,1813,https://en.wikipedia.org/wiki/Second_Battle_of_Sacket%27s_Harbor,SACKET'S ,1.7em,Arial,TRUE,WHITE,BLUE,0,0,0,0,40%,4%,52,0.47,-9,"1,2",20,"Second Battle of Sacket's Harbor | The British were repulsed by American regulars, militia, marines and sailors, although the attack resulted in the destruction of naval stores and self-inflicted damage to American warships."
+8,26,1813,8,27,1813,https://en.wikipedia.org/wiki/Battle_of_Dresden,DRESDEN,1.8em,Arial,TRUE,WHITE,PURPLE,0,0,0,0,40%,2%,50,0.47,-12,"1,2",20,"Battle of Dresden | Despite being heavily outnumbered, French forces under Napoleon scored a victory against the Army of Bohemia led by Generalissimo Karl von Schwarzenberg."
+5,14,1814,5,16,1814,https://en.wikipedia.org/wiki/Raid_on_Port_Dover,DOVER,2.2em,Arial,TRUE,WHITE,BLUE,0,0,0,0,40%,8%,51,0.51,-16,2,20,"Raid on Port Dover | American troops crossed Lake Erie to capture or destroy stocks of grain and destroy mills at Port Dover in Upper Canada, which were used to provide flour for British troops stationed on the Niagara Peninsula. At the instigation of Lieutenant Colonel John B. Campbell and without sanction from his superiors or the government of the United States, the Americans also destroyed private houses and other property, prompting British commanders to demand reprisals in other theatres of the war."
+8,29,1814,9,2,1814,https://en.wikipedia.org/wiki/Raid_on_Alexandria_(Virginia),ALEXANDRIA ,2.1em,Arial,TRUE,WHITE,RED,0,0,0,0,40%,1%,52,0.48,-12,1,20,"Raid on Alexandria (Virginia) | British victory during the War of 1812, which gained much plunder at little cost but may have contributed to the later British repulse at Baltimore by delaying their main forces."
